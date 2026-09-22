@@ -4,7 +4,7 @@ The site is a reference kept beside a running game. Keep directions readable and
 
 - Stage identity, navigation, sprite, combat advice, weakness and reward form one compact header.
 - Previous/next controls flank the area name; the stage number returns to the boss flow. Targets are at least 44px.
-- Cards wrap naturally. At suitable widths, three or more pickups use two columns and smaller complete previews. No stage height, clipped instructions or image cropping.
+- Cards wrap naturally. At suitable widths, three or more pickups use two columns and full-scene previews capped at the user-approved 220px height. Width constraints can make them smaller. No stage height, clipped instructions or image cropping.
 - A click opens the original local image in a keyboard-accessible modal. Escape, Close and the backdrop dismiss it and preserve reading position.
 - Each return stage has one disclosure containing all referenced pickup records.
 - Permanent decisions use red warnings at the plan and exact route checkpoint. Optional mutually exclusive chips are visibly distinct.

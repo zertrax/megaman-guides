@@ -8,12 +8,12 @@ if(fs.existsSync(outputDirectory)){
  if(fs.lstatSync(outputDirectory).isSymbolicLink())throw Error('Refusing linked output directory');
  fs.rmSync(outputDirectory,{recursive:true});
 }
-const ids=['x1','x2','x3','x4','x4-zero'];
+const ids=['x1','x2','x3','x4','x4-zero','x5','x6','x7','x8'];
 const games=ids.map(id=>JSON.parse(fs.readFileSync(`src/games/${id}.json`,'utf8')));
 fs.mkdirSync('dist',{recursive:true});
 for(const game of games){
- const stages=new Map(game.stages.map(s=>[s.id,s])),items=game.stages.flatMap(s=>s.items);
- if(new Set([...stages.keys(),...items.map(p=>p.id)]).size!==game.stages.length+items.length)throw Error('Duplicate IDs');
+ const allStages=[...game.stages,...(game.sideStages||[])];const stages=new Map(allStages.map(s=>[s.id,s])),items=allStages.flatMap(s=>s.items);
+ if(new Set([...stages.keys(),...items.map(p=>p.id)]).size!==allStages.length+items.length)throw Error('Duplicate IDs');
  for(const [type,count] of Object.entries(game.expectedCounts))if(items.filter(p=>p.type===type).length!==count)throw Error(`Invalid ${game.id} ${type} count`);
  for(const r of game.returns)for(const id of r.items)if(!stages.get(r.stage)?.items.some(p=>p.id===id))throw Error(`Invalid return reference ${id}`);
  const media=[...items.flatMap(p=>p.media),...(game.detour?.doors||[]).flatMap(d=>d.media||[]),...(game.extraMedia||[]),...game.stages.map(s=>s.sprite)];

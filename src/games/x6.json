@@ -1,0 +1,780 @@
+{
+  "id": "x6",
+  "title": "Mega Man X6",
+  "subtitle": "PlayStation · X + Zero",
+  "intro": "Collect Blade first, restore Zero early, then assemble Shadow for the spike pickups. This route favors safe X heart collection over a strict weakness loop. Rescue warnings matter: some losses are permanent.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 2,
+    "armor": 8,
+    "weaponTank": 1,
+    "ex": 1
+  },
+  "stages": [
+    {
+      "id": "yammark",
+      "name": "Commander Yammark",
+      "area": "Amazon Area",
+      "weakness": "Ray Arrow",
+      "weapon": "Charged Buster",
+      "reward": "Yammar Option",
+      "tip": "Shoot through his small projectiles. Climb and air-dash over his charge, then fire when the dragonflies leave a gap.",
+      "now": "Collect programs; check return requirements",
+      "items": [
+        {
+          "id": "yammark-blade",
+          "type": "armor",
+          "name": "Blade · Leg Program",
+          "need": "Falcon X",
+          "text": "At the first underground drop, go through the right-hand opening behind the mantis enemy. The capsule is beyond the Reploid.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-yammark-blade.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e1/MMX6_Blade_Armor_Foot_Capsule.png/revision/latest?cb=20220602141019",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blade_Armor_Foot_Capsule.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Blade · Leg Program location"
+            }
+          ]
+        },
+        {
+          "id": "yammark-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Nothing",
+          "text": "In the later cave, descend the rope. At the Reploid with a Nightmare above him, drop into the nearby false pit; rescue the pair below and take the heart.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-yammark-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/8d/MMX6_Commander_Yammark_Life_Up_location.png/revision/latest?cb=20220602151529",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Commander_Yammark_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "yammark-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Blade + Speedster / Hyper Dash",
+          "text": "In the first Nightmare cave, climb the ceiling opening. From the high ledge, jump left and Mach Dash across to the tank platform.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [
+            {
+              "src": "assets/x6-yammark-tank.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/2/2c/MMX6_Commander_Yammark_Sub_Tank_location.png/revision/latest?cb=20220602151533",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Commander_Yammark_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-yammark-boss.png",
+        "width": 94,
+        "height": 100,
+        "original": "https://static.wikia.nocookie.net/megaman/images/5/51/CommanderYammark_Battle_Animation.gif/revision/latest?cb=20210213004807",
+        "source": "https://megaman.fandom.com/wiki/File:CommanderYammark_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "scaravich",
+      "name": "Ground Scaravich",
+      "area": "Central Museum",
+      "weakness": "Yammar Option",
+      "weapon": "Yammar Option",
+      "reward": "Ground Dash / Sentsuizan",
+      "tip": "Use the overhead ropes to clear the boulder. Activate Yammar Option while passing close to the exposed boss.",
+      "now": "Collect all marked pickups",
+      "items": [
+        {
+          "id": "scaravich-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Correct random room",
+          "text": "In the space-background room that climbs upward, follow the platforms toward the exit. The heart sits on the upper route near the end.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-scaravich-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/77/MMX6_Ground_Scaravich_Life_Up_location.png/revision/latest?cb=20220602142424",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Ground_Scaravich_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "scaravich-blade",
+          "type": "armor",
+          "name": "Blade · Head Program",
+          "need": "Correct random room",
+          "text": "Look for the dinosaur-background capsule room in the later totems. Climb to the visible capsule ledge. Replay the level if neither later totem selects that room.",
+          "extra": "Do not move on to the Shadow route until all four Blade programs are recorded.",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-scaravich-blade.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/d8/MMX6_Blade_Armor_Head_Capsule.png/revision/latest?cb=20220602142130",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blade_Armor_Head_Capsule.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Blade · Head Program location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-scaravich-boss.png",
+        "width": 84,
+        "height": 56,
+        "original": "https://static.wikia.nocookie.net/megaman/images/3/38/GroundScaravich_Battle_Animation.gif/revision/latest?cb=20210213020841",
+        "source": "https://megaman.fandom.com/wiki/File:GroundScaravich_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "sheldon",
+      "name": "Shield Sheldon",
+      "area": "Laser Institute",
+      "weakness": "Metal Anchor",
+      "weapon": "Charged Buster",
+      "reward": "Guard Shell",
+      "tip": "Wait for both shells to leave his body, then fire charged shots. The solid, non-flashing Sheldon is the real target among duplicates.",
+      "now": "Collect programs; check return requirements",
+      "items": [
+        {
+          "id": "sheldon-blade",
+          "type": "armor",
+          "name": "Blade · Body Program",
+          "need": "Falcon air-dash; invisible platform",
+          "text": "Aim the mirror lasers into the floor door to take the lower route. In the spike-floor room, pass through the false left wall. Use the invisible platform in the gap to reach the capsule on the left.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-sheldon-blade.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/ec/MMX6_Blade_Armor_Body_Capsule.png/revision/latest?cb=20220602034838",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blade_Armor_Body_Capsule.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Blade · Body Program location"
+            }
+          ]
+        },
+        {
+          "id": "sheldon-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Shadow Armor for safe spike contact",
+          "text": "On the lower route near the alternate portal, descend from the invisible platforms onto the spike floor for the heart.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [
+            {
+              "src": "assets/x6-sheldon-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/75/MMX6_Shield_Sheldon_Life_Up_location.png/revision/latest?cb=20220602034820",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Shield_Sheldon_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "sheldon-weapon",
+          "type": "weaponTank",
+          "name": "Weapon Tank",
+          "need": "Shadow Armor",
+          "text": "Enter the alternate portal. Near the first laser, take the tank from the spiked pit and climb back out.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [
+            {
+              "src": "assets/x6-sheldon-weapon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e3/MMX6_Weapon_Sub_Tank_location.png/revision/latest?cb=20220602034826",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Weapon_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-sheldon-boss.png",
+        "width": 95,
+        "height": 60,
+        "original": "https://static.wikia.nocookie.net/megaman/images/d/d0/Shield_Sheldon_%28Idle%2C_with_Shells%29_Animation.gif/revision/latest?cb=20210414113407",
+        "source": "https://megaman.fandom.com/wiki/File:Shield_Sheldon_(Idle,_with_Shells)_Animation.gif",
+        "credit": "MrJ336 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "mijinion",
+      "name": "Infinity Mijinion",
+      "area": "Weapon Center",
+      "weakness": "Guard Shell / reflected shots",
+      "weapon": "Charged Buster / Guard Shell",
+      "reward": "Ray Arrow / Rekkoha",
+      "tip": "Track the real boss and fire controlled Buster shots. Clear bubbles with the saber. Guard Shell can reflect his yellow shots, but avoid spraying attacks into clones.",
+      "now": "Collect all marked pickups",
+      "items": [
+        {
+          "id": "mijinion-blade",
+          "type": "armor",
+          "name": "Blade · Arm Program",
+          "need": "Defeat Illumina; enter portal",
+          "text": "Break both large cable cores to destroy the background robot. Enter the new blue portal, then walk left from its arrival point to the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-mijinion-blade.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/37/MMX6_Blade_Armor_Arm_Capsule.png/revision/latest?cb=20220602023851",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blade_Armor_Arm_Capsule.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Blade · Arm Program location"
+            }
+          ]
+        },
+        {
+          "id": "mijinion-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Same alternate-route entrance",
+          "text": "From the portal arrival point, go left. The heart is beside the Blade Arm capsule; collect both before proceeding across the ropes.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-mijinion-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/37/MMX6_Blade_Armor_Arm_Capsule.png/revision/latest?cb=20220602023851",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blade_Armor_Arm_Capsule.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-mijinion-boss.png",
+        "width": 49,
+        "height": 46,
+        "original": "https://static.wikia.nocookie.net/megaman/images/f/fa/InfinityMijinion_Battle_Animation.gif/revision/latest?cb=20210213031333",
+        "source": "https://megaman.fandom.com/wiki/File:InfinityMijinion_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "heatnix",
+      "name": "Blaze Heatnix",
+      "area": "Magma Area",
+      "weakness": "Ground Dash",
+      "weapon": "Ground Dash",
+      "reward": "Magma Blade / Shoenzan",
+      "tip": "Stay above the lower lava, then descend when the ceiling lava appears. Strike with Ground Dash when he rises into range.",
+      "now": "Collect all marked pickups",
+      "items": [
+        {
+          "id": "heatnix-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Blade + Speedster / Hyper Dash",
+          "text": "After the second circular miniboss, climb above the upper door. Mach Dash up into the high left opening; the heart is behind a Reploid.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-heatnix-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/8e/MMX6_Blaze_Heatnix_Life_Up_location.png/revision/latest?cb=20220602154421",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blaze_Heatnix_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "heatnix-shadow",
+          "type": "armor",
+          "name": "Shadow · Arm Program",
+          "need": "Same high opening",
+          "text": "Continue climbing the tall shaft above the heart. The capsule is at its top.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-heatnix-shadow.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/5/55/Arm-shadow.png/revision/latest?cb=20220602154205",
+              "source": "https://megaman.fandom.com/wiki/File:Arm-shadow.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shadow · Arm Program location"
+            }
+          ]
+        },
+        {
+          "id": "heatnix-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Same upper route; portal",
+          "text": "From the upper rescue corridor, go right into the portal. Climb past the flame vents and collect the tank against the right wall.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-heatnix-tank.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/9/91/MMX6_Blaze_Heatnix_Sub_Tank_location.png/revision/latest?cb=20220602154426",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blaze_Heatnix_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-heatnix-boss.png",
+        "width": 81,
+        "height": 110,
+        "original": "https://static.wikia.nocookie.net/megaman/images/c/c8/BlazeHeatnix_Battle_Animation.gif/revision/latest?cb=20210213022226",
+        "source": "https://megaman.fandom.com/wiki/File:BlazeHeatnix_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "wolfang",
+      "name": "Blizzard Wolfang",
+      "area": "Northpole Area",
+      "weakness": "Magma Blade",
+      "weapon": "Magma Blade",
+      "reward": "Ice Burst / Hyoroga",
+      "tip": "Jump his ground rush and dash underneath his leaps. Use Magma Blade between charges; clear ice before it confines your movement.",
+      "now": "Collect programs; check return requirements",
+      "items": [
+        {
+          "id": "wolfang-shadow",
+          "type": "armor",
+          "name": "Shadow · Leg Program",
+          "need": "Blade upward Mach Dash",
+          "text": "At the bottom of the long ice slope, reach the high platform above the base. Head right through the falling-block section to the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-wolfang-shadow.png",
+              "width": 321,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/3c/Foot-Shadow.png/revision/latest?cb=20220603042706",
+              "source": "https://megaman.fandom.com/wiki/File:Foot-Shadow.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shadow · Leg Program location"
+            }
+          ]
+        },
+        {
+          "id": "wolfang-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Visit Heatnix first; Blade",
+          "text": "With the falling-fire Nightmare effect active, enter the opening at the bottom of the slope. Drop to the lower-right Reploid ledge; the heart is behind its occupant.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-wolfang-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/0a/MMX6_Blizzard_Wolfang_Life_Up_location.png/revision/latest?cb=20220603043201",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Blizzard_Wolfang_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "wolfang-ex",
+          "type": "ex",
+          "name": "EX Tank",
+          "need": "Shadow + Heatnix fire effect",
+          "text": "Use the same opened passage. Drop into the spike-lined shaft on the right and collect the EX Tank at the bottom.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [
+            {
+              "src": "assets/x6-wolfang-ex.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/09/MMX6_EX_Item_location.png/revision/latest?cb=20220603043206",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_EX_Item_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "EX Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-wolfang-boss.png",
+        "width": 105,
+        "height": 81,
+        "original": "https://static.wikia.nocookie.net/megaman/images/d/d4/BlizzardWolfang_Battle_Animation.gif/revision/latest?cb=20210213023429",
+        "source": "https://megaman.fandom.com/wiki/File:BlizzardWolfang_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "turtloid",
+      "name": "Rainy Turtloid",
+      "area": "Inami Temple",
+      "weakness": "Ice Burst",
+      "weapon": "Ice Burst",
+      "reward": "Meteor Rain / Ensuizan",
+      "tip": "Break both green back crystals with the saber first. Hit the exposed body with Ice Burst, then retreat before his rolling attack.",
+      "now": "Collect programs; check return requirements",
+      "items": [
+        {
+          "id": "turtloid-shadow",
+          "type": "armor",
+          "name": "Shadow · Body Program",
+          "need": "Blade; carefully aligned Mach Dashes",
+          "text": "In the final rain room, cross to the high right opening beyond the healing pad. Position the Mach Dash between the spike rows; repeat through the second narrow tunnel to reach the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-turtloid-shadow.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/42/Body-shadow.png/revision/latest?cb=20220603210049",
+              "source": "https://megaman.fandom.com/wiki/File:Body-shadow.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shadow · Body Program location"
+            }
+          ]
+        },
+        {
+          "id": "turtloid-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Shadow Armor",
+          "text": "In the final rain room, inspect the three small spike alcoves on the left. Enter the middle alcove with Shadow and take the hidden heart.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [
+            {
+              "src": "assets/x6-turtloid-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/c9/MMX6_Rainy_Turtloid_Life_Up_location.png/revision/latest?cb=20220603210230",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Rainy_Turtloid_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-turtloid-boss.png",
+        "width": 153,
+        "height": 148,
+        "original": "https://static.wikia.nocookie.net/megaman/images/c/c2/Mmx6_rainyturtloid.gif/revision/latest?cb=20220809164731",
+        "source": "https://megaman.fandom.com/wiki/File:Mmx6_rainyturtloid.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    },
+    {
+      "id": "shark",
+      "name": "Metal Shark Player",
+      "area": "Recycle Lab",
+      "weakness": "Meteor Rain",
+      "weapon": "Meteor Rain",
+      "reward": "Metal Anchor / Rakukojin",
+      "tip": "Jump over his floor slides; wait on a wall while his fin moves through the scrap. Fire Meteor Rain when he resurfaces.",
+      "now": "Collect all marked pickups",
+      "items": [
+        {
+          "id": "shark-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Wait for the crusher",
+          "text": "Near the end of the second conveyor area, look between the junk blocks behind a Reploid. Drop in for the heart only after the ceiling rises.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-shark-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/6/6d/MMX6_Metal_Shark_Player_Life_Up_location.png/revision/latest?cb=20220603205537",
+              "source": "https://megaman.fandom.com/wiki/File:MMX6_Metal_Shark_Player_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "shark-shadow",
+          "type": "armor",
+          "name": "Shadow · Head Program",
+          "need": "Blade + Speedster / Hyper Dash; Ground Dash",
+          "text": "At the late ladder down in the second crusher area, continue left instead. Ground Dash removes obstructing brown blocks. Cross while the crusher rises, descend the far ladder, then Mach Dash the large gap to the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit with the route loadout",
+          "media": [
+            {
+              "src": "assets/x6-shark-shadow.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/07/Head-Shadow.png/revision/latest?cb=20220603203852",
+              "source": "https://megaman.fandom.com/wiki/File:Head-Shadow.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shadow · Head Program location"
+            }
+          ]
+        }
+      ],
+      "sprite": {
+        "src": "assets/x6-shark-boss.png",
+        "width": 68,
+        "height": 100,
+        "original": "https://static.wikia.nocookie.net/megaman/images/e/e0/MetalSharkPlayer_Battle_Animation.gif/revision/latest?cb=20210213030552",
+        "source": "https://megaman.fandom.com/wiki/File:MetalSharkPlayer_Battle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/6/stages.php"
+    }
+  ],
+  "returns": [
+    {
+      "stage": "scaravich",
+      "title": "Missing random room / Speedster",
+      "items": [
+        "scaravich-heart",
+        "scaravich-blade"
+      ]
+    },
+    {
+      "stage": "yammark",
+      "title": "Blade + movement part · high tank",
+      "items": [
+        "yammark-tank"
+      ]
+    },
+    {
+      "stage": "heatnix",
+      "title": "If the high route was out of reach",
+      "items": [
+        "heatnix-heart",
+        "heatnix-shadow",
+        "heatnix-tank"
+      ]
+    },
+    {
+      "stage": "wolfang",
+      "title": "Heatnix first, then Shadow",
+      "items": [
+        "wolfang-heart",
+        "wolfang-ex"
+      ]
+    },
+    {
+      "stage": "turtloid",
+      "title": "Shadow · safe spike heart",
+      "items": [
+        "turtloid-heart"
+      ]
+    },
+    {
+      "stage": "sheldon",
+      "title": "Shadow · both spike tanks",
+      "items": [
+        "sheldon-heart",
+        "sheldon-weapon"
+      ]
+    }
+  ],
+  "extraSections": [
+    "<section id=\"zero-return\"><h2>Restore Zero early</h2><p class=\"inline-critical\"><strong>Before 3,000 Souls or eight clears:</strong> use Sheldon’s alternate route during the early armor sweep. Unlocking the laboratory replaces this encounter.</p><ol><li>In Sheldon, redirect the laser into the lower door. Follow the lower route past the invisible platforms to its blue portal.</li><li>Traverse the alternate area and rescue the Reploids as you go. The boss at the far end is Zero Nightmare if the laboratory is still locked.</li><li>Hit him with X’s Z-Saber; dodge his projectiles and approach between attacks. Winning restores playable Zero.</li><li>Re-enter Sheldon and take the normal boss route for Guard Shell. The alternate boss is now High Max, so do not return there expecting another Zero fight.</li></ol><p>Ultimate Armor and Black Zero are title-code bonuses in standard X6, not hidden capsule rewards. Neither is required here.</p></section>",
+    "<section id=\"rescues\"><h2>Rescues & equipable parts</h2><p class=\"inline-critical\"><strong>Save before entering.</strong> A Nightmare that infects a Reploid permanently removes that rescue reward. Reload the earlier save before saving the loss. Approach screen edges carefully and rescue endangered targets immediately.</p><p>Check 16 SAFE entries in each stage, including its alternate route. Museum destinations require repeated visits. The 20 large pickups above do not count the 128 Reploids or their personal Life/Energy upgrades.</p><div class=\"table-wrap\"><table><thead><tr><th>Priority reward</th><th>Where to look</th></tr></thead><tbody><tr><td>Speedster · Tsuki</td><td>Museum, rising space room: rescue above the third pit, just before the heart.</td></tr><tr><td>Jumper · Dante</td><td>Wolfang alternate area, left of the first rope. Return in Shadow for a safe approach over spikes.</td></tr><tr><td>Hyper Dash · Nori</td><td>Turtloid alternate rain area, middle-left ledge.</td></tr><tr><td>Super Recover · Goken</td><td>Yammark final open platform area, upper-left behind a mantis.</td></tr><tr><td>Life Recover · Iso</td><td>Yammark high Sub Tank ledge.</td></tr><tr><td>Ultimate Buster · Keiji</td><td>Heatnix lower branch of the third circular miniboss section.</td></tr><tr><td>Weapon Plus · SO1</td><td>Sheldon alternate area above the third rope; protect him from the nearby Nightmare.</td></tr></tbody></table></div><p>Other part rewards: Amazon—Rapid 5; Museum—Quick Charge, Overdrive; Magma—Buster Plus, Power Drive; Northpole—Shot Eraser, Weapon Drive; Inami—Saber Plus, Weapon Recover; Recycle—Shock Buffer, Saber Extend, Hyperdrive; Laser Institute—Energy Saver, D-Barrier; Weapon Center—Speed Shot, D-Converter, Master Saber.</p><p>For all 128 names and precise missing-rescue positions: <a href=\"https://gamefaqs.gamespot.com/ps/516512-mega-man-x6/faqs/15379\">Ed_Mak’s rescue reference</a>. Compare it with the in-game roster rather than assuming a boss clear rescued everybody.</p></section>",
+    "<section id=\"nightmare\"><h2>Nightmare effects & returns</h2><p>Visiting a stage can affect other stages even without beating its boss. Heatnix causes falling fire in Wolfang, opening the Heart/EX side passage. Shark creates silver blocks in Heatnix that can help reach the high branch; Metal Anchor breaks them. Scaravich creates colored blocks in Sheldon and Shark; Ground Dash clears brown ones.</p><p>A red icon flags a recent effect change; inspect the actual stage condition. For Wolfang cleanup, visit Heatnix and then go directly to Wolfang. If no fire falls and the side wall remains closed, retrigger Heatnix before retrying.</p></section>",
+    "<section id=\"field-tips\"><h2>Useful tips</h2><ul><li>Yammar Option is useful against nearby Nightmare viruses. Pick up dropped Souls promptly to prevent their revival.</li><li>After restoring Zero and unlocking Dynamo encounters, hit Dynamo with Meteor Rain (X) or Ensuizan (Zero) to make him drop large Soul pickups. This is an intended reward mechanic.</li><li>Rank A at 500 Souls enables one normal part; SA 900 enables two; GA 1,500 adds a Limited part; PA 5,000 enables three normal; UH 9,999 enables four. Limited parts are usable once per stage entry.</li><li>Equip Super Recover for stronger refills. Life Recover provides an emergency full heal once per entry when equipped in the Limited slot.</li><li>Use the Raiden Ride Armor under Shark’s crushers: the machine can hold the ceiling up. X on foot cannot.</li><li>Charged Metal Anchor helps against Heatnix’s circular minibosses on revisits. Avoid the Guard Shell saber damage glitch; it is not needed for this route.</li></ul></section>",
+    "<section id=\"fortress\"><h2>Laboratory loadouts & bosses</h2><p class=\"inline-critical\"><strong>Lab 2: use Blade or Zero.</strong> Shadow lacks the air-dash needed for the ordinary long-gap route. Do not assume the suit that simplified Lab 1 is the right choice for the next stage.</p><div class=\"table-wrap\"><table><thead><tr><th>Fight</th><th>Do this</th></tr></thead><tbody><tr><td>Lab 1 · Nightmare Mother</td><td>Shadow ignores the entrance spikes. Attack the eyes when they detach; use Giga Attack when in range and dodge the rotating blocks.</td></tr><tr><td>High Max</td><td>X: stun with a charged Buster, then hit with a special weapon. Zero: special technique to stun, saber to damage. The introductory fight cannot be won.</td></tr><tr><td>Gate</td><td>Destroy his colored orbs so their fragments strike him. Ordinary direct attacks do not damage him. Move between platforms without chasing him into the pit.</td></tr><tr><td>Final boss rematches</td><td>Reuse each weakness; preserve energy for Sigma and refill from drops.</td></tr><tr><td>Sigma → final body</td><td>First form: Magma Blade / Shoenzan or saber. Final: Ground Dash / Ensuizan at the exposed mouth; destroy the small enemies for health and weapon refills.</td></tr></tbody></table></div><p>X’s ending differs depending on whether Zero was rescued. Zero has his own ending. Save before the final stage to replay with the other available hunter.</p></section>"
+  ],
+  "videos": [
+    {
+      "id": "olCIiLPKf50",
+      "author": "Gameplay reference on YouTube",
+      "title": "Pickups, capsules and Reploid routes",
+      "text": "Optional visual help for the tight spike tunnels and alternate routes. Load only when needed.",
+      "start": 0
+    }
+  ],
+  "warning": {
+    "id": "missables",
+    "label": "Permanent losses",
+    "title": "Restore Zero early. Protect Reploids before saving.",
+    "text": "Defeat Zero Nightmare in an alternate-route boss room before all eight Investigators are defeated or 3,000 Nightmare Souls unlock the final stages. An infected or dead Reploid—and any part they carry—cannot be recovered in that save. Keep a separate pre-stage save and reload it after a rescue failure. Hearts and Life/Energy Ups belong to their collector.",
+    "link": "#zero-return",
+    "linkText": "Early Zero detour"
+  },
+  "routeIntro": "Use Falcon X initially. The first four bosses prioritize the complete Blade Armor. Normal difficulty is the reference; Xtreme changes enemy pressure and makes rescues harder. Pick up hearts as X unless deliberately building Zero.",
+  "routes": [
+    {
+      "name": "Standard · both suits and all pickups",
+      "subtitle": "Armor-first route",
+      "description": "Eight boss clears, an early Zero detour, then grouped returns.",
+      "steps": [
+        {
+          "title": "Yammark → Scaravich",
+          "href": "#yammark",
+          "text": "Collect Blade Legs, the two reachable hearts and Blade Head. Museum rooms are random: repeat until the Head room appears. Rescue Tsuki for Speedster when his room appears."
+        },
+        {
+          "title": "Sheldon: detour for Zero before the boss",
+          "href": "#zero-return",
+          "text": "Take the lower laser route, collect Blade Body, and defeat Zero Nightmare. Return to Sheldon to clear his normal boss route.",
+          "critical": true
+        },
+        {
+          "title": "Mijinion → finish Blade",
+          "href": "#mijinion",
+          "text": "Destroy Illumina, enter the portal and go left for Blade Arms and Heart. Do not fight the next alternate boss unprepared. Exit after Game Over if needed, then re-enter for Mijinion."
+        },
+        {
+          "title": "Heatnix → Wolfang → Turtloid → Shark",
+          "href": "#heatnix",
+          "text": "Equip Blade and Speedster when available. Collect the four Shadow programs. Save difficult upper Heatnix items for a return if the reach is insufficient."
+        },
+        {
+          "title": "Shadow cleanup and tank refill",
+          "href": "#cleanup",
+          "text": "Equip Shadow for Sheldon/Turtloid spike items and Wolfang’s EX Tank. Trigger Wolfang’s fire effect by visiting Heatnix first. Return for any Museum room or Yammark tank still missing."
+        },
+        {
+          "title": "Change suits between laboratory stages",
+          "href": "#fortress",
+          "text": "Shadow handles Lab 1 spikes. Choose Blade or Zero for Lab 2’s long gaps; prepare movement parts before entering.",
+          "critical": true
+        }
+      ]
+    },
+    {
+      "name": "Completionist · 128 rescues and all parts",
+      "subtitle": "Same pickups · protect the rescue roster",
+      "description": "No timed colony event. The challenge is keeping every Reploid alive and visiting every branch.",
+      "steps": [
+        {
+          "title": "Save separately before each new stage",
+          "href": "#rescues",
+          "text": "Do not overwrite a clean save after LOST/DEAD appears. Rescue before fighting nearby Nightmares when they are already beside a Reploid.",
+          "critical": true
+        },
+        {
+          "title": "Restore Zero during the first four stages",
+          "href": "#zero-return",
+          "text": "Use the same early Sheldon detour. Do this before soul farming or all eight boss clears."
+        },
+        {
+          "title": "Clear the armor-first route",
+          "href": "#boss-flow",
+          "text": "Explore both the regular path and alternate portal in each level. Take every available rescue; assign personal health/energy upgrades deliberately."
+        },
+        {
+          "title": "Revisit the Museum until every room is covered",
+          "href": "#scaravich",
+          "text": "Random totem destinations contain different Reploids, the Heart and Head program. One clear is not a complete Museum rescue sweep."
+        },
+        {
+          "title": "Check all eight rescue rosters",
+          "href": "#rescues",
+          "text": "Target 16 SAFE per stage, 128 total, with no LOST/DEAD. Use the linked name-by-name rescue reference to identify missing entries."
+        },
+        {
+          "title": "Develop rank and equip finished parts",
+          "href": "#field-tips",
+          "text": "After Zero is restored, fight Dynamo with Meteor Rain for soul drops. Parts do not need X5-style development time; rank limits the number you can equip."
+        }
+      ]
+    }
+  ],
+  "flowIntro": "Falcon X can defeat Sheldon without Metal Anchor. Guard Shell is available for Mijinion, but careful Buster shots are often easier. Once Blade is assembled, the last four bosses follow Ground Dash → Magma Blade → Ice Burst → Meteor Rain.",
+  "flowSubtitle": "Blade first · then Shadow",
+  "basicsHtml": "<summary>Armor, exits and personal upgrades</summary><ul><li>Four programs are required before Blade or Shadow can be equipped. An individual capsule does not upgrade the current suit.</li><li>Falcon now air-dashes and charges special weapons; it cannot freely fly as in X5. Blade adds the directional Mach Dash. Shadow crosses spikes but loses air-dash and special weapons.</li><li>Zero can recover X’s programs. Hearts and Life/Energy Ups only improve the collecting hunter; ordinary equipable parts can be shared.</li><li>Permanent pickups survive death. Exit works on cleared stages; otherwise use Game Over and return to stage select. Save before closing the game.</li><li>There is no X5 countdown. Red stage markers indicate Nightmare effects; they do not mean the boss must be fought immediately.</li></ul>",
+  "checkpoints": [
+    {
+      "afterStage": "scaravich",
+      "title": "BEFORE SOUL FARMING · Restore Zero",
+      "text": "Use Sheldon’s alternate route next. Do not unlock the laboratory first.",
+      "stageText": "Take the lower route in Sheldon to defeat Zero Nightmare before farming souls.",
+      "href": "#zero-return",
+      "linkText": "Zero detour"
+    },
+    {
+      "afterStage": "mijinion",
+      "title": "CHECK · All four Blade programs",
+      "text": "Yammark, Scaravich, Sheldon and Mijinion supply the complete suit.",
+      "stageText": "Select Blade at stage select. Return to the Museum now if its random Head-program room has not appeared.",
+      "href": "#cleanup",
+      "linkText": "Return trips"
+    }
+  ],
+  "returnIntro": "All cards below reuse the original instructions. Finish Blade before movement-heavy returns; finish Shadow before the safe spike routes. Revisit Heatnix immediately before Wolfang when you need the fire-opened passage.",
+  "completionText": "8 hearts assigned deliberately · 2 Sub Tanks · Weapon Tank · EX Tank · Blade 4/4 · Shadow 4/4 · Zero restored. Completionist: 128 SAFE Reploids and all their parts.",
+  "sourcesHtml": "<p>Original X6 / standard Legacy Collection gameplay. Location scenes may show a different hunter or suit. All imagery belongs to Capcom; individual uploads are credited below. No emulator playthrough was performed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/6/items.php\">Mega Man XZ · item and tank cross-check</a></li><li><a href=\"https://megaman.retropixel.net/mmx/6/xbosses.php\">Mega Man XZ · boss patterns</a></li><li><a href=\"https://megaman.retropixel.net/mmx/6/parts.php\">Mega Man XZ · part system</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/516512-mega-man-x6/faqs/19336\">NickWhiz1 · rescue carriers and corrections</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/516512-mega-man-x6/faqs/82591\">NeoChozo · progression and missables</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/516512-mega-man-x6/faqs/15057\">Webapprentice · rescue behavior</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/516512-mega-man-x6/faqs/15377\">Bloody_Cloude · armor routes</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X6/Heart_Tanks\">StrategyWiki · heart methods</a></li><li><a href=\"https://megaman.fandom.com/wiki/Blade_Armor\">MMKB · Blade capsules</a></li><li><a href=\"https://megaman.fandom.com/wiki/Shadow_Armor\">MMKB · Shadow capsules</a></li><li><a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=3389542731\">Community rescue field notes</a></li></ul>"
+}

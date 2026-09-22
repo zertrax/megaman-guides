@@ -1,0 +1,963 @@
+{
+  "id": "x8",
+  "title": "Mega Man X8",
+  "subtitle": "PlayStation 2 / PC · X / Axl / Zero",
+  "intro": "Eight armor capsules and twenty Rare Metals, including Noah’s Park. Follow the weakness loop, then return with the right pair and equipment. Rare Metals unlock R&D purchases; they are not immediately usable upgrades.",
+  "expectedCounts": {
+    "armor": 8,
+    "rare": 20
+  },
+  "stages": [
+    {
+      "id": "panda",
+      "name": "Bamboo Pandamonium",
+      "area": "Booster Forest",
+      "weakness": "Melt Creeper",
+      "weapon": "Charged Buster",
+      "reward": "Green Spinner",
+      "tip": "Stay outside his punch range and use charged Buster shots. When he enters Overdrive, prioritize dodging his lethal lunge rather than finishing your attack.",
+      "now": "Icarus Legs now; return for 3 Rare Metals",
+      "sprite": {
+        "src": "assets/x8-panda-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/3/37/BambooPandamoniumX8Mugshot.png/revision/latest?cb=20100909082235",
+        "source": "https://megaman.fandom.com/wiki/File:BambooPandamoniumX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "panda-armor",
+          "type": "armor",
+          "name": "Icarus · Leg Parts",
+          "need": "X + Zero; Chimera Ride Armor",
+          "text": "After the first Ride Armor battle room, use the lift to raise Chimera. Air-dash left toward the high spiked ledge, eject near the end, then double-jump with Zero to reach it. Switch to X at the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-panda-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e9/MMX8_Foot_Parts_I_location.png/revision/latest?cb=20220608035543",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Foot_Parts_I_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Icarus · Leg Parts location"
+            }
+          ]
+        },
+        {
+          "id": "panda-converter",
+          "type": "rare",
+          "name": "Weapon Converter · X",
+          "need": "Axl; floating fist-enemy copy",
+          "text": "Copy the legless hovering enemy with Axl. At the branching routes, leave the Ride Armor and take the lowest path. Roll through the tiny lower-left opening in the copied form.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-panda-converter.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/1c/MMX8_RM_WeaponConverterX_location.png/revision/latest?cb=20220608155414",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_WeaponConverterX_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Converter · X location"
+            }
+          ]
+        },
+        {
+          "id": "panda-barrier",
+          "type": "rare",
+          "name": "Double Barrier · Axl",
+          "need": "X; Buster I/H + Crystal Wall; Chimera",
+          "text": "Take Chimera through the blue-crate route. Eject so it passes below the low platform on the spike conveyor, then reboard and jump to safety. Use the blue switch to raise Chimera on the lift; break the upper crates and cast charged Crystal Wall inside the alcove.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-panda-barrier.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/2/2c/MMX8_RM_DoubleBarrierAxl_location.png/revision/latest?cb=20220608165937",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_DoubleBarrierAxl_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Double Barrier · Axl location"
+            }
+          ]
+        },
+        {
+          "id": "panda-shield",
+          "type": "rare",
+          "name": "Shield Armor · Zero",
+          "need": "Axl; hovering-enemy copy; Chimera; Prickle Barrier",
+          "text": "Beyond the second Ride Armor battle room, cross the lowering platforms to the spike conveyor. Let Chimera travel beneath the low roof. Eject, transform into the rolling copy, and follow it using a fresh Prickle Barrier to survive the spike contact. Cancel the copy at the far side, reboard, then ride the background lift to the Rare Metal.",
+          "extra": "Buy a fresh Prickle Barrier before trying; it protects one spike contact, not unlimited time on spikes.",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-panda-shield.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/3d/MMX8_RM_ShieldArmorZero_location.png/revision/latest?cb=20220608171338",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_ShieldArmorZero_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shield Armor · Zero location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sunflower",
+      "name": "Optic Sunflower",
+      "area": "Troia Base",
+      "weakness": "Green Spinner",
+      "weapon": "Green Spinner",
+      "reward": "Shining Ray",
+      "tip": "Use Green Spinner when the boss is exposed. Move out of the laser pattern before attacking; Double Attack can finish a dangerous opening.",
+      "now": "Converter now; return for armor and score rewards",
+      "sprite": {
+        "src": "assets/x8-sunflower-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/3/30/OpticSunflowerX8Mugshot.png/revision/latest?cb=20100909084218",
+        "source": "https://megaman.fandom.com/wiki/File:OpticSunflowerX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "sunflower-converter",
+          "type": "rare",
+          "name": "Weapon Converter · Zero",
+          "need": "Axl hover",
+          "text": "Late in the connecting hallways, cross the large chasm toward the lower ledge on the far side. Hover beneath the upper platform rather than taking the normal high route.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-sunflower-converter.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/1a/MMX8_RM_WeaponConverterZero_location.png/revision/latest?cb=20220608152312",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_WeaponConverterZero_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Converter · Zero location"
+            }
+          ]
+        },
+        {
+          "id": "sunflower-armor",
+          "type": "armor",
+          "name": "Hermes · Buster Parts",
+          "need": "X + Squeeze Bomb",
+          "text": "After the fourth test, climb toward the barrier high above the hallway. Remove it with Squeeze Bomb and enter the capsule alcove.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-sunflower-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/3d/MMX8_Buster_Parts_H_location.png/revision/latest?cb=20220608041122",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Buster_Parts_H_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Hermes · Buster Parts location"
+            }
+          ]
+        },
+        {
+          "id": "sunflower-tank",
+          "type": "rare",
+          "name": "Life Tank unlock",
+          "need": "5–7 top-row test results",
+          "text": "Finish all eight tests with five, six or seven results in the top row, then enter the prize room. Collect this reward on a separate run from the perfect-score reward.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-mantis-tank.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/88/MMX8_RM_LifeTank2_location.png/revision/latest?cb=20220608225016",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_LifeTank2_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Life Tank unlock location"
+            }
+          ]
+        },
+        {
+          "id": "sunflower-generator",
+          "type": "rare",
+          "name": "Metal Generator",
+          "need": "All 8 top-row test results",
+          "text": "Earn the highest result in every test during one run. The prize room awards Metal Generator instead of the 5–7-result Rare Metal.",
+          "extra": "Return with stronger equipment; clearing the rooms slowly is not enough for the top row.",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-sunflower-generator.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/9/96/MMX8_RM_MetalGenerator_location.png/revision/latest?cb=20220608225025",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_MetalGenerator_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Metal Generator location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mantis",
+      "name": "Dark Mantis",
+      "area": "Pitch Black",
+      "weakness": "Shining Ray",
+      "weapon": "Shining Ray",
+      "reward": "Shadow Runner",
+      "tip": "Use Shining Ray as he appears. Avoid his claw and scythe paths, and change character promptly if he grabs you.",
+      "now": "Hermes Body now; return after restoring power",
+      "sprite": {
+        "src": "assets/x8-mantis-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/1/18/DarkMantisX8Mugshot.png/revision/latest?cb=20100909082944",
+        "source": "https://megaman.fandom.com/wiki/File:DarkMantisX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "mantis-armor",
+          "type": "armor",
+          "name": "Hermes · Body Parts",
+          "need": "X",
+          "text": "In the last tall shaft with descending crates and lasers, climb upward instead of descending toward the boss. Enter the narrow right passage at the top.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-mantis-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/78/MMX8_Body_Parts_H_location.png/revision/latest?cb=20220608154757",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Body_Parts_H_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Hermes · Body Parts location"
+            }
+          ]
+        },
+        {
+          "id": "mantis-tank",
+          "type": "rare",
+          "name": "Life Tank unlock",
+          "need": "X + Axl; charged Crystal Wall",
+          "text": "Open the hidden generator room using Axl’s guard disguise and salute. Cast charged Crystal Wall on the floor directly in front of the generator.",
+          "extra": "See the generator instructions below before searching the dark corridors.",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-sunflower-tank.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/4b/MMX8_RM_LifeTank_location.png/revision/latest?cb=20220608164136",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_LifeTank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Life Tank unlock location"
+            }
+          ]
+        },
+        {
+          "id": "mantis-shield",
+          "type": "rare",
+          "name": "Shield Armor · Axl",
+          "need": "Axl + Plasma Gun; lights on",
+          "text": "After powering the generator, backtrack across the pit and around the corner. Climb the now-visible hanging platforms; take the metal from the fourth one to the right.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-mantis-shield.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/4a/MMX8_RM_ShieldArmorAxl_location.png/revision/latest?cb=20220608151641",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_ShieldArmorAxl_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shield Armor · Axl location"
+            }
+          ]
+        },
+        {
+          "id": "mantis-glaive",
+          "type": "rare",
+          "name": "D Glaive · Zero",
+          "need": "X + Axl; Icarus Legs; lights on",
+          "text": "After powering the generator, drop down the pit outside and follow the corridor to its exit door. Jump onto the small ledge above that door, then the higher ledge offscreen.",
+          "extra": "Collecting this unlocks the D Glaive purchase; it does not equip Zero automatically.",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-mantis-glaive.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f6/MMX8_RM_DGlaive_location.png/revision/latest?cb=20220608153930",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_DGlaive_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "D Glaive · Zero location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "antonion",
+      "name": "Gravity Antonion",
+      "area": "Primrose",
+      "weakness": "Shadow Runner",
+      "weapon": "Shadow Runner",
+      "reward": "Squeeze Bomb",
+      "tip": "Keep clear of falling blocks and use Shadow Runner to track him. Watch which surface becomes the floor before committing to a jump.",
+      "now": "Head + B Fan now; return for K Knuckle",
+      "sprite": {
+        "src": "assets/x8-antonion-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/a/a9/GravityAntonionX8Mugshot.png/revision/latest?cb=20100909083950",
+        "source": "https://megaman.fandom.com/wiki/File:GravityAntonionX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "antonion-armor",
+          "type": "armor",
+          "name": "Icarus · Head Parts",
+          "need": "X + Axl; spike-skater copy",
+          "text": "Copy a spike-skating enemy early. In the room with three shielded flying enemies, use the left and right gravity switches to expose the spike corridor. Cross in the copy form, drop to the hidden teleporter and switch to X at the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-antonion-armor.webp",
+              "width": 866,
+              "height": 650,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/da/MMX8_Helmet_Parts_I_location.png/revision/latest?cb=20220625154431",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Helmet_Parts_I_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Icarus · Head Parts location"
+            }
+          ]
+        },
+        {
+          "id": "antonion-fan",
+          "type": "rare",
+          "name": "B Fan · Zero",
+          "need": "Axl; spike-skater copy",
+          "text": "Near the end, enter the second moving-block room. Use the spike-skater form to descend past the two red metals to the spiked lower corner containing the Rare Metal.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-antonion-fan.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/9/9d/MMX8_RM_BFan_location.png/revision/latest?cb=20220608150340",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_BFan_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "B Fan · Zero location"
+            }
+          ]
+        },
+        {
+          "id": "antonion-knuckle",
+          "type": "rare",
+          "name": "K Knuckle · Zero",
+          "need": "X + Zero; charged Crystal Wall",
+          "text": "In the large stationary staircase room, double-jump onto the isolated block high on the left. Switch to X and cast charged Crystal Wall on top.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-antonion-knuckle.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/13/MMX8_RM_KKnuckle_location.png/revision/latest?cb=20220608162805",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_KKnuckle_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "K Knuckle · Zero location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trilobyte",
+      "name": "Earthrock Trilobyte",
+      "area": "Metal Valley",
+      "weakness": "Squeeze Bomb",
+      "weapon": "Squeeze Bomb",
+      "reward": "Crystal Wall",
+      "tip": "Use Squeeze Bomb to break his crystal defense. Dodge the ground attacks and attack the exposed body rather than firing repeatedly into armor.",
+      "now": "2 metals now; return with fire and charged Crystal Wall",
+      "sprite": {
+        "src": "assets/x8-trilobyte-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/2/23/EarthrockTrilobyteX8Mugshot.png/revision/latest?cb=20100909083146",
+        "source": "https://megaman.fandom.com/wiki/File:EarthrockTrilobyteX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "trilobyte-bottle",
+          "type": "rare",
+          "name": "Life Bottle Full unlock",
+          "need": "Axl hover; opening chase",
+          "text": "During the opening robot chase, climb over the large skeleton. Jump through the floating metal trail and hover past the red metal to reach the Rare Metal before the robot destroys your footing.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-trilobyte-bottle.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f2/MMX8_RM_LifeBottleFull_location.png/revision/latest?cb=20220608144506",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_LifeBottleFull_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Life Bottle Full unlock location"
+            }
+          ]
+        },
+        {
+          "id": "trilobyte-barrier",
+          "type": "rare",
+          "name": "Double Barrier · Zero",
+          "need": "Activate the crane on the way out",
+          "text": "Shoot the crane switch before the robot reaches it during the uphill chase. Once the robot retreats, cross the suspended girders toward the far-left crane for the Rare Metal.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-trilobyte-barrier.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f2/MMX8_RM_DoubleBarrierZero_location.png/revision/latest?cb=20220608144514",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_DoubleBarrierZero_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Double Barrier · Zero location"
+            }
+          ]
+        },
+        {
+          "id": "trilobyte-armor",
+          "type": "armor",
+          "name": "Icarus · Body Parts",
+          "need": "X + Melt Creeper",
+          "text": "On the return chase, the robot breaks the boulder that blocked an uphill alcove. Burn the fuel canisters with Melt Creeper and enter with X.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-trilobyte-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/1d/MMX8_Body_Parts_I_location.png/revision/latest?cb=20220608035524",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Body_Parts_I_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Icarus · Body Parts location"
+            }
+          ]
+        },
+        {
+          "id": "trilobyte-discount",
+          "type": "rare",
+          "name": "Metal Discount",
+          "need": "X; charged Crystal Wall",
+          "text": "Follow the retreating robot back over the plateau. It opens the metal-covered depression in the ground. Drop into that hollow and cast charged Crystal Wall.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-trilobyte-discount.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e2/MMX8_RM_MetalDiscount_location.png/revision/latest?cb=20220608163342",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_MetalDiscount_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Metal Discount location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "manowar",
+      "name": "Gigabolt Man-O-War",
+      "area": "Dynasty",
+      "weakness": "Crystal Wall",
+      "weapon": "Crystal Wall",
+      "reward": "Thunder Dancer",
+      "tip": "In the city chase, fire continuously when aligned and boost to maintain pressure. In the ground fight, Crystal Wall exploits his weakness; avoid the electric lines.",
+      "now": "No permanent field pickups in Dynasty",
+      "sprite": {
+        "src": "assets/x8-manowar-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/c/c2/GigaboltMan-O-WarX8Mugshot.png/revision/latest?cb=20100909083743",
+        "source": "https://megaman.fandom.com/wiki/File:GigaboltMan-O-WarX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": []
+    },
+    {
+      "id": "yeti",
+      "name": "Avalanche Yeti",
+      "area": "Central White",
+      "weakness": "Thunder Dancer",
+      "weapon": "Thunder Dancer",
+      "reward": "Drift Diamond",
+      "tip": "Use Thunder Dancer between his ice attacks. Keep moving through safe gaps when he covers the arena; avoid getting pinned at the wall.",
+      "now": "Hermes Head now; Axl + Zero return for the metal",
+      "sprite": {
+        "src": "assets/x8-yeti-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/2/22/AvalancheYetiX8Mugshot.png/revision/latest?cb=20100909081852",
+        "source": "https://megaman.fandom.com/wiki/File:AvalancheYetiX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "yeti-armor",
+          "type": "armor",
+          "name": "Hermes · Head Parts",
+          "need": "X + Zero; Shining Ray",
+          "text": "After the Ride Chaser breaks into the hideout, double-jump onto the high ledge above the entrance with Zero. Switch to X, melt the ice with Shining Ray and approach the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-yeti-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/07/MMX8_Head_Parts_H_location.png/revision/latest?cb=20220607181818",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Head_Parts_H_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Hermes · Head Parts location"
+            }
+          ]
+        },
+        {
+          "id": "yeti-shock",
+          "type": "rare",
+          "name": "Shock Absorber · Zero",
+          "need": "Axl + Zero",
+          "text": "At the same end-of-bike area, double-jump to the upper ledge with Zero. Switch to Axl and hover back left to the top of the entrance gate.",
+          "extra": "Use a separate Axl + Zero visit; the armor capsule requires X.",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-yeti-shock.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/cb/MMX8_RM_ShockAbsorberZero_location.png/revision/latest?cb=20220607181825",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_ShockAbsorberZero_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shock Absorber · Zero location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rooster",
+      "name": "Burn Rooster",
+      "area": "Inferno",
+      "weakness": "Drift Diamond",
+      "weapon": "Drift Diamond",
+      "reward": "Melt Creeper",
+      "tip": "Strike with Drift Diamond during openings and dodge the fire trails. After the boss, stay alert: the escape climb is still part of the stage.",
+      "now": "3 pickups now; return after buying T Breaker",
+      "sprite": {
+        "src": "assets/x8-rooster-boss.png",
+        "width": 84,
+        "height": 64,
+        "original": "https://static.wikia.nocookie.net/megaman/images/1/12/BurnRoosterX8Mugshot.png/revision/latest?cb=20100909082618",
+        "source": "https://megaman.fandom.com/wiki/File:BurnRoosterX8Mugshot.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/8/bosses.php",
+      "items": [
+        {
+          "id": "rooster-armor",
+          "type": "armor",
+          "name": "Hermes · Leg Parts",
+          "need": "X",
+          "text": "During the spike-and-pipe shaft, descend past the visible capsule. After the electric-field enemy, find the left wall passage and climb back up to the alcove.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-rooster-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/5/5f/MMX8_Foot_Parts_H_location.png/revision/latest?cb=20220608041249",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Foot_Parts_H_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Hermes · Leg Parts location"
+            }
+          ]
+        },
+        {
+          "id": "rooster-breaker",
+          "type": "rare",
+          "name": "T Breaker · Zero",
+          "need": "Axl; flying-enemy copy",
+          "text": "Copy the flying enemy at the bottom of the spike shaft. Return toward the top, where two bats mark a small opening high on the left. Fly through in the copy form and collect the Rare Metal.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-rooster-breaker.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/48/MMX8_RM_TBreaker_location.png/revision/latest?cb=20220608145506",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_TBreaker_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "T Breaker · Zero location"
+            }
+          ]
+        },
+        {
+          "id": "rooster-tank",
+          "type": "rare",
+          "name": "Weapon Tank unlock",
+          "need": "Axl hover",
+          "text": "After the second fiery-enemy battle room, climb UP the falling platforms before the next shaft scrolls downward. Hover right at the top to enter the hidden room and defeat its guards.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-rooster-tank.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/30/MMX8_RM_WeaponTank_location.png/revision/latest?cb=20220608145521",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_WeaponTank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Tank unlock location"
+            }
+          ]
+        },
+        {
+          "id": "rooster-barrier",
+          "type": "rare",
+          "name": "Double Barrier · X",
+          "need": "Zero; developed T Breaker + Dairettsui",
+          "text": "Return after buying T Breaker. In the pipe-and-spike shaft, use its standing Special attack on the cracked floor indicated by Pallette. Drop through and break the crate below.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-rooster-barrier.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/6/6b/MMX8_RM_Double_BarrierX_location.png/revision/latest?cb=20220608153320",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_Double_BarrierX_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Double Barrier · X location"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sideStages": [
+    {
+      "id": "noah",
+      "name": "Noah’s Park",
+      "now": "Revisit after the first Maverick; return again with Icarus Head",
+      "tip": "Bring X + Zero for the early Buster and waterfall visit. These three pickups count toward the full 28, but Noah’s Park is not one of the eight Maverick stages.",
+      "source": "https://megaman.retropixel.net/mmx/8/stages01.php",
+      "items": [
+        {
+          "id": "noah-armor",
+          "type": "armor",
+          "name": "Icarus · Buster Parts",
+          "need": "X; one Maverick defeated",
+          "text": "Return to the building where Zero joined during the opening. Its previously closed door is now open; walk in with X to collect the capsule.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-noah-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/5/5b/MMX8_Buster_Parts_I_location.png/revision/latest?cb=20220608033903",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_Buster_Parts_I_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Icarus · Buster Parts location"
+            }
+          ]
+        },
+        {
+          "id": "noah-bottle",
+          "type": "rare",
+          "name": "Weapon Bottle Full unlock",
+          "need": "Zero double-jump / Icarus Legs",
+          "text": "Beyond the large outdoor gap, jump up behind the waterfall onto the hidden high rock ledge.",
+          "extra": "",
+          "timing": "first",
+          "when": "Collect on the planned visit",
+          "media": [
+            {
+              "src": "assets/x8-noah-bottle.webp",
+              "width": 1199,
+              "height": 899,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e3/MMX8_RM_WeaponBottleFull_location.png/revision/latest?cb=20220608033912",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_WeaponBottleFull_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Bottle Full unlock location"
+            }
+          ]
+        },
+        {
+          "id": "noah-shock",
+          "type": "rare",
+          "name": "Shock Absorber · Axl",
+          "need": "X; Icarus Head equipped",
+          "text": "Outside the bat-filled cave, break the boulders sealing the upper alcove with Icarus Head’s jumping field. Climb into the opening for the metal.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with the listed team and equipment",
+          "media": [
+            {
+              "src": "assets/x8-noah-shock.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/18/MMX8_RM_ShockAbsorberAxl_location.png/revision/latest?cb=20220608033920",
+              "source": "https://megaman.fandom.com/wiki/File:MMX8_RM_ShockAbsorberAxl_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Shock Absorber · Axl location"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "noah",
+      "title": "Early X + Zero; later X with Icarus Head",
+      "items": [
+        "noah-armor",
+        "noah-bottle",
+        "noah-shock"
+      ]
+    },
+    {
+      "stage": "antonion",
+      "title": "X + Zero · charged Crystal Wall",
+      "items": [
+        "antonion-knuckle"
+      ]
+    },
+    {
+      "stage": "mantis",
+      "title": "X + Axl · Icarus Legs, Crystal Wall, Plasma Gun",
+      "items": [
+        "mantis-tank",
+        "mantis-shield",
+        "mantis-glaive"
+      ]
+    },
+    {
+      "stage": "trilobyte",
+      "title": "X + Axl · charged Crystal Wall + Melt Creeper",
+      "items": [
+        "trilobyte-armor",
+        "trilobyte-discount",
+        "trilobyte-barrier",
+        "trilobyte-bottle"
+      ]
+    },
+    {
+      "stage": "panda",
+      "title": "X + Axl · Chimera, Crystal Wall, copy form, Prickle Barrier",
+      "items": [
+        "panda-converter",
+        "panda-barrier",
+        "panda-shield"
+      ]
+    },
+    {
+      "stage": "yeti",
+      "title": "Axl + Zero · gate-top Rare Metal",
+      "items": [
+        "yeti-shock"
+      ]
+    },
+    {
+      "stage": "rooster",
+      "title": "Zero · buy T Breaker first",
+      "items": [
+        "rooster-barrier"
+      ]
+    },
+    {
+      "stage": "sunflower",
+      "title": "X + Axl · Squeeze Bomb; separate 5–7 and 8-top-score runs",
+      "items": [
+        "sunflower-armor",
+        "sunflower-converter",
+        "sunflower-tank",
+        "sunflower-generator"
+      ]
+    }
+  ],
+  "extraSections": [
+    "<section id=\"generator\"><h2>Pitch Black · switch on the lights</h2><ol><li>Bring Axl with Plasma Gun and X with Icarus Legs plus charged Crystal Wall.</li><li>After two adjacent searchlights, defeat the sword-carrying guard with Copy Shot. Collect its DNA Core.</li><li>Past the next corner and turret, cross the pit instead of dropping. Climb to the hidden side opening and find the sleeping guard.</li><li>Transform into the guard. Stand in front of him and press Special to salute; follow him through the door.</li><li>Fire Plasma Gun into the generator until the lighting stabilizes. Cast charged Crystal Wall in front of it for the buried Rare Metal, then collect the newly visible platform rewards outside.</li></ol></section>",
+    "<section id=\"development\"><h2>R&D · health, tanks and purchases</h2><p><strong>No loose hearts or EX Tank:</strong> buy Life Up for each hunter, then its follow-up levels. Rare Metals reveal new development options; pay the Metal cost before relying on the ability.</p><p>Life-restoring Rare Metals fill the Life Bottle Full and two Life Tank unlocks as you collect them; weapon-restoring metals fill Weapon Bottle Full and Weapon Tank. Their displayed names can depend on collection order. Collect all three life-related locations and both weapon-related locations, then check R&D for both tanks.</p><div class=\"table-wrap\"><table><thead><tr><th>Priority</th><th>Reason</th></tr></thead><tbody><tr><td>Life Ups + Super Recover</td><td>Improve survival for the active pair. Speedy Recovery helps reserve healing.</td></tr><tr><td>Life Tanks / Weapon Tank</td><td>Build the unlocked tanks; use Life Charge / Weapon Charge to refill at base.</td></tr><tr><td>T Breaker</td><td>Required for the ordinary cracked-floor method in Inferno. Buy after finding its Rare Metal.</td></tr><tr><td>Metal Discount</td><td>10% off later development. Buy before expensive armor and navigator upgrades if pursuing full completion.</td></tr><tr><td>Prickle Barrier</td><td>One spike-contact safeguard. Replace after use, especially before the Booster Forest conveyor method.</td></tr><tr><td>Retry Chips</td><td>Extra checkpoint attempts. Stock these before the final stages.</td></tr></tbody></table></div><p>Zero’s D Glaive, K Knuckle, B Fan and T Breaker each require their field metal and a separate purchase. Sigma Blade is a New Game+ purchase. Ordinary shop upgrades are not additional hidden stage locations.</p></section>",
+    "<section id=\"weapons\"><h2>Weaknesses for all three hunters</h2><div class=\"table-wrap\"><table><thead><tr><th>Boss</th><th>X</th><th>Axl</th><th>Zero</th></tr></thead><tbody><tr><td>Bamboo</td><td>Melt Creeper</td><td>Flame Burner</td><td>Enkoujin</td></tr><tr><td>Sunflower</td><td>Green Spinner</td><td>Blast Launcher</td><td>Youdantotsu</td></tr><tr><td>Mantis</td><td>Shining Ray</td><td>Ray Gun</td><td>Tenshouha</td></tr><tr><td>Antonion</td><td>Shadow Runner</td><td>Black Arrow</td><td>Rasetsusen</td></tr><tr><td>Trilobyte</td><td>Squeeze Bomb</td><td>Spiral Magnum</td><td>Juuhazan</td></tr><tr><td>Man-O-War</td><td>Crystal Wall</td><td>Bound Blaster</td><td>Dairettou</td></tr><tr><td>Yeti</td><td>Thunder Dancer</td><td>Plasma Gun</td><td>Raikousen</td></tr><tr><td>Rooster</td><td>Drift Diamond</td><td>Ice Gatling</td><td>Hyoryuushou</td></tr></tbody></table></div><p>Switching Zero’s weapon changes some techniques. The default saber names above are the baseline; T Breaker converts the standing ground technique into Dairettsui for cracked floors.</p></section>",
+    "<section id=\"field-tips\"><h2>Useful tips · no exploits</h2><ul><li>Refill tanks at R&D with Life Charge and Weapon Charge before a difficult mission. This avoids an enemy-farming detour.</li><li>Play the Central White intermission when it appears for repeatable Metal rewards; aim for the bonus carriers. Earn and buy Metal Discount before long development sessions.</li><li>Use Axl’s unlimited weapon ammunition to learn boss patterns. Tag out while red recoverable health remains.</li><li>Most shields can be broken with X’s charged Buster or Zero’s combo-finishing hit. Do not waste the entire special-weapon bar against a closed guard.</li><li>Buy Prickle Barrier for spike routes, but treat it as a single safety charge. Avoid infinite-Metal bugs and unattended farming; neither is required here.</li><li>For Troia top ranks, bring developed weapons and use Double Attack where it clears a crowded test quickly. Review the results row after each room.</li></ul></section>",
+    "<section id=\"fortress\"><h2>Jakob, Gateway & the final battles</h2><div class=\"table-wrap\"><table><thead><tr><th>Fight</th><th>Do this</th></tr></thead><tbody><tr><td>Vile</td><td>Use Drift Diamond / Ice Gatling / Hyoryuushou. Change Character immediately if caught.</td></tr><tr><td>Jakob / Gateway</td><td>Manage shielded enemies and elevator waves; refill before the eight-boss rematch sequence. Reuse the weakness table.</td></tr><tr><td>Sigma</td><td>Break his guard before dealing sustained damage. Watch the sword and wall-jump away from sweeping attacks.</td></tr><tr><td>Lumine</td><td>Recognize the borrowed Maverick patterns; attack between them instead of chasing through the hazard.</td></tr><tr><td>Lumine’s final form</td><td>Hit when the wings open. During Paradise Lost, break the wing defense with barrier-breaking attacks and finish before the darkness closes in. Keep Axl active for the final hit if pursuing White Axl.</td></tr></tbody></table></div><p>Normal and Hard include Lumine. Easy ends after Sigma, so it cannot complete this guide’s ending/unlock route. On Hard, extra story events can force solo sections; develop both members of the final pair.</p></section>",
+    "<section id=\"new-game-plus\"><h2>Special forms & New Game+</h2><p class=\"inline-critical\"><strong>Before the final battle:</strong> save separately, develop Axl to 100%, and bring him to finish Lumine’s final form. Finish with Axl active; a Double Attack is not required for White Axl.</p><div class=\"table-wrap\"><table><thead><tr><th>Unlock</th><th>Normal / Hard route</th></tr></thead><tbody><tr><td>Ultimate Armor X</td><td>Collect all eight parts and develop X to 100%; clear the game and continue its New Game+ data. Select the unlocked form on X’s character screen.</td></tr><tr><td>Black Zero</td><td>Continue a Normal/Hard clear into New Game+ and develop Zero to 100%, including the available Sigma Blade purchase.</td></tr><tr><td>White Axl</td><td>100% Axl development plus Axl’s final hit on Lumine’s final form; save clear data and continue New Game+.</td></tr><tr><td>Sigma Blade</td><td>Available to develop at R&D in New Game+; finding a separate hidden capsule is unnecessary.</td></tr><tr><td>Playable navigators</td><td>Use Alia, Layer and Pallette as navigators; in New Game+ buy their unlocked weapons at R&D. The most-used navigator becomes available first; use the others on subsequent missions and check the shop.</td></tr></tbody></table></div><p>Save clear data into a different slot so the pre-final run remains available. Special forms and navigator development extend beyond the 28 field pickups. Alia cannot wear X’s armor, and Pallette cannot replace Axl’s copying ability on item routes.</p></section>"
+  ],
+  "videos": [],
+  "warning": {
+    "id": "difficulty-warning",
+    "label": "Choose Normal for the full route",
+    "title": "Easy removes Rare Metal pickups and the final Lumine battles.",
+    "text": "Start on Normal or Hard for this guide’s collectibles, full ending and New Game+ unlocks. Before the final battle, save separately. If you want White Axl, buy all his chips and have Axl land the final hit on Lumine’s final form before saving clear data.",
+    "link": "#new-game-plus",
+    "linkText": "Check special armor requirements"
+  },
+  "routeIntro": "Recommended: Normal, X + Zero for the first Booster Forest visit. All three hunters are available after the opening, but only two travel together. This is a dependable collection route, not a minimum-visit speedrun.",
+  "routes": [
+    {
+      "name": "Standard · both armor sets and every Rare Metal",
+      "subtitle": "Weapon chain + planned returns",
+      "description": "Get Icarus Legs early, then unlock charged special weapons at Noah’s Park.",
+      "steps": [
+        {
+          "title": "01 Bamboo · X + Zero",
+          "href": "#panda",
+          "text": "Keep the Chimera Ride Armor to reach Icarus Legs. Use basic charged shots against the boss. Leave the copy-only and charged-Crystal-Wall metals for later."
+        },
+        {
+          "title": "Return to Noah’s Park · X + Zero",
+          "href": "#noah",
+          "text": "After the first Maverick clear, collect Icarus Buster and the waterfall Rare Metal. Equip Buster I before future charged-special-weapon methods.",
+          "critical": true
+        },
+        {
+          "title": "02 Sunflower → 03 Mantis → 04 Antonion",
+          "href": "#sunflower",
+          "text": "Use X + Axl for hover and copy routes. Take Hermes Body at Mantis, then Icarus Head and B Fan at Antonion. Some Troia rewards need later runs."
+        },
+        {
+          "title": "05 Trilobyte → 06 Man-O-War",
+          "href": "#trilobyte",
+          "text": "Use X + Axl in Metal Valley; activate the crane and get the visible metals. Crystal Wall and Plasma Gun now enable most remaining returns."
+        },
+        {
+          "title": "07 Yeti → 08 Rooster",
+          "href": "#yeti",
+          "text": "Use X + Zero at Yeti for Hermes Head. Use X + Axl at Rooster for Hermes Legs, T Breaker’s copy route, and the high Weapon Tank room."
+        },
+        {
+          "title": "Follow the grouped cleanup",
+          "href": "#cleanup",
+          "text": "Develop T Breaker before Rooster’s breakable floor. Make separate Yeti and Troia visits for rewards requiring different teams or scores."
+        }
+      ]
+    },
+    {
+      "name": "Completionist · all development and special forms",
+      "subtitle": "Normal / Hard + New Game+",
+      "description": "All 28 field locations first; then develop chips and plan the final blow.",
+      "steps": [
+        {
+          "title": "Follow the same eight-boss route",
+          "href": "#boss-flow",
+          "text": "Collect armor and Rare Metals; no one-time rescue roster exists in X8. A wrong team or missed item can be fixed on a return."
+        },
+        {
+          "title": "Earn both Troia prizes",
+          "href": "#sunflower",
+          "text": "Complete one run with 5–7 top-row results and another with all eight. These are separate Rare Metals, not two rewards for one perfect run."
+        },
+        {
+          "title": "Buy Metal Discount before expensive upgrades",
+          "href": "#development",
+          "text": "Find its metal with charged Crystal Wall in Metal Valley. Build the discount, then buy expensive defensive chips and optional weapons."
+        },
+        {
+          "title": "Prepare Axl before Lumine",
+          "href": "#new-game-plus",
+          "text": "Reach 100% on Axl’s chip screen; bring him to the final stage and finish Lumine’s last form with Axl active. Save a spare pre-final file.",
+          "critical": true
+        },
+        {
+          "title": "Continue the clear file into New Game+",
+          "href": "#new-game-plus",
+          "text": "Finish X and Zero’s development, buy the Sigma Blade, and unlock the special forms. Navigator weapons are additional purchases; field collection alone is not full R&D completion."
+        }
+      ]
+    }
+  ],
+  "flowIntro": "Each row names X’s weakness weapon. Equivalent Axl weapons and Zero techniques are listed below. Vile can interrupt stages; resume the pickup route after the encounter.",
+  "flowSubtitle": "Full weakness loop",
+  "basicsHtml": "<summary>R&D, armor and switching hunters</summary><ul><li>Life Up chips replace loose Heart Tanks. Life Tanks and the Weapon Tank are built at R&D after their Rare Metal unlocks are found.</li><li>Only X opens capsules. Equip Icarus/Hermes components on Neutral Armor at team selection; individual parts work immediately. Matching all four Icarus parts adds Giga Crash; all four Hermes adds X-Drive.</li><li>Charged Crystal Wall methods need X with a Buster part that supports charged special weapons. This route gets Buster I at Noah’s Park first.</li><li>Axl copies compatible enemies by finishing them with Copy Shot. Select the resulting A-Trans form before entering small or spiked passages.</li><li>Tag out a hurt hunter to recover the red portion of health. Keep them in reserve until recovery finishes. Change Character also breaks many grabs.</li><li>Collected items survive death, but save progress at the base before closing. Use the return-to-R&D option when available after a pickup.</li></ul>",
+  "checkpoints": [
+    {
+      "afterStage": "panda",
+      "title": "AFTER 01 · Get Icarus Buster",
+      "text": "Noah’s Park reopens after a Maverick clear. Its Buster part enables charged special-weapon returns.",
+      "stageText": "Visit Noah’s Park with X + Zero before continuing the route.",
+      "href": "#noah",
+      "linkText": "Noah’s Park pickups"
+    },
+    {
+      "afterStage": "manowar",
+      "title": "RETURNS UNLOCKED · Crystal Wall + Plasma Gun",
+      "text": "You now have the tools for hidden ground metals and the Pitch Black generator.",
+      "stageText": "R&D purchases and generator returns are now available; complete the loop or take the listed detours.",
+      "href": "#cleanup",
+      "linkText": "Grouped returns"
+    }
+  ],
+  "returnIntro": "Each level opens once to show all its relevant cards. Follow the team/loadout notes: some levels need two visits because no pair can perform every method. First develop the Rare Metal unlock at R&D when another pickup requires that equipment.",
+  "completionText": "8 capsules: Icarus 4/4 + Hermes 4/4 · 20 Rare Metals, including Noah’s Park · develop both Life Tanks and Weapon Tank. Buy Life Ups for the hunters you use; purchases are separate from field collection.",
+  "sourcesHtml": "<p>Original X8 and standard Legacy Collection 2; not the 16-bit fan remake. Full-scene screenshots and portraits are credited below. Rare Metal names can vary with bottle/tank collection order. No emulator playthrough was performed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/8/items.php\">Mega Man XZ · field locations</a></li><li><a href=\"https://megaman.retropixel.net/mmx/8/chips.php\">Mega Man XZ · development and tank refills</a></li><li><a href=\"https://megaman.retropixel.net/mmx/8/bosses.php\">Mega Man XZ · boss patterns and weapon chain</a></li><li><a href=\"https://megaman.retropixel.net/mmx/8/stages04.php\">Mega Man XZ · generator access</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/920754-mega-man-x8/faqs/34134\">Action · all 28 locations and team requirements</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/920754-mega-man-x8/faqs/34475\">NeoChozo · progression cross-check</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/920754-mega-man-x8/faqs/34197\">Lord_Vader · item cross-checks</a></li><li><a href=\"https://www.mmhp.net/GameHints/MMX8.html\">MMHP · alternate routes and mechanics</a></li><li><a href=\"https://megaman.fandom.com/wiki/White_Axl\">MMKB · White Axl requirements</a></li><li><a href=\"https://megaman.fandom.com/wiki/Chips_(Mega_Man_X8)\">MMKB · chip and navigator unlocks</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X8/Troia_Base\">StrategyWiki · separate Troia score rewards</a></li><li><a href=\"https://megaman.fandom.com/wiki/Pitch_Black\">MMKB · generator and lighting</a></li></ul>"
+}

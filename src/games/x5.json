@@ -1,0 +1,799 @@
+{
+  "id": "x5",
+  "title": "Mega Man X5",
+  "subtitle": "PlayStation / original game · X + Zero",
+  "intro": "One route for both hunters, with X collecting the permanent hearts. Follow the weapon chain, finish Falcon and Gaea, and check the red warnings before committing to character, DNA and colony decisions. Original English boss names appear beneath the modern names.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 2,
+    "armor": 8,
+    "weaponTank": 1,
+    "ex": 1
+  },
+  "completionText": "8 hearts assigned as planned · 2 Sub Tanks · Weapon Tank · EX Tank · complete Falcon and Gaea. Optional: up to 8 chosen DNA parts; Ultimate Armor and Black Zero if Zero survives. Refill before Sigma.",
+  "warning": {
+    "id": "before-start",
+    "label": "Permanent choices · read before New Game",
+    "title": "Start as X. Decide about DNA parts before boss 1.",
+    "text": "Starting as Zero removes Fourth Armor for the entire run. Heart Tanks belong only to the hunter who picks them up. DNA choices cannot be undone, and bosses defeated below level 8 do not award an equipable part. If the colony mission fails, Zero becomes unavailable; even all four shuttle components do not guarantee success. Keep a separate save before the final shuttle-component boss.",
+    "link": "#parts-plan",
+    "linkText": "Read the parts and colony decisions"
+  },
+  "routeIntro": "Recommended: Normal difficulty, choose X in the opening, and keep X for heart collection. You can switch hunters at stage select. Both plans collect the same 20 stage pickups; the second also plans all eight possible DNA rewards. No cheats or glitches are required.",
+  "routes": [
+    {
+      "name": "Standard · armor and every pickup",
+      "subtitle": "Recommended first run",
+      "description": "Keep the clock comfortable. Early optional DNA parts may be missed; every stage pickup remains obtainable.",
+      "steps": [
+        {
+          "title": "Start X → bosses 01–04",
+          "href": "#grizzly",
+          "text": "Use Fourth Armor. Get the three reachable Falcon programs and Grizzly’s Sub Tank. Tidal Whale’s body program needs a return. Fight Dynamo when he interrupts."
+        },
+        {
+          "title": "After 04: finish Falcon",
+          "href": "#return-whale",
+          "text": "Let the Enigma event resolve. Revisit Whale as Fourth Armor X, use charged Goo Shaver on the capsule barrier, then Exit. Equip the complete Falcon at stage select.",
+          "critical": true
+        },
+        {
+          "title": "Bosses 05–08 with Falcon",
+          "href": "#necrobat",
+          "text": "Collect all four Gaea programs, the Pegasus heart and Weapon Tank and Necrobat’s heart/tank. Get Dinorex’s heart between lava waves. Dynamo may interrupt after boss 6."
+        },
+        {
+          "title": "Save before the last shuttle component",
+          "href": "#colony",
+          "text": "If Enigma failed, keep a spare save before boss 8. The automatic shuttle event can remove Zero despite collecting every component.",
+          "critical": true
+        },
+        {
+          "title": "After the colony event: cleanup",
+          "href": "#cleanup",
+          "text": "Use Gaea for the spike and V-block hearts. Firefly’s EX Tank is a separate Ground Fire visit because Gaea cannot use special weapons."
+        },
+        {
+          "title": "Zero Space + secret capsule",
+          "href": "#secret-armor",
+          "text": "Get Ultimate Armor with unarmored X. If Zero is available, visit the same capsule with him before clearing Zero Space 3 to obtain Black Zero."
+        }
+      ]
+    },
+    {
+      "name": "Completionist · eight chosen DNA parts",
+      "subtitle": "Normal / Xtreme · tighter clock",
+      "description": "At most one of each boss’s two parts can be earned. All 16 are impossible in one save. This plan uses Zero for the first boss, then returns to X.",
+      "steps": [
+        {
+          "title": "Start as X; prepare without boss kills",
+          "href": "#parts-plan",
+          "text": "Spend five stage entries as X, returning to stage select after Game Over. Use them to practice Kraken’s bike and collect Grizzly’s tank/Falcon program. Stop at 11 hours on the map; do not lower Zero’s starting SA rank."
+        },
+        {
+          "title": "11h on map: Grizzly as Zero",
+          "href": "#grizzly",
+          "text": "Entering leaves 10h. With Zero’s initial SA rank this boss is level 8+. Verify the level and choose a + reward. Return to X for Whale and permanent hearts.",
+          "critical": true
+        },
+        {
+          "title": "Whale → Dynamo → Kraken → Firefly",
+          "href": "#whale",
+          "text": "Use Fourth Armor X; collect the Falcon programs and check the DNA table after each Maverick. Continue within a stage after deaths rather than spending another entry."
+        },
+        {
+          "title": "Enigma → one Whale return",
+          "href": "#return-whale",
+          "text": "If the colony remains, Enigma adds one hour; use the planned return to complete Falcon. Avoid extra shopping trips until the colony event is settled."
+        },
+        {
+          "title": "Necrobat → Pegasus → Dynamo → Dinorex → Rosered",
+          "href": "#necrobat",
+          "text": "Use Falcon X. Collect the four Gaea programs; save separately before the last shuttle-component boss. Each Maverick must be level 8+ for a part."
+        },
+        {
+          "title": "Cleanup, finish development, then fortress",
+          "href": "#cleanup",
+          "text": "After the colony event, complete return trips as X. Parts mature two stage completions/exits after selection; ensure the last rewards are ready and equipped before Sigma."
+        }
+      ]
+    }
+  ],
+  "flowSubtitle": "X weapon chain · Zero table below",
+  "flowIntro": "Crescent Grizzly starts with the Buster. Pause after Firefly to finish Falcon before boss 5. Dark Hold freezes Pegasus but does not damage him: follow with Buster shots. Select a boss number in its stage header to return here.",
+  "basicsHtml": "<summary>Controls, pickups, armor and the clock</summary><ul><li>Choose X or Zero at stage select; a boss clear grants both hunters’ weapon/technique. Hearts belong only to the collector. Tanks and armor-program progress are shared.</li><li>Collecting a Falcon or Gaea program does not equip it. Find all four programs, then select the completed suit before entering a stage.</li><li>Fourth Armor can air-dash, hover and charge special weapons. Falcon can fly (Jump again in midair), but cannot charge special weapons. Gaea can cross spikes and break/push V-blocks, but cannot use special weapons or equip DNA parts.</li><li>Each new stage entry normally costs an hour; Dynamo battles also use time. On Game Over, Continue stays in the stage; returning to stage select and re-entering spends another hour. Pause → Exit works on cleared stages.</li><li>Save after progress. A permanent pickup survives death, but end the session using the game’s save system. The EX Tank changes starting lives; it is not health storage.</li><li><a href=\"#zero-play\">Zero’s weaknesses and technique inputs</a> · <a href=\"#field-tips\">Refill and movement tips</a></li></ul>",
+  "checkpoints": [
+    {
+      "afterStage": "firefly",
+      "title": "AFTER 04 · Finish Falcon before continuing",
+      "text": "Revisit Tidal Whale as Fourth Armor X. The body program needs Goo Shaver; no suit works until all four programs are collected.",
+      "stageText": "Complete the planned Whale return, then choose Falcon at stage select for bosses 05–08.",
+      "href": "#return-whale",
+      "linkText": "Open the Whale return"
+    },
+    {
+      "afterStage": "dinorex",
+      "title": "BEFORE 08 · Preserve a pre-launch save",
+      "text": "If the colony is still present, Rosered supplies the final shuttle component and triggers the launch. A full set can still fail and remove Zero.",
+      "stageText": "Save in a separate slot before Rosered if you want to retain a route where Zero remains available.",
+      "href": "#colony",
+      "linkText": "Colony outcomes"
+    }
+  ],
+  "stages": [
+    {
+      "id": "grizzly",
+      "name": "Crescent Grizzly",
+      "alias": "Grizzly Slash",
+      "area": "Weapons Facility",
+      "weapon": "Charged Buster",
+      "weakness": "Spike Ball",
+      "reward": "Crescent Shot",
+      "now": "Grizzly Slash · Falcon Legs + Sub Tank; return for Heart",
+      "tip": "Crouch in the low ground under his crescents. Fire charged shots between jumps; move when he drills underground. Use Spike Ball in the rematch.",
+      "items": [
+        {
+          "id": "grizzly-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Nothing",
+          "text": "At the front of the second truck already counting down to an explosion, drop below its nose to the tank. Grab it and jump right immediately; do not wait for the truck to explode.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-grizzly-tank.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/49/MMX5_Crescent_Grizzly_Sub_Tank_location.png/revision/latest?cb=20220601202624",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Crescent_Grizzly_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "grizzly-falcon",
+          "type": "armor",
+          "name": "Falcon · Leg Program",
+          "need": "Dash wall-jump / Fourth Armor hover",
+          "text": "At the start of the cave after the trucks, stop under the first ceiling opening. Jump toward the right wall of the shaft, climb up and enter the capsule.",
+          "timing": "first",
+          "when": "First visit · program 1/4; not usable alone",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-grizzly-falcon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/0e/Foot-falcon.png/revision/latest?cb=20220531192858",
+              "source": "https://megaman.fandom.com/wiki/File:Foot-falcon.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Falcon · Leg Program location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "grizzly-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Gaea Armor",
+          "text": "Inside the large intact truck, climb the gap between its carriages to the roof. With Gaea equipped, cross the roof spikes to the heart.",
+          "timing": "return",
+          "when": "After all four Gaea programs",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-grizzly-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/8d/MMX5_Crescent_Grizzly_Life_Up_location.png/revision/latest?cb=20220601202619",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Crescent_Grizzly_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-grizzly-boss.png",
+        "width": 97,
+        "height": 91,
+        "original": "https://static.wikia.nocookie.net/megaman/images/1/1d/Cgrizzlysprite.png/revision/latest?cb=20210212231059",
+        "source": "https://megaman.fandom.com/wiki/File:Cgrizzlysprite.png",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+        "alt": "Crescent Grizzly"
+      }
+    },
+    {
+      "id": "whale",
+      "name": "Tidal Whale",
+      "alias": "Duff McWhalen",
+      "area": "Deep-Sea Submarine",
+      "weapon": "Crescent Shot",
+      "weakness": "Crescent Shot",
+      "reward": "Goo Shaver",
+      "now": "Duff McWhalen · Return for both pickups",
+      "tip": "Crescent Shot clears his ice blocks as it hits. Keep away from the spike wall; jump off moving ice before it carries you into the spikes.",
+      "items": [
+        {
+          "id": "whale-falcon",
+          "type": "armor",
+          "name": "Falcon · Body Program",
+          "need": "Fourth Armor X + Goo Shaver",
+          "text": "Replay after defeating Whale. Near the end of the sunken ship, stop beside the capsule behind the wall. Fully charge Goo Shaver and release it so the ice reaches the small explosive behind the barrier. Enter the opened passage.",
+          "timing": "return",
+          "when": "After boss 04 · complete Falcon before boss 05",
+          "extra": "Started as Zero? Unarmored X can send uncharged Goo Shaver along the floor to the explosive; Fourth Armor is the simpler route shown.",
+          "media": [
+            {
+              "src": "assets/x5-whale-falcon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/9/94/Body-falcon.png/revision/latest?cb=20220601032956",
+              "source": "https://megaman.fandom.com/wiki/File:Body-falcon.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Falcon · Body Program location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "whale-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Gaea Armor (safe method)",
+          "text": "In the sunken ship, reach the spike-lined vertical drop. Climb the spike wall with Gaea into the ceiling opening, then follow the upper passage back through the wreck to the heart.",
+          "timing": "return",
+          "when": "After Gaea · separate from the earlier Falcon visit",
+          "extra": "Zero alternative: use E-Blade on the cracked ceiling block in the wreck, then cross using F-Splasher. The heart goes to Zero if he collects it.",
+          "media": [
+            {
+              "src": "assets/x5-whale-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/3c/MMX5_Tidal_Whale_Life_Up_location.png/revision/latest?cb=20220601161352",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Tidal_Whale_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-whale-boss.png",
+        "width": 126,
+        "height": 77,
+        "original": "https://static.wikia.nocookie.net/megaman/images/a/a0/Twhalesprite.png/revision/latest?cb=20180703015514",
+        "source": "https://megaman.fandom.com/wiki/File:Twhalesprite.png",
+        "credit": "Anonymous Waddle Dee / MMKB; game imagery © Capcom",
+        "alt": "Tidal Whale"
+      }
+    },
+    {
+      "id": "kraken",
+      "name": "Volt Kraken",
+      "alias": "Squid Adler",
+      "area": "Electromagnetic Lab",
+      "weapon": "Goo Shaver",
+      "weakness": "Goo Shaver",
+      "reward": "Tri-Thunder",
+      "now": "Squid Adler · Falcon Head; return for Heart",
+      "tip": "Hit him with Goo Shaver, then move away from his response. Climb when the floor electrifies and avoid lingering near the central electric block.",
+      "items": [
+        {
+          "id": "kraken-falcon",
+          "type": "armor",
+          "name": "Falcon · Head Program",
+          "need": "All 8 blue Ride Chaser orbs in one attempt",
+          "text": "Collect every blue orb in the opening bike section. The full set opens the barrier at the finish; enter the capsule before dropping into the facility. Missing even one leaves it closed.",
+          "timing": "first",
+          "when": "First visit · retry the bike before continuing",
+          "extra": "If the wall stays shut, retry from the bike checkpoint. Do not treat merely reaching the end as collecting the program.",
+          "media": [
+            {
+              "src": "assets/x5-kraken-falcon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/dd/Head-falcon.png/revision/latest?cb=20220531193005",
+              "source": "https://megaman.fandom.com/wiki/File:Head-falcon.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Falcon · Head Program location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "kraken-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Gaea Armor",
+          "text": "Before the final pair of electric locks, open the separate upper shutter. Break the lower two V-blocks in the stack, then push the remaining block right by dashing into it. Use the block to reach and shoot the next lock; pass through to the heart.",
+          "timing": "return",
+          "when": "After Gaea · keep one block as a step",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-kraken-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/79/MMX5_Volt_Kraken_Life_Up_location.png/revision/latest?cb=20220601204217",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Volt_Kraken_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-kraken-boss.png",
+        "width": 76,
+        "height": 70,
+        "original": "https://static.wikia.nocookie.net/megaman/images/f/f5/VoltKraken_Battle_Idle_Animation.gif/revision/latest?cb=20210212230711",
+        "source": "https://megaman.fandom.com/wiki/File:VoltKraken_Battle_Idle_Animation.gif",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+        "alt": "Volt Kraken"
+      }
+    },
+    {
+      "id": "firefly",
+      "name": "Shining Firefly",
+      "alias": "Izzy Glow",
+      "area": "Laser Institute",
+      "weapon": "Tri-Thunder",
+      "weakness": "Tri-Thunder",
+      "reward": "Flash Laser",
+      "now": "Izzy Glow · Falcon Arms; return for Heart + EX",
+      "tip": "Fire Tri-Thunder as he appears; its wall sparks can reach him overhead. Move out of the large laser’s lane and avoid chasing his teleport directly.",
+      "items": [
+        {
+          "id": "firefly-falcon",
+          "type": "armor",
+          "name": "Falcon · Arm Program",
+          "need": "Crescent Shot",
+          "text": "After the rotating tower and miniboss, watch above the purple barriers in the cannon section. Climb the right wall into the ceiling opening. Destroy the cannon blocking the upper passage with Crescent Shot, then enter the capsule.",
+          "timing": "first",
+          "when": "First visit · then return to Whale",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-firefly-falcon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/47/Arms-falcon.png/revision/latest?cb=20220601033528",
+              "source": "https://megaman.fandom.com/wiki/File:Arms-falcon.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Falcon · Arm Program location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "firefly-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Gaea Armor",
+          "text": "Shoot down the opening drawbridge, then drop into the pit under it as Gaea X. Walk across the spikes to the right and collect the heart.",
+          "timing": "return",
+          "when": "Gaea visit · EX Tank needs a different loadout",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-firefly-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/a/a0/MMX5_Shining_Firefly_Life_Up_location.png/revision/latest?cb=20220601204916",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Shining_Firefly_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "firefly-ex",
+          "type": "ex",
+          "name": "EX Tank",
+          "need": "X with Ground Fire; not Gaea",
+          "text": "Beyond the first moving spike chandeliers, find the item above the wooden ceiling. Burn the wood with Ground Fire, then jump up into the recess. Use Fourth or Falcon Armor so the weapon is available.",
+          "timing": "return",
+          "when": "After Dinorex · separate visit from the Gaea heart",
+          "extra": "Adds starting lives. Gaea cannot fire Ground Fire, so it cannot complete the shown method on the same visit.",
+          "media": [
+            {
+              "src": "assets/x5-firefly-ex.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e1/MMX5_EX_Item_location.png/revision/latest?cb=20220601204921",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_EX_Item_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "EX Tank location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-firefly-boss.png",
+        "width": 68,
+        "height": 67,
+        "original": "https://static.wikia.nocookie.net/megaman/images/4/4f/Sfireflysprite.png/revision/latest?cb=20060629182940",
+        "source": "https://megaman.fandom.com/wiki/File:Sfireflysprite.png",
+        "credit": "RingManX / MMKB; game imagery © Capcom",
+        "alt": "Shining Firefly"
+      }
+    },
+    {
+      "id": "necrobat",
+      "name": "Dark Necrobat",
+      "alias": "Dark Dizzy",
+      "area": "Planetarium",
+      "weapon": "Flash Laser",
+      "weakness": "Flash Laser",
+      "reward": "Dark Hold",
+      "now": "Dark Dizzy · Heart + Sub Tank + Gaea Head",
+      "tip": "Steer Flash Laser into him from a safe distance. Destroy his small bats with Buster shots; keep clear before he freezes time and tries to grab you.",
+      "items": [
+        {
+          "id": "necrobat-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Complete Falcon Armor",
+          "text": "At the end of the opening space-platform ride, spot the tank on the high ledge. Fly up from the moving platform to collect it before entering the gravity corridor.",
+          "timing": "first",
+          "when": "First visit with Falcon",
+          "extra": "Zero can double-jump here after Grizzly; Fourth Armor can also reach it with a carefully timed hover.",
+          "media": [
+            {
+              "src": "assets/x5-necrobat-tank.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/6/6c/MMX5_Dark_Necrobat_Sub_Tank_location.png/revision/latest?cb=20220601174644",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Dark_Necrobat_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "necrobat-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Falcon Armor",
+          "text": "In the gravity-switch corridor, reverse the room again at the fourth switch if the blocks hide the upper route. Continue with the heart’s ledge exposed, then fly onto it.",
+          "timing": "first",
+          "when": "First visit with Falcon · collect as X",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-necrobat-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/7/7a/MMX5_Dark_Necrobat_Life_Up_location.png/revision/latest?cb=20220601174453",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Dark_Necrobat_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "necrobat-gaea",
+          "type": "armor",
+          "name": "Gaea · Head Program",
+          "need": "X with Flash Laser",
+          "text": "Drop into the shaft immediately before the boss doors. Stand outside the barrier and fire an uncharged Flash Laser. Steer it through the narrow bends and around to the switch on the far side; destroy it to open the capsule room.",
+          "timing": "first",
+          "when": "First visit · Gaea program 1/4",
+          "extra": "The missile must approach from inside the maze. Refill weapon energy or restart the attempt if it hits a wall.",
+          "media": [
+            {
+              "src": "assets/x5-necrobat-gaea.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/3c/Head-gaea.png/revision/latest?cb=20220601174128",
+              "source": "https://megaman.fandom.com/wiki/File:Head-gaea.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Gaea · Head Program location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-necrobat-boss.png",
+        "width": 69,
+        "height": 84,
+        "original": "https://static.wikia.nocookie.net/megaman/images/8/82/Dnecrobatsprite.png/revision/latest?cb=20210213001235",
+        "source": "https://megaman.fandom.com/wiki/File:Dnecrobatsprite.png",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+        "alt": "Dark Necrobat"
+      }
+    },
+    {
+      "id": "pegasus",
+      "name": "Spiral Pegasus",
+      "alias": "The Skiver",
+      "area": "Reploid Air Force",
+      "weapon": "Dark Hold + Buster",
+      "weakness": "Dark Hold (freeze only)",
+      "reward": "Wing Spiral",
+      "now": "The Skiver · Heart + Weapon Tank + Gaea Body",
+      "tip": "Stay near the center of the wing. Dark Hold stops him; use Buster shots for damage. Jump his horizontal rushes and avoid taking knockback near either edge.",
+      "items": [
+        {
+          "id": "pegasus-weapon",
+          "type": "weaponTank",
+          "name": "Weapon Tank",
+          "need": "Nothing; move before the lift",
+          "text": "On the large descending lift, go below it as it breaks through the floors. Take the tank from the lower central ledge before the lift crushes that platform.",
+          "timing": "first",
+          "when": "First visit · do not ride past it",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-pegasus-weapon.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/80/MMX5_Weapon_Sub_Tank_location.png/revision/latest?cb=20220601200147",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Weapon_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "pegasus-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Nothing",
+          "text": "On the later large rising lift, enter the second sizable opening on the right. Destroy the time bomb, then follow the side corridor to its far corner for the heart.",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-pegasus-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/c7/MMX5_Spiral_Pegasus_Life_Up_location.png/revision/latest?cb=20220601200141",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Spiral_Pegasus_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "pegasus-gaea",
+          "type": "armor",
+          "name": "Gaea · Body Program",
+          "need": "Complete Falcon Armor",
+          "text": "At the open-air diagonal lift, do not ride it away. Fly straight upward from its starting area to the high ledge holding the capsule.",
+          "timing": "first",
+          "when": "First visit with Falcon · Gaea program 2/4",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-pegasus-gaea.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/3/31/Body-Gaea.png/revision/latest?cb=20220603154643",
+              "source": "https://megaman.fandom.com/wiki/File:Body-Gaea.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Gaea · Body Program location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-pegasus-boss.png",
+        "width": 55,
+        "height": 85,
+        "original": "https://static.wikia.nocookie.net/megaman/images/0/0a/Spegasussprite.png/revision/latest?cb=20220731143406",
+        "source": "https://megaman.fandom.com/wiki/File:Spegasussprite.png",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+        "alt": "Spiral Pegasus"
+      }
+    },
+    {
+      "id": "dinorex",
+      "name": "Burn Dinorex",
+      "alias": "Mattrex",
+      "area": "Magma Area",
+      "weapon": "Wing Spiral",
+      "weakness": "Wing Spiral",
+      "reward": "Ground Fire",
+      "now": "Mattrex · Heart + Gaea Arms",
+      "tip": "Get within Wing Spiral’s reach after he lands, then retreat. Dash under his jumps and climb away from the rolling charge; avoid being trapped against a wall.",
+      "items": [
+        {
+          "id": "dinorex-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Time the lava wave",
+          "text": "In the first section swept by lava, wait beside the floor opening until a wave has passed. Drop, head left and descend the far shaft. Grab the heart on the right, then climb back out before the next wave.",
+          "timing": "first",
+          "when": "First visit · a death does not undo the heart",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-dinorex-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/0d/MMX5_Burn_Dinorex_Life_Up_location.png/revision/latest?cb=20220601193114",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Burn_Dinorex_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "dinorex-gaea",
+          "type": "armor",
+          "name": "Gaea · Arm Program",
+          "need": "Complete Falcon Armor",
+          "text": "Near the boss entrance, the capsule sits low on the far right above the lava. Fly to that lower-right ledge instead of climbing directly to the boss doors.",
+          "timing": "first",
+          "when": "First visit with Falcon · Gaea program 3/4",
+          "extra": "Alternative: take the Ride Armor through the lower lava branch, then jump and eject onto the capsule ledge. X himself is not lava-proof.",
+          "media": [
+            {
+              "src": "assets/x5-dinorex-gaea.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/dd/Arm-gaea.png/revision/latest?cb=20220601193126",
+              "source": "https://megaman.fandom.com/wiki/File:Arm-gaea.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Gaea · Arm Program location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-dinorex-boss.png",
+        "width": 112,
+        "height": 85,
+        "original": "https://static.wikia.nocookie.net/megaman/images/b/bd/Bdinorexsprite.png/revision/latest?cb=20060629182739",
+        "source": "https://megaman.fandom.com/wiki/File:Bdinorexsprite.png",
+        "credit": "RingManX / MMKB; game imagery © Capcom",
+        "alt": "Burn Dinorex"
+      }
+    },
+    {
+      "id": "rosered",
+      "name": "Spike Rosered",
+      "alias": "Axle the Red",
+      "area": "Jungle",
+      "weapon": "Ground Fire",
+      "weakness": "Ground Fire",
+      "reward": "Spike Ball",
+      "now": "Axle the Red · Gaea Legs; return for Heart",
+      "tip": "Use Ground Fire when the real Rosered lands. Move away from his vines and keep space to jump the bouncing spike ball; only the real body takes damage.",
+      "items": [
+        {
+          "id": "rosered-gaea",
+          "type": "armor",
+          "name": "Gaea · Leg Program",
+          "need": "Complete Falcon Armor",
+          "text": "In the second rope section over a bottomless gap, find the ceiling opening near the rope’s right end. Fly upward through it, avoiding the side spikes, to the capsule.",
+          "timing": "first",
+          "when": "First visit · complete Gaea at stage select",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-rosered-gaea.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/b/bb/Leg-gaea.png/revision/latest?cb=20220601205856",
+              "source": "https://megaman.fandom.com/wiki/File:Leg-gaea.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Gaea · Leg Program location — full game scene"
+            }
+          ]
+        },
+        {
+          "id": "rosered-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Complete Gaea Armor",
+          "text": "At the first climb up the vines, break the V-block at ground level and follow the side passage right. Push the upper block into the floor gap to make a bridge. Clear the lower blocks, keeping one as a step; push it to the far edge and dash-jump from it to the heart ledge.",
+          "timing": "return",
+          "when": "After Gaea · do not destroy every block",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x5-rosered-heart.png",
+              "width": 320,
+              "height": 240,
+              "original": "https://static.wikia.nocookie.net/megaman/images/1/14/MMX5_Spike_Rosered_Life_Up_location.png/revision/latest?cb=20220601205900",
+              "source": "https://megaman.fandom.com/wiki/File:MMX5_Spike_Rosered_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location — full game scene"
+            }
+          ]
+        }
+      ],
+      "source": "https://megaman.retropixel.net/mmx/5/stages.php",
+      "sprite": {
+        "src": "assets/x5-rosered-boss.png",
+        "width": 58,
+        "height": 67,
+        "original": "https://static.wikia.nocookie.net/megaman/images/9/98/Sredrosesprite.png/revision/latest?cb=20210212234027",
+        "source": "https://megaman.fandom.com/wiki/File:Sredrosesprite.png",
+        "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+        "alt": "Spike Rosered"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "whale",
+      "title": "Two visits: Falcon Body after 04; Heart after Gaea",
+      "items": [
+        "whale-falcon",
+        "whale-heart"
+      ]
+    },
+    {
+      "stage": "grizzly",
+      "title": "Gaea · roof-spike heart",
+      "items": [
+        "grizzly-heart"
+      ]
+    },
+    {
+      "stage": "kraken",
+      "title": "Gaea · keep a V-block to reach the lock",
+      "items": [
+        "kraken-heart"
+      ]
+    },
+    {
+      "stage": "firefly",
+      "title": "Gaea for Heart; Fourth/Falcon + Ground Fire for EX",
+      "items": [
+        "firefly-heart",
+        "firefly-ex"
+      ]
+    },
+    {
+      "stage": "rosered",
+      "title": "Gaea · V-block heart puzzle",
+      "items": [
+        "rosered-heart"
+      ]
+    }
+  ],
+  "returnIntro": "One disclosure per level, with the original pickup cards. Do Whale’s Falcon Body visit immediately after boss 04. Save all other cleanup until the colony event is resolved. Firefly requires two loadouts; Exit between them. These return methods put the remaining hearts on X.",
+  "extraSections": [
+    "<section id=\"parts-plan\"><div class=\"section-head\"><h2>DNA parts · choose before each boss</h2></div><p class=\"inline-critical\"><strong>Missable:</strong> use Normal or Xtreme. Each of the eight Mavericks must be at least level 8 when defeated to offer an equipable part. Look for <b>Life+</b> or <b>Energy+</b> on the reward screen. A rematch cannot repair a missed choice.</p><p>Life/Energy without the extra + still develops a health/weapon-capacity upgrade. That upgrade goes to the hunter who completes the following stage, not necessarily the one who beat the boss. Keep X active afterward if building X’s health. The equipable part takes two later stage completions/exits; check the development screen before assuming it is ready.</p><p><b>Choose one per row.</b> The recommendation column is for an X-focused run; Zero alternatives are marked. Equip finished parts in Player Setup: unarmored X/Zero have four slots; Fourth/Falcon/Ultimate have two; Gaea has none.</p><div class=\"table-wrap\"><table><thead><tr><th>Boss</th><th>Life+</th><th>Energy+</th><th>X-focused choice</th></tr></thead><tbody><tr><td>Grizzly</td><td>Shock Buffer · less damage/knockback</td><td>Hyper Dash · longer, faster dash</td><td>Energy+ · movement</td></tr><tr><td>Whale</td><td>Super Recover · stronger refill pickups</td><td>W-Energy Saver · less weapon consumption</td><td>Life+ · refill convenience</td></tr><tr><td>Kraken</td><td>Quick Charge · X</td><td>Z-Saber Extend · Zero</td><td>Life+</td></tr><tr><td>Firefly</td><td>Burst Shots · X</td><td>Shot Eraser · Zero</td><td>Life+</td></tr><tr><td>Necrobat</td><td>Anti-Virus Guard · slower infection</td><td>Virus Buster · destroy virus drones</td><td>Energy+</td></tr><tr><td>Pegasus</td><td>Jumper · higher jumps</td><td>Speedster · faster running</td><td>Life+</td></tr><tr><td>Dinorex</td><td>Speed Shot · faster Buster projectiles</td><td>Buster Plus · stronger Buster</td><td>Energy+</td></tr><tr><td>Rosered</td><td>Ultimate Buster · automatic charged shots</td><td>Z-Saber Plus · Zero</td><td>Life+</td></tr></tbody></table></div><details class=\"basics\"><summary>Parts route: clock and retry rules</summary><p>Use X for the five preparation entries so Zero keeps his initial SA rank. At 11 hours on stage select, enter Grizzly as Zero: the clock becomes 10 and his rank raises the boss above the part threshold. Then switch to X for Whale and keep following the normal order. If you already changed Zero’s rank, check the boss’s displayed level instead of relying on the clock alone.</p><p>Only the single Whale return is planned before the colony event. If a bike attempt fails, use Continue within the stage. Repeated map exits spend the remaining margin. If the timer is nearly gone, prioritize the remaining shuttle-component bosses and collect missed armor afterward; you can still revisit all Maverick stages once the colony event ends.</p></details><p class=\"muted\">Part names vary slightly by version. Black Zero already includes Shock Buffer, Shot Eraser and Virus Buster effects; do not spend his slots duplicating them.</p></section>",
+    "<section id=\"colony\"><div class=\"section-head\"><h2>Colony, Zero and endings</h2></div><p class=\"inline-critical\"><strong>All components does not mean guaranteed success.</strong> The Enigma and shuttle outcomes involve chance. Losing the colony mission or letting the deadline expire can awaken Zero and remove him from character select. His Black Armor and playable ending then become unavailable in that run.</p><ol class=\"instructions\"><li>Collect the four left-side bosses’ Enigma components. After the cannon fires, a successful result opens Zero Space early; still clear the remaining Mavericks for their pickups and weapons.</li><li>If the cannon fails, collect all four right-side shuttle components. Keep a separate save before the last one; the launch follows automatically. Avoid deliberately infecting Zero.</li><li>After the outcome, the urgent collection deadline is over. Do the return trips. If Zero is gone, continue as X; ordinary stage pickups and both X armor suits are still available.</li><li>If Zero survives, save before the final stage and finish with either X or Zero for that character’s ending. If he awakens, only X’s altered ending is available. This guide does not use RNG manipulation or save-state tricks to force an outcome.</li></ol></section>",
+    "<section id=\"secret-armor\"><div class=\"section-head\"><h2>Ultimate Armor & Black Zero</h2></div><p><b>Location:</b> Zero Space 3, before the confrontation. No New Game code is needed. Zero must still be selectable to obtain Black Zero; in X5 this is a real power upgrade, unlike X4’s cosmetic black palette.</p><ol class=\"instructions\"><li>Enter as <b>unarmored X</b> to reveal his capsule, or as Zero for Black Zero. Fourth, Falcon and Gaea X will not reveal Ultimate Armor. Jumper/Hyper Dash can help unarmored X through the spikes.</li><li>After the spike section, look for the narrow pit under a stationary floating platform before the final long platform gauntlet. Slide down its <b>right wall</b> into the hidden alcove.</li><li>Touch the capsule. Zero changes immediately; X must return to stage select to equip Ultimate Armor.</li><li>To get both on one save, do not clear the confrontation yet. After the first capsule visit, lose the remaining lives and choose the option to return to stage select, rather than continuing at the checkpoint. Enter again with the other hunter, collect their upgrade, then finish the stage.</li></ol><p>Ultimate Armor gives repeatable Nova Strike. Black Zero improves defense and saber damage and includes three part effects. These are intended capsule rewards.</p><a class=\"shot bonus-shot\" href=\"assets/x5-secret-capsule.png\" data-lightbox data-title=\"Zero Space 3 · secret armor capsule\" aria-label=\"Enlarge secret capsule screenshot\"><img src=\"assets/x5-secret-capsule.png\" width=\"320\" height=\"240\" alt=\"Zero Space 3 hidden capsule\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a></section>",
+    "<section id=\"zero-play\"><div class=\"section-head\"><h2>Playing as Zero</h2></div><p>You can keep the X opening and still play Zero afterward; only his Z-Buster is lost. The main pickup route gives the hearts to X. For a Zero-focused run, assign reachable hearts and developed Life upgrades to him deliberately—there is one copy of each heart, not one per hunter. Zero can collect armor programs for X, but cannot wear Falcon or Gaea.</p><div class=\"table-wrap\"><table><thead><tr><th>Boss</th><th>Use as Zero</th><th>Technique earned / input</th></tr></thead><tbody><tr><td>Grizzly</td><td>Saber first; Twin Dream in rematch</td><td>C-Sword: Jump again for double-jump; Attack in air for spin</td></tr><tr><td>Whale</td><td>C-Sword · jump-slash</td><td>F-Splasher: Dash in midair</td></tr><tr><td>Kraken</td><td>F-Splasher · air-dash into opening</td><td>E-Blade: Up + Attack on ground</td></tr><tr><td>Firefly</td><td>E-Blade · rise beside him</td><td>C-Flasher: Giga Attack on ground</td></tr><tr><td>Necrobat</td><td>C-Flasher; finish with saber if empty</td><td>Dark Hold: select, then activate with Attack</td></tr><tr><td>Pegasus</td><td>Dark Hold, then saber</td><td>W-Shredder: Attack during a ground dash</td></tr><tr><td>Dinorex</td><td>W-Shredder</td><td>Quake Blazer: Down + Attack while falling</td></tr><tr><td>Rosered</td><td>Quake Blazer</td><td>Twin Dream: select, then activate with Attack</td></tr></tbody></table></div><p>C-Flasher, Dark Hold and Twin Dream consume weapon energy. Other listed techniques do not. Use your mapped action buttons, not assumed controller labels.</p><p>For ordinary Zero collection, get Necrobat/Pegasus/Dinorex hearts with his movement skills; Whale also has the E-Blade ceiling route described in its card. The Gaea V-block paths require X. Avoid assigning most upgrades to Zero without retaining a save before the colony outcome.</p></section>",
+    "<section id=\"field-tips\"><div class=\"section-head\"><h2>Useful tips</h2></div><h3>Refill at the Planetarium</h3><p>After the colony event, revisit Dark Necrobat with Falcon Armor. Fly through the bats in the opening area, gather their health drops, then move away and return to repeat. Super Recover improves refill pickups if you earned and equipped it. Check both tank gauges, then Exit the cleared stage.</p><h3>Use the right suit for the task</h3><p>Falcon flight protects against enemy contact, but is not permission to touch spikes or every projectile. Use Gaea for spike floors and V-block puzzles. Switch back to Fourth Armor when a method needs a charged special weapon.</p><h3>Practice the bike without spending extra entries</h3><p>Deaths are not a reason to abandon a stage. Continue from the checkpoint, practice the eight-orb line, and use the bike’s air dash across long gaps. Returning to the map just to retry spends another hour.</p><h3>Dark Hold for the instant-death lasers</h3><p>In Zero Space 1, activate Dark Hold before entering a laser lane. Keep moving, watch its energy, and bring the Weapon Tank to extend the freeze. Do not wait for a beam to touch you.</p></section>",
+    "<section id=\"fortress\"><div class=\"section-head\"><h2>Dynamo & Zero Space</h2></div><div class=\"table-wrap\"><table><thead><tr><th>Stage / event</th><th>Boss</th><th>Use / do</th></tr></thead><tbody><tr><td>After boss 2; after boss 6 if still required</td><td>Dynamo</td><td>First: charged Buster / saber after his returning blade. Second: Wing Spiral / W-Shredder; avoid the marked floor blasts.</td></tr><tr><td>Zero Space 1</td><td>Shadow Devil</td><td>Tri-Thunder / E-Blade against the exposed eye. Jump the low traveling body pieces and wait through invulnerable assembly.</td></tr><tr><td>Zero Space 2</td><td>Rangda Bangda II</td><td>Dodge between eye attacks. When the walls close, climb clear of the floor spikes and attack the moving nose. Charged Buster or saber works without juggling weaknesses.</td></tr><tr><td>Zero Space 3</td><td>Zero / Awakened Zero, or X</td><td>Get the secret armor first. X: charged Buster or Nova Strike on openings. Zero: saber or Quake Blazer against X; dodge his copied X4 weapons.</td></tr><tr><td>Final stage</td><td>Eight Maverick rematches</td><td>Reuse the weapon chain. Grizzly can now be hit with Spike Ball. Pick up refill items between fights.</td></tr><tr><td>Final stage</td><td>Sigma → final body</td><td>Tri-Thunder / E-Blade on the first body. Final: charged Buster or Spike Ball / Twin Dream. Use the hands to reach the head; move before the purple blocks form around you.</td></tr></tbody></table></div><p>Enter the final stage with developed parts equipped and tanks filled. Save before it if you want to revisit the other playable character’s ending.</p></section>"
+  ],
+  "videos": [
+    {
+      "id": "9ACuQ7bo9gM",
+      "title": "All pickups and both secret armors",
+      "author": "MegaYoYo",
+      "start": 73,
+      "text": "Full gameplay reference. Hearts 1:13; tanks 3:59; Falcon 5:24; Gaea 9:06; secret armor 11:48. The code demonstration at the end is optional and not used by this route."
+    }
+  ],
+  "extraMedia": [
+    {
+      "name": "Ultimate / Black Armor capsule",
+      "src": "assets/x5-secret-capsule.png",
+      "width": 320,
+      "height": 240,
+      "original": "https://static.wikia.nocookie.net/megaman/images/5/50/X5_Ultimate_Black_Capsule.png/revision/latest?cb=20220601214600",
+      "source": "https://megaman.fandom.com/wiki/File:X5_Ultimate_Black_Capsule.png",
+      "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+      "alt": "Secret capsule in Zero Space 3"
+    }
+  ],
+  "sourcesHtml": "<p>Independent guide for original X5 and standard Legacy Collection 2 gameplay; excludes Improvement Project/Addendum changes. Modern names and the original English aliases are paired throughout. No ownership of third-party imagery is claimed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/5/items.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ · pickup locations and armor ↗</a></li><li><a href=\"https://megaman.retropixel.net/mmx/5/parts.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ · DNA choice table ↗</a></li><li><a href=\"https://megaman.retropixel.net/mmx/5/xbosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ · X boss tactics ↗</a></li><li><a href=\"https://megaman.retropixel.net/mmx/5/zweapons.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ · Zero technique inputs ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/258931-mega-man-x5/faqs/81250\" target=\"_blank\" rel=\"noopener\">Emeq · boss levels, development and timed route ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/258931-mega-man-x5/faqs/82581\" target=\"_blank\" rel=\"noopener\">NeoChozo · colony outcomes and full walkthrough ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/258931-mega-man-x5/faqs/10549\" target=\"_blank\" rel=\"noopener\">liquidcross · pickup cross-checks ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/258931-mega-man-x5/faqs/9900\" target=\"_blank\" rel=\"noopener\">Reeve · stage and item cross-checks ↗</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps/258931-mega-man-x5/faqs/44302\" target=\"_blank\" rel=\"noopener\">iplaylikekg · stage navigation ↗</a></li><li><a href=\"https://www.mmhp.net/GameHints/MMX5.html\" target=\"_blank\" rel=\"noopener\">MMHP · missables and fortress ↗</a></li><li><a href=\"https://megaman.fandom.com/wiki/Falcon_Armor\" target=\"_blank\" rel=\"noopener\">MMKB · Falcon programs and limitations ↗</a></li><li><a href=\"https://megaman.fandom.com/wiki/Gaea_Armor\" target=\"_blank\" rel=\"noopener\">MMKB · Gaea programs and limitations ↗</a></li><li><a href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=1449716419\" target=\"_blank\" rel=\"noopener\">Steam community · collectibles and refill tip ↗</a></li><li><a href=\"https://www.youtube.com/watch?v=9ACuQ7bo9gM\" target=\"_blank\" rel=\"noopener\">MegaYoYo · all-pickup gameplay reference ↗</a></li></ul><p>Full-scene screenshots and boss sprites are by the MMKB contributors named below. Game imagery © Capcom. Instructions were cross-checked against multiple guides; no emulator playthrough was performed.</p>"
+}

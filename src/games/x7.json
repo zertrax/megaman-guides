@@ -1,0 +1,686 @@
+{
+  "id": "x7",
+  "title": "Mega Man X7",
+  "subtitle": "PlayStation 2 · X / Axl / Zero",
+  "intro": "Follow the weapon chain with Axl and Zero, rescue 64 Reploids to recruit X, then return for Glide Armor. Choose who receives each permanent upgrade before picking it up.",
+  "expectedCounts": {
+    "heart": 8,
+    "tank": 2,
+    "armor": 4,
+    "weaponTank": 1,
+    "ex": 1
+  },
+  "stages": [
+    {
+      "id": "stonekong",
+      "name": "Soldier Stonekong",
+      "area": "Deep Forest",
+      "weakness": "Explosion",
+      "weapon": "Axl Bullets / Z-Saber",
+      "reward": "Gaea Shield",
+      "tip": "Circle away from sword swings and rolling rocks. Shoot when his shield is out of the way; Zero can punish openings with short saber combos.",
+      "now": "X required for the capsule",
+      "sprite": {
+        "src": "assets/x7-stonekong-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/4/44/RMX7_Stonekong_Mug.png/revision/latest?cb=20101112205200",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Stonekong_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "stonekong-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Choose its recipient",
+          "text": "Destroy the fifth large stone-head enemy along the forest path. The heart is underneath it.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-stonekong-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/a/a8/MMX7_Soldier_Stonekong_Life_Up_location.png/revision/latest?cb=20220605050808",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Soldier_Stonekong_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "stonekong-ex",
+          "type": "ex",
+          "name": "EX Tank",
+          "need": "Zero double-jump",
+          "text": "At the final stone head, stand on top and let it rise. Double-jump toward the upper-left bushes for the EX item.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit",
+          "media": [
+            {
+              "src": "assets/x7-stonekong-ex.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f4/MMX7_EX_Item_location.png/revision/latest?cb=20220605050817",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_EX_Item_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "EX Tank location"
+            }
+          ]
+        },
+        {
+          "id": "stonekong-armor",
+          "type": "armor",
+          "name": "Glide · Leg Parts",
+          "need": "X",
+          "text": "Find two stone heads stacked together, with a Reploid behind them. Break the lower head, climb the upper one and enter the left alcove.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with X if he was not available",
+          "media": [
+            {
+              "src": "assets/x7-stonekong-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/82/MMX7_Foot_Parts_location.png/revision/latest?cb=20220605050823",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Foot_Parts_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Glide · Leg Parts location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tonion",
+      "name": "Tornado Tonion",
+      "area": "Radio Tower",
+      "weakness": "Gaea Shield",
+      "weapon": "Gaea Shield",
+      "reward": "Volt Tornado",
+      "tip": "Keep moving around the arena during his spinning attacks. Use Gaea Shield near the exposed body after he sheds his sections.",
+      "now": "Check every rescue and hidden pickup",
+      "sprite": {
+        "src": "assets/x7-tonion-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/e/ea/RMX7_Tonion_Mug.png/revision/latest?cb=20101112205202",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Tonion_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "tonion-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Time the disappearing blocks",
+          "text": "At the large gap bridged by vanishing crates, stand on the second crate and let it disappear. Drop straight onto the heart’s platform rather than jumping past it.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-tonion-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f5/MMX7_Tornado_Tonion_Life_Up_location.png/revision/latest?cb=20220605035802",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Tornado_Tonion_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "warfly",
+      "name": "Splash Warfly",
+      "area": "Battleship",
+      "weakness": "Volt Tornado",
+      "weapon": "Volt Tornado",
+      "reward": "Splash Laser",
+      "tip": "Use Volt Tornado when he lands. Keep away from the water’s edge and move out of his naginata sweep before attacking again.",
+      "now": "Check every rescue and hidden pickup",
+      "sprite": {
+        "src": "assets/x7-warfly-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/d/d7/RMX7_Warfly_Mug.png/revision/latest?cb=20101112205204",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Warfly_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "warfly-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Check behind crates",
+          "text": "In the second area, before the three serpent enemies, inspect behind the crate on the left.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit",
+          "media": [
+            {
+              "src": "assets/x7-warfly-tank.webp",
+              "width": 1198,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/d8/MMX7_Splash_Warfly_Sub_Tank_location.png/revision/latest?cb=20220605050127",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Splash_Warfly_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location"
+            }
+          ]
+        },
+        {
+          "id": "warfly-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Past the three serpents",
+          "text": "After those serpents, enter the next area and check behind the left-hand crate for the heart.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-warfly-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/8/86/MMX7_Splash_Warfly_Life_Up_location.png/revision/latest?cb=20220605050122",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Splash_Warfly_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyenard",
+      "name": "Flame Hyenard",
+      "area": "Lava Factory",
+      "weakness": "Splash Laser",
+      "weapon": "Splash Laser",
+      "reward": "Circle Blaze",
+      "tip": "Shoot the giant mechaniloid’s legs to slow it, climb onto its back, and use Splash Laser against the real Hyenard. Move between attacks rather than standing inside the clone formation.",
+      "now": "X required for the capsule",
+      "sprite": {
+        "src": "assets/x7-hyenard-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/8/82/RMX7_Hyenard_Mug.png/revision/latest?cb=20101112205156",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Hyenard_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "hyenard-armor",
+          "type": "armor",
+          "name": "Glide · Arm Parts",
+          "need": "X",
+          "text": "In the first area, reach the second giant serpent. Descend the nearby hole to the capsule below.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with X if he was not available",
+          "media": [
+            {
+              "src": "assets/x7-hyenard-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/0b/MMX7_Arm_Parts_location.png/revision/latest?cb=20220605170403",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Arm_Parts_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Glide · Arm Parts location"
+            }
+          ]
+        },
+        {
+          "id": "hyenard-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Careful drop onto a pipe",
+          "text": "In the platforming section of area two, find the first pipe venting green gas. Drop onto the pipe to collect the heart without falling into the lava.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-hyenard-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e9/MMX7_Flame_Hyenard_Life_Up_location.png/revision/latest?cb=20220605170356",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Flame_Hyenard_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "boarski",
+      "name": "Ride Boarski",
+      "area": "Central Circuit",
+      "weakness": "Circle Blaze",
+      "weapon": "Circle Blaze",
+      "reward": "Moving Wheel",
+      "tip": "Avoid the center when his rotating energy arms appear. Hit him with Circle Blaze after a rush, then steer clear of his next charge.",
+      "now": "Check every rescue and hidden pickup",
+      "sprite": {
+        "src": "assets/x7-boarski-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/a/ae/RMX7_Boarski_Mug.png/revision/latest?cb=20101112205149",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Boarski_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "boarski-weapon",
+          "type": "weaponTank",
+          "name": "Weapon Tank",
+          "need": "Ride Chaser; controlled speed",
+          "text": "Near the opening stacks of crates, clear the crates and follow the left side of the track to the tank.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit",
+          "media": [
+            {
+              "src": "assets/x7-boarski-weapon.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/b/b9/MMX7_Weapon_Sub_Tank_location.png/revision/latest?cb=20220605040357",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Weapon_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Weapon Tank location"
+            }
+          ]
+        },
+        {
+          "id": "boarski-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Ride Chaser; right lane",
+          "text": "When pink lanes flank both sides of the road, keep to the right to collect the heart. Slow down enough to line up the pickup.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-boarski-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/e/e9/MMX7_Ride_Boarski_Life_Up_location.png/revision/latest?cb=20220605040349",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Ride_Boarski_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anteator",
+      "name": "Snipe Anteator",
+      "area": "Cyber Field",
+      "weakness": "Moving Wheel",
+      "weapon": "Moving Wheel",
+      "reward": "Sniper Missile",
+      "tip": "Use X or Axl for reliable ranged hits. Send Moving Wheel along the arena surface while dodging mines and missiles; reposition when gravity changes.",
+      "now": "X required for the capsule",
+      "sprite": {
+        "src": "assets/x7-anteator-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/a/ad/RMX7_Snipe_Mug.png/revision/latest?cb=20101112205158",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Snipe_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "anteator-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Use gravity-switch platforms",
+          "text": "At the start of area two, look left. Flip at the nearby orange platform, travel left along the underside, then use the next orange platform to reach the heart.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-anteator-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/c3/MMX7_Snipe_Anteator_Life_Up_location.png/revision/latest?cb=20220605170121",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Snipe_Anteator_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "anteator-armor",
+          "type": "armor",
+          "name": "Glide · Head Parts",
+          "need": "X; gravity-switch route",
+          "text": "Near the end of area two, find the samurai walking through a wall between orange platforms. Flip at the first platform, head right upside down, then flip at the large orange platform beside the capsule.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with X if he was not available",
+          "media": [
+            {
+              "src": "assets/x7-anteator-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/6/63/MMX7_Head_Parts_location.png/revision/latest?cb=20220605170127",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Head_Parts_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Glide · Head Parts location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "crowrang",
+      "name": "Wind Crowrang",
+      "area": "Air Forces",
+      "weakness": "Sniper Missile",
+      "weapon": "Sniper Missile",
+      "reward": "Wind Cutter",
+      "tip": "Lock on with Sniper Missile while he is airborne. Watch his shadow and dash away before the dive lands; fire during the recovery.",
+      "now": "X required for the capsule",
+      "sprite": {
+        "src": "assets/x7-crowrang-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/3/32/RMX7_Crowrang_Mug.png/revision/latest?cb=20101112205152",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Crowrang_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "crowrang-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Collect before the red plane crashes",
+          "text": "In the opening aircraft sequence, board the red plane and watch for the heart as it starts to crash. Collect it, then immediately jump to the next safe aircraft.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-crowrang-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/f/f3/MMX7_Wind_Crowrang_Life_Up_location.png/revision/latest?cb=20220605170659",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Wind_Crowrang_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "crowrang-armor",
+          "type": "armor",
+          "name": "Glide · Body Parts",
+          "need": "X",
+          "text": "Inside the large ship in area two, reach the three-way junction. Take the left branch to the capsule.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with X if he was not available",
+          "media": [
+            {
+              "src": "assets/x7-crowrang-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/4/4e/MMX7_Body_Parts_location.png/revision/latest?cb=20220605170705",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Body_Parts_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Glide · Body Parts location"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gungaroo",
+      "name": "Vanishing Gungaroo",
+      "area": "Tunnel Base",
+      "weakness": "Wind Cutter",
+      "weapon": "Wind Cutter",
+      "reward": "Explosion",
+      "tip": "Break the Ride Armor, then use Wind Cutter against Gungaroo. Keep your distance during his punching rush and jump clear of shockwaves.",
+      "now": "Check every rescue and hidden pickup",
+      "sprite": {
+        "src": "assets/x7-gungaroo-boss.png",
+        "width": 102,
+        "height": 103,
+        "original": "https://static.wikia.nocookie.net/megaman/images/3/3b/RMX7_Gungaroo_Mug.png/revision/latest?cb=20101112205155",
+        "source": "https://megaman.fandom.com/wiki/File:RMX7_Gungaroo_Mug.png",
+        "credit": "Udana / MMKB; game imagery © Capcom"
+      },
+      "source": "https://megaman.retropixel.net/mmx/7/stages.php",
+      "items": [
+        {
+          "id": "gungaroo-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Leave one enemy alive",
+          "text": "In the last room with the Ride Armor kill counter, climb the tall pillars and take the heart from its pillar before clearing the room.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit, or reserve the heart for X",
+          "media": [
+            {
+              "src": "assets/x7-gungaroo-heart.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/c/c2/MMX7_Vanishing_Gungaroo_Life_Up_location.png/revision/latest?cb=20220605050348",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Vanishing_Gungaroo_Life_Up_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "gungaroo-tank",
+          "type": "tank",
+          "name": "Sub Tank",
+          "need": "Same pillar room",
+          "text": "The Sub Tank is on a different pillar in the final Ride Armor room. Collect both rewards before the last enemy falls and the boss battle starts.",
+          "extra": "",
+          "timing": "first",
+          "when": "First visit",
+          "media": [
+            {
+              "src": "assets/x7-gungaroo-tank.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/d/d9/MMX7_Vanishing_Gungaroo_Sub_Tank_location.png/revision/latest?cb=20220605050339",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Vanishing_Gungaroo_Sub_Tank_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Sub Tank location"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "stonekong",
+      "title": "X capsule + any reserved heart",
+      "items": [
+        "stonekong-heart",
+        "stonekong-ex",
+        "stonekong-armor"
+      ]
+    },
+    {
+      "stage": "tonion",
+      "title": "Only if a pickup was missed or reserved",
+      "items": [
+        "tonion-heart"
+      ]
+    },
+    {
+      "stage": "warfly",
+      "title": "Only if a pickup was missed or reserved",
+      "items": [
+        "warfly-tank",
+        "warfly-heart"
+      ]
+    },
+    {
+      "stage": "hyenard",
+      "title": "X capsule + any reserved heart",
+      "items": [
+        "hyenard-armor",
+        "hyenard-heart"
+      ]
+    },
+    {
+      "stage": "boarski",
+      "title": "Only if a pickup was missed or reserved",
+      "items": [
+        "boarski-weapon",
+        "boarski-heart"
+      ]
+    },
+    {
+      "stage": "anteator",
+      "title": "X capsule + any reserved heart",
+      "items": [
+        "anteator-heart",
+        "anteator-armor"
+      ]
+    },
+    {
+      "stage": "crowrang",
+      "title": "X capsule + any reserved heart",
+      "items": [
+        "crowrang-heart",
+        "crowrang-armor"
+      ]
+    },
+    {
+      "stage": "gungaroo",
+      "title": "Only if a pickup was missed or reserved",
+      "items": [
+        "gungaroo-heart",
+        "gungaroo-tank"
+      ]
+    }
+  ],
+  "videos": [],
+  "extraSections": [
+    "<section id=\"unlock-x\"><h2>Recruit X</h2><p>Rescue 64 Reploids and return to headquarters. X becomes available for the next stage selection. Clearing all eight Mavericks also unlocks him, even if the rescue total is lower.</p><p>Four perfect 16-rescue stages reach 64; missed or dead hostages delay this. Check the actual total. Once X joins, revisit Stonekong for the glide move and Hyenard for charged special weapons. The main route does not require avoiding rescues to optimize X’s stats.</p></section>",
+    "<section id=\"upgrades\"><h2>Upgrade ownership & chip choices</h2><p class=\"inline-critical\"><strong>Assign before collecting:</strong> loose hearts and rescued Life/Weapon Ups go to the active hunter. Boss stat rewards go to the finishing hunter. Power-Up Chips are allocated afterward to one of the two hunters on that stage.</p><p>Each hunter has Power, Speed and Special trees, four purchases each. Only 16 chips are available per run, versus 36 purchases across all three hunters. Focus on your main pair.</p><p>Suggested first purchases: Power toward Shock Absorber for durability, and Special’s first Super Recover upgrade for stronger healing. X’s final Speed upgrade is Hyper Charge; Zero’s Speed tree adds saber combo attacks. This is a practical recommendation, not a required route.</p><div class=\"table-wrap\"><table><thead><tr><th>Stage</th><th>Two chip carriers</th></tr></thead><tbody><tr><td>Stonekong</td><td>Dave · Simon</td></tr><tr><td>Tonion</td><td>Keiko · Lily</td></tr><tr><td>Warfly</td><td>Peter · Rick</td></tr><tr><td>Hyenard</td><td>Matthew · Tim</td></tr><tr><td>Boarski</td><td>Rock · Tanaka</td></tr><tr><td>Anteator</td><td>Rin · Malibe</td></tr><tr><td>Crowrang</td><td>Barry · Damon</td></tr><tr><td>Gungaroo</td><td>Fay · Michael</td></tr></tbody></table></div></section>",
+    "<section id=\"rescues\"><h2>Rescue sweep</h2><p>Every main stage has 16 Reploids. Enemies and stage hazards can kill them; back up your save before entering. Confirm SAFE status before committing the result.</p><ul><li>Forest: rescue near stone enemies before provoking their attacks; use Axl’s copy abilities for otherwise blocked paths.</li><li>Radio Tower: check the maze and vanishing platforms. Do not leave exposed hostages beside active enemies.</li><li>Battleship / Lava Factory: look behind crates and around side platforms; hurry to anyone threatened by lasers or fire.</li><li>Central Circuit: steer deliberately through the timed bomb course. A fast clear alone does not ensure every rescue.</li><li>Cyber Field: bring Axl for samurai-copy passages and inspect both sides of gravity platforms.</li><li>Air Forces: check wings and side paths before advancing past timed aircraft sections.</li><li>Tunnel Base: search pillars and side areas before the final kill-counter enemy triggers the boss.</li></ul><p>Use the name-by-name <a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/31417\">Solid_Rambo rescue reference</a> to match missing roster entries. Target 128 SAFE, including all chip carriers.</p></section>",
+    "<section id=\"zero-techniques\"><h2>Zero’s weapon chain</h2><div class=\"table-wrap\"><table><thead><tr><th>Boss</th><th>Use</th><th>You learn</th></tr></thead><tbody><tr><td>Stonekong</td><td>Saber first; Hadangeki in rematch</td><td>Gokumonken · hold Attack standing still</td></tr><tr><td>Tonion</td><td>Gokumonken counter</td><td>Raijinshou · Special while dashing</td></tr><tr><td>Warfly</td><td>Raijinshou</td><td>D-Glaive + Suiretsusen · Special with glaive</td></tr><tr><td>Hyenard</td><td>Suiretsusen</td><td>Bakuenjin · Giga Attack</td></tr><tr><td>Boarski</td><td>Bakuenjin; saber if empty</td><td>Zankourin · Special while walking</td></tr><tr><td>Anteator</td><td>Zankourin; ranged partner recommended</td><td>Hieijin · Special in air</td></tr><tr><td>Crowrang</td><td>Hieijin</td><td>V-Hanger + Souenbu · Special with daggers</td></tr><tr><td>Gungaroo</td><td>Souenbu</td><td>Hadangeki · Special standing still</td></tr></tbody></table></div><p>Use mapped actions, not assumed controller buttons. Bakuenjin consumes Giga energy. Weapon choice changes which technique is available.</p></section>",
+    "<section id=\"field-tips\"><h2>Useful tips</h2><ul><li>After X has the Arm Parts, charge Volt Tornado and bring its field into enemies to generate health refills. Collect with the hunter who needs healing, then top up tank reserves. This is a built-in weapon effect.</li><li>Super Recover improves refill pickups. Revisit a cleared stage for health before the final palace.</li><li>Use Axl’s hover to judge difficult gaps. Stop firing briefly if it makes movement harder to control.</li><li>Switch hunters before a life bar empties. Reposition the camera and verify the lock-on target before firing near dangerous edges.</li><li>In Gungaroo, Ride Armor protects against the green acid. Leave it only on safe ground, and collect the pillar rewards before clearing the room.</li></ul></section>",
+    "<section id=\"fortress\"><h2>Crimson Palace & final bosses</h2><div class=\"table-wrap\"><table><thead><tr><th>Fight</th><th>Do this</th></tr></thead><tbody><tr><td>Palace Road mechaniloid</td><td>Use ranged fire and Explosion when its weak point is accessible; dodge the crushing approach.</td></tr><tr><td>Red</td><td>Stay on safe platforms, track the real Red, and use Explosion / Hadangeki when in range. Movement matters more than chasing every opening.</td></tr><tr><td>Eight rematches</td><td>Reuse the weapon chain and gather refills between fights.</td></tr><tr><td>Sigma</td><td>Use charged X-Buster from cover. Crouch behind blocks during the large beam.</td></tr><tr><td>Final Sigma</td><td>Shoot the head when exposed; move between safe platforms to avoid sweeps and knockback. Save tanks for mistakes late in the fight.</td></tr></tbody></table></div></section>",
+    "<section id=\"new-game-plus\"><h2>New Game+ & endings</h2><p>Save clear data in a separate slot. New Game+ retains chip upgrades and completed Glide Armor, and makes X available after the opening. Hearts, Life/Weapon Ups and tanks reset, so collect them again. Reploids can award another set of chips.</p><p>Choose the final active hunter deliberately for the character ending. Keep a pre-final save if you want to replay with another hunter. There is no capsule quest for Black Zero or Ultimate Armor in standard X7.</p></section>"
+  ],
+  "warning": {
+    "id": "missables",
+    "label": "Upgrade ownership · permanent rescue losses",
+    "title": "Hearts are personal. Only X can open armor capsules.",
+    "text": "The active hunter receives hearts and rescued Life/Weapon Ups. The hunter who lands the final boss hit receives that boss’s stat boosts. Dead Reploids lose their rewards for this run. Save separately before each stage. X joins after 64 rescues or all eight boss clears; prioritize rescues to get him sooner.",
+    "link": "#upgrades",
+    "linkText": "Plan the hunters and chip rewards"
+  },
+  "routeIntro": "Standard gameplay, without Improvement Project changes. The route starts Stonekong with basic attacks, then uses each reward against the next boss. Rescue every reachable Reploid; X is not guaranteed to unlock exactly after boss 4 unless you have 64 rescues.",
+  "routes": [
+    {
+      "name": "Standard · weapon chain and Glide",
+      "subtitle": "Recommended first run",
+      "description": "Build Axl or Zero early, then bring X as soon as he joins.",
+      "steps": [
+        {
+          "title": "Stonekong → Tonion → Warfly → Hyenard",
+          "href": "#stonekong",
+          "text": "Start Axl + Zero. Collect the shared tanks, use Zero for Stonekong’s high EX item, and save every Reploid. Decide whether to take early hearts now or leave them for X."
+        },
+        {
+          "title": "At 64 rescues: recruit X",
+          "href": "#unlock-x",
+          "text": "Return to headquarters and confirm X is selectable. Pair X with Axl for copy routes or Zero for double-jumps.",
+          "critical": true
+        },
+        {
+          "title": "Return for Glide Legs and Arms",
+          "href": "#cleanup",
+          "text": "Revisit Stonekong and Hyenard with X active at each capsule. Each piece works immediately; there is no four-program activation requirement."
+        },
+        {
+          "title": "Boarski → Anteator → Crowrang → Gungaroo",
+          "href": "#boarski",
+          "text": "Finish the chain. Take X to Anteator and Crowrang for the remaining capsules. If X joined late, make those returns afterward."
+        },
+        {
+          "title": "Final cleanup before the palace",
+          "href": "#cleanup",
+          "text": "Collect any hearts reserved for X, verify four armor pieces, and fill both Sub Tanks and the Weapon Tank."
+        }
+      ]
+    },
+    {
+      "name": "Completionist · rescues and chip planning",
+      "subtitle": "128 rescues · 16 chips this run",
+      "description": "One run collects everything on the map; maxing all three chip trees requires New Game+.",
+      "steps": [
+        {
+          "title": "Choose an early main hunter",
+          "href": "#upgrades",
+          "text": "Put early boss and rescue stat rewards on Axl or Zero consistently. Save loose hearts for X if he will become your main. Do not leave endangered Reploids behind just to reserve their upgrades."
+        },
+        {
+          "title": "Rescue 64 before investing in X",
+          "href": "#unlock-x",
+          "text": "Explore and replay stages as necessary. X cannot receive early chip allocations while unavailable; the guide does not promise every upgrade can go to X."
+        },
+        {
+          "title": "Sweep every stage to 16 SAFE",
+          "href": "#rescues",
+          "text": "Watch for hostages behind crates, above the path, in copy-only passages and around timed bomb routes. Reload a clean save after a death."
+        },
+        {
+          "title": "Find all 16 large pickups",
+          "href": "#pickups",
+          "text": "Use the same cards and grouped returns. In Gungaroo, collect both pillar rewards before defeating the final Ride Armor enemy."
+        },
+        {
+          "title": "Save clear data separately",
+          "href": "#new-game-plus",
+          "text": "Continue into New Game+ for more chips. Chip upgrades carry over, but hearts and tanks must be collected again."
+        }
+      ]
+    }
+  ],
+  "flowIntro": "X/Axl weapons form the loop shown below. Zero’s matching techniques are listed under each boss in the combat table. Stonekong starts with basic fire or saber; Explosion closes the loop in the rematch.",
+  "basicsHtml": "<summary>Tagging, rescues and armor</summary><ul><li>Bring two hunters and switch with the mapped Change Character action. Their life bars are separate; do not wait until one is defeated to switch.</li><li>Axl’s Copy Shot must land the finishing blow on a compatible enemy to produce its DNA Core. Collect the core for the temporary form.</li><li>Only active X can open a Light Capsule. Glide pieces function immediately after collection.</li><li>Hearts and rescued Life/Weapon Ups go to the collector. Power-Up Chips are assigned on the results screen to a member of the current pair.</li><li>Review the rescue report before overwriting a good save. Use stage exit on cleared levels; on uncleared levels, return to stage select after Game Over.</li></ul>",
+  "checkpoints": [
+    {
+      "afterStage": "hyenard",
+      "title": "CHECK RESCUES · Is X available?",
+      "text": "64 rescues unlock X. Four boss clears alone do not.",
+      "stageText": "Check the rescue total. If X is available, collect the earlier Glide pieces before continuing.",
+      "href": "#unlock-x",
+      "linkText": "Recruit X"
+    }
+  ],
+  "returnIntro": "Bring X for every armor return. If you reserved a loose heart for him, keep X active when touching it. Use X + Zero for Stonekong’s EX item or X + Axl for copy-only rescue passages.",
+  "completionText": "8 loose hearts · 2 Sub Tanks · Weapon Tank · EX Tank · 4 Glide pieces. Completionist: 128 SAFE Reploids and 16 allocated chips; these are separate from the 16 large map pickups.",
+  "sourcesHtml": "<p>Original X7 / standard Legacy Collection gameplay. Portraits and full-scene screenshots are credited below. Some scenes show a different hunter from your selected recipient. No emulator playthrough was performed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/7/items.php\">Mega Man XZ · location cross-check</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/xweapons.php\">Mega Man XZ · weapon functions and refill tip</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/zweapons.php\">Mega Man XZ · Zero inputs</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26515\">NeoChozo · progression and New Game+</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26550\">Slash Raptor / Hammer · stage walkthrough</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/56452\">thehumanghost · chip carriers and upgrade trees</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/31417\">Solid_Rambo · pickups and rescues</a></li><li><a href=\"https://www.mmhp.net/GameHints/MMX7.html\">MMHP · pickups and combat</a></li><li><a href=\"https://megaman.fandom.com/wiki/Glide_Armor\">MMKB · armor functions</a></li><li><a href=\"https://retromaggedon.com/index.php/mega-man-x7-ps2-boss-guide/\">RetroMaggedon · boss strategy cross-check</a></li></ul>"
+}
