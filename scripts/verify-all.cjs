@@ -2,6 +2,7 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('n
 const files=['index.html','x1/index.html','x2/index.html','x3/index.html','x4/index.html','x4/zero.html','x5/index.html','x6/index.html','x7/index.html','x8/index.html'];
 const campaignIds=fs.readdirSync('src/campaigns').filter(f=>f.endsWith('.json')).map(f=>f.slice(0,-5));
 const identity=require('../src/game-info.json');
+for(const art of require('../src/library-art.json')){assert(art.source&&art.credit&&art.width>0&&art.height>0,'Banner artwork needs attribution and dimensions');assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('src/'+art.src)).digest('hex'),art.sha256,'Banner artwork provenance');}
 assert.equal(campaignIds.length,27,'Expected 11 Classic, 6 Zero/ZX and 10 Battle Network campaigns');
 files.push(...campaignIds.map(id=>id+'/index.html'));
 for(const file of files){
@@ -19,6 +20,8 @@ for(const file of files){
   assert(!html.includes('Open guide'),'Library links are full cards');
   assert.deepEqual([...html.matchAll(/<section id="([^"]+)" data-progress-group/g)].map(m=>m[1]),['classic','x','zero','network'],'Requested collection order');
   assert.equal((html.match(/class="game-year">\d{4}</g)||[]).length,36,'Each library title needs a plain release year');
+  assert.equal((html.match(/class="card-cover"/g)||[]).length,36,'Every card uses its game cover');
+  assert(!html.includes('Your Mega Man library')&&!html.includes('library-hint'),'Banner stays limited to the title and collection links');
   for(const [,card] of html.matchAll(/<a class="game-card"[^>]*>([\s\S]*?)<\/a>/g))assert(!/<button|<p>/.test(card),'Cards must have no nested buttons or game descriptions');
   continue;
  }
@@ -26,7 +29,10 @@ for(const file of files){
  const progressGame=JSON.parse(fs.readFileSync(`src/${campaignIds.includes(gameId)?'campaigns':'games'}/${gameId}.json`));
  const info=identity.games[gameId];assert(info&&Number.isInteger(info.year)&&info.year>=1987&&info.year<=2018,'Missing original release year: '+gameId);
  assert.equal((html.match(/class="game-cover"/g)||[]).length,1,'One original cover per guide: '+gameId);
- for(const asset of [info.cover,info.cover.preview]){assert(asset.width>0&&asset.height>0&&fs.existsSync('src/'+asset.src),'Missing cover asset: '+gameId);assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('src/'+asset.src)).digest('hex'),asset.sha256,'Cover provenance hash: '+gameId);}
+ for(const asset of [info.cover,info.cover.preview,info.cover.header]){assert(asset.width>0&&asset.height>0&&fs.existsSync('src/'+asset.src),'Missing cover asset: '+gameId);assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('src/'+asset.src)).digest('hex'),asset.sha256,'Cover provenance hash: '+gameId);}
+ assert(html.includes('<span data-completion-label>Completed</span>'),'Simple completion label: '+gameId);
+ assert(!html.includes('Mark game complete')&&!html.includes('Mark complete'),'Old button labels removed: '+gameId);
+ assert(html.includes('class="flow-progress" hidden><span data-stage-tally>'),'Stage count stays beside the boss flow: '+gameId);
  assert(html.includes(info.cover.source.replaceAll('&','&amp;')),'Missing cover credit: '+gameId);
  const progressStages=[...progressGame.stages,...(progressGame.sideStages||[])];
  assert.deepEqual([...html.matchAll(/data-stage-complete="([^"]+)"/g)].map(m=>m[1]),progressStages.map(s=>s.id),'Progress controls must match the listed stages: '+gameId);

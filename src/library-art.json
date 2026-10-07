@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Mega Man Legacy Collection 2",
+    "src": "assets/library/classic-hero.webp",
+    "source": "https://store.steampowered.com/app/495050/",
+    "credit": "Artwork \u00a9 Capcom, distributed by Steam",
+    "originalSha256": "9d557ff7a5376dcb7e2c685dbc5f29cbe84da5d7f4e84182814aec0c754e4c43",
+    "sha256": "94d50bf8d22b934d824682a173cabd1a784edd9b58ae60a5a343c43b4013682e",
+    "width": 1200,
+    "height": 388
+  },
+  {
+    "name": "Mega Man X Legacy Collection 2",
+    "src": "assets/library/x-hero.webp",
+    "source": "https://store.steampowered.com/app/743900/",
+    "credit": "Artwork \u00a9 Capcom, distributed by Steam",
+    "originalSha256": "63eabb461e765d652bb5885ed6888ddadbba113fe4426a3ee2d53625b47de9dc",
+    "sha256": "dfff9686048ce61a82196eeed932e1236e1bedb80488ffbfa930b57748ec8ab2",
+    "width": 1200,
+    "height": 388
+  }
+]

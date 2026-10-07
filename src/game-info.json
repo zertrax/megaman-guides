@@ -23,6 +23,12 @@
           "width": 224,
           "height": 320,
           "sha256": "dcf84a5d98470cb051c81cf1c1328e4f6412f468100d19f642f56a3e17a83b5e"
+        },
+        "header": {
+          "src": "assets/covers/mm1-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "35bbcf7c53d078f027385dfdd3f28976b1878a4e9f3a9bf5bc7e2f96fec7a978"
         }
       }
     },
@@ -43,6 +49,12 @@
           "width": 224,
           "height": 320,
           "sha256": "1659d9e84380e021b02f2e26c2683ea7e48432337c67ff2c8426b61130bc69b8"
+        },
+        "header": {
+          "src": "assets/covers/mm2-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "cb5c3b29b5834faae0a282b5be7b83ad02264d0780969569d3d4209bab81a928"
         }
       }
     },
@@ -63,6 +75,12 @@
           "width": 224,
           "height": 320,
           "sha256": "7d8f48f0ab92cbbc41976fa843af702738a202ccc11927b8b7c3b9676882d7c1"
+        },
+        "header": {
+          "src": "assets/covers/mm3-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "70cc98e8b5d2da5baec2b90aca59e7a298fbf6cb5667c226f5f937f172bba75d"
         }
       }
     },
@@ -83,6 +101,12 @@
           "width": 224,
           "height": 320,
           "sha256": "7f10022634a0ac0d2c70ab96093982dc739bf0384e6e3c056d0cebe6285f4794"
+        },
+        "header": {
+          "src": "assets/covers/mm4-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "2cd9c69fc68fc27a3c5a4913787cb0b57b6c8404ab6cb4992802ab6f47271e2e"
         }
       }
     },
@@ -103,6 +127,12 @@
           "width": 224,
           "height": 320,
           "sha256": "530df8e01531026e241d78df571732548a3b646ec5dc21b0dc6293715b8b0c34"
+        },
+        "header": {
+          "src": "assets/covers/mm5-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "e9dac62bc678a168a3f2ad71d52d30db54956ebc3e8a7dda1ce190c1c83541fa"
         }
       }
     },
@@ -123,6 +153,12 @@
           "width": 224,
           "height": 320,
           "sha256": "9598af62259adefebf8078b6ca31fcbafb684bb6251912df45b32671e199504b"
+        },
+        "header": {
+          "src": "assets/covers/mm6-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "02caa1ebf62e8cdbdd1d3fde75edc3541d21d884aa9505ce7e6546ce3f6f2257"
         }
       }
     },
@@ -143,6 +179,12 @@
           "width": 256,
           "height": 182,
           "sha256": "6ce1a26a11c2bd468ee5ddb603e48313b153bbc32a68d80b9a7f4ff9bb82cc23"
+        },
+        "header": {
+          "src": "assets/covers/mm7-header.webp",
+          "width": 384,
+          "height": 273,
+          "sha256": "28c59c26e145e7c573515f141aed94b2c56fa6f856323dd2ddfdeb2b28efc988"
         }
       }
     },
@@ -163,6 +205,12 @@
           "width": 256,
           "height": 256,
           "sha256": "bb834030c0dd2ad27024fdba95e7b23b65b8706e8b96427c6fe9e040f3b9490c"
+        },
+        "header": {
+          "src": "assets/covers/mm8-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "d72e15c53e6d8d385938dc50afdaaa121a9b2b7aa1e11f0225808a21c71ba127"
         }
       }
     },
@@ -183,6 +231,12 @@
           "width": 219,
           "height": 260,
           "sha256": "bb1d46d5b54a7aaac6717d787849293c29a5bb776eb30d8d65b01bd9a0dd9a6e"
+        },
+        "header": {
+          "src": "assets/covers/mm9-header.webp",
+          "width": 219,
+          "height": 260,
+          "sha256": "c6a3d74a3c26671f3e71867375ef88411a224df44b000cd44f6102cf541e07a1"
         }
       }
     },
@@ -203,6 +257,12 @@
           "width": 240,
           "height": 320,
           "sha256": "8780155b3b088cd2042b7b9136db83a7383c31ad0ac3492faec38037c3f633f8"
+        },
+        "header": {
+          "src": "assets/covers/mm10-header.webp",
+          "width": 250,
+          "height": 333,
+          "sha256": "94dfa287b024dbdc33c58c8fad5a0cf8aea2a93ec6b414c9bf5b13268343a36b"
         }
       }
     },
@@ -223,6 +283,12 @@
           "width": 213,
           "height": 320,
           "sha256": "458b22dd7053e4ecc5838e75eb3c6cec1dd53bcee95cbbb1e8659984e3ed7188"
+        },
+        "header": {
+          "src": "assets/covers/mm11-header.webp",
+          "width": 300,
+          "height": 450,
+          "sha256": "26bf93f809f5c8cb8cc2f1218079f5077f765f48e8c5a38a3dcc8a2fa2eaf5a9"
         }
       }
     },
@@ -243,6 +309,12 @@
           "width": 256,
           "height": 182,
           "sha256": "0d845f08724cfcdca60eced473c517c475cce9135a82f0b3ba1c8ca8d0f0b31b"
+        },
+        "header": {
+          "src": "assets/covers/x1-header.webp",
+          "width": 384,
+          "height": 273,
+          "sha256": "0fdddcea039cab1ed00268ea09883db0aa25d3a0159f3bd26088f934b8f69b07"
         }
       }
     },
@@ -263,6 +335,12 @@
           "width": 256,
           "height": 182,
           "sha256": "cbd244c2e3da481935b324c16c61d2130c54f8d9f74db8c74ccb88630227e165"
+        },
+        "header": {
+          "src": "assets/covers/x2-header.webp",
+          "width": 384,
+          "height": 273,
+          "sha256": "89ed1d86494cec98ce650f879da77e563223d62baf4fdf2478af36bdf1c2fcd3"
         }
       }
     },
@@ -283,6 +361,12 @@
           "width": 256,
           "height": 182,
           "sha256": "048bee67700c5a15840c7956327f365fc0e9122f4f659c09545f0eb33e7544c3"
+        },
+        "header": {
+          "src": "assets/covers/x3-header.webp",
+          "width": 384,
+          "height": 273,
+          "sha256": "30ec1d33fd5dbb36afb014092088546a4fe58e2f7a8b68850175133cf3799b14"
         }
       }
     },
@@ -303,6 +387,12 @@
           "width": 256,
           "height": 256,
           "sha256": "6b21f86e37de976a1fa4d097c4b111dc9ed8f8e14f04529ba21661eb895b38f1"
+        },
+        "header": {
+          "src": "assets/covers/x4-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "f15b91eeef278ed7ca596b62e61edda752c742fc1f857225b819e0ad4d77722f"
         }
       }
     },
@@ -323,6 +413,12 @@
           "width": 256,
           "height": 256,
           "sha256": "922f8f426dad3c79093d9c02cdf8004e15849b3404227c8647568091b59eb555"
+        },
+        "header": {
+          "src": "assets/covers/x5-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "67a010ae20b9b191df151d1d043c0338036e2cd425cb8107d105b579ea21153b"
         }
       }
     },
@@ -343,6 +439,12 @@
           "width": 256,
           "height": 256,
           "sha256": "e68d59089b36bd42bd238ab6a1a7a2ed84fabdd852b7e6b27533836f7b591521"
+        },
+        "header": {
+          "src": "assets/covers/x6-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "6948b5738711b1c77c877c96ac5e29000767a83ab44d2f919ff6cc89b4647f99"
         }
       }
     },
@@ -363,6 +465,12 @@
           "width": 226,
           "height": 320,
           "sha256": "6abed3b59b5c846d1a95ba157c3b99bcf1465f18e6ddff7191936b29a28d813e"
+        },
+        "header": {
+          "src": "assets/covers/x7-header.webp",
+          "width": 339,
+          "height": 480,
+          "sha256": "ab6372258c0a1f62e25c5dcd4fa00f8d9854de5433be0e8af29cf508cfa2cb2e"
         }
       }
     },
@@ -383,6 +491,12 @@
           "width": 224,
           "height": 320,
           "sha256": "271b4ba3af4a09340cc5bbac1a02b9398886d10a93cb70e25e07d17b56b4b4f8"
+        },
+        "header": {
+          "src": "assets/covers/x8-header.webp",
+          "width": 336,
+          "height": 480,
+          "sha256": "02d640122dd86770e5a2d779fad4473280d56566fcb25cef67c54146a0fa2c87"
         }
       }
     },
@@ -403,6 +517,12 @@
           "width": 256,
           "height": 256,
           "sha256": "3c6a969b7cd1349cde58981f60317fa13478cb8db3c29fcecd0af2d30933a9c1"
+        },
+        "header": {
+          "src": "assets/covers/zero1-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "25b2db68f97fcce69b0577dfefd07e407f1a3d67fdf04359d2cecdf89e345657"
         }
       }
     },
@@ -423,6 +543,12 @@
           "width": 256,
           "height": 256,
           "sha256": "3f2d1c1346528a2cfa74fc6041eef5f29418838eae08e55e5ea102a6081aad58"
+        },
+        "header": {
+          "src": "assets/covers/zero2-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "e90f86fa5d2dcabfdbff7dfefcfff0d74a9952ad87061a356815400223ca278f"
         }
       }
     },
@@ -443,6 +569,12 @@
           "width": 256,
           "height": 256,
           "sha256": "35226cabfad6ffde4b58606d903dcedebcb387fec43cc845eff972624e54bfee"
+        },
+        "header": {
+          "src": "assets/covers/zero3-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "ff962a844ddf7ff57987cd8f6ad33b38185b95baa96c462789ba5504e7fd2a1e"
         }
       }
     },
@@ -463,6 +595,12 @@
           "width": 256,
           "height": 256,
           "sha256": "5a2392fc3c76175185cc86ced6affc2253c6c821f040e0f7f8b4fe92bfe4bb55"
+        },
+        "header": {
+          "src": "assets/covers/zero4-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "2f834b03bbf21e95bcee134f776e5b68b2b2606e37e563a5f3eab2032a15b655"
         }
       }
     },
@@ -483,6 +621,12 @@
           "width": 256,
           "height": 229,
           "sha256": "f8c9fd78d4ad1b5c57d11619077bddfa9d99a109605b548f012ed62cbde63a67"
+        },
+        "header": {
+          "src": "assets/covers/zx-header.webp",
+          "width": 384,
+          "height": 344,
+          "sha256": "f71c1e91999df0121fac4317ecc6d1d70fc5ea92731b63efa18d517d8e449489"
         }
       }
     },
@@ -503,6 +647,12 @@
           "width": 256,
           "height": 229,
           "sha256": "a1c5c305c7655aec521c8f36b9659adf4ab22b3be4f08f8288bce4f5e82c4320"
+        },
+        "header": {
+          "src": "assets/covers/zx-advent-header.webp",
+          "width": 384,
+          "height": 344,
+          "sha256": "3ea36266b4069b1fcdc0a33744d463b394f73b341ab10548141c4371154a6d92"
         }
       }
     },
@@ -523,6 +673,12 @@
           "width": 256,
           "height": 256,
           "sha256": "13d2ca4305f02e7759f1e3cce267723cb127eb4f2c2485ad30cb820edabe0c8b"
+        },
+        "header": {
+          "src": "assets/covers/bn1-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "349aa510cb447ea97ac346cf6dad087dc01af367db5e6e1565cf4155d3b3d83b"
         }
       }
     },
@@ -543,6 +699,12 @@
           "width": 256,
           "height": 256,
           "sha256": "4c108c3c53e330c3a72032c1a371e8c594c8e2d90d881933e8120d7627b8cd9b"
+        },
+        "header": {
+          "src": "assets/covers/bn2-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "4dd25571a96df3f8b7876eba79463554e70d8c64ca1d14a87b87a97f5c97f937"
         }
       }
     },
@@ -563,6 +725,12 @@
           "width": 256,
           "height": 256,
           "sha256": "4e2673435a5f9f48379bc0c2bf01b80f7ea9f4eea7f9abcdfc07f94dcf9d9915"
+        },
+        "header": {
+          "src": "assets/covers/bn3-white-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "b6333c18b8165849a2dfa8158a05a22fb56159a32860ff63e3d9c732e508d9bc"
         }
       }
     },
@@ -583,6 +751,12 @@
           "width": 256,
           "height": 256,
           "sha256": "797bfd5e808824839be34120245069a071efaa206885d82d874adb8bbc6d9a5c"
+        },
+        "header": {
+          "src": "assets/covers/bn3-blue-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "8557832bfa8a0c282fc9efccd2428425aaa38880d777aac9a7ad060831f8401e"
         }
       }
     },
@@ -603,6 +777,12 @@
           "width": 256,
           "height": 258,
           "sha256": "b640ea57f476f8d1b57e5f645f46be03f18c7fd2a8337b4fd0e4d8d54d899f17"
+        },
+        "header": {
+          "src": "assets/covers/bn4-red-sun-header.webp",
+          "width": 384,
+          "height": 386,
+          "sha256": "0669832e84f4ec74f221668c12b8d2020b28b7fba62d1782ee94abb6f3bb39ec"
         }
       }
     },
@@ -623,6 +803,12 @@
           "width": 256,
           "height": 258,
           "sha256": "9ba03c527b41fbd37e8855ac03ea1aed847ea085555d4aab005cc2ea132cab4b"
+        },
+        "header": {
+          "src": "assets/covers/bn4-blue-moon-header.webp",
+          "width": 384,
+          "height": 386,
+          "sha256": "646cf931ef9358292693daa9fea13c94411efdf1a234eecc1db4b9f611ddcc25"
         }
       }
     },
@@ -643,6 +829,12 @@
           "width": 256,
           "height": 256,
           "sha256": "6369e94589bc81313d25d57067fce81aa5e99b4e70ee4f15147189ed5408f9d7"
+        },
+        "header": {
+          "src": "assets/covers/bn5-team-protoman-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "b53f1d6f0b8c02689f3edc9f9215f63903b986049c1acc570725dda0780b2470"
         }
       }
     },
@@ -663,6 +855,12 @@
           "width": 256,
           "height": 256,
           "sha256": "c5e2a06ffd0511672fb525c7fb5024f71825d48012cdd16d480931be4fde7e34"
+        },
+        "header": {
+          "src": "assets/covers/bn5-team-colonel-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "4affac9a1fbf15c8c5335d3964f4477ee27bc2566a5104b1cb1c733bf6f636a4"
         }
       }
     },
@@ -683,6 +881,12 @@
           "width": 256,
           "height": 257,
           "sha256": "5c4ecf833874fd0356fb162af272dd8ae79980a22da4cab495be57f676bf4602"
+        },
+        "header": {
+          "src": "assets/covers/bn6-cybeast-gregar-header.webp",
+          "width": 384,
+          "height": 385,
+          "sha256": "ad35f66c4ada2d426059f9958fed4ac8dffe6be90f8873c70386d3d8e3219507"
         }
       }
     },
@@ -703,6 +907,12 @@
           "width": 256,
           "height": 257,
           "sha256": "aa8d6e6b2770f6d4d50b96be23f32b6bba83828d5016cacf1a811e9d5cb103cb"
+        },
+        "header": {
+          "src": "assets/covers/bn6-cybeast-falzar-header.webp",
+          "width": 384,
+          "height": 385,
+          "sha256": "b066d222c5ea2edc64817c59a44a52e1527bb82990c3249d6657e5ae37e2bfd3"
         }
       }
     },
@@ -723,6 +933,12 @@
           "width": 256,
           "height": 256,
           "sha256": "6b21f86e37de976a1fa4d097c4b111dc9ed8f8e14f04529ba21661eb895b38f1"
+        },
+        "header": {
+          "src": "assets/covers/x4-header.webp",
+          "width": 384,
+          "height": 384,
+          "sha256": "f15b91eeef278ed7ca596b62e61edda752c742fc1f857225b819e0ad4d77722f"
         }
       }
     }

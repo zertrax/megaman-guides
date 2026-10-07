@@ -27,12 +27,11 @@
   };
   function updateButton(button, complete) {
     button.setAttribute('aria-pressed', String(complete));
-    const label = `Mark ${button.dataset.completionName} ${complete ? 'incomplete' : 'complete'}`;
+    const label = `${button.dataset.completionName}: Completed`;
     button.setAttribute('aria-label', label);
     button.title = label;
     const text = button.querySelector('[data-completion-label]');
-    if (text) text.textContent = button.classList.contains('card-complete')
-      ? (complete ? 'Completed' : 'Mark complete') : (complete ? 'Game completed' : 'Mark game complete');
+    if (text) text.textContent = 'Completed';
     button.hidden = false;
   }
   function sync() {
@@ -68,7 +67,7 @@
       const cleared = entries.filter(e => records.get(e.dataset.gameId)?.completed).length;
       element.textContent = `${cleared} / ${entries.length} completed`;
     }
-    for (const element of document.querySelectorAll('.guide-progress, .library-progress')) element.hidden = false;
+    for (const element of document.querySelectorAll('.guide-progress, .library-progress, .flow-progress')) element.hidden = false;
   }
   document.addEventListener('click', event => {
     const button = event.target.closest('[data-game-complete], [data-stage-complete]');
