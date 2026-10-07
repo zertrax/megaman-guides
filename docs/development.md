@@ -1,0 +1,48 @@
+# Development and publishing
+
+This page covers the source files, local preview and GitHub Pages deployment. To use the guides, open the [public library](https://zertrax.github.io/megaman-x-guides/).
+
+## Run locally
+
+Requires Node.js 22 or newer, Git, tar and Python 3, using a Git checkout with full history. No packages to install. Git and tar rebuild the pinned comparison site without downloading assets.
+
+```sh
+npm run build
+npm run verify
+python -m http.server 4185 --directory dist
+```
+
+Open [http://localhost:4185](http://localhost:4185). This is a preview on your computer. Ordinary static hosting serves the same generated files publicly. No database, account, ads, analytics or external fonts are needed. Videos load only after a click and never autoplay.
+
+## Template and content
+
+- `src/games/*.json` contains the nine X campaigns; `src/template.cjs` and `guide-layout.cjs` render them.
+- `src/campaigns/*.json` contains the 27 Classic, Zero/ZX and Battle Network guides; `campaign-template.cjs` renders their different progression systems.
+- `src/guide-theme.css` gives all guides and the library the approved X3 presentation. `style.css`, `stage.css` and `collection.css` handle shared responsive layout.
+- `src/library-template.cjs` builds the collection index from completed campaign records.
+- `src/guide-icons.cjs` prefers individual icons for X1–X3, X5, X6, X8, ZX and ZX Advent, archived as Official by SteamGridDB. Mega Man 11 uses its own original Steam desktop icon. Other guides use the original Steam icon of their collection. Archive labels do not prove an icon came from a release executable; credits state this distinction. `guide-icons.json` retains source URLs, file hashes, resolutions and attribution. No generated artwork or added number badges.
+- `src/library.css` styles compact cover-above-title cards with original cover artwork, a plain release year, title and collection. At 1440px, six cards fit across at about 196px each, roughly half the previous width. Phones show two columns. Completion is a separate, full-width footer within the card frame, labeled Completed in both states; the check and gold styling indicate selection. Collections remain Classic, X, Zero/ZX, Battle Network.
+- `src/game-info.json`, `game-info.cjs` and `identity.css` supply original cover artwork beside every guide title and in the library. Guide headers have centered titles, larger covers with Completed beneath, and game/collection details at the bottom. Stage counts and progress instructions sit beside the boss flow. Covers stay whole and enlarge within guide pages. Library previews average 24KB and larger header previews about 46KB; full-size lossless WebP artwork loads only on enlargement. Sources, dimensions and hashes are retained. MM9/10 use official promotional virtual covers; MM11 uses official Steam artwork. Years use the first original release worldwide, including equivalent Japanese versions.
+- `src/library-art.json` records the original Steam collection artwork used behind the simplified library title and collection links. The two local WebP previews total 183,152 bytes. CSS places and shades them without generated artwork; credits appear at the bottom.
+- `src/progress-template.cjs`, `progress.js` and `progress.css` provide reversible stage/chapter/mission and game completion marks across both guide templates and the library. Cleared stages get a gold check in both the sidebar and collapsed Contents menu; current reading-section highlighting remains independent. Progress is stored under `field-guide:<guide-id>:completion:v1`; game completion stays manual, independent of stage marks. No pickup tracking. Cross-tab changes refresh immediately; blocked storage shows an actual save failure and retains marks only in memory.
+- `src/guide.js`, `reading-position.js` and `collection.js` handle dialogs, navigation, saved reading state and games menus.
+- `src/network-upgrades.json` and sprite manifests retain checked inventory/media reference data.
+- `scripts/build.cjs` produces 36 guides and the library in `dist/`; `verify-all.cjs` checks content inventories, anchors, assets, identity metadata and return references. Shared stylesheet/script URLs include content hashes so updates refresh while unchanged assets remain cached.
+
+Reviewed JSON is authoritative. Shared components reuse pickup records in stage and return views. Layout supports arbitrary pickup counts without fixed-height clipping; three-or-more reward images retain the approved 220px preview cap and full-size enlargement. Stable IDs preserve bookmarks. Completion marks, per-guide reading position and expanded sections stay in this browser, without cloud syncing. Clearing site data removes them. Local preview and public hosting have separate browser storage.
+
+A new game needs researched mechanics and content, not renamed X armor records. Platform games use routes and stage pickups; Battle Network uses story chapters, compatible chip folders, customization, version differences and grouped upgrade inventories. See [expansion scope](collection-expansion.md) and [current state](../STATE.md).
+
+## Publishing
+
+GitHub Pages deploys after a push to `main` passes the build and verification workflow. Pages must use GitHub Actions. Publication is confirmed only after deployment succeeds and the intended public URLs return HTTP 200. Existing desktop shortcuts remain valid because the homepage and X page paths are unchanged.
+
+The old public source is preserved under the tag `public-before-2026-10-06` at `b802060`. `scripts/build-previous.cjs` builds that exact revision into `dist/previous/`, runs its original verification, and gives its reading settings a separate namespace. Its design and content remain unchanged. Full history is fetched by the workflow so the snapshot stays reproducible.
+
+## Sources and verification
+
+Game imagery and Mega Man belong to Capcom. Captures and sprites are credited to their contributors in each guide's bottom Sources section; media records retain source URLs, credits and dimensions. No ownership or open-media license is claimed for third-party assets.
+
+Game-specific sources include HonestGamers, MMHP, Mega Man XZ / RetroPixel, The Rockman EXE Zone, credited walkthrough authors and Capcom collection information. Source and browser checks do not replace a complete gameplay run. The new guides include selected media; not every pickup has a screenshot. Optional chip-code, Cyber-Elf and Secret Disk encyclopedias remain linked references.
+
+See [verification](verification.md), [X3 design review](x3-newcomer-review.md), [original content decisions](content-audit.md), [X5 review](x5-review.md) and [X6–X8 review](x6-x8-review.md).
