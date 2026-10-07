@@ -1,10 +1,15 @@
 (() => {
   const guideId = document.body.dataset.guideId;
   if (!guideId) return;
+  const t = (key, vars) => window.guideI18n.t(key, vars);
+  const kind = guideId.startsWith('bn') ? 'chapter' : /^(zero|zx)/.test(guideId) ? 'mission' : 'stage';
   const prefix = 'field-guide:', suffix = ':completion:v1', memory = new Map();
   const stageButtons = [...document.querySelectorAll('[data-stage-complete]')];
   const gameButtons = [...document.querySelectorAll('[data-game-complete]')];
-  const stageNames = new Map(stageButtons.map(b => [b.dataset.stageComplete, b.dataset.completionName]));
+  const displayName = button => button.dataset.stageComplete
+    ? document.getElementById(button.dataset.stageComplete)?.querySelector('h2')?.textContent.trim() || button.dataset.completionName
+    : button.dataset.completionName;
+  const stageNames = new Map(stageButtons.map(b => [b.dataset.stageComplete, displayName(b)]));
   const stageLinks = [...document.querySelectorAll('.sidebar a, .compact-menu nav a')]
     .filter(a => stageNames.has(a.getAttribute('href')?.slice(1)))
     .map(link => ({link, label: link.getAttribute('aria-label'), name: stageNames.get(link.getAttribute('href').slice(1))}));
@@ -17,21 +22,25 @@
     catch { return normalize(null); }
   };
   const save = (id, value) => {
-    try { localStorage.setItem(key(id), JSON.stringify(value)); memory.delete(id); }
+    try {
+      localStorage.setItem(key(id), JSON.stringify(value));
+      memory.delete(id);
+      if (!memory.size) document.querySelector('.progress-save-error').hidden = true;
+    }
     catch {
       memory.set(id, value);
       const error = document.querySelector('.progress-save-error');
       error.hidden = false;
-      error.textContent = 'This browser could not save your completion marks. They will reset when this page closes.';
+      error.textContent = t('saveError');
     }
   };
   function updateButton(button, complete) {
     button.setAttribute('aria-pressed', String(complete));
-    const label = `${button.dataset.completionName}: Completed`;
+    const label = t('completedName', {name: displayName(button)});
     button.setAttribute('aria-label', label);
     button.title = label;
     const text = button.querySelector('[data-completion-label]');
-    if (text) text.textContent = 'Completed';
+    if (text) text.textContent = t('completed');
     button.hidden = false;
   }
   function sync() {
@@ -48,7 +57,7 @@
       for (const {link, label, name} of stageLinks) {
         const complete = state.stages.includes(link.getAttribute('href').slice(1));
         link.classList.toggle('stage-cleared', complete);
-        if (complete) link.setAttribute('aria-label', `${label || name}, cleared`);
+        if (complete) link.setAttribute('aria-label', t('clearedName', {name:label || name}));
         else if (label !== null) link.setAttribute('aria-label', label);
         else link.removeAttribute('aria-label');
       }
@@ -60,12 +69,16 @@
       }
       const cleared = stageButtons.filter(b => state.stages.includes(b.dataset.stageComplete)).length;
       const tally = document.querySelector('[data-stage-tally]');
-      if (tally) tally.textContent = tally.textContent.replace(/^\d+/, String(cleared));
+      if (tally) {
+        tally.textContent = t(kind + 'Tally', {count:cleared,total:stageButtons.length});
+        const hint = tally.parentElement.querySelector('small');
+        if (hint) hint.textContent = t(kind === 'stage' ? 'guideProgressInstructions' : kind + 'ProgressInstructions');
+      }
     }
     for (const element of document.querySelectorAll('[data-game-tally]')) {
       const entries = [...element.closest('[data-progress-group]')?.querySelectorAll('.game-entry') || document.querySelectorAll('.game-entry')];
       const cleared = entries.filter(e => records.get(e.dataset.gameId)?.completed).length;
-      element.textContent = `${cleared} / ${entries.length} completed`;
+      element.textContent = t('gameTally', {count:cleared,total:entries.length});
     }
     for (const element of document.querySelectorAll('.guide-progress, .library-progress, .flow-progress')) element.hidden = false;
   }
@@ -80,7 +93,7 @@
       state.stages = complete ? [...state.stages, stage] : state.stages.filter(s => s !== stage);
     } else { complete = state.completed = !state.completed; }
     save(id, state); sync();
-    document.querySelector('.progress-announcement').textContent = `${button.dataset.completionName} marked ${complete ? 'complete' : 'incomplete'}.`;
+    document.querySelector('.progress-announcement').textContent = t(complete ? 'markedComplete' : 'markedIncomplete', {name:displayName(button)});
   });
   window.addEventListener('storage', event => { if (event.key === null || event.key.startsWith(prefix) && event.key.endsWith(suffix)) sync(); });
   window.addEventListener('pageshow', sync);

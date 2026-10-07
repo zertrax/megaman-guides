@@ -3,7 +3,7 @@
   const setCompact = value => {
     document.body.classList.toggle('compact', value);
     sidebarToggle.setAttribute('aria-pressed', String(value));
-    sidebarToggle.textContent = value ? 'Show sidebar' : 'Hide sidebar';
+    sidebarToggle.textContent = window.guideI18n.t(value ? 'showSidebar' : 'hideSidebar');
   };
   try { setCompact(localStorage.getItem('field-guide-compact') === 'true'); } catch {}
   sidebarToggle.addEventListener('click', () => {
@@ -17,6 +17,20 @@
   menu.addEventListener('keydown', event => { if (event.key === 'Escape') { menu.open = false; menu.querySelector('summary').focus(); } });
   const dialog = document.querySelector('#viewer');
   const close = document.querySelector('#close-viewer');
+  // Both guide templates keep a visible close symbol and a plain spoken label.
+  if (!close.querySelector('[aria-hidden="true"]')) {
+    close.textContent = '';
+    close.append(document.createTextNode(''));
+    const symbol = document.createElement('span');
+    symbol.setAttribute('aria-hidden', 'true');
+    symbol.textContent = '×';
+    close.append(symbol);
+  }
+  close.firstChild.textContent = window.guideI18n.t('close') + ' ';
+  const header = document.querySelector('.top');
+  const updateInset = () => document.documentElement.style.setProperty('--guide-header-offset', (header.getBoundingClientRect().height + 24) + 'px');
+  updateInset();
+  new ResizeObserver(updateInset).observe(header);
   let opener;
   document.addEventListener('click', event => {
     const shot = event.target.closest('[data-lightbox]');

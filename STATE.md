@@ -1,6 +1,14 @@
 # Guide collection state
 
-Updated: 2026-10-06.
+Updated: 2026-10-07.
+
+## Current work
+
+Guide-focused GitHub presentation is published at 72b9f0b through successful deployment 37586080958. README includes English website screenshots and clear public guide links; development details live in docs/development.md.
+
+Eight-language support is complete and validated locally; publication is in progress. Locales: en, es-MX, pt-BR, ja, zh-Hans, fr, de and ru. English screenshots and existing stage identifiers remain unchanged. Native game aliases need title-specific official evidence before use; collection launcher language lists do not establish them. Descriptive guide headings are translated.
+
+Static localization passes 26 regression groups and the full release gate: 57,932 current translations, 4,074 reviewed overrides, 296 current pages and 47,810 localized link/resource references. An independent audit checked 17 gameplay instructions per added language (119 samples); identified defects are fixed and rechecked. A 152-case representative browser pass covers all eight languages with valid anchors, no overflow, original media and 44px language/completion controls. Stage/game saves, translated chapter labels, expanded return trips, English-source navigation and image/Escape/focus checks pass. No native-speaker sign-off or exhaustive linguistic review is claimed. See docs/translation-review.md.
 
 ## Release
 

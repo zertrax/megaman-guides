@@ -1,0 +1,20 @@
+{
+  "scope": "Exact source units where an identifier-shaped word is ordinary prose. No global name exemptions.",
+  "units": {
+    "c0fb5fd85d4015b8": {"terms": ["Roll"], "reason": "Movement verb: Axl rolls through the lower-left opening in a copied enemy form, not the character Roll."},
+    "2366ce838a1ef198": {"terms": ["Tower"], "reason": "This guide-written chapter heading refers to a building incident, not the Tower chip."},
+    "3daa734e88df8310": {"terms": ["Tower"], "reason": "This numbered chapter heading refers to a building incident, not the Tower chip."},
+    "500d7b60b7743f41": {"terms": ["Tower"], "reason": "This chapter completion label refers to a building incident, not the Tower chip."},
+    "5ee33640dbea92f0": {"terms": ["Tower"], "reason": "This chapter link refers to a building incident, not the Tower chip."},
+    "d49b864ef0f4ae41": {"terms": ["Tower"], "reason": "This previous-chapter label refers to a building incident, not the Tower chip."},
+    "432409080684dbeb": {"terms": ["Regal"], "reason": "The German common noun Regal translates a storage-room shelf here; it does not name the villain."},
+    "3b27be417316a0bc": {"terms": ["Regal"], "reason": "The German common noun Regal translates the classroom shelf here; it does not name the villain."},
+    "020d7efb879a1451": {"terms": ["Beat"], "reason": "Imperative verb: exceed MetalMan's boulder score."},
+    "0eda96934193dfbf": {"terms": ["Beat"], "reason": "Imperative verb: defeat Bass."},
+    "4191d55da0a83a4c": {"terms": ["Beat"], "reason": "Imperative verb: defeat GateMan."},
+    "63420006427e4ec6": {"terms": ["Beat"], "reason": "Imperative verb: defeat HeatMan."},
+    "666558e960ecddc9": {"terms": ["Beat"], "reason": "Imperative verb: win the Quiz King challenge."},
+    "c490195f70d8ecd3": {"terms": ["Beat"], "reason": "Imperative verb: defeat SharkMan."},
+    "e8b6b8e24af8de7e": {"terms": ["Beat"], "reason": "Imperative verb: win the Quiz Master challenge."}
+  }
+}

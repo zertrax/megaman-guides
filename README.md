@@ -6,7 +6,13 @@ Boss order, upgrades and the details easy to miss while playing.
 
 Free to use in your browser. No account, installation or ads.
 
-[![Mega Man Field Guides library with original artwork and game covers](docs/screenshots/library.webp)](https://zertrax.github.io/megaman-x-guides/)
+### Choose your language
+
+[English](https://zertrax.github.io/megaman-x-guides/?lang=en) · [Español (Latinoamérica)](https://zertrax.github.io/megaman-x-guides/es-MX/) · [Português (Brasil)](https://zertrax.github.io/megaman-x-guides/pt-BR/) · [日本語](https://zertrax.github.io/megaman-x-guides/ja/) · [简体中文](https://zertrax.github.io/megaman-x-guides/zh-Hans/) · [Français](https://zertrax.github.io/megaman-x-guides/fr/) · [Deutsch](https://zertrax.github.io/megaman-x-guides/de/) · [Русский](https://zertrax.github.io/megaman-x-guides/ru/)
+
+Use the language menu in any guide. Your choice is remembered, and changing languages keeps your completion marks and reading section. Screenshots and in-game names stay English so you can match the guide to the pictures. The translations are AI-assisted and have targeted checks; they have not had a full native-speaker review.
+
+[![Mega Man Field Guides library with original artwork, game covers and its language menu](docs/screenshots/library.jpg)](https://zertrax.github.io/megaman-x-guides/?lang=en)
 
 ### Pick your series
 
@@ -48,7 +54,7 @@ This is an independent fan project. Mega Man and its artwork belong to Capcom. S
 
 Routes and locations are cross-checked with the linked references; they have not been tested through complete playthroughs. Some pickups have written directions without a picture. Full chip-code, Cyber-Elf and Secret Disk catalogues are linked where useful.
 
-Found a mistake or an unclear instruction? [Open an issue](https://github.com/zertrax/megaman-x-guides/issues) with the game, stage and what needs correcting.
+Found a mistake or an unclear instruction? [Open an issue](https://github.com/zertrax/megaman-x-guides/issues) with the game, stage, guide language and what needs correcting.
 
 The [previous X1–X8 website](https://zertrax.github.io/megaman-x-guides/previous/) remains available for comparison.
 

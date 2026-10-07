@@ -1,0 +1,870 @@
+{
+  "locales": [
+    "es-MX",
+    "pt-BR",
+    "ja",
+    "zh-Hans",
+    "fr",
+    "de",
+    "ru"
+  ],
+  "reason": "These are descriptive headings written for the guide, not complete in-game identifiers. Translate their descriptors while retaining the actual item names.",
+  "canonicalItems": [
+    "Life Tank",
+    "Life Bottle Full",
+    "Weapon Bottle Full",
+    "Expansion Memory",
+    "Regular Chip",
+    "Tag Chip",
+    "Double Jump",
+    "Rocket Buster"
+  ],
+  "labels": {
+    "ACDC reunion and rescue": [
+      "Reencuentro y rescate en ACDC",
+      "Reencontro e resgate em ACDC",
+      "ACDCでの再会と救出",
+      "ACDC重聚与救援",
+      "Retrouvailles et sauvetage à ACDC",
+      "Wiedersehen und Rettung in ACDC",
+      "Встреча и спасение в ACDC"
+    ],
+    "Airplane emergency": [
+      "Emergencia en el avión",
+      "Emergência no avião",
+      "飛行機での緊急事態",
+      "飞机上的紧急事件",
+      "Urgence dans l’avion",
+      "Notfall im Flugzeug",
+      "Чрезвычайная ситуация в самолёте"
+    ],
+    "Aquarium emergency": [
+      "Emergencia en el acuario",
+      "Emergência no aquário",
+      "水族館での緊急事態",
+      "水族馆的紧急事件",
+      "Urgence à l’aquarium",
+      "Notfall im Aquarium",
+      "Чрезвычайная ситуация в океанариуме"
+    ],
+    "Asteroid preparation": [
+      "Preparativos para el asteroide",
+      "Preparação para o asteroide",
+      "小惑星への準備",
+      "前往小行星的准备",
+      "Préparatifs pour l’astéroïde",
+      "Vorbereitung auf den Asteroiden",
+      "Подготовка к астероиду"
+    ],
+    "BubbleWash incident": [
+      "Incidente de BubbleWash",
+      "Incidente com BubbleWash",
+      "BubbleWashの事件",
+      "BubbleWash事件",
+      "Incident BubbleWash",
+      "BubbleWash-Vorfall",
+      "Происшествие с BubbleWash"
+    ],
+    "Cybeast awakening": [
+      "Despertar del Cybeast",
+      "Despertar do Cybeast",
+      "Cybeastの目覚め",
+      "Cybeast觉醒",
+      "Réveil du Cybeast",
+      "Erwachen des Cybeast",
+      "Пробуждение Cybeast"
+    ],
+    "DrillMan and recovery": [
+      "DrillMan y recuperación",
+      "DrillMan e recuperação",
+      "DrillManと回復",
+      "DrillMan与恢复",
+      "DrillMan et récupération",
+      "DrillMan und Erholung",
+      "DrillMan и восстановление"
+    ],
+    "Expo and final Cybeast": [
+      "Expo y el Cybeast final",
+      "Expo e o Cybeast final",
+      "Expoと最後のCybeast",
+      "Expo与最终Cybeast",
+      "Expo et Cybeast final",
+      "Expo und letzter Cybeast",
+      "Expo и финальный Cybeast"
+    ],
+    "Expo preliminaries": [
+      "Preliminares de Expo",
+      "Preliminares da Expo",
+      "Expoの予選",
+      "Expo预选赛",
+      "Préliminaires de l’Expo",
+      "Expo-Vorrunde",
+      "Предварительный этап Expo"
+    ],
+    "First Cross class": [
+      "Primera clase de Cross",
+      "Primeira aula de Cross",
+      "最初のCrossの授業",
+      "第一堂Cross课程",
+      "Premier cours de Cross",
+      "Erste Cross-Lektion",
+      "Первый урок Cross"
+    ],
+    "First tournament": [
+      "Primer torneo",
+      "Primeiro torneio",
+      "最初の大会",
+      "第一场锦标赛",
+      "Premier tournoi",
+      "Erstes Turnier",
+      "Первый турнир"
+    ],
+    "Gospel headquarters": [
+      "Cuartel de Gospel",
+      "Quartel-general da Gospel",
+      "Gospelの本拠地",
+      "Gospel总部",
+      "Quartier général de Gospel",
+      "Gospel-Hauptquartier",
+      "Штаб Gospel"
+    ],
+    "Green Town investigation": [
+      "Investigación en Green Town",
+      "Investigação em Green Town",
+      "Green Townの調査",
+      "Green Town调查",
+      "Enquête à Green Town",
+      "Ermittlungen in Green Town",
+      "Расследование в Green Town"
+    ],
+    "Hikari Report and castle": [
+      "Hikari Report y el castillo",
+      "Hikari Report e o castelo",
+      "Hikari Reportと城",
+      "Hikari Report与城堡",
+      "Hikari Report et château",
+      "Hikari Report und Schloss",
+      "Hikari Report и замок"
+    ],
+    "Hospital crisis": [
+      "Crisis en el hospital",
+      "Crise no hospital",
+      "病院の危機",
+      "医院危机",
+      "Crise à l’hôpital",
+      "Krise im Krankenhaus",
+      "Кризис в больнице"
+    ],
+    "Meteor and Duo": [
+      "Meteorito y Duo",
+      "Meteoro e Duo",
+      "隕石とDuo",
+      "陨石与Duo",
+      "Météore et Duo",
+      "Meteor und Duo",
+      "Метеор и Duo"
+    ],
+    "Metro blockade": [
+      "Bloqueo del metro",
+      "Bloqueio do metrô",
+      "地下鉄の封鎖",
+      "地铁封锁",
+      "Blocage du métro",
+      "Metro-Sperre",
+      "Блокада метро"
+    ],
+    "MoonStone contest": [
+      "Concurso de MoonStone",
+      "Concurso de MoonStone",
+      "MoonStoneの競争",
+      "MoonStone竞赛",
+      "Concours MoonStone",
+      "MoonStone-Wettbewerb",
+      "Состязание за MoonStone"
+    ],
+    "Nebula and Castillo": [
+      "Nebula y Castillo",
+      "Nebula e Castillo",
+      "NebulaとCastillo",
+      "Nebula与Castillo",
+      "Nebula et Castillo",
+      "Nebula und Castillo",
+      "Nebula и Castillo"
+    ],
+    "Netopia theft": [
+      "Robo en Netopia",
+      "Roubo em Netopia",
+      "Netopiaでの盗難",
+      "Netopia盗窃事件",
+      "Vol à Netopia",
+      "Diebstahl in Netopia",
+      "Кража в Netopia"
+    ],
+    "Network fires": [
+      "Incendios en la red",
+      "Incêndios na rede",
+      "ネットワークの火災",
+      "网络火灾",
+      "Incendies sur le réseau",
+      "Brände im Netzwerk",
+      "Пожары в сети"
+    ],
+    "Network freeze": [
+      "Congelamiento de la red",
+      "Congelamento da rede",
+      "ネットワークの凍結",
+      "网络冻结",
+      "Gel du réseau",
+      "Vereisung des Netzwerks",
+      "Замерзание сети"
+    ],
+    "New school incident": [
+      "Incidente en la nueva escuela",
+      "Incidente na nova escola",
+      "新しい学校での事件",
+      "新学校事件",
+      "Incident à la nouvelle école",
+      "Vorfall an der neuen Schule",
+      "Происшествие в новой школе"
+    ],
+    "Okuden explosives": [
+      "Explosivos en Okuden",
+      "Explosivos em Okuden",
+      "Okudenの爆発物",
+      "Okuden爆炸物",
+      "Explosifs à Okuden",
+      "Sprengstoff in Okuden",
+      "Взрывчатка в Okuden"
+    ],
+    "Oran mine": [
+      "Mina de Oran",
+      "Mina de Oran",
+      "Oranの鉱山",
+      "Oran矿山",
+      "La mine d’Oran",
+      "Oran-Bergwerk",
+      "Шахта Oran"
+    ],
+    "Oven fire": [
+      "Incendio en el horno",
+      "Incêndio no forno",
+      "オーブンの火災",
+      "烤箱起火",
+      "Incendie du four",
+      "Brand im Ofen",
+      "Пожар в печи"
+    ],
+    "Power failure": [
+      "Corte de electricidad",
+      "Falta de energia",
+      "停電",
+      "停电",
+      "Panne de courant",
+      "Stromausfall",
+      "Отключение электричества"
+    ],
+    "School incident": [
+      "Incidente en la escuela",
+      "Incidente na escola",
+      "学校での事件",
+      "学校事件",
+      "Incident à l’école",
+      "Vorfall in der Schule",
+      "Происшествие в школе"
+    ],
+    "School takeover": [
+      "Toma de la escuela",
+      "Tomada da escola",
+      "学校の占拠",
+      "学校被占领",
+      "Occupation de l’école",
+      "Besetzung der Schule",
+      "Захват школы"
+    ],
+    "SciLab recruitment": [
+      "Reclutamiento de SciLab",
+      "Recrutamento da SciLab",
+      "SciLabの募集",
+      "SciLab招募",
+      "Recrutement de SciLab",
+      "SciLab-Rekrutierung",
+      "Набор в SciLab"
+    ],
+    "SciLab scout": [
+      "Reconocimiento de SciLab",
+      "Reconhecimento da SciLab",
+      "SciLabの偵察",
+      "SciLab侦察",
+      "Reconnaissance de SciLab",
+      "Erkundung von SciLab",
+      "Разведка SciLab"
+    ],
+    "Charged Buster": [
+      "Buster cargado",
+      "Buster carregado",
+      "チャージしたBuster",
+      "蓄力Buster",
+      "Buster chargé",
+      "Aufgeladener Buster",
+      "Заряженный Buster"
+    ],
+    "Charged Saber / Buster": [
+      "Saber / Buster cargados",
+      "Saber / Buster carregados",
+      "チャージしたSaber / Buster",
+      "蓄力Saber / Buster",
+      "Saber / Buster chargés",
+      "Aufgeladener Saber / Buster",
+      "Заряженный Saber / Buster"
+    ],
+    "White rotation": [
+      "Rotación blanca",
+      "Rotação branca",
+      "白色プログラムの回転",
+      "白色程序旋转",
+      "Rotation des programmes blancs",
+      "Weiße Programme drehen",
+      "Поворот белых программ"
+    ],
+    "Pink rotation": [
+      "Rotación rosa",
+      "Rotação rosa",
+      "ピンク色プログラムの回転",
+      "粉色程序旋转",
+      "Rotation des programmes roses",
+      "Rosa Programme drehen",
+      "Поворот розовых программ"
+    ],
+    "Yellow rotation": [
+      "Rotación amarilla",
+      "Rotação amarela",
+      "黄色プログラムの回転",
+      "黄色程序旋转",
+      "Rotation des programmes jaunes",
+      "Gelbe Programme drehen",
+      "Поворот жёлтых программ"
+    ],
+    "Second tournament": [
+      "Segundo torneo",
+      "Segundo torneio",
+      "二つ目の大会",
+      "第二场锦标赛",
+      "Deuxième tournoi",
+      "Zweites Turnier",
+      "Второй турнир"
+    ],
+    "SoulServer and final assault": [
+      "SoulServer y el asalto final",
+      "SoulServer e o ataque final",
+      "SoulServerと最後の攻撃",
+      "SoulServer与最终进攻",
+      "SoulServer et assaut final",
+      "SoulServer und letzter Angriff",
+      "SoulServer и последний штурм"
+    ],
+    "Tower incident": [
+      "Incidente en la torre",
+      "Incidente na torre",
+      "塔での事件",
+      "塔内事件",
+      "Incident dans la tour",
+      "Vorfall im Turm",
+      "Происшествие в башне"
+    ],
+    "Traffic emergency": [
+      "Emergencia de tránsito",
+      "Emergência no trânsito",
+      "交通の緊急事態",
+      "交通紧急事件",
+      "Urgence dans la circulation",
+      "Notfall im Straßenverkehr",
+      "Чрезвычайная ситуация на дорогах"
+    ],
+    "Undernet ranking": [
+      "Clasificación de Undernet",
+      "Classificação de Undernet",
+      "Undernetのランキング",
+      "Undernet排名",
+      "Classement d’Undernet",
+      "Undernet-Rangliste",
+      "Рейтинг Undernet"
+    ],
+    "Undernet recruitment": [
+      "Reclutamiento en Undernet",
+      "Recrutamento em Undernet",
+      "Undernetの募集",
+      "Undernet招募",
+      "Recrutement dans Undernet",
+      "Rekrutierung im Undernet",
+      "Набор в Undernet"
+    ],
+    "WWW address": [
+      "Dirección de WWW",
+      "Endereço da WWW",
+      "WWWのアドレス",
+      "WWW地址",
+      "Adresse de WWW",
+      "WWW-Adresse",
+      "Адрес WWW"
+    ],
+    "WWW base": [
+      "Base de WWW",
+      "Base da WWW",
+      "WWWの基地",
+      "WWW基地",
+      "Base de WWW",
+      "WWW-Basis",
+      "База WWW"
+    ],
+    "WWW island": [
+      "Isla de WWW",
+      "Ilha da WWW",
+      "WWWの島",
+      "WWW岛",
+      "Île de WWW",
+      "WWW-Insel",
+      "Остров WWW"
+    ],
+    "Water shortage": [
+      "Escasez de agua",
+      "Falta de água",
+      "水不足",
+      "缺水",
+      "Pénurie d’eau",
+      "Wassermangel",
+      "Нехватка воды"
+    ],
+    "Weather crisis": [
+      "Crisis meteorológica",
+      "Crise climática",
+      "気象の危機",
+      "气象危机",
+      "Crise météorologique",
+      "Wetterkrise",
+      "Погодный кризис"
+    ],
+    "World tournament": [
+      "Torneo mundial",
+      "Torneio mundial",
+      "世界大会",
+      "世界锦标赛",
+      "Tournoi mondial",
+      "Weltturnier",
+      "Мировой турнир"
+    ],
+    "Yai’s gas leak": [
+      "Fuga de gas en casa de Yai",
+      "Vazamento de gás na casa de Yai",
+      "Yaiの家のガス漏れ",
+      "Yai家中的煤气泄漏",
+      "Fuite de gaz chez Yai",
+      "Gasleck bei Yai",
+      "Утечка газа у Yai"
+    ],
+    "Yumland attack": [
+      "Ataque a Yumland",
+      "Ataque a Yumland",
+      "Yumlandへの攻撃",
+      "Yumland遭到袭击",
+      "Attaque de Yumland",
+      "Angriff auf Yumland",
+      "Нападение на Yumland"
+    ],
+    "Zoo emergency": [
+      "Emergencia en el zoológico",
+      "Emergência no zoológico",
+      "動物園での緊急事態",
+      "动物园的紧急事件",
+      "Urgence au zoo",
+      "Notfall im Zoo",
+      "Чрезвычайная ситуация в зоопарке"
+    ],
+    "Early HP and Buster upgrades": [
+      "Mejoras iniciales de HP y Buster",
+      "Melhorias iniciais de HP e Buster",
+      "序盤のHPとBusterの強化",
+      "前期HP与Buster升级",
+      "Premières améliorations de HP et du Buster",
+      "Frühe Verbesserungen für HP und Buster",
+      "Ранние улучшения HP и Buster"
+    ],
+    "School health upgrades": [
+      "Mejoras de vida de la escuela",
+      "Melhorias de vida da escola",
+      "学校でのライフ強化",
+      "学校内的生命值升级",
+      "Améliorations de vie à l’école",
+      "Lebensenergie-Upgrades in der Schule",
+      "Улучшения здоровья в школе"
+    ],
+    "Dentown PowerUP and HP": [
+      "PowerUP y HP en Dentown",
+      "PowerUP e HP em Dentown",
+      "DentownのPowerUPとHP",
+      "Dentown的PowerUP与HP",
+      "PowerUP et HP à Dentown",
+      "PowerUP und HP in Dentown",
+      "PowerUP и HP в Dentown"
+    ],
+    "WWW health upgrade": [
+      "Mejora de vida de WWW",
+      "Melhoria de vida da WWW",
+      "WWWでのライフ強化",
+      "WWW内的生命值升级",
+      "Amélioration de vie de WWW",
+      "Lebensenergie-Upgrade bei WWW",
+      "Улучшение здоровья в WWW"
+    ],
+    "Return for ship health": [
+      "Vuelve por la mejora de vida del barco",
+      "Volte pela melhoria de vida do navio",
+      "船のライフ強化を回収しに戻る",
+      "返回船上收集生命值升级",
+      "Retournez chercher l’amélioration de vie du bateau",
+      "Für das Lebensenergie-Upgrade zum Schiff zurückkehren",
+      "Вернитесь за улучшением здоровья на корабле"
+    ],
+    "Regular Chip system": [
+      "Sistema de Regular Chip",
+      "Sistema de Regular Chip",
+      "Regular Chipの仕組み",
+      "Regular Chip系统",
+      "Système Regular Chip",
+      "Regular Chip-System",
+      "Система Regular Chip"
+    ],
+    "Tag Chip system": [
+      "Sistema de Tag Chip",
+      "Sistema de Tag Chip",
+      "Tag Chipの仕組み",
+      "Tag Chip系统",
+      "Système Tag Chip",
+      "Tag Chip-System",
+      "Система Tag Chip"
+    ],
+    "Life Tank unlock": [
+      "Desbloqueo de Life Tank",
+      "Desbloqueio de Life Tank",
+      "Life Tankの解禁",
+      "解锁Life Tank",
+      "Déblocage du Life Tank",
+      "Life Tank freischalten",
+      "Разблокировка Life Tank"
+    ],
+    "Weapon Tank unlock": [
+      "Desbloqueo de Weapon Tank",
+      "Desbloqueio de Weapon Tank",
+      "Weapon Tankの解禁",
+      "解锁Weapon Tank",
+      "Déblocage du Weapon Tank",
+      "Weapon Tank freischalten",
+      "Разблокировка Weapon Tank"
+    ],
+    "Life Bottle Full unlock": [
+      "Desbloqueo de Life Bottle Full",
+      "Desbloqueio de Life Bottle Full",
+      "Life Bottle Fullの解禁",
+      "解锁Life Bottle Full",
+      "Déblocage de Life Bottle Full",
+      "Life Bottle Full freischalten",
+      "Разблокировка Life Bottle Full"
+    ],
+    "Weapon Bottle Full unlock": [
+      "Desbloqueo de Weapon Bottle Full",
+      "Desbloqueio de Weapon Bottle Full",
+      "Weapon Bottle Fullの解禁",
+      "解锁Weapon Bottle Full",
+      "Déblocage de Weapon Bottle Full",
+      "Weapon Bottle Full freischalten",
+      "Разблокировка Weapon Bottle Full"
+    ],
+    "Rocket Buster upgrade": [
+      "Mejora de Rocket Buster",
+      "Melhoria de Rocket Buster",
+      "Rocket Busterの強化",
+      "Rocket Buster升级",
+      "Amélioration du Rocket Buster",
+      "Rocket Buster verbessern",
+      "Улучшение Rocket Buster"
+    ],
+    "S-Crystal ingredients": [
+      "Ingredientes de S-Crystal",
+      "Ingredientes de S-Crystal",
+      "S-Crystalの材料",
+      "S-Crystal材料",
+      "Ingrédients de S-Crystal",
+      "Zutaten für S-Crystal",
+      "Ингредиенты для S-Crystal"
+    ],
+    "Double Jump ingredients": [
+      "Ingredientes de Double Jump",
+      "Ingredientes de Double Jump",
+      "Double Jumpの材料",
+      "Double Jump材料",
+      "Ingrédients de Double Jump",
+      "Zutaten für Double Jump",
+      "Ингредиенты для Double Jump"
+    ],
+    "Hospital Sub Memory": [
+      "Sub Memory del hospital",
+      "Sub Memory do hospital",
+      "病院のSub Memory",
+      "医院内的Sub Memory",
+      "Sub Memory de l’hôpital",
+      "Sub Memory im Krankenhaus",
+      "Sub Memory в больнице"
+    ],
+    "Castillo Sub Memory": [
+      "Sub Memory de Castillo",
+      "Sub Memory de Castillo",
+      "CastilloのSub Memory",
+      "Castillo的Sub Memory",
+      "Sub Memory de Castillo",
+      "Sub Memory in Castillo",
+      "Sub Memory в Castillo"
+    ],
+    "NetFrica Sub Memory": [
+      "Sub Memory de NetFrica",
+      "Sub Memory de NetFrica",
+      "NetFricaのSub Memory",
+      "NetFrica的Sub Memory",
+      "Sub Memory de NetFrica",
+      "Sub Memory in NetFrica",
+      "Sub Memory в NetFrica"
+    ],
+    "End City Sub Memory": [
+      "Sub Memory de End City",
+      "Sub Memory de End City",
+      "End CityのSub Memory",
+      "End City的Sub Memory",
+      "Sub Memory d’End City",
+      "Sub Memory in End City",
+      "Sub Memory в End City"
+    ],
+    "Hospital HPMemory": [
+      "HPMemory del hospital",
+      "HPMemory do hospital",
+      "病院のHPMemory",
+      "医院内的HPMemory",
+      "HPMemory de l’hôpital",
+      "HPMemory im Krankenhaus",
+      "HPMemory в больнице"
+    ],
+    "Early HPMemory": [
+      "HPMemory del inicio",
+      "HPMemory do início",
+      "序盤のHPMemory",
+      "前期HPMemory",
+      "HPMemory du début",
+      "Frühe HPMemory",
+      "Ранняя HPMemory"
+    ],
+    "Central Area 3 key": [
+      "Llave de Central Area 3",
+      "Chave de Central Area 3",
+      "Central Area 3の鍵",
+      "Central Area 3的钥匙",
+      "Clé de Central Area 3",
+      "Schlüssel für Central Area 3",
+      "Ключ от Central Area 3"
+    ],
+    "Dad’s upgrades": [
+      "Mejoras de papá",
+      "Melhorias do pai",
+      "父親による強化",
+      "爸爸提供的升级",
+      "Améliorations proposées par papa",
+      "Verbesserungen von Papa",
+      "Улучшения от папы"
+    ],
+    "Physical Sub Tank 1": [
+      "Sub Tank 1 del escenario",
+      "Sub Tank 1 da fase",
+      "ステージ内のSub Tank 1",
+      "关卡内的Sub Tank 1",
+      "Sub Tank 1 à ramasser",
+      "Sub Tank 1 im Level",
+      "Sub Tank 1 в уровне"
+    ],
+    "Physical Sub Tank 2": [
+      "Sub Tank 2 del escenario",
+      "Sub Tank 2 da fase",
+      "ステージ内のSub Tank 2",
+      "关卡内的Sub Tank 2",
+      "Sub Tank 2 à ramasser",
+      "Sub Tank 2 im Level",
+      "Sub Tank 2 в уровне"
+    ],
+    "Trade Sub Tank 3": [
+      "Sub Tank 3 por intercambio",
+      "Sub Tank 3 por troca",
+      "交換で入手するSub Tank 3",
+      "通过交换取得的Sub Tank 3",
+      "Sub Tank 3 à échanger",
+      "Sub Tank 3 durch Tausch",
+      "Sub Tank 3 за обмен"
+    ],
+    "Trade Sub Tank 4": [
+      "Sub Tank 4 por intercambio",
+      "Sub Tank 4 por troca",
+      "交換で入手するSub Tank 4",
+      "通过交换取得的Sub Tank 4",
+      "Sub Tank 4 à échanger",
+      "Sub Tank 4 durch Tausch",
+      "Sub Tank 4 за обмен"
+    ],
+    "First A letter": [
+      "Primera letra A",
+      "Primeira letra A",
+      "最初のAの文字",
+      "第一个字母A",
+      "Première lettre A",
+      "Erster Buchstabe A",
+      "Первая буква A"
+    ],
+    "Second A letter": [
+      "Segunda letra A",
+      "Segunda letra A",
+      "二つ目のAの文字",
+      "第二个字母A",
+      "Deuxième lettre A",
+      "Zweiter Buchstabe A",
+      "Вторая буква A"
+    ],
+    "First M letter": [
+      "Primera letra M",
+      "Primeira letra M",
+      "最初のMの文字",
+      "第一个字母M",
+      "Première lettre M",
+      "Erster Buchstabe M",
+      "Первая буква M"
+    ],
+    "Second M letter": [
+      "Segunda letra M",
+      "Segunda letra M",
+      "二つ目のMの文字",
+      "第二个字母M",
+      "Deuxième lettre M",
+      "Zweiter Buchstabe M",
+      "Вторая буква M"
+    ],
+    "A letter": [
+      "Letra A",
+      "Letra A",
+      "Aの文字",
+      "字母A",
+      "Lettre A",
+      "Buchstabe A",
+      "Буква A"
+    ],
+    "B letter": [
+      "Letra B",
+      "Letra B",
+      "Bの文字",
+      "字母B",
+      "Lettre B",
+      "Buchstabe B",
+      "Буква B"
+    ],
+    "E letter": [
+      "Letra E",
+      "Letra E",
+      "Eの文字",
+      "字母E",
+      "Lettre E",
+      "Buchstabe E",
+      "Буква E"
+    ],
+    "G letter": [
+      "Letra G",
+      "Letra G",
+      "Gの文字",
+      "字母G",
+      "Lettre G",
+      "Buchstabe G",
+      "Буква G"
+    ],
+    "H letter": [
+      "Letra H",
+      "Letra H",
+      "Hの文字",
+      "字母H",
+      "Lettre H",
+      "Buchstabe H",
+      "Буква H"
+    ],
+    "N letter": [
+      "Letra N",
+      "Letra N",
+      "Nの文字",
+      "字母N",
+      "Lettre N",
+      "Buchstabe N",
+      "Буква N"
+    ],
+    "R letter": [
+      "Letra R",
+      "Letra R",
+      "Rの文字",
+      "字母R",
+      "Lettre R",
+      "Buchstabe R",
+      "Буква R"
+    ],
+    "S letter": [
+      "Letra S",
+      "Letra S",
+      "Sの文字",
+      "字母S",
+      "Lettre S",
+      "Buchstabe S",
+      "Буква S"
+    ],
+    "T letter": [
+      "Letra T",
+      "Letra T",
+      "Tの文字",
+      "字母T",
+      "Lettre T",
+      "Buchstabe T",
+      "Буква T"
+    ],
+    "U letter": [
+      "Letra U",
+      "Letra U",
+      "Uの文字",
+      "字母U",
+      "Lettre U",
+      "Buchstabe U",
+      "Буква U"
+    ],
+    "V letter": [
+      "Letra V",
+      "Letra V",
+      "Vの文字",
+      "字母V",
+      "Lettre V",
+      "Buchstabe V",
+      "Буква V"
+    ],
+    "Return flight": [
+      "Vuelo de regreso",
+      "Voo de volta",
+      "帰りのフライト",
+      "返程航班",
+      "Vol de retour",
+      "Rückflug",
+      "Обратный рейс"
+    ],
+    "First Style": [
+      "Primer Style",
+      "Primeiro Style",
+      "最初のStyle",
+      "第一个Style",
+      "Premier Style",
+      "Erster Style",
+      "Первый Style"
+    ]
+  }
+}

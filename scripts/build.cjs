@@ -47,12 +47,38 @@ fs.cpSync('src/assets','dist/assets',{recursive:true});
 fs.copyFileSync('src/guide-theme.css','dist/guide-theme.css');
 for(const file of ['progress.js','progress.css','library.css','identity.css'])fs.copyFileSync('src/'+file,'dist/'+file);
 fs.writeFileSync('dist/index.html',renderLibrary(games,campaigns));fs.writeFileSync('dist/.nojekyll','');
+if(process.argv.includes('--source-only')){console.log('Undecorated English pages ready for catalog extraction.');process.exit(0);}
+const localization=require('../src/localization.cjs');
+const localeUi=JSON.parse(fs.readFileSync('src/locales/ui.json','utf8'));
+const previewIndex=process.argv.indexOf('--preview-locale');
+const selectedLocale=previewIndex<0?null:process.argv[previewIndex+1];
+if(selectedLocale&&!localization.locales.includes(selectedLocale))throw Error('Unsupported preview language');
+const buildLocales=selectedLocale?['en',...(selectedLocale==='en'?[]:[selectedLocale])]:localization.locales;
+fs.writeFileSync('dist/localization.js',localization.compileRuntime(localeUi));
+fs.copyFileSync('src/localization.css','dist/localization.css');
+const englishPages=['index.html',...campaigns.map(g=>g.id+'/index.html'),...games.map(g=>g.id==='x4-zero'?'x4/zero.html':g.id+'/index.html')];
+const catalog=JSON.parse(fs.readFileSync('src/locales/source.json','utf8'));
+const sourceByKey=new Map(catalog.units.map(u=>[u.key,u.source]));
+const reviewed=JSON.parse(fs.readFileSync('src/locales/reviewed.json','utf8'));
+const dictionaries=new Map(buildLocales.filter(l=>l!=='en').map(l=>[l,{...JSON.parse(fs.readFileSync('src/locales/'+l+'.json','utf8')),...reviewed[l]}]));
+const pages=[];
+for(const page of englishPages){
+ const original=fs.readFileSync('dist/'+page,'utf8');
+ for(const u of localization.units(original))if(sourceByKey.get(u.key)!==u.source)throw Error('English source changed; refresh translations: '+u.key);
+ const route=page==='index.html'?'':page.replace(/index\.html$/,'');
+ for(const locale of buildLocales){
+  const translated=locale==='en'?original:localization.translate(original,locale,dictionaries.get(locale),catalog.protectedTerms);
+  const destination=(locale==='en'?'':locale+'/')+page;
+  fs.mkdirSync(path.dirname('dist/'+destination),{recursive:true});
+  fs.writeFileSync('dist/'+destination,localization.decorate(translated,{locale,route}));pages.push(destination);
+ }
+}
+console.log(buildLocales.length+' languages: '+pages.length+' current pages, shared original media.');
 // Updated files get fresh URLs while unchanged files keep their browser cache.
-const sharedFiles=['style.css','guide.js','guide-theme.css','progress.js','progress.css','library.css','identity.css'];
+const sharedFiles=['style.css','guide.js','guide-theme.css','progress.js','progress.css','library.css','identity.css','localization.js','localization.css'];
 // Keep content hashes identical on Windows previews and Linux publication builds.
 for(const file of sharedFiles)fs.writeFileSync('dist/'+file,fs.readFileSync('dist/'+file,'utf8').replaceAll('\r\n','\n'));
 const hashes=new Map(sharedFiles.map(file=>[file,require('node:crypto').createHash('sha256').update(fs.readFileSync('dist/'+file)).digest('hex').slice(0,10)]));
-const pages=['index.html',...campaigns.map(g=>g.id+'/index.html'),...games.map(g=>g.id==='x4-zero'?'x4/zero.html':g.id+'/index.html')];
-for(const page of pages){const file='dist/'+page;fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('\r\n','\n').replace(/\b(src|href)="((?:\.\.\/)?)([\w-]+\.(?:css|js))"/g,(match,attribute,prefix,name)=>hashes.has(name)?`${attribute}="${prefix}${name}?v=${hashes.get(name)}"`:match));}
+for(const page of pages){const file='dist/'+page;fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('\r\n','\n').replace(/\b(src|href)="((?:\.\.\/)*)([\w-]+\.(?:css|js))"/g,(match,attribute,prefix,name)=>hashes.has(name)?`${attribute}="${prefix}${name}?v=${hashes.get(name)}"`:match));}
 for(const [file,max] of Object.entries({'guide.js':14000,'style.css':25000,'progress.js':6500,'progress.css':5000,'library.css':5000,'identity.css':3000}))if(fs.statSync('dist/'+file).size>max)throw Error(file+' exceeds budget');
 require('./build-previous.cjs').buildPrevious();
