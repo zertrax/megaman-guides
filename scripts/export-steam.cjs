@@ -1,5 +1,6 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),base='https://zertrax.github.io/megaman-guides/';
+const publisherProfile='https://steamcommunity.com/id/Catophi/';
 const icons=require('../src/guide-icons.json'),ui=require('../src/locales/ui.json');
 const {locales,names}=require('../src/localization.cjs');
 const collections=[
@@ -37,5 +38,5 @@ for(const locale of locales){
   drafts.push({appid,collection:release.name,locale,language:names[locale],title:release.name+' · '+text.suffix,description:text.intro,body:relative,games:ids,hub:'https://steamcommunity.com/app/'+appid+'/guides/',originalIcon:release.src,iconSource:release.source,store:release.store});
  }
 }
-fs.writeFileSync(path.join(output,'drafts.json'),JSON.stringify({status:'LOCAL DRAFTS — NOT UPLOADED OR PUBLISHED TO STEAM',website:base,note:'One collection hub per language. Uses Steam BBCode, not website HTML. Account login, collection ownership, an upload-compatible original thumbnail, actual editor language/category choices and a pilot preview remain to be checked. Keep returned Steam guide IDs to update existing guides rather than create duplicates.',drafts},null,2)+'\n');
+fs.writeFileSync(path.join(output,'drafts.json'),JSON.stringify({status:'LOCAL DRAFTS — NOT UPLOADED OR PUBLISHED TO STEAM',publisherProfile,website:base,note:'One collection hub per language. Uses Steam BBCode, not website HTML. Account login, collection ownership, an upload-compatible original thumbnail, actual editor language/category choices and a pilot preview remain to be checked. Keep returned Steam guide IDs to update existing guides rather than create duplicates.',drafts},null,2)+'\n');
 console.log('Prepared '+drafts.length+' local Steam drafts: '+collections.length+' application hubs × '+locales.length+' languages; all '+games.size+' campaign links included. No Steam account accessed.');

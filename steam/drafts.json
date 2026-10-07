@@ -1,5 +1,6 @@
 {
   "status": "LOCAL DRAFTS — NOT UPLOADED OR PUBLISHED TO STEAM",
+  "publisherProfile": "https://steamcommunity.com/id/Catophi/",
   "website": "https://zertrax.github.io/megaman-guides/",
   "note": "One collection hub per language. Uses Steam BBCode, not website HTML. Account login, collection ownership, an upload-compatible original thumbnail, actual editor language/category choices and a pilot preview remain to be checked. Keep returned Steam guide IDs to update existing guides rather than create duplicates.",
   "drafts": [

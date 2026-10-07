@@ -18,6 +18,8 @@ Static localization passes 26 regression groups and the full release gate: 57,93
 
 ## Steam collection guides
 
+Requested publishing profile: https://steamcommunity.com/id/Catophi/ (confirmed by the user). The authenticated browser session has not been verified. The browser runtime reports a Windows sandbox setup-refresh failure before it can inspect the profile; no alternate sign-in or session-cookie method has been used.
+
 The user chose short Steam collection guides linking to the website. `node scripts/export-steam.cjs` prepares 64 local BBCode drafts: eight Steam application hubs in eight languages, covering all 36 campaigns with direct localized links. English links explicitly select English; names and original imagery remain unchanged. `steam/drafts.json` records titles, descriptions, hub IDs, body files and original collection-icon sources. These are drafts only: no Steam account has been accessed and no guide has been uploaded or published. Profile ownership, signed-in access, upload-compatible original thumbnails, actual editor language/category choices and a pilot preview remain required. Browser automation currently cannot initialize, so Steam submission is not claimed complete. Record returned guide IDs when publication starts, to update existing entries instead of making duplicates.
 
 ## Previous English release
