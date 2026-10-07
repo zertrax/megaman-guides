@@ -90,4 +90,10 @@ The final browser matrix records 152 representative checks: six pages in each la
 
 English/Portuguese checks preserve the reading section, open grouped return trip and stage marks through language changes; an English-source link preserves the language preference. French campaign-image enlargement keeps the × close symbol and returns opener focus after Escape. Russian Battle Network chapter completion uses the translated chapter heading, persists in English and updates both sidebar checks; manual game completion carries to the translated library. All temporary marks are undone. Displayed X6 thresholds use Portuguese/German dots, French narrow no-break spaces and Russian no-break spaces while retaining the value 3000.
 
-The language runtime adds 16,053 bytes and its stylesheet 1,805 bytes. The largest current generated HTML file is 136,932 bytes. Screenshots, covers and sprites remain shared English-source media; reading pages requires no translation service, model download or video autoplay. Public deployment evidence follows after the workflow completes.
+The language runtime adds 16,053 bytes and its stylesheet 1,805 bytes. The largest current generated HTML file is 136,932 bytes. Screenshots, covers and sprites remain shared English-source media; reading pages requires no translation service, model download or video autoplay.
+
+## Published eight-language release · October 7, 2026
+
+[GitHub Actions run 37614157795](https://github.com/zertrax/megaman-x-guides/actions/runs/37614157795) successfully built, verified and deployed revision `8826d4f`. A complete public-tree check fetched all **1,059 files**, including **306 HTML pages** across the eight current languages and the pinned comparison. Every request returned HTTP 200; all binaries match the checked build and all text matches after line-ending normalization. No failures remain in that delivery check.
+
+The live English library has 36 guide cards, all eight native language choices, loaded original artwork and no horizontal overflow at the normal browser size. The final website proof is English. Existing desktop URLs remain valid. The pre-translation English collection is preserved by the published tag `public-before-translations-2026-10-07`; `/previous/` retains the earlier comparison site. Structural, selected-semantic and gameplay/native-editorial limits above still apply.

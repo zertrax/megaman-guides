@@ -70,6 +70,8 @@ GitHub Pages deploys after a push to `main` passes the build and verification wo
 
 The old public source is preserved under the tag `public-before-2026-10-06` at `b802060`. `scripts/build-previous.cjs` builds that exact revision into `dist/previous/`, runs its original verification, and gives its reading settings a separate namespace. Its design and content remain unchanged. Full history is fetched by the workflow so the snapshot stays reproducible.
 
+The complete English collection before translation is additionally preserved under [public-before-translations-2026-10-07](https://github.com/zertrax/megaman-x-guides/tree/public-before-translations-2026-10-07) at `72b9f0b`. The live comparison still uses the original `b802060` source.
+
 ## Sources and verification
 
 Game imagery and Mega Man belong to Capcom. Captures and sprites are credited to their contributors in each guide's bottom Sources section; media records retain source URLs, credits and dimensions. No ownership or open-media license is claimed for third-party assets.

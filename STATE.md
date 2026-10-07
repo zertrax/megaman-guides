@@ -4,19 +4,21 @@ Updated: 2026-10-07.
 
 ## Current work
 
-Guide-focused GitHub presentation is published at 72b9f0b through successful deployment 37586080958. README includes English website screenshots and clear public guide links; development details live in docs/development.md.
+The eight-language guide release is published at 8826d4f through successful deployment 37614157795. All 1,059 public files, including 306 HTML pages, return HTTP 200 and match the checked build (text after line-ending normalization). README includes English website screenshots and clear guide/language links; development details live in docs/development.md. GitHub About now describes the guides and their eight languages.
 
-Eight-language support is complete and validated locally; publication is in progress. Locales: en, es-MX, pt-BR, ja, zh-Hans, fr, de and ru. English screenshots and existing stage identifiers remain unchanged. Native game aliases need title-specific official evidence before use; collection launcher language lists do not establish them. Descriptive guide headings are translated.
+Eight-language support is complete and published. Locales: en, es-MX, pt-BR, ja, zh-Hans, fr, de and ru. English screenshots and existing stage identifiers remain unchanged. Native game aliases need title-specific official evidence before use; collection launcher language lists do not establish them. Descriptive guide headings are translated.
 
 Static localization passes 26 regression groups and the full release gate: 57,932 current translations, 4,074 reviewed overrides, 296 current pages and 47,810 localized link/resource references. An independent audit checked 17 gameplay instructions per added language (119 samples); identified defects are fixed and rechecked. A 152-case representative browser pass covers all eight languages with valid anchors, no overflow, original media and 44px language/completion controls. Stage/game saves, translated chapter labels, expanded return trips, English-source navigation and image/Escape/focus checks pass. No native-speaker sign-off or exhaustive linguistic review is claimed. See docs/translation-review.md.
 
-## Release
+## Previous English release
 
 User approved publication of the complete collection and preservation of the old public version. Published through successful GitHub Actions run 37580899433. All 796 public files, including 47 HTML pages (37 current and 10 comparison pages), return HTTP 200 and match the verified build after text line-ending normalization. A final maintenance commit records these results and makes cache hashes deterministic across Windows and Linux.
 
 Public address: https://zertrax.github.io/megaman-x-guides/
 Comparison address: https://zertrax.github.io/megaman-x-guides/previous/
 Previous source: b802060b6c377e43e186136a393ef9804e184e85, tag public-before-2026-10-06.
+
+The complete English collection immediately before translation is also preserved at 72b9f0b, tag public-before-translations-2026-10-07. The live /previous/ comparison continues to use the original b802060 site.
 
 ## Completed
 
