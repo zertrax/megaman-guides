@@ -1,5 +1,5 @@
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function gameButton(id,title,compact=false){return `<button type="button" class="completion-toggle${compact?' card-complete':''}" data-game-complete="${escape(id)}" data-completion-name="${escape(title)}" aria-pressed="false" aria-label="Mark ${escape(title)} complete" title="Mark ${escape(title)} complete" hidden><span class="completion-check" aria-hidden="true">✓</span>${compact?'':'<span data-completion-label>Mark game complete</span>'}</button>`;}
+function gameButton(id,title,compact=false){return `<button type="button" class="completion-toggle${compact?' card-complete':''}" data-game-complete="${escape(id)}" data-completion-name="${escape(title)}" aria-pressed="false" aria-label="Mark ${escape(title)} complete" title="Mark ${escape(title)} complete" hidden><span class="completion-check" aria-hidden="true">✓</span><span data-completion-label>${compact?'Mark complete':'Mark game complete'}</span></button>`;}
 function enhance(html,g){
  const noun=g.networkGame?'Chapter':g.series==='zero'?'Mission':'Stage';
  const stages=[...g.stages,...(g.sideStages||[])];

@@ -16,6 +16,8 @@
 .boss-panel{position:relative}
 .boss-panel.is-complete{border-left-color:#edce6f!important}
 .flow-stamp{position:absolute;right:.5rem;top:-11px}
+body[data-guide-id] .sidebar a.stage-cleared,body[data-guide-id] .compact-menu nav a.stage-cleared{position:relative;padding-right:2.2rem}
+body[data-guide-id] .sidebar a.stage-cleared::after,body[data-guide-id] .compact-menu nav a.stage-cleared::after{content:'✓';position:absolute;right:.6rem;top:50%;transform:translateY(-50%);display:grid;place-items:center;width:18px;height:18px;background:#443b21;border:1px solid #edce6f;border-radius:2px;color:#ffdf82;font:800 .75rem/1 system-ui}
 .guide-progress{display:flex;align-items:center;flex-wrap:wrap;gap:.7rem 1.5rem;padding:1rem 0 .6rem;margin-top:.65rem;border-top:1px solid #3e6e96}
 .guide-progress>div{display:flex;flex-direction:column;gap:.25rem;font-size:.9rem}
 .guide-progress>small{flex-basis:100%;color:#c6d9e9;font-size:.8rem;line-height:1.5}

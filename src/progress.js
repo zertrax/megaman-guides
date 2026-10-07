@@ -4,6 +4,10 @@
   const prefix = 'field-guide:', suffix = ':completion:v1', memory = new Map();
   const stageButtons = [...document.querySelectorAll('[data-stage-complete]')];
   const gameButtons = [...document.querySelectorAll('[data-game-complete]')];
+  const stageNames = new Map(stageButtons.map(b => [b.dataset.stageComplete, b.dataset.completionName]));
+  const stageLinks = [...document.querySelectorAll('.sidebar a, .compact-menu nav a')]
+    .filter(a => stageNames.has(a.getAttribute('href')?.slice(1)))
+    .map(link => ({link, label: link.getAttribute('aria-label'), name: stageNames.get(link.getAttribute('href').slice(1))}));
   const key = id => prefix + id + suffix;
   const normalize = value => ({ completed: value?.completed === true,
     stages: [...new Set(Array.isArray(value?.stages) ? value.stages.filter(id => typeof id === 'string').slice(0, 200) : [])] });
@@ -27,7 +31,8 @@
     button.setAttribute('aria-label', label);
     button.title = label;
     const text = button.querySelector('[data-completion-label]');
-    if (text) text.textContent = complete ? 'Game completed' : 'Mark game complete';
+    if (text) text.textContent = button.classList.contains('card-complete')
+      ? (complete ? 'Completed' : 'Mark complete') : (complete ? 'Game completed' : 'Mark game complete');
     button.hidden = false;
   }
   function sync() {
@@ -36,11 +41,18 @@
       const complete = records.get(button.dataset.gameComplete).completed;
       updateButton(button, complete);
       const card = button.closest('.game-entry');
-      if (card) { card.classList.toggle('is-complete', complete); card.querySelector('.completion-stamp').hidden = !complete; }
+      if (card) card.classList.toggle('is-complete', complete);
     }
     if (stageButtons.length) {
       const state = records.get(guideId) || read(guideId);
       for (const button of stageButtons) updateButton(button, state.stages.includes(button.dataset.stageComplete));
+      for (const {link, label, name} of stageLinks) {
+        const complete = state.stages.includes(link.getAttribute('href').slice(1));
+        link.classList.toggle('stage-cleared', complete);
+        if (complete) link.setAttribute('aria-label', `${label || name}, cleared`);
+        else if (label !== null) link.setAttribute('aria-label', label);
+        else link.removeAttribute('aria-label');
+      }
       for (const element of document.querySelectorAll('[data-stage-id]')) {
         const complete = state.stages.includes(element.dataset.stageId);
         element.classList.toggle('is-complete', complete);
