@@ -2,6 +2,7 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('n
 const files=['index.html','x1/index.html','x2/index.html','x3/index.html','x4/index.html','x4/zero.html','x5/index.html','x6/index.html','x7/index.html','x8/index.html'];
 const campaignIds=fs.readdirSync('src/campaigns').filter(f=>f.endsWith('.json')).map(f=>f.slice(0,-5));
 const identity=require('../src/game-info.json');
+for(const file of ['style.css','guide.js','guide-theme.css','progress.js','progress.css','library.css','identity.css'])assert(!fs.readFileSync('dist/'+file,'utf8').includes('\r\n'),'Generated shared text must use consistent line endings: '+file);
 const previousVersion=JSON.parse(fs.readFileSync('dist/previous/version.json','utf8'));
 assert.equal(previousVersion.revision,require('./build-previous.cjs').revision,'Previous public version must remain pinned');
 for(const file of files){
@@ -24,6 +25,8 @@ assert.equal(campaignIds.length,27,'Expected 11 Classic, 6 Zero/ZX and 10 Battle
 files.push(...campaignIds.map(id=>id+'/index.html'));
 for(const file of files){
  const html=fs.readFileSync('dist/'+file,'utf8'),ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
+ assert(!html.includes('\r\n'),'Generated HTML must use consistent line endings: '+file);
+ for(const [,relative,version] of html.matchAll(/(?:src|href)="([^"?]+\.(?:css|js))\?v=([a-f0-9]+)"/g))assert.equal(version,require('node:crypto').createHash('sha256').update(fs.readFileSync(path.join('dist',path.dirname(file),relative))).digest('hex').slice(0,10),'Cache version must match served file: '+file+' -> '+relative);
  assert.equal(ids.length,new Set(ids).size,`Duplicate IDs in ${file}`);
  assert(!html.includes('${'),'Unresolved template expression');assert(!/<iframe/i.test(html),'Video must not load before a click');
  for(const [,raw] of html.matchAll(/(?:src|href)="([^"]+)"/g)){

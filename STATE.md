@@ -4,7 +4,7 @@ Updated: 2026-10-06.
 
 ## Release
 
-User approved publication of the complete collection and preservation of the old public version. Current release is verified locally; GitHub deployment and live URL checks are the remaining release steps.
+User approved publication of the complete collection and preservation of the old public version. Published through successful GitHub Actions run 37580899433. All 796 public files, including 47 HTML pages (37 current and 10 comparison pages), return HTTP 200 and match the verified build after text line-ending normalization. A final maintenance commit records these results and makes cache hashes deterministic across Windows and Linux.
 
 Public address: https://zertrax.github.io/megaman-x-guides/
 Comparison address: https://zertrax.github.io/megaman-x-guides/previous/
@@ -20,7 +20,7 @@ Every guide has an enlarged original cover beside its title, Completed beneath i
 
 Stages and game completion remain reversible and independent. Sidebar/Contents checks indicate cleared stages; current-section highlighting remains separate. Existing reading and completion keys are preserved. Grouped return trips reuse the original pickup records, stay expanded after reopening, and support local enlargement. Three-or-more reward previews retain the approved 220px cap. Shared CSS/JS use content hashes.
 
-The previous public site is rebuilt from its pinned source into /previous/ and verified by its original checks. Reading position and sidebar preference use separate keys, so comparison does not overwrite the current guide's settings. The current library links to it at the bottom. Existing public desktop URLs remain unchanged.
+The previous public site is rebuilt from its pinned source into /previous/ and verified by its original checks. Reading position and sidebar preference use separate keys, so comparison does not overwrite the current guide's settings. The current library links to it at the bottom. Existing public desktop URLs remain unchanged. The main shortcut is now named Mega Man Field Guides.url; the X3 shortcut remains valid.
 
 ## Final validation
 

@@ -71,3 +71,11 @@ Reading state belongs to one browser profile and origin. Clearing browser data r
 The user approved publishing all 36 guides and retaining the previous public site. A fresh 108-guide responsive pass at 390/940/1440px, four-width library pass, X3 grouped-return/image-dialog/reading-restore/stage-toggle regression and complete build/content/asset verification pass. The earlier local-only notes above are historical review checkpoints.
 
 The pinned b802060 source builds into /previous/ and passes its original verification plus archive page/asset links. Presentation and content remain unchanged; reading/sidebar keys use field-guide-previous to avoid overwriting the current guides. The library footer links to the comparison. The annotated tag public-before-2026-10-06 preserves the previous source. The workflow fetches full history for reproducible snapshot builds. Public deployment and live checks will be recorded after completion.
+
+## Published release · October 6, 2026
+
+GitHub Actions run [37580899433](https://github.com/zertrax/megaman-x-guides/actions/runs/37580899433) built and deployed revision 42d53dd successfully. The repository remains public with HTTPS enforced. The live library shows 36 cards in the requested collection order and loaded banner artwork.
+
+A full-tree public check fetched 796 files, including all 47 HTML pages, shared scripts/styles, original covers, screenshots, sprites and the previous-version manifest. Every request returned HTTP 200; every binary matched the local build, and every text file matched after line-ending normalization. HTML comparisons initially exposed Windows/Linux line-ending differences in stylesheet cache hashes; the build now canonicalizes generated text before hashing, so local and CI URLs agree. The 37 affected HTML comparisons pass after that correction.
+
+An independent local scan also checks 8,043 links/media references across both versions, including cross-page fragments. The previous version stays accessible at https://zertrax.github.io/megaman-x-guides/previous/ and its source tag is published. Desktop URLs remain unchanged; the main shortcut is renamed Mega Man Field Guides.url and X3 continues to open /x3/. No requested campaigns or release-blocking items remain pending. Gameplay and selective-media limits above still apply.

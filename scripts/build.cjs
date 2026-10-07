@@ -49,8 +49,10 @@ for(const file of ['progress.js','progress.css','library.css','identity.css'])fs
 fs.writeFileSync('dist/index.html',renderLibrary(games,campaigns));fs.writeFileSync('dist/.nojekyll','');
 // Updated files get fresh URLs while unchanged files keep their browser cache.
 const sharedFiles=['style.css','guide.js','guide-theme.css','progress.js','progress.css','library.css','identity.css'];
+// Keep content hashes identical on Windows previews and Linux publication builds.
+for(const file of sharedFiles)fs.writeFileSync('dist/'+file,fs.readFileSync('dist/'+file,'utf8').replaceAll('\r\n','\n'));
 const hashes=new Map(sharedFiles.map(file=>[file,require('node:crypto').createHash('sha256').update(fs.readFileSync('dist/'+file)).digest('hex').slice(0,10)]));
 const pages=['index.html',...campaigns.map(g=>g.id+'/index.html'),...games.map(g=>g.id==='x4-zero'?'x4/zero.html':g.id+'/index.html')];
-for(const page of pages){const file='dist/'+page;fs.writeFileSync(file,fs.readFileSync(file,'utf8').replace(/\b(src|href)="((?:\.\.\/)?)([\w-]+\.(?:css|js))"/g,(match,attribute,prefix,name)=>hashes.has(name)?`${attribute}="${prefix}${name}?v=${hashes.get(name)}"`:match));}
+for(const page of pages){const file='dist/'+page;fs.writeFileSync(file,fs.readFileSync(file,'utf8').replaceAll('\r\n','\n').replace(/\b(src|href)="((?:\.\.\/)?)([\w-]+\.(?:css|js))"/g,(match,attribute,prefix,name)=>hashes.has(name)?`${attribute}="${prefix}${name}?v=${hashes.get(name)}"`:match));}
 for(const [file,max] of Object.entries({'guide.js':14000,'style.css':25000,'progress.js':6500,'progress.css':5000,'library.css':5000,'identity.css':3000}))if(fs.statSync('dist/'+file).size>max)throw Error(file+' exceeds budget');
 require('./build-previous.cjs').buildPrevious();

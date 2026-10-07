@@ -1,6 +1,6 @@
 # Mega Man guide expansion
 
-Authorized 2026-10-06: carry the approved X3 interface, colors, layout and natural wording across X1-X8, then create Classic 1-11, Zero 1-4, ZX, ZX Advent and both Battle Network collection volumes. Work sequentially in that order. No new publication requested in this turn; complete and verify local guides first.
+Authorized 2026-10-06: carry the approved X3 interface, colors, layout and natural wording across X1-X8, then create Classic 1-11, Zero 1-4, ZX, ZX Advent and both Battle Network collection volumes. Work sequentially in that order. Local review came first. The user approved publication after the final title/card review; deployment and evidence are recorded in STATE.md and docs/verification.md.
 
 The requested inventory adds 27 game/version guides: 11 Classic, 6 Zero/ZX, 10 Battle Network versions (1, 2, 3 White/Blue, 4 Red Sun/Blue Moon, 5 Team ProtoMan/Team Colonel, 6 Cybeast Gregar/Falzar). Star Force, Legends and spin-offs are outside the request. Existing X4 has separate X/Zero campaigns.
 
