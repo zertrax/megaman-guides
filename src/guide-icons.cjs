@@ -1,8 +1,8 @@
-// Use the unmodified desktop icon of each guide's actual Steam release.
-// Collection games share their release icon; artwork is never redrawn or badged.
-const {releases}=require('./guide-icons.json');
+// Prefer individual game artwork archived as Official; fall back to Steam icons.
+// Archive labels are recorded honestly, not treated as executable verification.
+const {releases,individuals={}}=require('./guide-icons.json');
 const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function iconRecord(id){
+function releaseRecord(id){
  let app;
  if(id==='library')app=363440;
  else if(/^x[1-4]$/.test(id)||id==='x4-zero')app=743890;
@@ -16,7 +16,9 @@ function iconRecord(id){
  if(!app)throw Error('Missing original icon for guide: '+id);
  return releases[app];
 }
+function iconRecord(id){return individuals[id]||releaseRecord(id);}
 function iconPath(id){return iconRecord(id).src;}
-function iconLink(id,prefix='../'){return '<link rel="icon" type="image/x-icon" href="'+prefix+iconPath(id)+'">';}
-function iconCredit(id){const r=iconRecord(id);return '<p class="muted">Original desktop icon: <a href="'+r.store+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>. Artwork © Capcom, distributed by Steam.</p>';}
-module.exports={iconRecord,iconPath,iconLink,iconCredit};
+function iconLink(id,prefix='../'){return '<link rel="icon" type="'+(iconPath(id).endsWith('.png')?'image/png':'image/x-icon')+'" href="'+prefix+iconPath(id)+'">';}
+function iconCredit(id){const r=iconRecord(id);return '<p class="muted">'+(r.archive?'Individual game icon: <a href="'+r.archive+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>, archived by '+escape(r.uploader)+' and tagged Official by SteamGridDB. This archive copy has not been checked against the original executable. Artwork © Capcom.':'Original desktop icon: <a href="'+r.store+'" target="_blank" rel="noopener">'+escape(r.name)+'</a>. Artwork © Capcom, distributed by Steam.')+'</p>';}
+function libraryIconCredits(){return '<p class="muted">Individual artwork icons, tagged Official by SteamGridDB: '+Object.values(individuals).map(r=>'<a href="'+r.archive+'" target="_blank" rel="noopener">'+escape(r.name)+'</a> (archived by '+escape(r.uploader)+')').join(' · ')+'. These archive copies have not been checked against the original executables. Artwork © Capcom.</p>';}
+module.exports={iconRecord,releaseRecord,iconPath,iconLink,iconCredit,libraryIconCredits};

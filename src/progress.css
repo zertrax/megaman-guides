@@ -1,0 +1,23 @@
+[hidden]{display:none!important}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.completion-toggle{display:inline-flex;align-items:center;justify-content:center;gap:.65rem;min-height:44px;padding:.5rem .8rem;color:#d9f3ff;background:#102e4c;border:1px solid #5189af;border-radius:2px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer;transition:background .15s,border-color .15s,box-shadow .15s,transform .1s}
+.completion-toggle:hover{background:#1b4e75;border-color:#69dafa;box-shadow:0 0 0 1px #69dafa}
+.completion-toggle:active{background:#0b2037;transform:translateY(1px)}
+.completion-toggle:focus-visible{outline:3px solid #ffe074;outline-offset:3px}
+.completion-check{display:grid;place-items:center;flex:0 0 18px;width:18px;height:18px;border:1px solid #9cc9e8;border-radius:2px;color:transparent;font-size:14px;line-height:1;background:#081c31}
+.completion-toggle[aria-pressed=true]{background:#443b21;border-color:#e5c35b;color:#ffe399}
+.completion-toggle[aria-pressed=true] .completion-check{color:#071b34;background:#f2d275;border-color:#f2d275}
+.stage-name-row{align-items:center}
+.stage-complete{flex:0 0 44px;width:44px;height:44px;padding:0;margin-left:auto}
+.stage{position:relative}
+.completion-stamp{font:800 .65rem/1.2 system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#fff0b0;background:#443b21;border:1px solid #d9b952;padding:.35rem .55rem;border-radius:2px;pointer-events:none}
+.stage-stamp{position:absolute;top:-11px;right:.5rem;z-index:1}
+.stage.is-complete .stage-top{border-top-color:#edce6f}
+.boss-panel{position:relative}
+.boss-panel.is-complete{border-left-color:#edce6f!important}
+.flow-stamp{position:absolute;right:.5rem;top:-11px}
+.guide-progress{display:flex;align-items:center;flex-wrap:wrap;gap:.7rem 1.5rem;padding:1rem 0 .6rem;margin-top:.65rem;border-top:1px solid #3e6e96}
+.guide-progress>div{display:flex;flex-direction:column;gap:.25rem;font-size:.9rem}
+.guide-progress>small{flex-basis:100%;color:#c6d9e9;font-size:.8rem;line-height:1.5}
+.progress-save-error{position:fixed;bottom:1rem;left:1rem;right:1rem;z-index:100;background:#4d241f;color:#fff1d0;border:1px solid #ffa08d;padding:.8rem;font-size:.85rem;max-width:650px;margin:auto}
+@media(prefers-reduced-motion:reduce){.completion-toggle{transition:none}.completion-toggle:active{transform:none}}

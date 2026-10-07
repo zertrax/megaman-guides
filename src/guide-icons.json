@@ -253,5 +253,141 @@
         }
       ]
     }
+  },
+  "individuals": {
+    "x1": {
+      "name": "Mega Man X",
+      "src": "assets/icons/individual-x1.png",
+      "source": "https://cdn2.steamgriddb.com/icon/3721e4fa10597f0aa6ab442e95508de1.png",
+      "archive": "https://www.steamgriddb.com/icon/15242",
+      "uploader": "IggniFyre",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 934,
+      "sha256": "d469b922fe1660e515dd02e32d634512d089ac83496f808a10c2d57f6075a716",
+      "resolutions": [
+        {
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    "x2": {
+      "name": "Mega Man X2",
+      "src": "assets/icons/individual-x2.png",
+      "source": "https://cdn2.steamgriddb.com/icon/2e310f292c162dece16e5936ffde36e8.png",
+      "archive": "https://www.steamgriddb.com/icon/15243",
+      "uploader": "IggniFyre",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 1015,
+      "sha256": "121f36e5879ee4a57f55f8c64c71c102a0b290a9b1b23428fbe37d8ec2d82d50",
+      "resolutions": [
+        {
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    "x3": {
+      "name": "Mega Man X3",
+      "src": "assets/icons/individual-x3.png",
+      "source": "https://cdn2.steamgriddb.com/icon/4c1062cc42d7e3c64306cbee964db44f.png",
+      "archive": "https://www.steamgriddb.com/icon/15244",
+      "uploader": "IggniFyre",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 1094,
+      "sha256": "c18e653d0623ddf439ee4be83e236be5af2d1479bffad671b721c123ccaa1199",
+      "resolutions": [
+        {
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    "x5": {
+      "name": "Mega Man X5",
+      "src": "assets/icons/individual-x5.png",
+      "source": "https://cdn2.steamgriddb.com/icon_thumb/da5cfc421d669f067695b76deae947d9.png",
+      "archive": "https://www.steamgriddb.com/icon/19052",
+      "uploader": "AtTimesChris",
+      "provenance": "Archive tags this artwork icon Official; not independently compared to a release executable. The archive-provided thumbnail is used unchanged to reduce transfer size.",
+      "bytes": 435731,
+      "sha256": "69e72548f80d060c7bbb219c152b1d5fc810510a8d2f709a99fd5f6c8cb36ab7",
+      "resolutions": [
+        {
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "originalSource": "https://cdn2.steamgriddb.com/icon/da5cfc421d669f067695b76deae947d9.png",
+      "originalSha256": "1d9b35422e983cbd75d1aaef9bf252db38d2aa94dd4359a5423c8ea670f8f7d5",
+      "originalBytes": 1310548
+    },
+    "x6": {
+      "name": "Mega Man X6",
+      "src": "assets/icons/individual-x6.png",
+      "source": "https://cdn2.steamgriddb.com/icon_thumb/7558a03211f17086e4b8d0fbd35e9a6a.png",
+      "archive": "https://www.steamgriddb.com/icon/19053",
+      "uploader": "AtTimesChris",
+      "provenance": "Archive tags this artwork icon Official; not independently compared to a release executable. The archive-provided thumbnail is used unchanged to reduce transfer size.",
+      "bytes": 434767,
+      "sha256": "55c876cb4a8fd75da39566e0142b04ec8eeaa5bb1e7c9bf966db1a9dfc12dbdd",
+      "resolutions": [
+        {
+          "width": 512,
+          "height": 512
+        }
+      ],
+      "originalSource": "https://cdn2.steamgriddb.com/icon/7558a03211f17086e4b8d0fbd35e9a6a.png",
+      "originalSha256": "cfe073ad4c3bb8124223b5246138f8419296b346bc18d0a6ec95fa8aea546c1f",
+      "originalBytes": 1256546
+    },
+    "x8": {
+      "name": "Mega Man X8",
+      "src": "assets/icons/individual-x8.png",
+      "source": "https://cdn2.steamgriddb.com/icon/cd12c5f7eafb7e784382eb8e307d4ae0.png",
+      "archive": "https://www.steamgriddb.com/icon/19214",
+      "uploader": "Grady Vuckovic",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 39122,
+      "sha256": "361231acefd2e751e6de0e4170ff399dbee798025230153c8d9c76bfbda4c5b4",
+      "resolutions": [
+        {
+          "width": 256,
+          "height": 256
+        }
+      ]
+    },
+    "zx": {
+      "name": "Mega Man ZX",
+      "src": "assets/icons/individual-zx.png",
+      "source": "https://cdn2.steamgriddb.com/icon/11958dfee29b6709f48a9ba0387a2431.png",
+      "archive": "https://www.steamgriddb.com/icon/7527",
+      "uploader": "GARY NEVER GARY AGAIN",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 543,
+      "sha256": "15fcf49c7f53e1d9d7140ac7845eab8b2a3f3c828a251082d992f7ce55e11f2a",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "zx-advent": {
+      "name": "Mega Man ZX Advent",
+      "src": "assets/icons/individual-zx-advent.png",
+      "source": "https://cdn2.steamgriddb.com/icon/f6f154417c4665861583f9b9c4afafa2.png",
+      "archive": "https://www.steamgriddb.com/icon/7528",
+      "uploader": "GARY NEVER GARY AGAIN",
+      "provenance": "Archive tags this icon Official; not independently compared to a release executable. Original archive file preserved without edits.",
+      "bytes": 532,
+      "sha256": "a1943712f4f000a7377e7ea1c3fa90eb3d4df0169ca11482ee2c5598cc613fd5",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
   }
 }

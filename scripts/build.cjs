@@ -2,6 +2,7 @@ const fs=require('node:fs'),path=require('node:path');
 const {render}=require('../src/template.cjs');
 const {render:renderCampaign}=require('../src/campaign-template.cjs');
 const {render:renderLibrary}=require('../src/library-template.cjs');
+const {enhance:withProgress}=require('../src/progress-template.cjs');
 const projectRoot=path.resolve(__dirname,'..');
 process.chdir(projectRoot);
 const outputDirectory=path.join(projectRoot,'dist');
@@ -17,7 +18,7 @@ for(const game of campaigns){
  if(new Set(anchors).size!==anchors.length)throw Error('Duplicate campaign IDs: '+game.id);
  for(const r of game.returns||[])for(const id of r.items)if(!stages.get(r.stage)?.items.some(p=>p.id===id))throw Error('Invalid campaign return: '+id);
  for(const m of [...(game.extraMedia||[]),...game.stages.map(s=>s.sprite),...items.flatMap(p=>p.media||[])].filter(Boolean))if(!fs.existsSync(path.join('src',m.src)))throw Error('Missing campaign asset: '+m.src);
- const html=renderCampaign(game).replaceAll('src="assets/','src="../assets/').replaceAll('href="assets/','href="../assets/');
+ const html=withProgress(renderCampaign(game),game).replaceAll('src="assets/','src="../assets/').replaceAll('href="assets/','href="../assets/');
  if(Buffer.byteLength(html)>150000)throw Error(game.id+' exceeds HTML budget');
  fs.mkdirSync('dist/'+game.id,{recursive:true});fs.writeFileSync('dist/'+game.id+'/index.html',html);
  console.log(game.title+': '+items.length+' utility locations; '+Buffer.byteLength(html)+' HTML bytes');
@@ -34,7 +35,7 @@ for(const game of games){
  for(const m of media)if(!fs.existsSync(path.join('src',m.src)))throw Error(`Missing media: ${m.src}`);
  const destination=game.id==='x4-zero'?'x4/zero.html':`${game.id}/index.html`;
  fs.mkdirSync(path.dirname('dist/'+destination),{recursive:true});
- const html=render(game).replaceAll('href="style.css"','href="../style.css"').replaceAll('src="guide.js"','src="../guide.js"').replaceAll('src="assets/','src="../assets/').replaceAll('href="assets/','href="../assets/');
+ const html=withProgress(render(game),game).replaceAll('href="style.css"','href="../style.css"').replaceAll('src="guide.js"','src="../guide.js"').replaceAll('src="assets/','src="../assets/').replaceAll('href="assets/','href="../assets/');
  if(Buffer.byteLength(html)>150000)throw Error(`${game.id} exceeds HTML budget`);
  fs.writeFileSync('dist/'+destination,html);
  console.log(`${game.title}: ${items.length} pickup locations; ${Buffer.byteLength(html)} HTML bytes`);
@@ -43,5 +44,6 @@ fs.writeFileSync('dist/style.css',['style.css','stage.css','collection.css'].map
 fs.writeFileSync('dist/guide.js',['guide.js','reading-position.js','collection.js'].map(f=>fs.readFileSync('src/'+f,'utf8')).join('\n'));
 fs.cpSync('src/assets','dist/assets',{recursive:true});
 fs.copyFileSync('src/guide-theme.css','dist/guide-theme.css');
+for(const file of ['progress.js','progress.css','library.css'])fs.copyFileSync('src/'+file,'dist/'+file);
 fs.writeFileSync('dist/index.html',renderLibrary(games,campaigns));fs.writeFileSync('dist/.nojekyll','');
-for(const [file,max] of Object.entries({'guide.js':14000,'style.css':25000}))if(fs.statSync('dist/'+file).size>max)throw Error(file+' exceeds budget');
+for(const [file,max] of Object.entries({'guide.js':14000,'style.css':25000,'progress.js':6500,'progress.css':5000,'library.css':5000}))if(fs.statSync('dist/'+file).size>max)throw Error(file+' exceeds budget');

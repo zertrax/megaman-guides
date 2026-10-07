@@ -4,7 +4,7 @@ const campaignIds=fs.readdirSync('src/campaigns').filter(f=>f.endsWith('.json'))
 assert.equal(campaignIds.length,27,'Expected 11 Classic, 6 Zero/ZX and 10 Battle Network campaigns');
 files.push(...campaignIds.map(id=>id+'/index.html'));
 for(const file of files){
- const html=fs.readFileSync('dist/'+file,'utf8'),ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+ const html=fs.readFileSync('dist/'+file,'utf8'),ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
  assert.equal(ids.length,new Set(ids).size,`Duplicate IDs in ${file}`);
  assert(!html.includes('${'),'Unresolved template expression');assert(!/<iframe/i.test(html),'Video must not load before a click');
  for(const [,raw] of html.matchAll(/(?:src|href)="([^"]+)"/g)){
@@ -12,8 +12,18 @@ for(const file of files){
   if(raw.startsWith('#')){assert(ids.includes(raw.slice(1)),`Broken ${file}${raw}`);continue;}
   const ref=raw.split('#')[0];let resolved=path.join('dist',path.dirname(file),ref);if(fs.existsSync(resolved)&&fs.statSync(resolved).isDirectory())resolved=path.join(resolved,'index.html');assert(fs.existsSync(resolved),`Missing ${file} -> ${ref}`);
  }
- if(file==='index.html')continue;
+ if(file==='index.html'){
+  assert.equal((html.match(/class="game-entry"/g)||[]).length,36,'Library must link all campaigns');
+  assert.equal((html.match(/data-game-complete=/g)||[]).length,36,'Every game needs an independent completion control');
+  assert(!html.includes('Open guide'),'Library links are full cards');
+  for(const [,card] of html.matchAll(/<a class="game-card"[^>]*>([\s\S]*?)<\/a>/g))assert(!/<button|<p>/.test(card),'Cards must have no nested buttons or game descriptions');
+  continue;
+ }
  const gameId=file==='x4/zero.html'?'x4-zero':file.split('/')[0];
+ const progressGame=JSON.parse(fs.readFileSync(`src/${campaignIds.includes(gameId)?'campaigns':'games'}/${gameId}.json`));
+ const progressStages=[...progressGame.stages,...(progressGame.sideStages||[])];
+ assert.deepEqual([...html.matchAll(/data-stage-complete="([^"]+)"/g)].map(m=>m[1]),progressStages.map(s=>s.id),'Progress controls must match the listed stages: '+gameId);
+ assert.equal((html.match(/data-game-complete=/g)||[]).length,1,'One manual game completion control: '+gameId);
  if(campaignIds.includes(gameId)){
   const g=JSON.parse(fs.readFileSync(`src/campaigns/${gameId}.json`));
   assert(g.primer.length>=2&&g.routeIntro&&g.stages.length&&g.sections.length,gameId+' needs game-specific guidance');
