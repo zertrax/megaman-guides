@@ -96,6 +96,11 @@ function validateAssembledPage(record,file,locale,original,englishFile,pages,has
   assert.equal(notes.length,locale==='en'?0:1,'AI translation notice: '+file);
   const credits=record.tags.filter(node=>(node.attributes.class||'').split(/\s+/).includes('translation-credit'));
   assert.equal(credits.length,locale==='en'?0:1,'Translation review disclosure: '+file);
+  if(locale!=='en'){
+    const footer=record.html.match(/<footer\b[^>]*>[\s\S]*?<\/footer>/i)?.[0];
+    assert.ok(footer?.includes('class="translation-note"'),'Translation notice must be in the footer: '+file);
+    assert.ok(footer?.includes('class="translation-credit"'),'Translation review disclosure must be in the footer: '+file);
+  }
   const englishLinks=record.tags.filter(node=>Object.hasOwn(node.attributes,'data-english-source'));
   assert.equal(englishLinks.length,locale==='en'?0:1,'English source link: '+file);
   if(englishLinks.length){const target=localTarget(englishLinks[0].attributes.href,file);assert.equal(target.target,englishFile);assert.equal(target.url.searchParams.get('lang'),'en');}
@@ -255,6 +260,13 @@ check('All eight static selectors, translated note and same guide identity', () 
     assert.ok(output.includes('data-guide-locale="'+locale+'"'));
     assert.equal(output.includes('class="translation-note"'),locale!=='en');
     assert.equal(output.includes('class="translation-credit"'),locale!=='en');
+    if(locale!=='en'){
+      assert.ok(output.indexOf('class="translation-note"')>output.indexOf('<pre>Never translate code.</pre>'));
+      const withFooter=html.replace('</main>','<footer><p>Credits</p></footer></main>');
+      const decoratedFooter=engine.decorate(withFooter,{locale,route:'x3/'}).match(/<footer>[\s\S]*?<\/footer>/)[0];
+      assert.ok(decoratedFooter.includes('class="translation-note"'));
+      assert.ok(decoratedFooter.includes('class="translation-credit"'));
+    }
     assert.ok(!engine.units(output).some(unit=>unit.source.includes('Español (Latinoamérica)')));
     assert.throws(()=>engine.decorate(output,{locale,route:'x3/'}),/already/);
   }
@@ -326,7 +338,7 @@ check('Guide-written headings translate without becoming unofficial game aliases
 });
 function browserFixture({locale='en',route='x3/',preference,query='',hash='#neon-tiger',brokenStorage=false}={}) {
   const handlers={},saved=[],navigation=[];
-  const root='https://example.test/megaman-x-guides/';
+  const root='https://example.test/megaman-guides/';
   const url=new URL((locale==='en'?'':locale+'/')+route+query+hash,root);
   const select={value:locale,addEventListener:(event,callback)=>{handlers[event]=callback;}};
   const english={addEventListener:(event,callback)=>{handlers['english:'+event]=callback;}};
@@ -345,7 +357,7 @@ check('Compiled runtime has local messages and matching placeholders', () => {
 });
 check('Saved preference redirects English paths while direct locales stay explicit', () => {
   const english=browserFixture({preference:'ja'});
-  assert.deepEqual(english.navigation,[['replace','https://example.test/megaman-x-guides/ja/x3/#neon-tiger']]);
+  assert.deepEqual(english.navigation,[['replace','https://example.test/megaman-guides/ja/x3/#neon-tiger']]);
   assert.equal(english.saved.length,0);
   const explicit=browserFixture({locale:'fr',preference:'ja'});
   assert.equal(explicit.navigation.length,0);assert.equal(explicit.saved.length,0);
@@ -359,16 +371,16 @@ check('Explicit switch preserves route, query, hash and browser preference', () 
   const page=browserFixture({locale:'fr',route:'x4/zero.html',query:'?preview=covers'});
   page.select.value='de';page.handlers.change();
   assert.deepEqual(page.saved,[['field-guide:language:v1','de']]);
-  assert.deepEqual(page.navigation,[['assign','https://example.test/megaman-x-guides/de/x4/zero.html?preview=covers#neon-tiger']]);
-  assert.equal(page.english.href,'https://example.test/megaman-x-guides/x4/zero.html?preview=covers&lang=en#neon-tiger');
+  assert.deepEqual(page.navigation,[['assign','https://example.test/megaman-guides/de/x4/zero.html?preview=covers#neon-tiger']]);
+  assert.equal(page.english.href,'https://example.test/megaman-guides/x4/zero.html?preview=covers&lang=en#neon-tiger');
   page.context.location.hash='#volt-catfish';page.handlers['english:click']();
-  assert.equal(page.english.href,'https://example.test/megaman-x-guides/x4/zero.html?preview=covers&lang=en#volt-catfish');
+  assert.equal(page.english.href,'https://example.test/megaman-guides/x4/zero.html?preview=covers&lang=en#volt-catfish');
   const english=browserFixture({locale:'ja',query:'?lang=ja'});english.select.value='en';english.handlers.change();
-  assert.equal(english.navigation[0][1],'https://example.test/megaman-x-guides/x3/?lang=en#neon-tiger');
+  assert.equal(english.navigation[0][1],'https://example.test/megaman-guides/x3/?lang=en#neon-tiger');
 });
 check('Blocked storage still allows explicit language navigation', () => {
   const page=browserFixture({brokenStorage:true});page.select.value='ru';page.handlers.change();
-  assert.equal(page.navigation[0][1],'https://example.test/megaman-x-guides/ru/x3/#neon-tiger');
+  assert.equal(page.navigation[0][1],'https://example.test/megaman-guides/ru/x3/#neon-tiger');
 });
 // Check the actual generated English pages with identity fixtures. This is a DOM,
 // extraction and safety check, not evidence of translation quality or readiness.

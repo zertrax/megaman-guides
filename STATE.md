@@ -4,6 +4,10 @@ Updated: 2026-10-07.
 
 ## Current work
 
+Final interface refinements are ready for publication under the renamed public repository `zertrax/megaman-guides`. The library collection links are uniform and shorter in appearance while keeping 44px targets. Translation notices and editorial-review disclosures sit inside every translated footer. Completed games show a faded cover and cyan clear stamp in library cards and guide title covers; existing stage marks, original artwork and saved-progress identities are preserved.
+
+The build and full release gate pass, including footer-placement checks across 259 translated pages and all 26 localization regression groups. Sixteen real-script completion fixtures pass across eight languages and library/guide shapes. The browser runtime cannot initialize this turn, so a fresh visual/interaction check is unavailable; the earlier 152-case browser pass predates these refinements. Publication and updated desktop addresses will be recorded after live verification.
+
 The eight-language guide release is published at 8826d4f through successful deployment 37614157795. All 1,059 public files, including 306 HTML pages, return HTTP 200 and match the checked build (text after line-ending normalization). README includes English website screenshots and clear guide/language links; development details live in docs/development.md. GitHub About now describes the guides and their eight languages.
 
 Eight-language support is complete and published. Locales: en, es-MX, pt-BR, ja, zh-Hans, fr, de and ru. English screenshots and existing stage identifiers remain unchanged. Native game aliases need title-specific official evidence before use; collection launcher language lists do not establish them. Descriptive guide headings are translated.
@@ -14,8 +18,8 @@ Static localization passes 26 regression groups and the full release gate: 57,93
 
 User approved publication of the complete collection and preservation of the old public version. Published through successful GitHub Actions run 37580899433. All 796 public files, including 47 HTML pages (37 current and 10 comparison pages), return HTTP 200 and match the verified build after text line-ending normalization. A final maintenance commit records these results and makes cache hashes deterministic across Windows and Linux.
 
-Public address: https://zertrax.github.io/megaman-x-guides/
-Comparison address: https://zertrax.github.io/megaman-x-guides/previous/
+Public address: https://zertrax.github.io/megaman-guides/
+Comparison address: https://zertrax.github.io/megaman-guides/previous/
 Previous source: b802060b6c377e43e186136a393ef9804e184e85, tag public-before-2026-10-06.
 
 The complete English collection immediately before translation is also preserved at 72b9f0b, tag public-before-translations-2026-10-07. The live /previous/ comparison continues to use the original b802060 site.

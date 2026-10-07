@@ -327,12 +327,10 @@ function decorate(html, {locale='en',route=''}) {
   if (locale !== 'en') {
     const english = relativeUrl(locale,route,route || './') + '?lang=en';
     const note = '<aside class="translation-note" role="note"><span>' + escape(ui.translationNote) + '</span> <a href="' + english + '" data-english-source>' + escape(ui.englishSource) + '</a></aside>';
-    if (/<div class="layout"/.test(result)) result = result.replace(/(<div class="layout"[^>]*>)/,note+'$1');
-    else result = result.replace('<div id="collections">',note+'<div id="collections">');
     const footerEnd=result.lastIndexOf('</footer>');
     const credit='<p class="translation-credit">'+escape(ui.translationCredit)+'</p>';
-    if(footerEnd>=0)result=result.slice(0,footerEnd+9)+credit+result.slice(footerEnd+9);
-    else if(result.includes('</main>'))result=result.replace('</main>',credit+'</main>');
+    if(footerEnd>=0)result=result.slice(0,footerEnd)+note+credit+result.slice(footerEnd);
+    else if(result.includes('</main>'))result=result.replace('</main>',note+credit+'</main>');
     else throw Error('Missing translation credit destination');
   }
   return result;

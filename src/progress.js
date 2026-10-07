@@ -50,6 +50,20 @@
       updateButton(button, complete);
       const card = button.closest('.game-entry');
       if (card) card.classList.toggle('is-complete', complete);
+      const cover = button.closest('.game-cover');
+      if (cover) cover.classList.toggle('is-complete', complete);
+      const portrait = card?.querySelector('.game-card') || cover?.querySelector('.cover-link');
+      if (portrait) {
+        let stamp = portrait.querySelector('.game-clear-stamp');
+        if (!stamp) {
+          stamp = document.createElement('span');
+          stamp.className = 'game-clear-stamp';
+          stamp.setAttribute('aria-hidden', 'true');
+          portrait.append(stamp);
+        }
+        stamp.textContent = '✓ ' + t('completed');
+        stamp.hidden = !complete;
+      }
     }
     if (stageButtons.length) {
       const state = records.get(guideId) || read(guideId);

@@ -21,7 +21,7 @@ function buildPrevious() {
     fs.writeFileSync(script, fs.readFileSync(script, 'utf8').replaceAll('field-guide', 'field-guide-previous'));
     fs.writeFileSync(path.join(destination, 'version.json'), JSON.stringify({
       label: 'Previous public X1–X8 guides', revision,
-      source: 'https://github.com/zertrax/megaman-x-guides/tree/' + revision,
+      source: 'https://github.com/zertrax/megaman-guides/tree/' + revision,
       note: 'Original presentation and content. Browser reading settings use a separate namespace.'
     }, null, 2) + '\n');
     console.log('Previous public version: 9 X campaigns, preserved at /previous/');

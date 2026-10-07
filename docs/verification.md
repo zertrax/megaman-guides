@@ -1,5 +1,17 @@
 # Verification
 
+## Final interface refinements and repository rename · October 7, 2026
+
+Repository and canonical Pages addresses now use `megaman-guides`. Current README, source links, comparison-source manifest and maintenance links use the new address. The local checkout directory retains its existing name. GitHub redirects the old repository address; the old Pages address is not a supported redirect.
+
+The library's four collection links have equal column widths, matching text alignment and neutral styling. Their visible frames are 36px high within 44px targets; phones use two columns. The first link's inherited gold border and » prefix are removed only in the library. Guide introduction buttons retain their approved primary-action styling.
+
+Completed games display a dimmed, desaturated cover with a cyan translated clear stamp in the library and guide header. The control remains reversible, has `aria-pressed`, and retains its Completed label. The stamp is decorative and does not duplicate the accessible name. The original artwork and enlarged cover remain unchanged. Stage marks and saved-progress keys are unaffected.
+
+The full build and release checks pass for all 296 current pages and ten comparison pages. All 259 translated pages must contain both translation disclosures inside their footer and retain their English-source link. All 26 localization regression groups pass. Independently executing the real progress script passes 16 fixtures across eight languages and both library/guide shapes: native stamp labels, save/reload, cross-tab reset, undo, no duplicate stamps and preserved stage marks.
+
+The browser automation runtime failed to initialize on this refinement pass, including after reset. These changes have source, build, assembled-page and script-fixture verification; they do not have a fresh rendered-layout or browser-interaction sign-off. Earlier browser evidence below predates these final UI changes. No replacement screenshot is presented as a newly rendered capture.
+
 ## Current collection · October 6, 2026
 
 36 campaign guides plus the library build without dependencies: 9 X, 11 Classic, 6 Zero/ZX and 10 Battle Network versions. No unfinished cards. `verify-all.cjs` checks local assets and anchors, media provenance, return references, Classic boss rosters, all 40 MM8 Bolts, the Proto Shield return, Zero/ZX health and tank inventories, and all BN base HP/Buster/Sub/Regular Memory upgrades. BN2's initial 4MB unlock is separate from the 46MB of collected increases. Both BN4 versions include all 18 tournament scenario entries.
@@ -74,11 +86,11 @@ The pinned b802060 source builds into /previous/ and passes its original verific
 
 ## Published release · October 6, 2026
 
-GitHub Actions run [37580899433](https://github.com/zertrax/megaman-x-guides/actions/runs/37580899433) built and deployed revision 42d53dd successfully. The repository remains public with HTTPS enforced. The live library shows 36 cards in the requested collection order and loaded banner artwork.
+GitHub Actions run [37580899433](https://github.com/zertrax/megaman-guides/actions/runs/37580899433) built and deployed revision 42d53dd successfully. The repository remains public with HTTPS enforced. The live library shows 36 cards in the requested collection order and loaded banner artwork.
 
 A full-tree public check fetched 796 files, including all 47 HTML pages, shared scripts/styles, original covers, screenshots, sprites and the previous-version manifest. Every request returned HTTP 200; every binary matched the local build, and every text file matched after line-ending normalization. HTML comparisons initially exposed Windows/Linux line-ending differences in stylesheet cache hashes; the build now canonicalizes generated text before hashing, so local and CI URLs agree. The 37 affected HTML comparisons pass after that correction.
 
-An independent local scan also checks 8,043 links/media references across both versions, including cross-page fragments. The previous version stays accessible at https://zertrax.github.io/megaman-x-guides/previous/ and its source tag is published. Desktop URLs remain unchanged; the main shortcut is renamed Mega Man Field Guides.url and X3 continues to open /x3/. No requested campaigns or release-blocking items remain pending. Gameplay and selective-media limits above still apply.
+An independent local scan also checks 8,043 links/media references across both versions, including cross-page fragments. The previous version stays accessible at https://zertrax.github.io/megaman-guides/previous/ and its source tag is published. Desktop URLs remain unchanged; the main shortcut is renamed Mega Man Field Guides.url and X3 continues to open /x3/. No requested campaigns or release-blocking items remain pending. Gameplay and selective-media limits above still apply.
 
 ## Eight-language release checks · October 7, 2026
 
@@ -94,6 +106,6 @@ The language runtime adds 16,053 bytes and its stylesheet 1,805 bytes. The large
 
 ## Published eight-language release · October 7, 2026
 
-[GitHub Actions run 37614157795](https://github.com/zertrax/megaman-x-guides/actions/runs/37614157795) successfully built, verified and deployed revision `8826d4f`. A complete public-tree check fetched all **1,059 files**, including **306 HTML pages** across the eight current languages and the pinned comparison. Every request returned HTTP 200; all binaries match the checked build and all text matches after line-ending normalization. No failures remain in that delivery check.
+[GitHub Actions run 37614157795](https://github.com/zertrax/megaman-guides/actions/runs/37614157795) successfully built, verified and deployed revision `8826d4f`. A complete public-tree check fetched all **1,059 files**, including **306 HTML pages** across the eight current languages and the pinned comparison. Every request returned HTTP 200; all binaries match the checked build and all text matches after line-ending normalization. No failures remain in that delivery check.
 
 The live English library has 36 guide cards, all eight native language choices, loaded original artwork and no horizontal overflow at the normal browser size. The final website proof is English. Existing desktop URLs remain valid. The pre-translation English collection is preserved by the published tag `public-before-translations-2026-10-07`; `/previous/` retains the earlier comparison site. Structural, selected-semantic and gameplay/native-editorial limits above still apply.

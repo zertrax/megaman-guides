@@ -15,4 +15,8 @@ body[data-guide-id] .game-cover{grid-column:2;grid-row:1/6;align-self:center;jus
 body[data-guide-id] .game-cover .guide-progress{display:block;border:0;padding:0;margin:.55rem 0 0}
 .game-cover .completion-toggle{width:100%;border-radius:0;justify-content:center}
 .flow-progress{display:flex;flex-wrap:wrap;gap:.5rem 1rem;color:#b7dff4;font-size:.85rem}.flow-progress small{font-size:.8rem;color:#bfd3e4}
+.game-cover.is-complete .cover-link{border-color:#9cecff}
+.game-cover.is-complete .cover-link img{filter:grayscale(1) brightness(.6)}
+.cover-link>.game-clear-stamp{left:5px;right:5px;top:50%;bottom:auto;transform:translateY(-50%);text-align:center;padding:.6rem .3rem;font:800 .85rem/1.2 system-ui,sans-serif;background:repeating-linear-gradient(135deg,#103850f5 0 5px,#0b2c44f5 5px 10px);color:#d2f7ff}
+@media(max-width:700px){.cover-link>.game-clear-stamp{font-size:.6rem;letter-spacing:0}}
 @media(max-width:700px){body[data-guide-id] .guide-hero{grid-template-columns:minmax(0,1fr) 116px;column-gap:.8rem;min-height:0}body[data-guide-id] .guide-hero>h1{font-size:clamp(1.6rem,5.5vw,2.3rem);grid-row:1}body[data-guide-id] .guide-hero>p{grid-column:1/-1;grid-row:2;margin-top:1rem}body[data-guide-id] .guide-hero>.hero-actions{grid-column:1/-1;grid-row:3;align-items:center}body[data-guide-id] .guide-hero>.campaign-tabs{grid-column:1/-1;grid-row:4}body[data-guide-id] .guide-hero>.facts{grid-column:1/-1;grid-row:5}body[data-guide-id] .game-cover{grid-row:1;max-width:116px}.cover-link img{max-height:145px}.game-cover .completion-toggle{font-size:.72rem;padding:.5rem .35rem;gap:.4rem}.game-cover .completion-check{width:16px;height:16px;flex-basis:16px}}

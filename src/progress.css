@@ -22,4 +22,7 @@ body[data-guide-id] .sidebar a.stage-cleared::after,body[data-guide-id] .compact
 .guide-progress>div{display:flex;flex-direction:column;gap:.25rem;font-size:.9rem}
 .guide-progress>small{flex-basis:100%;color:#c6d9e9;font-size:.8rem;line-height:1.5}
 .progress-save-error{position:fixed;bottom:1rem;left:1rem;right:1rem;z-index:100;background:#4d241f;color:#fff1d0;border:1px solid #ffa08d;padding:.8rem;font-size:.85rem;max-width:650px;margin:auto}
+[data-game-complete][aria-pressed=true]{background:#103e55;border-color:#6ad8f5;color:#b7f3ff}
+[data-game-complete][aria-pressed=true] .completion-check{color:#082236;background:#92eaff;border-color:#92eaff}
+.game-clear-stamp{display:block;z-index:1;padding:.4rem .3rem;border:1px solid #b4f2ff;border-left:4px solid #84e5ff;background:repeating-linear-gradient(135deg,#103850f5 0 5px,#0b2c44f5 5px 10px);box-shadow:0 3px 0 #031627;font:800 .72rem/1.2 system-ui,sans-serif;letter-spacing:.03em;text-transform:uppercase;color:#d2f7ff;pointer-events:none;overflow-wrap:anywhere}
 @media(prefers-reduced-motion:reduce){.completion-toggle{transition:none}.completion-toggle:active{transform:none}}
