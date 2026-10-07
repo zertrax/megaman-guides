@@ -2,7 +2,6 @@ const fs=require('node:fs'),path=require('node:path');
 const {render}=require('../src/template.cjs');
 const {render:renderCampaign}=require('../src/campaign-template.cjs');
 const {render:renderLibrary}=require('../src/library-template.cjs');
-const {svg}=require('../src/guide-icons.cjs');
 const projectRoot=path.resolve(__dirname,'..');
 process.chdir(projectRoot);
 const outputDirectory=path.join(projectRoot,'dist');
@@ -44,7 +43,5 @@ fs.writeFileSync('dist/style.css',['style.css','stage.css','collection.css'].map
 fs.writeFileSync('dist/guide.js',['guide.js','reading-position.js','collection.js'].map(f=>fs.readFileSync('src/'+f,'utf8')).join('\n'));
 fs.cpSync('src/assets','dist/assets',{recursive:true});
 fs.copyFileSync('src/guide-theme.css','dist/guide-theme.css');
-fs.mkdirSync('dist/icons',{recursive:true});
-for(const game of [...games,...campaigns,{id:'library',title:'Mega Man Field Guides'}])fs.writeFileSync('dist/icons/'+game.id+'.svg',svg(game.id,game.title));
 fs.writeFileSync('dist/index.html',renderLibrary(games,campaigns));fs.writeFileSync('dist/.nojekyll','');
 for(const [file,max] of Object.entries({'guide.js':14000,'style.css':25000}))if(fs.statSync('dist/'+file).size>max)throw Error(file+' exceeds budget');

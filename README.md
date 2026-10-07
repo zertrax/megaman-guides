@@ -22,7 +22,7 @@ Open http://localhost:4185. This is a preview on your computer. Ordinary static 
 - `src/campaigns/*.json` contains the 27 Classic, Zero/ZX and Battle Network guides; `campaign-template.cjs` renders their different progression systems.
 - `src/guide-theme.css` gives all guides and the library the approved X3 presentation. `style.css`, `stage.css` and `collection.css` handle shared responsive layout.
 - `src/library-template.cjs` builds the collection index from completed campaign records.
-- `src/guide-icons.cjs` generates 37 original vector helmet icons for browser tabs and library cards, with game numbers and version markers. They are local SVGs; no icon service or image package is needed.
+- `src/guide-icons.cjs` maps browser tabs and library cards to the original, unmodified Steam desktop icon for their release. Games in the same collection share its authentic icon. `guide-icons.json` records official source URLs, file hashes and resolutions; the eight ICO files are hosted locally.
 - `src/guide.js`, `reading-position.js` and `collection.js` handle dialogs, navigation, saved reading state and games menus.
 - `src/network-upgrades.json` and sprite manifests retain checked inventory/media reference data.
 - `scripts/build.cjs` produces 36 guides and the library in `dist/`; `verify-all.cjs` checks content inventories, anchors, assets and return references.

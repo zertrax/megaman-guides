@@ -12,7 +12,7 @@ Content corrections include BN1 armor merchants, BN4's five-EvilChip Black Earth
 
 Limits: source checks and browser interaction checks are not a complete gameplay run. New Classic/Zero/BN pages use credited sprites and selected maps/captures; many new pickup cards give text directions without a location image. Temporary consumables, every ordinary chip code, optional Cyber-Elf/Secret Disk catalogues and trophy checklists are not exhaustively reproduced. Relevant full catalogues are linked. No public deployment was performed for this expansion.
 
-Guide icons: each of the 37 page documents points to a distinct, existing local SVG. All 111 images in the icon review (37 marks at 16, 32 and 64px) loaded successfully and were visually inspected. Library cards use the same artwork. The icons are original vector interpretations of the series' helmets, rather than copied gameplay captures.
+Guide icons: after the user's correction, all 37 page documents point to the original Steam desktop icon for their release. The eight ICO files remain unmodified; hashes and official URLs are retained in guide-icons.json. X Legacy Collection's icon also matches the installed game's Windows registry entry and local Steam file. All 24 icon-review images (eight originals at 16, 32 and 64px) loaded and were visually inspected. Library cards display authentic icons at 32px. Games within a collection share its icon; custom helmet drawings and added badges have been removed.
 
 ## Historical initial release
 

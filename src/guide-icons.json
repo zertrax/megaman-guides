@@ -1,0 +1,257 @@
+{
+  "credit": "Official Capcom desktop icons distributed by Steam. Original files are preserved without redrawing, recoloring or added badges.",
+  "releases": {
+    "363440": {
+      "name": "Mega Man Legacy Collection",
+      "src": "assets/icons/steam-363440.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/",
+      "steamClientIcon": "bca41c8835804b5abf42c4ff2ea6cf73a6ad136e",
+      "bytes": 4286,
+      "sha256": "549bc3cfccbcfe4e0f682ae03e50e32588e1c1ca1fe0be9073b377ca676f23a1",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "495050": {
+      "name": "Mega Man Legacy Collection 2",
+      "src": "assets/icons/steam-495050.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/",
+      "steamClientIcon": "15f0e387429b6c798ff933bf3e0b93725311081e",
+      "bytes": 17006,
+      "sha256": "af7643df797f733d47eb73013d81748521bdb876bc7d2ad71ffae510772ee826",
+      "resolutions": [
+        {
+          "width": 64,
+          "height": 64
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    "742300": {
+      "name": "Mega Man 11",
+      "src": "assets/icons/steam-742300.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/",
+      "steamClientIcon": "5d7b892509a8d826afe60f2c2bbcc1e5ba43a952",
+      "bytes": 4286,
+      "sha256": "ba6625c7117beba19a86b4f2f8cbc3400d707219c1df10d9f4bff0aafbd5dfe5",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "743890": {
+      "name": "Mega Man X Legacy Collection",
+      "src": "assets/icons/steam-743890.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/",
+      "steamClientIcon": "08b014fe92787cf52b1ed52c0376a28cf5d63895",
+      "bytes": 4286,
+      "sha256": "2182f58e7ce1f83a308b4c3bba7869bd4e699212c9dd37a055e38a5189aba02e",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "743900": {
+      "name": "Mega Man X Legacy Collection 2",
+      "src": "assets/icons/steam-743900.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/",
+      "steamClientIcon": "66f17aca7f51a4b9b7ba0500be357c747936f589",
+      "bytes": 4286,
+      "sha256": "0436c4d1b35d9c54e9299d836b70474b5f7c148b85431976a13cb0147a5b29e7",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "999020": {
+      "name": "Mega Man Zero/ZX Legacy Collection",
+      "src": "assets/icons/steam-999020.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/",
+      "steamClientIcon": "a295611d55e6a7abbb287a3780e55b879796a43a",
+      "bytes": 285478,
+      "sha256": "9b2bade73eedc7d672b2b9cf4e3846580d59c6e89b4aceb9d6fc200889be6e90",
+      "resolutions": [
+        {
+          "width": 256,
+          "height": 256
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 32,
+          "height": 32
+        }
+      ]
+    },
+    "1798010": {
+      "name": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "src": "assets/icons/steam-1798010.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/",
+      "steamClientIcon": "1fb3b40985cec3f62d91f665fc061efcae43ee28",
+      "bytes": 311534,
+      "sha256": "185d1d52949f8cecf28bf4028374f3d5c62ea6197f61f73851c6978355cc4a5c",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 256,
+          "height": 256
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        }
+      ]
+    },
+    "1798020": {
+      "name": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "src": "assets/icons/steam-1798020.ico",
+      "source": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/",
+      "steamClientIcon": "3226bfca4b82fa7dc571f493ec161ff9cdd47e48",
+      "bytes": 311534,
+      "sha256": "94a1094091e942723eebf0ce2f39381670199354aa49f40a246d1c58960c4972",
+      "resolutions": [
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        },
+        {
+          "width": 256,
+          "height": 256
+        },
+        {
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 32,
+          "height": 32
+        },
+        {
+          "width": 24,
+          "height": 24
+        },
+        {
+          "width": 16,
+          "height": 16
+        }
+      ]
+    }
+  }
+}

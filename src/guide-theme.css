@@ -1,5 +1,5 @@
 /* Shared guide theme: retain readable instructions, whole scenes and 220px previews. */
-body[data-guide-id] .game-card header img.guide-icon{width:64px;height:64px;flex:0 0 64px;image-rendering:auto}
+body[data-guide-id] .game-card header img.guide-icon{width:32px;height:32px;flex:0 0 32px;image-rendering:auto}
 body[data-guide-id] .hero h1{font-size:clamp(2rem,4vw,3rem)}
 body[data-guide-id] .hero{padding-top:.75rem;margin-bottom:1.5rem}
 body[data-guide-id] .hero>p{max-width:66ch;font-size:1.05rem}
