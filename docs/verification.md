@@ -65,3 +65,9 @@ Game routes were cross-checked against the linked stage/item sources; see conten
 Reading state belongs to one browser profile and origin. Clearing browser data removes it; it does not sync between devices or migrate from a previous hostname.
 
 2026-09-18: Added source-checked Useful tips sections to X1, X2, X3 and both X4 campaigns, with contextual refill links. Built each completed game update sequentially; verify-all passed for all six HTML pages, local media, unique anchors, return cards and character differences. git diff --check passed. Crystal Snail movement and refill advice are source/user-checked, not emulator-tested. No new media, scripts, styles or dependencies were added to the site. X5-X8 remain outside this update.
+
+## Publication preparation · October 6, 2026
+
+The user approved publishing all 36 guides and retaining the previous public site. A fresh 108-guide responsive pass at 390/940/1440px, four-width library pass, X3 grouped-return/image-dialog/reading-restore/stage-toggle regression and complete build/content/asset verification pass. The earlier local-only notes above are historical review checkpoints.
+
+The pinned b802060 source builds into /previous/ and passes its original verification plus archive page/asset links. Presentation and content remain unchanged; reading/sidebar keys use field-guide-previous to avoid overwriting the current guides. The library footer links to the comparison. The annotated tag public-before-2026-10-06 preserves the previous source. The workflow fetches full history for reproducible snapshot builds. Public deployment and live checks will be recorded after completion.

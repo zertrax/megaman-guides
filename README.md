@@ -2,11 +2,11 @@
 
 36 independent fan guides for Mega Man X1–X8, Classic 1–11, Zero 1–4, ZX / ZX Advent, and all ten game/version campaigns in both Battle Network Legacy Collection volumes. X4 includes separate X and Zero campaigns.
 
-The October 6 expansion is ready in the local preview. The [public website](https://zertrax.github.io/megaman-x-guides/) remains at its prior X1–X8 release until these changes are published.
+The [public website](https://zertrax.github.io/megaman-x-guides/) is the delivery address for this collection. The [previous public X1–X8 version](https://zertrax.github.io/megaman-x-guides/previous/) is preserved for comparison.
 
 ## Run locally
 
-Requires Node.js 22 or newer. No packages to install.
+Requires Node.js 22 or newer, Git and tar, using a Git checkout with full history. No packages to install. Git and tar rebuild the pinned comparison site without downloading assets.
 
 ```sh
 npm run build
@@ -38,6 +38,8 @@ A new game needs researched mechanics and content, not renamed X armor records. 
 ## Publishing
 
 GitHub Pages deploys after a push to `main` passes the build and verification workflow. Pages must use GitHub Actions. Publication is confirmed only after deployment succeeds and the intended public URLs return HTTP 200. Existing desktop shortcuts remain valid because the homepage and X page paths are unchanged.
+
+The old public source is preserved under the tag `public-before-2026-10-06` at `b802060`. `scripts/build-previous.cjs` builds that exact revision into `dist/previous/`, runs its original verification, and gives its reading settings a separate namespace. Its design and content remain unchanged. Full history is fetched by the workflow so the snapshot stays reproducible.
 
 ## Sources and verification
 

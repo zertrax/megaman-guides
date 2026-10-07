@@ -2,6 +2,23 @@ const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('n
 const files=['index.html','x1/index.html','x2/index.html','x3/index.html','x4/index.html','x4/zero.html','x5/index.html','x6/index.html','x7/index.html','x8/index.html'];
 const campaignIds=fs.readdirSync('src/campaigns').filter(f=>f.endsWith('.json')).map(f=>f.slice(0,-5));
 const identity=require('../src/game-info.json');
+const previousVersion=JSON.parse(fs.readFileSync('dist/previous/version.json','utf8'));
+assert.equal(previousVersion.revision,require('./build-previous.cjs').revision,'Previous public version must remain pinned');
+for(const file of files){
+ const archived='previous/'+file;
+ const html=fs.readFileSync('dist/'+archived,'utf8');
+ const ids=[...html.matchAll(/\sid="([^"]+)"/g)].map(m=>m[1]);
+ for(const [,raw] of html.matchAll(/(?:src|href)="([^"]+)"/g)){
+  if(/^(https?:|mailto:)/.test(raw))continue;
+  if(raw.startsWith('#')){assert(ids.includes(raw.slice(1)),`Broken archive anchor ${archived}${raw}`);continue;}
+  let resolved=path.join('dist',path.dirname(archived),raw.split(/[?#]/)[0]);
+  if(fs.existsSync(resolved)&&fs.statSync(resolved).isDirectory())resolved=path.join(resolved,'index.html');
+  assert(fs.existsSync(resolved),`Missing archive asset ${archived} -> ${raw}`);
+ }
+}
+assert(fs.readFileSync('dist/previous/guide.js','utf8').includes('field-guide-previous:'),'Previous reading state needs its own namespace');
+assert(!fs.readFileSync('dist/previous/index.html','utf8').includes('class="game-entry"'),'Previous presentation must remain unchanged');
+console.log('PASS previous public version: pinned source, 9 campaigns, page/assets links and separate reading state.');
 for(const art of require('../src/library-art.json')){assert(art.source&&art.credit&&art.width>0&&art.height>0,'Banner artwork needs attribution and dimensions');assert.equal(require('node:crypto').createHash('sha256').update(fs.readFileSync('src/'+art.src)).digest('hex'),art.sha256,'Banner artwork provenance');}
 assert.equal(campaignIds.length,27,'Expected 11 Classic, 6 Zero/ZX and 10 Battle Network campaigns');
 files.push(...campaignIds.map(id=>id+'/index.html'));
