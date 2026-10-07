@@ -12,6 +12,8 @@ The full build and release checks pass for all 296 current pages and ten compari
 
 The browser automation runtime failed to initialize on this refinement pass, including after reset. These changes have source, build, assembled-page and script-fixture verification; they do not have a fresh rendered-layout or browser-interaction sign-off. Earlier browser evidence below predates these final UI changes. No replacement screenshot is presented as a newly rendered capture.
 
+Deployment [37701799886](https://github.com/zertrax/megaman-guides/actions/runs/37701799886) successfully published df611a5. A fresh full-tree live check at the renamed Pages address fetched all 1,059 files, including 306 HTML pages: every request returned HTTP 200, and every file matched the verified build after normalizing text line endings. The library and X3 desktop shortcuts now use the new address. The immediately preceding multilingual source is preserved at tag `public-before-final-ui-2026-10-07`; the live `/previous/` comparison retains the original pinned X1–X8 version.
+
 ## Current collection · October 6, 2026
 
 36 campaign guides plus the library build without dependencies: 9 X, 11 Classic, 6 Zero/ZX and 10 Battle Network versions. No unfinished cards. `verify-all.cjs` checks local assets and anchors, media provenance, return references, Classic boss rosters, all 40 MM8 Bolts, the Proto Shield return, Zero/ZX health and tank inventories, and all BN base HP/Buster/Sub/Regular Memory upgrades. BN2's initial 4MB unlock is separate from the 46MB of collected increases. Both BN4 versions include all 18 tournament scenario entries.

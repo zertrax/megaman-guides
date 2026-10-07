@@ -4,11 +4,11 @@ Updated: 2026-10-07.
 
 ## Current work
 
-Final interface refinements are ready for publication under the renamed public repository `zertrax/megaman-guides`. The library collection links are uniform and shorter in appearance while keeping 44px targets. Translation notices and editorial-review disclosures sit inside every translated footer. Completed games show a faded cover and cyan clear stamp in library cards and guide title covers; existing stage marks, original artwork and saved-progress identities are preserved.
+Final interface refinements are published at df611a5 through successful deployment 37701799886 under the renamed public repository `zertrax/megaman-guides`. The library collection links are uniform and shorter in appearance while keeping 44px targets. Translation notices and editorial-review disclosures sit inside every translated footer. Completed games show a faded cover and cyan clear stamp in library cards and guide title covers; existing stage marks, original artwork and saved-progress identities are preserved.
 
-The build and full release gate pass, including footer-placement checks across 259 translated pages and all 26 localization regression groups. Sixteen real-script completion fixtures pass across eight languages and library/guide shapes. The browser runtime cannot initialize this turn, so a fresh visual/interaction check is unavailable; the earlier 152-case browser pass predates these refinements. Publication and updated desktop addresses will be recorded after live verification.
+The build and full release gate pass, including footer-placement checks across 259 translated pages and all 26 localization regression groups. Sixteen real-script completion fixtures pass across eight languages and library/guide shapes. All 1,059 public files, including 306 HTML pages, return HTTP 200 and match the checked build. The library and X3 desktop shortcuts now use the new Pages address. The browser runtime could not initialize this turn, so a fresh visual/interaction check is unavailable; the earlier 152-case browser pass predates these refinements.
 
-The eight-language guide release is published at 8826d4f through successful deployment 37614157795. All 1,059 public files, including 306 HTML pages, return HTTP 200 and match the checked build (text after line-ending normalization). README includes English website screenshots and clear guide/language links; development details live in docs/development.md. GitHub About now describes the guides and their eight languages.
+The earlier eight-language guide release was published at 8826d4f through successful deployment 37614157795. README includes English website screenshots and clear guide/language links; development details live in docs/development.md. GitHub About describes the guides and their eight languages. The source immediately before the final refinements is preserved at 2d193ed, tag public-before-final-ui-2026-10-07.
 
 Eight-language support is complete and published. Locales: en, es-MX, pt-BR, ja, zh-Hans, fr, de and ru. English screenshots and existing stage identifiers remain unchanged. Native game aliases need title-specific official evidence before use; collection launcher language lists do not establish them. Descriptive guide headings are translated.
 
@@ -34,7 +34,7 @@ Every guide has an enlarged original cover beside its title, Completed beneath i
 
 Stages and game completion remain reversible and independent. Sidebar/Contents checks indicate cleared stages; current-section highlighting remains separate. Existing reading and completion keys are preserved. Grouped return trips reuse the original pickup records, stay expanded after reopening, and support local enlargement. Three-or-more reward previews retain the approved 220px cap. Shared CSS/JS use content hashes.
 
-The previous public site is rebuilt from its pinned source into /previous/ and verified by its original checks. Reading position and sidebar preference use separate keys, so comparison does not overwrite the current guide's settings. The current library links to it at the bottom. Existing public desktop URLs remain unchanged. The main shortcut is now named Mega Man Field Guides.url; the X3 shortcut remains valid.
+The previous public site is rebuilt from its pinned source into /previous/ and verified by its original checks. Reading position and sidebar preference use separate keys, so comparison does not overwrite the current guide's settings. The current library links to it at the bottom. The desktop shortcuts Mega Man Field Guides.url and Mega Man X3 — Field Guide.url use the renamed website's library and /x3/ addresses.
 
 ## Final validation
 
