@@ -1,0 +1,19 @@
+Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.
+
+[h1]Choose a game[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/zero1/?lang=en]Mega Man Zero[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zero2/?lang=en]Mega Man Zero 2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zero3/?lang=en]Mega Man Zero 3[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zero4/?lang=en]Mega Man Zero 4[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zx/?lang=en]Mega Man ZX[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zx-advent/?lang=en]Mega Man ZX ADVENT[/url]
+[/list]
+
+[h1]Using the website[/h1]
+Enlarge images inside a guide, check off cleared stages and finished games, and return to your last reading section. Progress stays in that browser; it does not sync with Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/?lang=en]Open the full guide library[/url]
+
+[hr][/hr]
+Independent fan guides. Mega Man and its artwork belong to Capcom. Image credits and references are listed at the bottom of each guide.

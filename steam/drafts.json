@@ -1,0 +1,1255 @@
+{
+  "status": "LOCAL DRAFTS — NOT UPLOADED OR PUBLISHED TO STEAM",
+  "website": "https://zertrax.github.io/megaman-guides/",
+  "note": "One collection hub per language. Uses Steam BBCode, not website HTML. Account login, collection ownership, an upload-compatible original thumbnail, actual editor language/category choices and a pilot preview remain to be checked. Keep returned Steam guide IDs to update existing guides rather than create duplicates.",
+  "drafts": [
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man Legacy Collection · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man Legacy Collection 2 · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man 11 · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man X Legacy Collection · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man X Legacy Collection 2 · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man Zero/ZX Legacy Collection · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "en",
+      "language": "English",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Field guides",
+      "description": "Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.",
+      "body": "en/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man Legacy Collection · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man Legacy Collection 2 · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man 11 · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man X Legacy Collection · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man X Legacy Collection 2 · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man Zero/ZX Legacy Collection · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "es-MX",
+      "language": "Español (Latinoamérica)",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Guías",
+      "description": "Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.",
+      "body": "es-MX/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man Legacy Collection · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man Legacy Collection 2 · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man 11 · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man X Legacy Collection · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man X Legacy Collection 2 · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man Zero/ZX Legacy Collection · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "pt-BR",
+      "language": "Português (Brasil)",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Guias",
+      "description": "Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.",
+      "body": "pt-BR/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man Legacy Collection · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man Legacy Collection 2 · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man 11 · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man X Legacy Collection · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man X Legacy Collection 2 · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man Zero/ZX Legacy Collection · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "ja",
+      "language": "日本語",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · 攻略ガイド",
+      "description": "下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。",
+      "body": "ja/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man Legacy Collection · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man Legacy Collection 2 · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man 11 · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man X Legacy Collection · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man X Legacy Collection 2 · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man Zero/ZX Legacy Collection · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "zh-Hans",
+      "language": "简体中文",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · 攻略指南",
+      "description": "选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。",
+      "body": "zh-Hans/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man Legacy Collection · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man Legacy Collection 2 · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man 11 · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man X Legacy Collection · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man X Legacy Collection 2 · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man Zero/ZX Legacy Collection · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "fr",
+      "language": "Français",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Guides",
+      "description": "Choisissez un jeu ci-dessous pour consulter son parcours, ses améliorations et les avertissements importants. Les guides complets se trouvent sur le site indiqué par les liens.",
+      "body": "fr/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man Legacy Collection · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man Legacy Collection 2 · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man 11 · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man X Legacy Collection · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man X Legacy Collection 2 · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man Zero/ZX Legacy Collection · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "de",
+      "language": "Deutsch",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Spielhilfen",
+      "description": "Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.",
+      "body": "de/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    },
+    {
+      "appid": "363440",
+      "collection": "Mega Man Legacy Collection",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man Legacy Collection · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/363440.txt",
+      "games": [
+        "mm1",
+        "mm2",
+        "mm3",
+        "mm4",
+        "mm5",
+        "mm6"
+      ],
+      "hub": "https://steamcommunity.com/app/363440/guides/",
+      "originalIcon": "assets/icons/steam-363440.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/363440/bca41c8835804b5abf42c4ff2ea6cf73a6ad136e.ico",
+      "store": "https://store.steampowered.com/app/363440/"
+    },
+    {
+      "appid": "495050",
+      "collection": "Mega Man Legacy Collection 2",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man Legacy Collection 2 · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/495050.txt",
+      "games": [
+        "mm7",
+        "mm8",
+        "mm9",
+        "mm10"
+      ],
+      "hub": "https://steamcommunity.com/app/495050/guides/",
+      "originalIcon": "assets/icons/steam-495050.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/495050/15f0e387429b6c798ff933bf3e0b93725311081e.ico",
+      "store": "https://store.steampowered.com/app/495050/"
+    },
+    {
+      "appid": "742300",
+      "collection": "Mega Man 11",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man 11 · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/742300.txt",
+      "games": [
+        "mm11"
+      ],
+      "hub": "https://steamcommunity.com/app/742300/guides/",
+      "originalIcon": "assets/icons/steam-742300.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/742300/5d7b892509a8d826afe60f2c2bbcc1e5ba43a952.ico",
+      "store": "https://store.steampowered.com/app/742300/"
+    },
+    {
+      "appid": "743890",
+      "collection": "Mega Man X Legacy Collection",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man X Legacy Collection · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/743890.txt",
+      "games": [
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "x4-zero"
+      ],
+      "hub": "https://steamcommunity.com/app/743890/guides/",
+      "originalIcon": "assets/icons/steam-743890.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743890/08b014fe92787cf52b1ed52c0376a28cf5d63895.ico",
+      "store": "https://store.steampowered.com/app/743890/"
+    },
+    {
+      "appid": "743900",
+      "collection": "Mega Man X Legacy Collection 2",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man X Legacy Collection 2 · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/743900.txt",
+      "games": [
+        "x5",
+        "x6",
+        "x7",
+        "x8"
+      ],
+      "hub": "https://steamcommunity.com/app/743900/guides/",
+      "originalIcon": "assets/icons/steam-743900.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/743900/66f17aca7f51a4b9b7ba0500be357c747936f589.ico",
+      "store": "https://store.steampowered.com/app/743900/"
+    },
+    {
+      "appid": "999020",
+      "collection": "Mega Man Zero/ZX Legacy Collection",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man Zero/ZX Legacy Collection · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/999020.txt",
+      "games": [
+        "zero1",
+        "zero2",
+        "zero3",
+        "zero4",
+        "zx",
+        "zx-advent"
+      ],
+      "hub": "https://steamcommunity.com/app/999020/guides/",
+      "originalIcon": "assets/icons/steam-999020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/999020/a295611d55e6a7abbb287a3780e55b879796a43a.ico",
+      "store": "https://store.steampowered.com/app/999020/"
+    },
+    {
+      "appid": "1798010",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 1",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 1 · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/1798010.txt",
+      "games": [
+        "bn1",
+        "bn2",
+        "bn3-blue",
+        "bn3-white"
+      ],
+      "hub": "https://steamcommunity.com/app/1798010/guides/",
+      "originalIcon": "assets/icons/steam-1798010.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798010/1fb3b40985cec3f62d91f665fc061efcae43ee28.ico",
+      "store": "https://store.steampowered.com/app/1798010/"
+    },
+    {
+      "appid": "1798020",
+      "collection": "Mega Man Battle Network Legacy Collection Vol. 2",
+      "locale": "ru",
+      "language": "Русский",
+      "title": "Mega Man Battle Network Legacy Collection Vol. 2 · Руководства",
+      "description": "Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.",
+      "body": "ru/1798020.txt",
+      "games": [
+        "bn4-blue-moon",
+        "bn4-red-sun",
+        "bn5-team-protoman",
+        "bn5-team-colonel",
+        "bn6-cybeast-gregar",
+        "bn6-cybeast-falzar"
+      ],
+      "hub": "https://steamcommunity.com/app/1798020/guides/",
+      "originalIcon": "assets/icons/steam-1798020.ico",
+      "iconSource": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/apps/1798020/3226bfca4b82fa7dc571f493ec161ff9cdd47e48.ico",
+      "store": "https://store.steampowered.com/app/1798020/"
+    }
+  ]
+}

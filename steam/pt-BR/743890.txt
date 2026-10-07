@@ -1,0 +1,21 @@
+Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.
+
+[h1]Escolha um jogo[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/x1/]Mega Man X[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/x2/]Mega Man X2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/x3/]Mega Man X3[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/x4/]Mega Man X4 · X[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/x4/zero.html]Mega Man X4 · Zero[/url]
+[/list]
+
+[h1]Como usar o site[/h1]
+Amplie as imagens, marque as fases e os jogos concluídos e volte à seção em que parou de ler. O progresso fica salvo nesse navegador; não é sincronizado com o Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/pt-BR/]Abrir a biblioteca de guias[/url]
+
+[hr][/hr]
+Guias independentes feitos por fãs. Mega Man e suas ilustrações pertencem à Capcom. Os créditos das imagens e as fontes estão no fim de cada guia.
+
+Guia traduzido com ajuda de IA. As capturas e os nomes do jogo continuam em inglês.
+Tradução com ajuda de IA e revisão de trechos selecionados. Ainda não passou por uma revisão completa de falantes nativos.

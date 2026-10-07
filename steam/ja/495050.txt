@@ -1,0 +1,20 @@
+下のゲーム名から、攻略手順、強化アイテム、見落としやすい注意点を確認できます。詳しいガイドはリンク先のウェブサイトにあります。
+
+[h1]ゲームを選ぶ[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/ja/mm7/]Mega Man 7[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ja/mm8/]Mega Man 8[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ja/mm9/]Mega Man 9[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ja/mm10/]Mega Man 10[/url]
+[/list]
+
+[h1]ウェブサイトの使い方[/h1]
+ガイド内で画像を拡大したり、クリアしたステージやゲームに印を付けたりできます。再び開くと、前回読んでいた項目に戻れます。進捗はそのブラウザーに保存され、Steam Cloudとは同期されません。
+
+[url=https://zertrax.github.io/megaman-guides/ja/]すべてのガイドを開く[/url]
+
+[hr][/hr]
+ファンが制作した非公式ガイドです。Mega Manとそのアートワークの権利はCapcomに帰属します。画像のクレジットと参考資料は各ガイドの末尾に掲載しています。
+
+AIによる翻訳です。画像とゲーム内の名前は英語版に合わせています。
+AIによる翻訳に、一部の文章の確認を加えています。母語話者による全体の校閲は完了していません。

@@ -1,0 +1,22 @@
+Escolha um jogo abaixo para consultar a rota, as melhorias e os avisos importantes. Os guias completos estão no site indicado nos links.
+
+[h1]Escolha um jogo[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn4-blue-moon/]Mega Man Battle Network 4 · Blue Moon[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn4-red-sun/]Mega Man Battle Network 4 · Red Sun[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn5-team-protoman/]Mega Man Battle Network 5 · Team ProtoMan[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn5-team-colonel/]Mega Man Battle Network 5 · Team Colonel[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn6-cybeast-gregar/]Mega Man Battle Network 6 · Cybeast Gregar[/url]
+[*][url=https://zertrax.github.io/megaman-guides/pt-BR/bn6-cybeast-falzar/]Mega Man Battle Network 6 · Cybeast Falzar[/url]
+[/list]
+
+[h1]Como usar o site[/h1]
+Amplie as imagens, marque as fases e os jogos concluídos e volte à seção em que parou de ler. O progresso fica salvo nesse navegador; não é sincronizado com o Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/pt-BR/]Abrir a biblioteca de guias[/url]
+
+[hr][/hr]
+Guias independentes feitos por fãs. Mega Man e suas ilustrações pertencem à Capcom. Os créditos das imagens e as fontes estão no fim de cada guia.
+
+Guia traduzido com ajuda de IA. As capturas e os nomes do jogo continuam em inglês.
+Tradução com ajuda de IA e revisão de trechos selecionados. Ainda não passou por uma revisão completa de falantes nativos.

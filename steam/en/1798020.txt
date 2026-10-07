@@ -1,0 +1,19 @@
+Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.
+
+[h1]Choose a game[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/bn4-blue-moon/?lang=en]Mega Man Battle Network 4 · Blue Moon[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn4-red-sun/?lang=en]Mega Man Battle Network 4 · Red Sun[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn5-team-protoman/?lang=en]Mega Man Battle Network 5 · Team ProtoMan[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn5-team-colonel/?lang=en]Mega Man Battle Network 5 · Team Colonel[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn6-cybeast-gregar/?lang=en]Mega Man Battle Network 6 · Cybeast Gregar[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn6-cybeast-falzar/?lang=en]Mega Man Battle Network 6 · Cybeast Falzar[/url]
+[/list]
+
+[h1]Using the website[/h1]
+Enlarge images inside a guide, check off cleared stages and finished games, and return to your last reading section. Progress stays in that browser; it does not sync with Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/?lang=en]Open the full guide library[/url]
+
+[hr][/hr]
+Independent fan guides. Mega Man and its artwork belong to Capcom. Image credits and references are listed at the bottom of each guide.

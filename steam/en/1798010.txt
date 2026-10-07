@@ -1,0 +1,17 @@
+Open a game below for its route, upgrades and important warnings. The full guides are on the linked website.
+
+[h1]Choose a game[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/bn1/?lang=en]Mega Man Battle Network 1[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn2/?lang=en]Mega Man Battle Network 2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn3-blue/?lang=en]Mega Man Battle Network 3 · Blue[/url]
+[*][url=https://zertrax.github.io/megaman-guides/bn3-white/?lang=en]Mega Man Battle Network 3 · White[/url]
+[/list]
+
+[h1]Using the website[/h1]
+Enlarge images inside a guide, check off cleared stages and finished games, and return to your last reading section. Progress stays in that browser; it does not sync with Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/?lang=en]Open the full guide library[/url]
+
+[hr][/hr]
+Independent fan guides. Mega Man and its artwork belong to Capcom. Image credits and references are listed at the bottom of each guide.

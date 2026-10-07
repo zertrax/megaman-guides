@@ -1,0 +1,22 @@
+Выберите игру ниже, чтобы узнать маршрут прохождения, расположение улучшений и важные условия. Полные руководства находятся на сайте по ссылкам.
+
+[h1]Выберите игру[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm1/]Mega Man[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm2/]Mega Man 2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm3/]Mega Man 3[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm4/]Mega Man 4[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm5/]Mega Man 5[/url]
+[*][url=https://zertrax.github.io/megaman-guides/ru/mm6/]Mega Man 6[/url]
+[/list]
+
+[h1]Как пользоваться сайтом[/h1]
+В руководстве можно увеличивать изображения, отмечать пройденные этапы и игры и возвращаться к разделу, на котором вы остановились. Прогресс сохраняется в этом браузере и не синхронизируется со Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/ru/]Открыть все руководства[/url]
+
+[hr][/hr]
+Независимые руководства, созданные поклонниками серии. Mega Man и иллюстрации принадлежат Capcom. Авторы изображений и источники указаны в конце каждого руководства.
+
+Перевод с помощью ИИ. Скриншоты и названия из игры остаются на английском.
+Перевод с помощью ИИ с проверкой отдельных фрагментов. Полная редактура носителями языка не проводилась.

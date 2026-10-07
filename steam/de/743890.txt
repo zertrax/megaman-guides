@@ -1,0 +1,21 @@
+Wähle unten ein Spiel aus, um die Route, Verbesserungen und wichtige Hinweise nachzulesen. Die vollständigen Spielhilfen findest du auf der verlinkten Website.
+
+[h1]Spiel auswählen[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/de/x1/]Mega Man X[/url]
+[*][url=https://zertrax.github.io/megaman-guides/de/x2/]Mega Man X2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/de/x3/]Mega Man X3[/url]
+[*][url=https://zertrax.github.io/megaman-guides/de/x4/]Mega Man X4 · X[/url]
+[*][url=https://zertrax.github.io/megaman-guides/de/x4/zero.html]Mega Man X4 · Zero[/url]
+[/list]
+
+[h1]Die Website nutzen[/h1]
+Vergrößere Bilder, hake abgeschlossene Level und Spiele ab und kehre zum zuletzt gelesenen Abschnitt zurück. Dein Fortschritt wird in diesem Browser gespeichert und nicht mit Steam Cloud synchronisiert.
+
+[url=https://zertrax.github.io/megaman-guides/de/]Alle Spielhilfen öffnen[/url]
+
+[hr][/hr]
+Unabhängige Spielhilfen von Fans. Mega Man und die zugehörigen Bilder gehören Capcom. Bildnachweise und Quellen stehen am Ende jeder Spielhilfe.
+
+Mit KI übersetzter Leitfaden. Screenshots und Namen im Spiel bleiben auf Englisch.
+KI-gestützte Übersetzung mit Prüfung ausgewählter Stellen. Eine vollständige Prüfung durch Muttersprachler ist noch nicht erfolgt.

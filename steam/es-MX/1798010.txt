@@ -1,0 +1,20 @@
+Elige un juego para consultar su ruta, mejoras y advertencias importantes. Las guías completas están en el sitio enlazado.
+
+[h1]Elige un juego[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/es-MX/bn1/]Mega Man Battle Network 1[/url]
+[*][url=https://zertrax.github.io/megaman-guides/es-MX/bn2/]Mega Man Battle Network 2[/url]
+[*][url=https://zertrax.github.io/megaman-guides/es-MX/bn3-blue/]Mega Man Battle Network 3 · Blue[/url]
+[*][url=https://zertrax.github.io/megaman-guides/es-MX/bn3-white/]Mega Man Battle Network 3 · White[/url]
+[/list]
+
+[h1]Cómo usar el sitio[/h1]
+Puedes ampliar las imágenes, marcar las etapas y juegos completados, y volver a la sección donde dejaste la lectura. El progreso se guarda en ese navegador; no se sincroniza con Steam Cloud.
+
+[url=https://zertrax.github.io/megaman-guides/es-MX/]Abrir la biblioteca de guías[/url]
+
+[hr][/hr]
+Guías independientes hechas por fans. Mega Man y sus ilustraciones pertenecen a Capcom. Los créditos de las imágenes y las fuentes están al final de cada guía.
+
+Guía traducida con ayuda de IA. Las capturas y los nombres del juego se mantienen en inglés.
+Traducción con ayuda de IA y revisión de textos seleccionados. Aún no tiene una revisión completa de hablantes nativos.

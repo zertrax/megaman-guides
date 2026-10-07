@@ -1,0 +1,20 @@
+选择下方的游戏，即可查看攻略路线、强化道具和重要提醒。完整指南位于链接指向的网站。
+
+[h1]选择游戏[/h1]
+[list]
+[*][url=https://zertrax.github.io/megaman-guides/zh-Hans/mm7/]Mega Man 7[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zh-Hans/mm8/]Mega Man 8[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zh-Hans/mm9/]Mega Man 9[/url]
+[*][url=https://zertrax.github.io/megaman-guides/zh-Hans/mm10/]Mega Man 10[/url]
+[/list]
+
+[h1]网站使用说明[/h1]
+你可以在指南中放大图片，标记已完成的关卡和游戏，再次打开时回到上次阅读的章节。进度保存在该浏览器中，不会与Steam Cloud同步。
+
+[url=https://zertrax.github.io/megaman-guides/zh-Hans/]打开全部指南[/url]
+
+[hr][/hr]
+本站是粉丝制作的非官方指南。Mega Man及其美术素材归Capcom所有。图片署名和参考资料列在各篇指南的末尾。
+
+本攻略由AI翻译。截图和游戏内名称沿用英文版。
+AI翻译，并对部分内容进行了核对。尚未完成母语使用者的全面审校。

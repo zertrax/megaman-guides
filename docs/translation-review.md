@@ -32,7 +32,7 @@ A separate audit reviewed 17 gameplay instructions in every added language: **11
 
 ## Interface and state
 
-All pages are generated before loading, so translation cannot move a page after its reading position has been restored. The language control uses native names, keyboard selection and a 44px target. Direct language links take precedence over saved preferences; the English-source link opens the original without resetting that preference.
+All pages are generated before loading, so translation cannot move a page after its reading position has been restored. The language control uses native names and keyboard selection. Its compact desktop target is 36px high; phones retain a 44px target. Direct language links take precedence over saved preferences; the English-source link opens the original without resetting that preference.
 
 Language changes preserve route IDs, completion storage keys, reading-section identity and expanded return trips. Pixel offsets can differ with text length. Stage announcements use the displayed heading, so guide-written chapter descriptions remain consistent with their translated controls.
 

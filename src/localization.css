@@ -4,3 +4,5 @@ main [id]{scroll-margin-top:var(--guide-header-offset,110px)}
 footer:has(.translation-note){flex-wrap:wrap}
 footer .translation-note{flex-basis:100%;width:100%;max-width:none;margin:1.2rem 0 0;text-align:left}
 footer .translation-credit{flex-basis:100%;margin:.5rem 0 0;text-align:left}
+.language-switch select{width:120px;min-height:36px;padding:5px 22px 5px 8px;font-size:12px}
+@media(max-width:700px){.language-switch select{width:112px;min-height:44px;padding:6px 20px 6px 8px}}

@@ -6,6 +6,8 @@ Repository and canonical Pages addresses now use `megaman-guides`. Current READM
 
 The library's four collection links have equal column widths, matching text alignment and neutral styling. Their visible frames are 36px high within 44px targets; phones use two columns. The first link's inherited gold border and » prefix are removed only in the library. Guide introduction buttons retain their approved primary-action styling.
 
+The follow-up banner change positions those links at the bottom edge, with open space between them and the title. The native language selector is 120×36px on larger screens and 112×44px on phones. Phone padding keeps it above the title. The complete build and release gate were rerun after these CSS changes. These dimensions describe the source rules; fresh browser rendering remains unavailable as explained below.
+
 Completed games display a dimmed, desaturated cover with a cyan translated clear stamp in the library and guide header. The control remains reversible, has `aria-pressed`, and retains its Completed label. The stamp is decorative and does not duplicate the accessible name. The original artwork and enlarged cover remain unchanged. Stage marks and saved-progress keys are unaffected.
 
 The full build and release checks pass for all 296 current pages and ten comparison pages. All 259 translated pages must contain both translation disclosures inside their footer and retain their English-source link. All 26 localization regression groups pass. Independently executing the real progress script passes 16 fixtures across eight languages and both library/guide shapes: native stamp labels, save/reload, cross-tab reset, undo, no duplicate stamps and preserved stage marks.
