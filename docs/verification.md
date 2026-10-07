@@ -12,6 +12,8 @@ Content corrections include BN1 armor merchants, BN4's five-EvilChip Black Earth
 
 Limits: source checks and browser interaction checks are not a complete gameplay run. New Classic/Zero/BN pages use credited sprites and selected maps/captures; many new pickup cards give text directions without a location image. Temporary consumables, every ordinary chip code, optional Cyber-Elf/Secret Disk catalogues and trophy checklists are not exhaustively reproduced. Relevant full catalogues are linked. No public deployment was performed for this expansion.
 
+Guide icons: each of the 37 page documents points to a distinct, existing local SVG. All 111 images in the icon review (37 marks at 16, 32 and 64px) loaded successfully and were visually inspected. Library cards use the same artwork. The icons are original vector interpretations of the series' helmets, rather than copied gameplay captures.
+
 ## Historical initial release
 
 Checked September 18, 2026, before the initial public release.
