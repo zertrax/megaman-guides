@@ -220,27 +220,6 @@
       "source": "https://megaman.retropixel.net/mmx/7/stages.php",
       "items": [
         {
-          "id": "hyenard-armor",
-          "type": "armor",
-          "name": "Glide · Arm Parts",
-          "need": "X",
-          "text": "In the first area, reach the second giant serpent. Descend the nearby hole to the capsule below.",
-          "extra": "",
-          "timing": "return",
-          "when": "Return with X if he was not available",
-          "media": [
-            {
-              "src": "assets/x7-hyenard-armor.webp",
-              "width": 1199,
-              "height": 900,
-              "original": "https://static.wikia.nocookie.net/megaman/images/0/0b/MMX7_Arm_Parts_location.png/revision/latest?cb=20220605170403",
-              "source": "https://megaman.fandom.com/wiki/File:MMX7_Arm_Parts_location.png",
-              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
-              "alt": "Glide · Arm Parts location"
-            }
-          ]
-        },
-        {
           "id": "hyenard-heart",
           "type": "heart",
           "name": "Heart Tank",
@@ -258,6 +237,27 @@
               "source": "https://megaman.fandom.com/wiki/File:MMX7_Flame_Hyenard_Life_Up_location.png",
               "credit": "Unknowni123 / MMKB; game imagery © Capcom",
               "alt": "Heart Tank location"
+            }
+          ]
+        },
+        {
+          "id": "hyenard-armor",
+          "type": "armor",
+          "name": "Glide · Arm Parts",
+          "need": "X",
+          "text": "In the first area, reach the second giant serpent. Descend the nearby hole to the capsule below.",
+          "extra": "",
+          "timing": "return",
+          "when": "Return with X if he was not available",
+          "media": [
+            {
+              "src": "assets/x7-hyenard-armor.webp",
+              "width": 1199,
+              "height": 900,
+              "original": "https://static.wikia.nocookie.net/megaman/images/0/0b/MMX7_Arm_Parts_location.png/revision/latest?cb=20220605170403",
+              "source": "https://megaman.fandom.com/wiki/File:MMX7_Arm_Parts_location.png",
+              "credit": "Unknowni123 / MMKB; game imagery © Capcom",
+              "alt": "Glide · Arm Parts location"
             }
           ]
         }
@@ -682,5 +682,16 @@
   ],
   "returnIntro": "Bring X for every armor return. If you reserved a loose heart for him, keep X active when touching it. Use X + Zero for Stonekong’s EX item or X + Axl for copy-only rescue passages.",
   "completionText": "8 loose hearts · 2 Sub Tanks · Weapon Tank · EX Tank · 4 Glide pieces. Completionist: 128 SAFE Reploids and 16 allocated chips; these are separate from the 16 large map pickups.",
-  "sourcesHtml": "<p>Original X7 / standard Legacy Collection gameplay. Portraits and full-scene screenshots are credited below. Some scenes show a different hunter from your selected recipient. No emulator playthrough was performed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/7/items.php\">Mega Man XZ · location cross-check</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/xweapons.php\">Mega Man XZ · weapon functions and refill tip</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/zweapons.php\">Mega Man XZ · Zero inputs</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26515\">NeoChozo · progression and New Game+</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26550\">Slash Raptor / Hammer · stage walkthrough</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/56452\">thehumanghost · chip carriers and upgrade trees</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/31417\">Solid_Rambo · pickups and rescues</a></li><li><a href=\"https://www.mmhp.net/GameHints/MMX7.html\">MMHP · pickups and combat</a></li><li><a href=\"https://megaman.fandom.com/wiki/Glide_Armor\">MMKB · armor functions</a></li><li><a href=\"https://retromaggedon.com/index.php/mega-man-x7-ps2-boss-guide/\">RetroMaggedon · boss strategy cross-check</a></li></ul>"
+  "sourcesHtml": "<p>Original X7 / standard Legacy Collection gameplay. Portraits and full-scene screenshots are credited below. Some scenes show a different hunter from your selected recipient. No emulator playthrough was performed.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/7/items.php\">Mega Man XZ · location cross-check</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/xweapons.php\">Mega Man XZ · weapon functions and refill tip</a></li><li><a href=\"https://megaman.retropixel.net/mmx/7/zweapons.php\">Mega Man XZ · Zero inputs</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26515\">NeoChozo · progression and New Game+</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/26550\">Slash Raptor / Hammer · stage walkthrough</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/56452\">thehumanghost · chip carriers and upgrade trees</a></li><li><a href=\"https://gamefaqs.gamespot.com/ps2/561699-mega-man-x7/faqs/31417\">Solid_Rambo · pickups and rescues</a></li><li><a href=\"https://www.mmhp.net/GameHints/MMX7.html\">MMHP · pickups and combat</a></li><li><a href=\"https://megaman.fandom.com/wiki/Glide_Armor\">MMKB · armor functions</a></li><li><a href=\"https://retromaggedon.com/index.php/mega-man-x7-ps2-boss-guide/\">RetroMaggedon · boss strategy cross-check</a></li></ul><p>Starting mechanics: <a href=\"https://www.mmhp.net/GameHints/MMX7.html\">MMHP · game systems and upgrades</a>.</p>",
+  "heroLinks": [
+    {
+      "href": "#start-here",
+      "text": "First time? Start here"
+    },
+    {
+      "href": "#boss-flow",
+      "text": "Continue to the boss route"
+    }
+  ],
+  "startHereHtml": "<section id=\"start-here\"><div class=\"section-head\"><h2>First time playing X7?</h2><span class=\"eyebrow\">What to know before the route</span></div><p class=\"primer-lead\">X7 starts with Axl and Zero. Rescue 64 Reploids to recruit X early; otherwise he joins after all eight bosses. Bring two hunters and switch before the active hunter runs out of health.</p><p>Permanent upgrades are not all shared. Hearts and rescued stat increases go to the collector; the finishing hunter receives boss stat boosts. Save before each stage and review its rescue report before overwriting a good save.</p><dl class=\"armor-benefits\"><div><dt>Axl</dt><dd>Uses ranged weapons and temporary copied forms. Copy Shot must finish a compatible enemy to produce a DNA Core.</dd></div><div><dt>Zero</dt><dd>Fights at close range and learns techniques. His methods differ from the ranged weakness chain.</dd></div><div><dt>X and Glide Armor</dt><dd>Only active X opens capsules. Each Glide part works immediately after collection.</dd></div><div><dt>Rescues and chips</dt><dd>Dead Reploids lose their rewards for this run. Assign Power-Up Chips on the results screen.</dd></div></dl><p>Keep an undamaged save if you want every rescue. Maxing all three chip trees takes New Game+; one playthrough cannot do it.</p></section>"
 }

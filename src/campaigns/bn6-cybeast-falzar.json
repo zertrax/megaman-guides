@@ -1,0 +1,610 @@
+{
+  "id": "bn6-cybeast-falzar",
+  "series": "network",
+  "networkGame": 6,
+  "displayId": "BN6 · CYBEAST FALZAR",
+  "title": "Mega Man Battle Network 6 · Cybeast Falzar",
+  "collection": "Battle Network Legacy Collection · Vol. 2",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "All five Cross classes, Beast Out, restored Boktai content and every HP/memory upgrade.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "Cybeast Falzar"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "Crosses replace Souls. Earn five by taking the version’s Link Navi classes, then choose a Cross from the Custom Screen without sacrificing a chip. A Cross lasts until you change it or take its elemental weakness. A broken Cross cannot be used again that battle.",
+    "Falzar Beast Out lasts three turns and can combine with a Cross. Falzar offers AirShoes/FloatShoes movement and a wide rapid-fire attack. Manage the Beast counter instead of forcing the uncontrollable Beast Over state.",
+    "BN6 still rewards a chip counter with Full Synchro. Cross/Beast states do not use the ordinary Full Synchro damage bonus, so sometimes staying in Normal is the better choice for a counter-based folder.",
+    "NaviCust now permits parts to extend outside the main grid, but breaking the placement rules can still introduce bugs. Follow the tutorial, keep a clean setup while learning and use the two Expansion Memories. Regular Memory improves REG; Tag Chips are a separate linked pair.",
+    "Legacy Collection restores Undernet 3, Graveyard 1, Immortal Area and the Boktai story/chips removed from the English GBA release. Follow this collection route rather than an old guide’s shortened area names."
+  ],
+  "features": [
+    [
+      "Classes",
+      "Only the first Cross is required at its story checkpoint. Take the other four as they open; they provide flexible combat tools and more Link Navis for rescues."
+    ],
+    [
+      "Completion",
+      "The story, all ordinary HP/memory upgrades, the chip library and postgame bosses are separate goals. Normal story progress does not require 200 chips or every request."
+    ]
+  ],
+  "warning": {
+    "label": "Before taking optional requests",
+    "title": "Keep Self Research until you have its chips.",
+    "text": "Self Research locks you into a request needing Anubis P and two PoisSeed P. Accepting it before the ordinary requests and Graveyard progress can block the remaining request rewards. Finish the original request list and obtain the chips first. This affects optional completion, not the story."
+  },
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "new-school-incident",
+      "name": "New school incident",
+      "area": "Central Town · school",
+      "weakness": "BlastMan · Aqua",
+      "reward": "Seaside trip",
+      "tip": "Finish the robot-dog tutorial. In class, use the CopyBot, get water from the punished student outside class, then get TeachrID from the downed teacher. Enter the security system and rescue its burning programs. When trapped, speak to Mick three times and inspect the teachers’ orange monitor. Return to rescue the remaining programs and reach BlastMan.",
+      "notes": [],
+      "now": "Central Area 3 key",
+      "items": [
+        {
+          "name": "Central Area 3 key",
+          "text": "After BlastMan, read Mick’s note and inspect the shadow beneath the Central 2 ledge for KeyData. Open the Central 3 gate.",
+          "need": "BlastMan defeated",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "new-school-incident-central-area-3-key"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-blastman.gif",
+        "width": 26,
+        "height": 48,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "BlastMan"
+      }
+    },
+    {
+      "id": "aquarium-emergency",
+      "name": "Aquarium emergency",
+      "area": "Seaside Town · Aquarium Comp",
+      "weakness": "DiveMan · Elec",
+      "reward": "First Link Navi class",
+      "tip": "Ask a teacher about penguin food, speak to the class 6-2 child and the bus-stop elder. Read Seaside 1’s BBS; if water blocks access, clear the virus in Lan’s toilet for ToolPrgm and give it to Central 3’s repairman. At the aquarium, inspect the exhibits, attend the show and follow the escape. Use the CopyBot to fetch the seal’s ball from the pool, then enter the system.",
+      "notes": [
+        "Program identities in Aquarium 1: cow-eater = piranha, short tail = sunfish, warm water = tropical fish. Area 2: proud = king crab, ancient = nautilus, steady = turtle. Area 3: whale = dolphin, nose = seal, flight = penguin, lizard = alligator. Scout the shark routes before escorting each program."
+      ],
+      "now": "NaviCustomizer · Virus Battler Card",
+      "items": [
+        {
+          "name": "NaviCustomizer",
+          "text": "Read the aquarium-day mail and close the menu to start the tutorial. RUN after every edit.",
+          "need": "Aquarium story progress",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "aquarium-emergency-navicustomizer"
+        },
+        {
+          "name": "Virus Battler Card",
+          "text": "After the aquarium, buy BtlrCard from the HeelNavi in the class 1-2 blackboard for 2000z. It unlocks the optional virus-versus-virus minigames.",
+          "need": "Aquarium cleared",
+          "extra": "",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "aquarium-emergency-virus-battler-card"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-diveman.gif",
+        "width": 65,
+        "height": 49,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "DiveMan"
+      }
+    },
+    {
+      "id": "first-cross-class",
+      "name": "First Cross class",
+      "area": "Central school lab",
+      "weakness": "SpoutMan",
+      "reward": "Cybeast incident",
+      "tip": "Collect five fish in each Seaside area after reporting to the Aquarium HP official. Ride whirlpools up to swim after them and descend before the air timer expires. Report, then return to Shuko for the exam.",
+      "notes": [],
+      "now": "SpoutMan Cross · Tag Chip system",
+      "items": [
+        {
+          "name": "SpoutMan Cross",
+          "text": "Pass this class and its final Navi battle. Use the earned Cross directly from the Custom Screen; no chip sacrifice is required.",
+          "need": "First class completed",
+          "extra": "Aqua attacks and recovery support.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "first-cross-class-spoutman-cross"
+        },
+        {
+          "name": "Tag Chip system",
+          "text": "After DiveMan, read the aquarium director’s mail. Set a compatible pair in Folder Edit within the shown combined-MB limit. Drawing one also draws the other; they do not become REG chips.",
+          "need": "Story mail",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "first-cross-class-tag-chip-system"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-spoutman.gif",
+        "width": 17,
+        "height": 28,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "SpoutMan"
+      }
+    },
+    {
+      "id": "cybeast-awakening",
+      "name": "Cybeast awakening",
+      "area": "Central Area 3",
+      "weakness": "CircusMan · evade the cage",
+      "reward": "Green Town",
+      "tip": "Respond to the Expo promotion, then clear the evil spirits using the given Soul weapons. Red spirits fall easily; approach the stronger spirits from behind rather than taking their counterattack. Follow the story to absorb Falzar and complete the Beast Out tutorial before CircusMan.",
+      "notes": [
+        "Beast Out lasts three Custom turns. You can combine it with a Cross. When the counter is empty, use normal combat; forcing Beast Over makes MegaMan attack without your control and leaves him very tired. It is not needed to win."
+      ],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-circusman.gif",
+        "width": 54,
+        "height": 47,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "CircusMan"
+      }
+    },
+    {
+      "id": "green-town-investigation",
+      "name": "Green Town investigation",
+      "area": "Green Town → JudgeTree",
+      "weakness": "JudgeMan · swords break the books",
+      "reward": "Expo preliminaries",
+      "tip": "For courtroom access, join Lawyers in the Making at Green Town HP for 1000z and hear the law before opening Green 2’s café gate. After Dad’s arrest, examine the classroom camera, free the robot from the closet and inspect the school security control. Return with the evidence. Enter the courthouse’s left-side outside path and basement; learn Law 153 from the lawyer Navis for the lock.",
+      "notes": [
+        "JudgeTree paths can use each tile only once. Survey the whole puzzle before walking, then plan a route through every switch and the exit. You can return for side data after the story puzzle is cleared."
+      ],
+      "now": "Expansion Memory 1 · TenguMan Cross",
+      "items": [
+        {
+          "name": "Expansion Memory 1",
+          "text": "Open the blue data in JudgeTree Comp 3.",
+          "need": "JudgeTree story sequence",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "green-town-investigation-expansion-memory-1"
+        },
+        {
+          "name": "TenguMan Cross",
+          "text": "Take the Green Town class after the first trial, before or after the later crisis. Collect the scrolls in Green 1 and 2 while avoiding crows. Use the fan to clear them and leaves to restore fan power. Teleports help separate you from the flock. Return to Feng-Tian for the exam.",
+          "need": "Green Town opened",
+          "extra": "Air movement and wind-based control.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "green-town-investigation-tenguman-cross"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-judgeman.gif",
+        "width": 30,
+        "height": 46,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "JudgeMan"
+      }
+    },
+    {
+      "id": "expo-preliminaries",
+      "name": "Expo preliminaries",
+      "area": "Sky network → Undernet",
+      "weakness": "Four judge survival tests",
+      "reward": "Weather crisis",
+      "tip": "Enter Sky Town through the antenna. Defeat the two judge Navis in Sky 1 and the two in Sky 2, then report to the central Navi. After the Undernet scene, use a Link Navi and retrace the route from Central 3 to rescue MegaMan. Link Navis cannot use your NaviCust or collect MegaMan’s HPMemory.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "weather-crisis",
+      "name": "Weather crisis",
+      "area": "Sky Town · Mr.Weather Comp",
+      "weakness": "ElementMan · match his current weakness",
+      "reward": "MoonStone contest",
+      "tip": "Fix the elevator computer, then jack into the three outdoor devices to shut them down. Inspect the lockers for the real administrator. Use the CopyBot and the upper outside ledge to cross the broken route. In Mr.Weather Comp, ride clouds to gather rainbow data, then draw a closed loop around each typhoon.",
+      "notes": [],
+      "now": "Pink rotation · TomahawkMan Cross",
+      "items": [
+        {
+          "name": "Pink rotation",
+          "text": "Collect Mr.Weather Comp 3’s blue data. Rotate matching NaviCust programs with the shoulder buttons.",
+          "need": "Weather sequence",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "weather-crisis-pink-rotation"
+        },
+        {
+          "name": "TomahawkMan Cross",
+          "text": "After the weather crisis, take the helipad class. Meet Dingo at the helipad computer. Clear four totem trials: beside the entry computer, Sky 2 by the Sky 1 exit, Sky 1’s ramp, and the café. Turn with the shoulder buttons and slash before a totem finishes growing. Return for the exam.",
+          "need": "Sky Town restored",
+          "extra": "Wood attacks, grass panels and status protection.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "weather-crisis-tomahawkman-cross"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-elementman.gif",
+        "width": 43,
+        "height": 49,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "ElementMan"
+      }
+    },
+    {
+      "id": "moonstone-contest",
+      "name": "MoonStone contest",
+      "area": "Undernet 1–2",
+      "weakness": "Virus ambush",
+      "reward": "ACDC reunion",
+      "tip": "Inspect the locked Undernet door, question the Green Town punishment-room man, then speak to the girl outside Seaside’s toy shop three times. Return with the password. In Undernet 2, walk in the direction the two staring HeelNavis face to reveal the invisible MoonStone passage. Return to Central square and speak to everyone.",
+      "notes": [],
+      "now": "GroundMan Cross · DustMan Cross",
+      "items": [
+        {
+          "name": "GroundMan Cross",
+          "text": "Complete the second school-lab class before the next rescue. Start in Undernet 1, then drill timed boulder paths in Central 2 and Central 1. Stop the meter on the distance needed for each straight run. Ask programs to move and use Central 1’s teleport to reach the separated stones. Return to Moliarty for the exam.",
+          "need": "MoonStone returned",
+          "extra": "Breaking attacks and protection from flinching.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "moonstone-contest-groundman-cross"
+        },
+        {
+          "name": "DustMan Cross",
+          "text": "Complete the aquarium vending-machine class. Meet Mr. Press and enter the vending-machine computer. Take the trash tests at Undernet 2’s skull platform, below its far-left ramp, then the upper-left Undernet 1 merchant. Use the action button for trash and the Buster button for bombs/missiles. Return for the exam.",
+          "need": "MoonStone returned",
+          "extra": "Recycle unneeded selections for new chips and clear obstacles.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "moonstone-contest-dustman-cross"
+        }
+      ]
+    },
+    {
+      "id": "acdc-reunion-and-rescue",
+      "name": "ACDC reunion and rescue",
+      "area": "ACDC → Undernet 2 → Underground",
+      "weakness": "BlastMan / DiveMan; FBeast; Colonel",
+      "reward": "Expo invitations",
+      "tip": "Speak to everyone in ACDC, enter through the squirrel statue, then retrieve the gate key from Dex’s shogi piece. Help the program and report to Roll for AreaPass. Follow the kidnapping to Undernet 2’s skull/BBS platform. Save and heal for consecutive fights. After MegaMan is captured, visit Mr. Mach on Sky Town’s upper ledge, ask the Underground guard for access, then investigate the school principal.",
+      "notes": [
+        "Use your most comfortable Link Navi to clear Underground 1–2’s spirits and fight MegaMan’s Beast form. MegaMan then returns for Colonel. Go back with MegaMan for the health data the Link Navi could not collect."
+      ],
+      "now": "Expansion Memory 2 · White rotation",
+      "items": [
+        {
+          "name": "Expansion Memory 2",
+          "text": "Open Lab Comp 2’s blue data, reached from the Undernet 1 connection. It completes the 5×5 grid.",
+          "need": "Lab / late-network access",
+          "extra": "",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "acdc-reunion-and-rescue-expansion-memory-2"
+        },
+        {
+          "name": "White rotation",
+          "text": "Buy RushFood from Sky Town’s shower-computer Navi and use the ACDC bone tile to reach the blue data.",
+          "need": "ACDC reunion + RushFood",
+          "extra": "",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "acdc-reunion-and-rescue-white-rotation"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-blastman.gif",
+        "width": 26,
+        "height": 48,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html",
+        "alt": "BlastMan"
+      }
+    },
+    {
+      "id": "expo-and-final-cybeast",
+      "name": "Expo and final Cybeast",
+      "area": "Central Town · pavilion computers",
+      "weakness": "Falzar",
+      "reward": "Ending / Graveyard",
+      "tip": "Follow the Undernet BBS lead to Sky Town, then invite all named friends for the Expo. Finish useful returns before sleeping. At the gala, visit the first three pavilions for stamps. During the attack, inspect the principal’s bookshelves for the secret path. Clear Aquarium, JudgeTree, Weather and spirit puzzles in sequence; their control panels open the next room. Save before the final door.",
+      "notes": [
+        "Falzar’s side has no floor. Use attacks that can reach its chest directly; ground-travelling chips and placed objects are poor choices. Wait for it to descend after an attack, and move off the flashing 2×3 strike area."
+      ],
+      "now": "",
+      "items": []
+    }
+  ],
+  "returns": [
+    {
+      "stage": "aquarium-emergency",
+      "title": "Related returns",
+      "items": [
+        "aquarium-emergency-virus-battler-card"
+      ]
+    },
+    {
+      "stage": "green-town-investigation",
+      "title": "Related returns",
+      "items": [
+        "green-town-investigation-tenguman-cross"
+      ]
+    },
+    {
+      "stage": "weather-crisis",
+      "title": "Related returns",
+      "items": [
+        "weather-crisis-tomahawkman-cross"
+      ]
+    },
+    {
+      "stage": "moonstone-contest",
+      "title": "Related returns",
+      "items": [
+        "moonstone-contest-groundman-cross",
+        "moonstone-contest-dustman-cross"
+      ]
+    },
+    {
+      "stage": "acdc-reunion-and-rescue",
+      "title": "Related returns",
+      "items": [
+        "acdc-reunion-and-rescue-expansion-memory-2",
+        "acdc-reunion-and-rescue-white-rotation"
+      ]
+    }
+  ],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "All 45 ordinary HPMemory items bring base maximum health to 1000. Sub Memory raises Sub Chip carrying capacity; Regular UP raises the MB limit for the guaranteed opening chip. NaviCust HP programs add temporary equipped health above the base.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, Vulcan for a lined-up target, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>The * code works with any letter. Use * support chips to keep turns flowing.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Sword → WideSwrd → LongSwrd with the same letter code, in that order, for LifeSwrd. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Set a useful chip as REG in Folder Edit. It is guaranteed in the opening selection if its MB fits your Regular Memory.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "crosses",
+      "title": "All five Cross classes",
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"All five Cross classes\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Cross</th><th scope=\"col\">Where it opens</th><th scope=\"col\">What it helps with</th></tr></thead><tbody><tr><td>SpoutMan</td><td>School lab after DiveMan</td><td>Aqua attacks and recovery support.</td></tr><tr><td>TenguMan</td><td>Green Town after the first trial</td><td>Air movement and wind-based control.</td></tr><tr><td>TomahawkMan</td><td>Sky Town helipad after the weather crisis</td><td>Wood attacks, grass panels and status protection.</td></tr><tr><td>GroundMan</td><td>Second school lab after the MoonStone contest</td><td>Breaking attacks and protection from flinching.</td></tr><tr><td>DustMan</td><td>Aquarium’s middle white vending machine after MoonStone</td><td>Recycle unneeded selections for new chips and clear obstacles.</td></tr></tbody></table></div><p>The matching chapter above explains each test. Return to the operator after completing the task and win the Navi exam. You can later rematch Link Navis through their operators.</p>"
+    },
+    {
+      "id": "skull-doors",
+      "title": "Optional · skull doors and utility parts",
+      "paragraphs": [
+        "From the Green 2 giant tree, inspect its back to enter the hidden Undernet Zero path. Follow it to Bass; victory awards BatKey. Buy WWWID from the Undernet Zero HeelNavi for 3000z to open the skull doors.",
+        "Blue rotation is in Sky 1’s purple data behind a cloud. Use a suitable Link Navi to remove the obstacle, then collect the data with an Unlocker. Red / Green / Yellow rotation lotto numbers are 77837421 / 09256524 / 41976910 at AsterLand. These are built-in lottery inputs, not cheats or modified saves."
+      ]
+    },
+    {
+      "id": "boktai",
+      "title": "Optional · Django and the Count",
+      "paragraphs": [
+        "From chapter 7 onward, use BatKey at Underground 2’s northeast purple door to reach Immortal Area. Walk to the large platform at the far northeast for the Count encounter. Survive until the event ends: he cannot be damaged yet. Django then gives you SunKey. Enter Undernet Zero from Undernet 2 (door code 012), open Otenko’s prison and speak to him. Return to the Count’s platform in Immortal Area; this time your attacks work.",
+        "GunDelSol works better with sunlight: jack in from an outdoor device when building a sun-based folder. The collection’s crossover points and Boktai trader are separate from ordinary HPMemory.",
+        "The Virus Battler chain gives useful exclusive rewards, including Django3 D from the fifth machine. The old English-language reward bug was fixed in July 2023; current collection builds do not require switching the text to Japanese. If using an old offline build, update it before completing the chain."
+      ]
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · Graveyard and completion",
+      "paragraphs": [
+        "After the clear mark and 100 Standard chips, open the Graveyard route from Undernet 3. Complete the Mega library to pass into Graveyard 2. This includes the restored Count and Django entries. Complete ordinary requests before the extra-card requests so ProtoMan’s higher rematches remain available.",
+        "Reach Bass in Graveyard 2 for the SP fight. After victory, return to Underground 2’s deepest arena for the stronger Beast encounter followed by Bass BX. Prepare the folder and save beforehand.",
+        "All completion marks cover story clear, the 200 Standard chips, Mega library, Giga library, every Program Advance and Bass. Opposite-version entries require trading or compared-library chip ordering. Disable Buster MAX for new SP deletion-time records.",
+        "Extra request Patch Cards are available in the collection’s Patch Cards menu. Read the request conditions before adding them. If Self Research was accepted too soon, trading/library access or the legitimate Chaud item card can supply the missing ProtoMan entries; this is an ordinary collection feature."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Set * support chips beside one main code so AreaGrab, Invis and recovery do not block an attacking turn. Try Tag Chips with a compatible attack pair rather than two unrelated high-MB chips.",
+        "Save before boss pairs and before taking an unfamiliar optional request. Travel health stays depleted after ordinary battles; carry FullEnrg or recovery chips for long routes.",
+        "Use the relevant Link Navi to remove flames, trees, clouds and water obstacles, but return as MegaMan for HPMemory. NaviCust-equipped health and base HPMemory are different systems."
+      ]
+    },
+    {
+      "id": "programs",
+      "title": "NaviCust program locations",
+      "html": "<p>These are equipable programs, not permanent stat increases. Color words describe the program’s color, not the game version. RUN after editing NaviCust. This list uses Legacy Collection locations; former e-Reader rewards are supplied by its Patch Cards menu. Lottery numbers are normal shop inputs.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Program locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Program</th><th scope=\"col\">Acquisition / color variants</th></tr></thead><tbody><tr><td>SuprArmr</td><td>Red: Undernet 2 Bugfrag Dealer (35 BF)</td></tr><tr><td>Custom1</td><td>Blue: Green Area 1 Program Dealer (4600z)</td></tr><tr><td>Custom2</td><td>White: &quot;Get the Bad Guy&quot; Request BBS ( Patch Card job)</td></tr><tr><td>MegFldr1</td><td>Green: Green Area 1 Program Dealer (3000z)</td></tr><tr><td>MegFldr2</td><td>White: &quot;Update Help&quot; Request BBS ( Patch Card job)</td></tr><tr><td>GigFldr1</td><td>Red: Undernet 2 BugFrag Trader (100 BF)</td></tr><tr><td>FstBarr</td><td>Blue: Aquarium Comp 2 BMD</td></tr><tr><td>Shield</td><td>Blue: Mr.Weather Comp 2 BMD</td></tr><tr><td>Reflect</td><td>Green: Undernet 2 BugFrag Trader (48 BF)</td></tr><tr><td>AntiDmg</td><td>Green: Undernet 2 PMD</td></tr><tr><td>FlotShoe</td><td>Pink: Green Area 1 Program Dealer (3800z)</td></tr><tr><td>AirShoes</td><td>White: Underground 1 PMD (invisible path)</td></tr><tr><td>UnderSht</td><td>White: Start with it</td></tr><tr><td>ChpShufl</td><td>Green: Green Area 1 Program Dealer (6600z)</td></tr><tr><td>NumbrOpn</td><td>Pink: &quot;Where&#39;s my Navi?&quot; Request BBS</td></tr><tr><td>SneakRun</td><td>White: Undernet 2 BugFrag Trader (20BF)</td></tr><tr><td>OilBody</td><td>Red: Fan Comp BMD</td></tr><tr><td>Fish</td><td>Blue: Sky Area 1 Normal Navi (Chapter 5)</td></tr><tr><td>Battery</td><td>Yellow: Vending Machine Comp BMD</td></tr><tr><td>Jungle</td><td>Green: Security Camera Comp BMD</td></tr><tr><td>Collect</td><td>Pink: Undernet 2 BugFrag Dealer (62 BF)</td></tr><tr><td>Millions</td><td>Red: &quot;Can&#39;t Open Safe&quot; Request BBS</td></tr><tr><td>Humor</td><td>Pink: Green Area 1 Heel Navi (Chapter 5)</td></tr><tr><td>Poem</td><td>Yellow: Punishment Room Mr.Prog in Green Town (Chapter 6)</td></tr><tr><td>SlipRunr</td><td>Yellow: Complete QuizMaster Quiz (Aquarium, Chapter 5)</td></tr><tr><td>AutoHeal</td><td>Pink: Sky HP PMD</td></tr><tr><td>BustPack</td><td>Red: Lotto Number (19790420)</td></tr><tr><td>BodyPack</td><td>Pink: Lotto Number (28271002)</td></tr><tr><td>FldrPak1</td><td>Yellow: Juvenile Division Request BBS ( Patch Card job)</td></tr><tr><td>FldrPak2</td><td>Pink: &quot;Iris&#39;s Kindness&quot; Patch Card Item Card</td></tr><tr><td>BugStop</td><td>Yellow: Hear all advice at Central Area 1 NetCafe (Starts Ch.7)</td></tr><tr><td>Rush</td><td>Yellow: Lotto Number (32132348)</td></tr><tr><td>Beat</td><td>Blue: Lotto Number (70741543)</td></tr><tr><td>Tango</td><td>Green: Lotto Number (69548756)</td></tr><tr><td>Attack+1</td><td>Pink: Start with it, Green Area 1 Program Dealer (2000z); Red: Seaside Area 2 BMD; Blue: Pavilion Comp 3 BMD</td></tr><tr><td>Speed+1</td><td>White: Start with it, Undernet 3 BMD; Pink: Elevator Comp BMD; Green: Green Area 2 BMD</td></tr><tr><td>Charge+1</td><td>White: Heater Comp BMD, Teachers&#39; Room Comp BMD; Blue: Blue Navi in Aquarium Comp 1; Pink: Graveyard 2 BMD</td></tr><tr><td>AttckMAX</td><td>Red: &quot;Joe Mach&#39;s Fists&quot; Patch Card Item Card</td></tr><tr><td>SpeedMAX</td><td>Green: Lotto Number (12046210)</td></tr><tr><td>ChargMAX</td><td>Blue: Lotto Number (94305487)</td></tr><tr><td>HP+50</td><td>White: Aquarium Comp 3 BMD; Pink: Lotto Number (37889678); Blue: Heliport Comp BMD</td></tr><tr><td>HP+100</td><td>White: Lotto Number (49951337); Pink: Green Area 1 BMD; Blue: Sky Area 1 BMD</td></tr><tr><td>HP+200</td><td>White: Lotto Number (24823665); Yellow: Green Area 1 Program Dealer (4200z); Blue: Seaside Area 1 BMD</td></tr><tr><td>HP+300</td><td>White: Graveyard 1 BMD; Pink: Lotto Number (49951337); Green: ACDC Area BMD</td></tr><tr><td>HP+400</td><td>White: Principal Office Comp BMD; Yellow: Undernet 2 BugFrag Dealer (76 BF); Green: Lotto Number (08749780)</td></tr><tr><td>HP+500</td><td>White: Lotto Number (55031325); Pink: Graveyard 2 PMD; Green: &quot;Dex&#39;s Key to Victory&quot; Patch Card Item Card</td></tr></tbody></table></div>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN6.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN6)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · restored routes and map gates",
+      "url": "https://www.therockmanexezone.com/wiki/Map_Guide_(MMBN6)"
+    },
+    {
+      "title": "The Rockman EXE Zone · Link Navi classes and Crosses",
+      "url": "https://www.therockmanexezone.com/wiki/Link_Navis_(MMBN6)"
+    },
+    {
+      "title": "The Rockman EXE Zone · optional quests",
+      "url": "https://www.therockmanexezone.com/wiki/Side_Quests_(MMBN6)"
+    },
+    {
+      "title": "The Rockman EXE Zone · request conditions",
+      "url": "https://www.therockmanexezone.com/wiki/Request_BBS_(MMBN6)"
+    },
+    {
+      "title": "The Rockman EXE Zone · collection changes and July 2023 fixes",
+      "url": "https://www.therockmanexezone.com/wiki/Changes_in_Mega_Man_Battle_Network_Legacy_Collection"
+    },
+    {
+      "title": "ChibiSoma · Gregar/Falzar campaign",
+      "url": "https://gamefaqs.gamespot.com/gba/929993-mega-man-battle-network-6-cybeast-gregar/faqs/41393"
+    },
+    {
+      "title": "The Rockman EXE Zone · NaviCust and program acquisition",
+      "url": "https://www.therockmanexezone.com/wiki/NaviCustomizer_(MMBN6)"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-green-town",
+      "name": "Green Town",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Green Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMemry</td><td>Book Comp BMD</td></tr><tr><td>HP Memry</td><td>Judge Tree Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>Examine Court Foyer large flowerbed</td></tr><tr><td>RegUp3</td><td>Judge Tree Comp 3 BMD</td></tr><tr><td>RegUp2</td><td>Symbol Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "HP and memory checklist",
+      "count": 35,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMemry</td><td>Central Area 2 HeelNavi NPC (Ch. 2)</td></tr><tr><td>SubMemry</td><td>Seaside Area 1 BMD</td></tr><tr><td>SubMemry</td><td>Underground 2 BMD</td></tr><tr><td>HP Memry</td><td>Central Area 2 NetMerchant (1000 z )</td></tr><tr><td>HP Memry</td><td>Central Area 2 NetMerchant (2000 z )</td></tr><tr><td>HP Memry</td><td>Central Area 2 NetMerchant (4000 z )</td></tr><tr><td>HP Memry</td><td>Central Area 2 NetMerchant (8000 z )</td></tr><tr><td>HP Memry</td><td>Seaside Area 3 NetMerchant (2500 z )</td></tr><tr><td>HP Memry</td><td>Seaside Area 3 NetMerchant (5000 z )</td></tr><tr><td>HP Memry</td><td>Seaside Area 3 NetMerchant (7500 z )</td></tr><tr><td>HP Memry</td><td>Seaside Area 3 NetMerchant (10000 z )</td></tr><tr><td>HP Memry</td><td>Green Area 1 Program Dealer (4800 z )</td></tr><tr><td>HP Memry</td><td>Green Area 1 Program Dealer (8400 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area NetMerchant (4000 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area NetMerchant (7500 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area NetMerchant (10000 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area NetMerchant (13000 z )</td></tr><tr><td>HP Memry</td><td>Graveyard 1 NetMerchant (10000 z )</td></tr><tr><td>HP Memry</td><td>Graveyard 1 NetMerchant (16000 z )</td></tr><tr><td>HP Memry</td><td>Graveyard 1 NetMerchant (23000 z )</td></tr><tr><td>HP Memry</td><td>Graveyard 1 NetMerchant (30000 z )</td></tr><tr><td>HP Memry</td><td>Aquarium HP BMD</td></tr><tr><td>HP Memry</td><td>Green HP BMD</td></tr><tr><td>HP Memry</td><td>Seaside Area 1 BMD (invisible path, bottom floor)</td></tr><tr><td>HP Memry</td><td>Green Area 2 BMD</td></tr><tr><td>HP Memry</td><td>Underground 2 BMD</td></tr><tr><td>HP Memry</td><td>Undernet 3 BMD</td></tr><tr><td>HP Memry</td><td>Immortal Area BMD</td></tr><tr><td>HP Memry</td><td>Graveyard 2</td></tr><tr><td>RegUp2</td><td>Central Area 2 BMD</td></tr><tr><td>RegUp2</td><td>Seaside Area 3 BMD</td></tr><tr><td>RegUp3</td><td>Sky Area 2 BMD</td></tr><tr><td>RegUp2</td><td>Undernet Zero BMD (via Green Area 2)</td></tr><tr><td>RegUp1</td><td>Undernet 1 BMD</td></tr><tr><td>RegUp2</td><td>Graveyard 2 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Story upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Obtain from finishing round 1 of the Operator Navi test (Ch. 4)</td></tr><tr><td>HP Memry</td><td>Obtain from completing final round of the Operator Navi test (Ch. 6)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-netcafe",
+      "name": "NetCafe",
+      "title": "HP and memory checklist",
+      "count": 1,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"NetCafe upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Continuously use Sky Area 1 NetCafe (Ch. 7)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-central-town",
+      "name": "Central Town",
+      "title": "HP and memory checklist",
+      "count": 12,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Central Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Robot Control Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Pavilion Comp 3 BMD</td></tr><tr><td>HP Memry</td><td>Class 1-2 Comp BMD</td></tr><tr><td>HP Memry</td><td>Principal's Office Comp BMD</td></tr><tr><td>RegUp1</td><td>Examine grid next to Room 6-1 blackboard</td></tr><tr><td>RegUp1</td><td>Examine Principal's Office Coffee Table</td></tr><tr><td>RegUp2</td><td>Examine Seaside Hall waterfall</td></tr><tr><td>RegUp2</td><td>Robot Control Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>Pavilion Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>Room 6-2 Comp BMD</td></tr><tr><td>RegUp1</td><td>Teachers Room Comp BMD</td></tr><tr><td>RegUp1</td><td>Mascot Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-seaside-town",
+      "name": "Seaside Town",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Seaside Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Aquarium Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Examine Control Room ladder</td></tr><tr><td>HP Memry</td><td>Popcorn Shop Comp BMD</td></tr><tr><td>RegUp1</td><td>Examine Auditorium trash bin</td></tr><tr><td>RegUp1</td><td>Aquarium Comp 2 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-sky-town",
+      "name": "Sky Town",
+      "title": "HP and memory checklist",
+      "count": 6,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Sky Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Mr Weather Comp 2 BMD</td></tr><tr><td>HP Memry</td><td>Examine OpRoom rightmost air tank</td></tr><tr><td>RegUp1</td><td>Mr Weather Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>Air Conditioner Comp BMD</td></tr><tr><td>RegUp1</td><td>Shower Comp BMD</td></tr><tr><td>RegUp2</td><td>Observation Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town",
+      "title": "HP and memory checklist",
+      "count": 1,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"ACDC Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Examine Dex's house door</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job",
+      "title": "HP and memory checklist",
+      "count": 10,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Job upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Request BBS &quot;TimeCpsl&quot;</td></tr><tr><td>HP Memry</td><td>Request BBS &quot;For Victory!&quot;</td></tr><tr><td>HP Memry</td><td>Request BBS &quot;StandIn Recruit&quot;</td></tr><tr><td>HP Memry</td><td>Request BBS &quot;Do Something!&quot;</td></tr><tr><td>HP Memry</td><td>Request BBS &quot;SupportChip Pls&quot;</td></tr><tr><td>RegUp2</td><td>Request BBS &quot;Find Keepsake&quot;</td></tr><tr><td>RegUp1</td><td>Request BBS &quot;Get The Chip!&quot;</td></tr><tr><td>RegUp1</td><td>Request BBS &quot;Daughter Worry&quot;</td></tr><tr><td>RegUp2</td><td>Request BBS &quot;Songwriter&quot;</td></tr><tr><td>RegUp2</td><td>Request BBS &quot;Not Engh Member&quot;</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-green-town",
+      "name": "Green Town · upgrades"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story · upgrades"
+    },
+    {
+      "id": "inventory-netcafe",
+      "name": "NetCafe · upgrades"
+    },
+    {
+      "id": "inventory-central-town",
+      "name": "Central Town · upgrades"
+    },
+    {
+      "id": "inventory-seaside-town",
+      "name": "Seaside Town · upgrades"
+    },
+    {
+      "id": "inventory-sky-town",
+      "name": "Sky Town · upgrades"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town · upgrades"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job · upgrades"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "zero2",
+  "series": "zero",
+  "displayId": "ZERO 2",
+  "title": "Mega Man Zero 2",
+  "collection": "Mega Man Zero/ZX Legacy Collection · GBA",
+  "intro": "A mission route with the health upgrades, Sub Tanks, equipment and rank decisions explained before you need them.",
+  "primer": [
+    "Zero 2 restores ordinary lives and continues, and opens missions in two groups of four. Visit Cerveau after the introduction for Chain Rod and Shield Boomerang. Weapons still level through use; elemental charged attacks need the appropriate weapon level.",
+    "Collect the two physical Sub Tanks first: they do not penalize rank. Two more tanks and permanent health upgrades come from grown, consumed elves, which do penalize rank. The choice is between a forgiving survival run and a stricter score run.",
+    "EX Skills require A or S rank when entering the mission. Earning A at the end affects the next mission; it cannot award the skill you just missed. Forms also have first-clear conditions. Ordinary returns collect items but do not replay those rewards.",
+    "Save before a mission if you want to retry its rank, form or EX reward. New Game+ keeps acquired equipment so missed rewards can be pursued on another run. Save the clear data in a spare slot if you want to preserve your endgame save."
+  ],
+  "facts": [
+    "Missions, equipment and Cyber-elves",
+    "Normal mode unless noted"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Mission overview",
+  "routeIntro": "Hyleg first gives a physical tank. Poler requires neutral charged attacks here, then Ice handles Panter and Thunder handles Phoenix. Complete the two fixed intermissions. Burble supplies the second physical tank; finish the remaining guardians with their elemental weaknesses.",
+  "route": [],
+  "warning": {
+    "title": "Want every EX Skill or form? Save before each first clear.",
+    "text": "A/S is checked on entry. Mission rewards cannot be earned by ordinary revisits. Permanent elf use lowers future scores; choose health upgrades on a survival save, or preserve a separate save for rank and completion rewards."
+  },
+  "features": [
+    [
+      "EX Skills",
+      "Optional combat techniques, not required for the ending. Enable them in the menu after earning them."
+    ],
+    [
+      "Forms",
+      "Change stats and some attacks. Only one eligible form is awarded per mission; competing conditions have a priority order."
+    ]
+  ],
+  "stages": [
+    {
+      "id": "sand-wilderness",
+      "name": "Mecha Scorpia",
+      "area": "Sand Wilderness · introduction",
+      "weakness": "Saber / Buster",
+      "reward": "Resistance Base; Chain Rod and Shield Boomerang from Cerveau",
+      "tip": "Attack the exposed tail when it comes within reach. Move away from falling debris, then return for the next opening.",
+      "now": "Optional permanent lives elf",
+      "items": [
+        {
+          "id": "sand-wilderness-arnue",
+          "name": "Arnue · permanent extra lives",
+          "text": "After the pair of vulture robots, let the crumbling pillars collapse and descend into the recess beneath them. Break the concealed elf capsule.",
+          "need": "Explore before finishing the introduction",
+          "extra": "Grow with 300 crystals. Using Arnue adds two lives to the starting count, with a lasting elf penalty.",
+          "timing": "first",
+          "when": "Introduction · collect before leaving",
+          "media": []
+        }
+      ]
+    },
+    {
+      "id": "hyleg-ourobockle",
+      "name": "Hyleg Ourobockle",
+      "area": "Forest of Dysis · first group",
+      "weakness": "Neutral charged attacks",
+      "reward": "Laser Shot · A/S entry",
+      "tip": "Strike between the snake-floor changes. Rescue the Reploids and keep clear of the grabbing attack.",
+      "now": "Physical Sub Tank 1 · Yeppie · health increase · Putick · hazard protection",
+      "items": [
+        {
+          "name": "Physical Sub Tank 1",
+          "text": "Near the rescuable Reploid above the spikes, pull a block down onto the spike floor with Chain Rod. Cross left using it as a foothold.",
+          "need": "Chain Rod",
+          "extra": "No elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hyleg-ourobockle-physical-sub-tank-1"
+        },
+        {
+          "name": "Yeppie · health increase",
+          "text": "Break the capsule concealed in the tree foliage near the start.",
+          "need": "Ranged attack",
+          "extra": "250 crystals to grow; using it adds 4 health and an elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hyleg-ourobockle-yeppie-health-increase"
+        },
+        {
+          "name": "Putick · hazard protection",
+          "text": "Collect the elf after defeating Pinofeil. Grow both stages before using it.",
+          "need": "Miniboss clear",
+          "extra": "Makes spikes and lava survivable, but still damaging; permanent elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hyleg-ourobockle-putick-hazard-protection"
+        }
+      ],
+      "sprite": {
+        "name": "Hyleg Ourobockle",
+        "src": "assets/zero-mmz2-hourobockle.gif",
+        "width": 52,
+        "height": 50,
+        "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "poler-kamrous",
+      "name": "Poler Kamrous",
+      "area": "Computer Zone · first group",
+      "weakness": "Flame; neutral charged attacks first",
+      "reward": "Ice Chip + Triple Shot · A/S entry",
+      "tip": "Avoid the ice trail, let him pass, then attack from behind.",
+      "now": "Fuppie · health increase · Atti · climbing · Fubuffa · no recoil",
+      "items": [
+        {
+          "name": "Fuppie · health increase",
+          "text": "Break the capsule in the upper-right corner of the ice Golem room.",
+          "need": "Wall-jump",
+          "extra": "250 crystals; +4 health after use.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "poler-kamrous-fuppie-health-increase"
+        },
+        {
+          "name": "Atti · ladder speed",
+          "text": "Defeat four Rollin-22 enemies and collect the drop.",
+          "need": "Enemy drops",
+          "extra": "70 crystals; climbs ladders faster, with a permanent elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "poler-kamrous-atti-climbing"
+        },
+        {
+          "name": "Fubuffa · no recoil",
+          "text": "Defeat four Ice Lifters and collect the drop.",
+          "need": "Enemy drops",
+          "extra": "250 crystals; removes knockback after hits.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "poler-kamrous-fubuffa-no-recoil"
+        }
+      ],
+      "sprite": {
+        "name": "Poler Kamrous",
+        "src": "assets/zero-mmz2-pkamrous.gif",
+        "width": 107,
+        "height": 90,
+        "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "panter-flauclaws",
+      "name": "Panter Flauclaws",
+      "area": "Supply Train · first group",
+      "weakness": "Ice charged attacks",
+      "reward": "Thunder Chip + Spark Shot · A/S entry",
+      "tip": "Use Ice to interrupt her while avoiding the moving train hazards. Destroy the designated supplies.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Panter Flauclaws",
+        "src": "assets/zero-mmz2-pflauclaws.gif",
+        "width": 58,
+        "height": 41,
+        "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "phoenix-magnion",
+      "name": "Phoenix Magnion",
+      "area": "Power Room · first group",
+      "weakness": "Thunder charged attacks",
+      "reward": "Flame Chip + Tenshouzan · A/S entry",
+      "tip": "Use Thunder at openings and destroy all assigned generators.",
+      "now": "Grandie · doubled health · Dable · larger refills",
+      "items": [
+        {
+          "name": "Grandie · doubled health",
+          "text": "Take the capsule on the first upward branch of the stage.",
+          "need": "Explore the rising route",
+          "extra": "300 then 700 crystals; using it doubles health with a lasting elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "phoenix-magnion-grandie-doubled-health"
+        },
+        {
+          "name": "Dable · larger refills",
+          "text": "Collect the elf after defeating U4.",
+          "need": "Miniboss clear",
+          "extra": "Grow with 200 then 500 crystals; energy pickups become more effective.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "phoenix-magnion-dable-larger-refills"
+        }
+      ],
+      "sprite": {
+        "name": "Phoenix Magnion",
+        "src": "assets/zero-mmz2-pmagnion.gif",
+        "width": 96,
+        "height": 81,
+        "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "residential-assault",
+      "name": "Residential assault",
+      "area": "Residential Area · intermission",
+      "weakness": "",
+      "reward": "Rescue mission",
+      "tip": "Complete the required rescue and protect the Reploids before the aerial pursuit.",
+      "now": "Estan · elf Sub Tank",
+      "items": [
+        {
+          "name": "Estan · elf Sub Tank",
+          "text": "In the right corner behind the movable block, use Chain Rod to pull the block aside and break the capsule.",
+          "need": "Chain Rod",
+          "extra": "400 crystals to grow; consuming it creates a tank and an elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "residential-assault-estan-elf-sub-tank"
+        }
+      ]
+    },
+    {
+      "id": "kuwagust-anchus",
+      "name": "Kuwagust Anchus",
+      "area": "Aerial assault · intermission",
+      "weakness": "Ice charged attacks",
+      "reward": "Sengatotsu · A/S entry",
+      "tip": "Protect Ciel by holding Shield Boomerang without throwing it. Slash enemies that slip past, then fight Anchus with Ice.",
+      "now": "Peatan · elf Sub Tank",
+      "items": [
+        {
+          "name": "Peatan · elf Sub Tank",
+          "text": "Take the upper passage above the electric-field box and collect the capsule.",
+          "need": "Careful wall-jump",
+          "extra": "400 crystals; consuming it creates a tank and an elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "kuwagust-anchus-peatan-elf-sub-tank"
+        }
+      ]
+    },
+    {
+      "id": "burble-hekelot",
+      "name": "Burble Hekelot",
+      "area": "Forest of Notus · second group",
+      "weakness": "Neutral charged attacks",
+      "reward": "Energy Chain · A/S entry",
+      "tip": "Keep space for his leaps and attack after he lands.",
+      "now": "Physical Sub Tank 2 · Mappie · health increase · Kelon · jump height",
+      "items": [
+        {
+          "name": "Physical Sub Tank 2",
+          "text": "After the miniboss, preserve the movable block and use it over the first spikes. Pull away the blocking cube with an upward-diagonal Chain Rod, then dodge it as it falls.",
+          "need": "Chain Rod",
+          "extra": "No elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "burble-hekelot-physical-sub-tank-2"
+        },
+        {
+          "name": "Mappie · health increase",
+          "text": "Find the concealed passage below the ruins entrance and break the capsule.",
+          "need": "Hidden passage",
+          "extra": "250 crystals; +4 health after use.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "burble-hekelot-mappie-health-increase"
+        },
+        {
+          "name": "Kelon · wall grip",
+          "text": "Defeat five Catapulls and collect the elf.",
+          "need": "Enemy drops",
+          "extra": "150 crystals; slows wall sliding, with a permanent elf penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "burble-hekelot-kelon-jump-height"
+        }
+      ],
+      "sprite": {
+        "name": "Burble Hekelot",
+        "src": "assets/zero-mmz2-bhekelot.gif",
+        "width": 37,
+        "height": 26,
+        "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "fairy-leviathan",
+      "name": "Fairy Leviathan",
+      "area": "Computer Zone 2 · second group",
+      "weakness": "Flame charged attacks",
+      "reward": "Sharp Edge · A/S entry",
+      "tip": "Use Flame between her underwater lunges. Move carefully around the spike slopes.",
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "sage-harpuia",
+      "name": "Sage Harpuia",
+      "area": "Crystal Cave · second group",
+      "weakness": "Ice charged attacks",
+      "reward": "Kougenjin · A/S entry",
+      "tip": "Use Ice to interrupt his attack; dash to a safe landing point before the next strike.",
+      "now": "",
+      "items": [
+        {
+          "id": "sage-harpuia-charnue",
+          "name": "Charnue · permanent extra lives",
+          "text": "At the first outdoor spike pit, slide partway down and dash-jump through the false wall on the right. The alcove contains the capsule and a life pickup.",
+          "need": "Careful wall slide and dash-jump",
+          "extra": "300 crystals; using it adds two starting lives and a lasting elf penalty.",
+          "timing": "first",
+          "when": "During the mission, or revisit",
+          "media": []
+        }
+      ]
+    },
+    {
+      "id": "fighting-fefnir",
+      "name": "Fighting Fefnir",
+      "area": "Shuttle Factory · second group",
+      "weakness": "Thunder charged attacks",
+      "reward": "Blast Shot · A/S entry",
+      "tip": "Use Thunder, clear the ground fire and strike before his next lunge.",
+      "now": "Euppie · health increase · Jettah · speed",
+      "items": [
+        {
+          "name": "Euppie · health increase",
+          "text": "Below the large green cannon Pantheon, climb down the ladder and take the capsule.",
+          "need": "Explore beneath the cannon",
+          "extra": "250 crystals; +4 health after use.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "fighting-fefnir-euppie-health-increase"
+        },
+        {
+          "name": "Jettah · speed",
+          "text": "Defeat three Hammer Pantheons and collect the drop.",
+          "need": "Enemy drops",
+          "extra": "300 crystals; increases running speed.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "fighting-fefnir-jettah-speed"
+        }
+      ]
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Revisit cleared areas from the base for equipment and supplies. Keep a separate save before a one-time mission or the final assault.",
+  "completionText": "Three elemental chips, four weapons, two physical tanks; two elf tanks and five health elves if using them. For completion, check forms and all ten EX Skills on a first-clear/New Game+ run. Arnue and Charnue are optional permanent lives upgrades, with the same lasting elf penalty.",
+  "sections": [
+    {
+      "id": "forms",
+      "title": "Forms and their first-clear conditions",
+      "html": "<p>Meet these conditions during an active mission, then finish it. If several qualify, priority is Energy → X → Defense → Erase → Active → Power → Rise.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Forms and their first-clear conditions\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Form</th><th scope=\"col\">Condition</th></tr></thead><tbody><tr><td>Energy</td><td>Collect 25 life capsules</td></tr><tr><td>X</td><td>Defeat 50 enemies with Buster</td></tr><tr><td>Defense</td><td>Defeat 20 with charged Shield Boomerang</td></tr><tr><td>Erase</td><td>Reflect 30 shots with the shield</td></tr><tr><td>Active</td><td>Defeat 20 with dash Saber slashes</td></tr><tr><td>Power</td><td>Pull objects 30 times with Chain Rod</td></tr><tr><td>Rise</td><td>Defeat 20 with aerial Saber slashes</td></tr><tr><td>Proto</td><td>Complete the game</td></tr><tr><td>Ultimate</td><td>Find, grow and use every Cyber-elf</td></tr></tbody></table></div><p>These are optional targets. Use a spare save if a form attempt prevents a clean mission clear.</p>"
+    },
+    {
+      "id": "fortress",
+      "title": "Neo Arcadia",
+      "paragraphs": [
+        "Rainbow Devil MK-II awards Filter Shield with A/S entry; use neutral charged attacks against its head. Fire temple Fefnir remains weak to Thunder, Ice temple Leviathan to Flame, Wind temple Harpuia to Ice.",
+        "Use Ice against the twin Anchus in the rematch section; their health is shared. Stand in the center of a teleporter and press Up to enter it.",
+        "Elpizo: wait for his guard to open and use charged Saber. In the second form, move away from the center’s attacks and approach only for a prepared strike. Bring filled tanks."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Explore cleared stages for crystals and weapon practice outside the scored mission. Save afterward so the gains are retained.",
+        "Chain Rod pulls blocks, grapples and swings. Charge it to drain ordinary enemies with Energy Chain when that EX Skill is enabled."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, equipment and final stages",
+      "url": "https://www.mmhp.net/GameHints/MMZ2.html"
+    },
+    {
+      "title": "MMHP · weapon, elf and boss data",
+      "url": "https://www.mmhp.net/GameHints/MMZ2-Data.html"
+    },
+    {
+      "title": "GameFAQs · Zero 2 missions, elves and first-clear rewards",
+      "url": "https://gamefaqs.gamespot.com/gba/589660-mega-man-zero-2/faqs/26340"
+    },
+    {
+      "title": "StrategyWiki · form conditions",
+      "url": "https://strategywiki.org/wiki/Mega_Man_Zero_2/Forms"
+    },
+    {
+      "title": "Wingnut · elf locations and permanent effects",
+      "url": "https://gamefaqs.gamespot.com/gba/589660-mega-man-zero-2/faqs/23255"
+    }
+  ],
+  "libraryIntro": "Two physical tanks, two elf tanks, weapon growth, and the first-clear conditions for Forms and EX Skills."
+}

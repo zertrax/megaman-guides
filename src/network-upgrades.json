@@ -1,0 +1,3963 @@
+{
+  "checked": "2026-10-06",
+  "games": {
+    "1": {
+      "upgrades": [
+        {
+          "type": "Power UP",
+          "area": "E-Mail",
+          "time": "",
+          "location": "E-Mail from Dad: \"Sorry Lan\" (Ch. 4)",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (2000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (5000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 Net Merchant (20000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 Net Merchant (25000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (25000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (50000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 11 Net Merchant (100000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Govt Complex",
+          "time": "",
+          "location": "Waterworks Comp 5 FMD ; The Mystery Data is obscured by the ice floor.",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Dentown",
+          "time": "",
+          "location": "Blackboard Comp FMD",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 2 FMD (requires WWW PIN)",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 10 FMD (requires WWW PIN)",
+          "item": "PowerUP"
+        },
+        {
+          "type": "HP Memory",
+          "area": "E-Mail",
+          "time": "",
+          "location": "E-Mail from Dad: \"Sorry Lan\" (Ch. 4)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (500 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (1000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (2000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (3000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 1 Net Merchant (5000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 3 Net Merchant (4000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 3 Net Merchant (6000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 3 Net Merchant (9000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 3 Net Merchant (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 3 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 Net Merchant (6000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 Net Merchant (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 Net Merchant (10000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 Net Merchant (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 Net Merchant (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 Net Merchant (10000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 Net Merchant (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 Net Merchant (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 Net Merchant (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 Net Merchant (25000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 8 Net Merchant (25000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 11 Net Merchant (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 11 Net Merchant (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 11 Net Merchant (25000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 11 Net Merchant (40000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "School Comp 3 FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Govt Complex",
+          "time": "",
+          "location": "Waterworks Comp 2 FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Dentown",
+          "time": "",
+          "location": "Traffic Light Comp 4 FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Examine Storage room shelf in ACDC Elementary",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Servbot Comp FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Car Comp FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Govt Complex",
+          "time": "",
+          "location": "Examine Waterworks Control Room locker",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Govt Complex",
+          "time": "",
+          "location": "Beat SharkMan for the 1st time",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Govt Complex",
+          "time": "",
+          "location": "Recycled PET Comp FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "WWW Base",
+          "time": "",
+          "location": "WWW Comp 4 FMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Internet 4 FMD (requires WWW PIN) ; The Mystery Data is obscured by the upper level path.",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 FMD (requires WWW PIN)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 FMD (requires WWW PIN)",
+          "item": "HPMemory"
+        }
+      ],
+      "programs": []
+    },
+    "2": {
+      "upgrades": [
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 3 NetDealer (5000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "KotoSquare NetDealer (10000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "NetSquare NetDealer (10000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderSquare NetDealer (20000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderKoto NetDealer (20000 z )",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 3 PMD",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Bomb Comp 4 BMD",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Castle Comp 4 BMD",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Apartment Comp 3 BMD",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Examine Dad's Lab white coat",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Talk to hidden Mr. Prog in the real world Mother Computer room (middle of Ch. 8)",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Power UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request Board \"Help research\"",
+          "item": "PowerUP"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Netopia",
+          "time": "",
+          "location": "Talk to hidden NPC by Netopia park trees (Ch. 8)",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Netopia",
+          "time": "",
+          "location": "Castle Comp 3 BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 PMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "WWW Area 3 BMD (requires SSS License)",
+          "item": "SubMem"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Story",
+          "time": "",
+          "location": "Request Board \"Mission3\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Chip Trading (Camp Road 1 - Ch. 4)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 1 NetDealer (1000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 1 NetDealer (2000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 3 NetDealer (3000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 3 NetDealer (5000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Den Area 3 NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "The Square NetDealer (2000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "The Square NetDealer (4000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "The Square NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "KotoSquare NetDealer (4000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "KotoSquare NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "KotoSquare NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "NetSquare NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "NetSquare NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "NetSquare NetDealer (16000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 NetDealer (10000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 NetDealer (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 NetDealer (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderSquare NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderSquare NetDealer (16000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderSquare NetDealer (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderKoto NetDealer (15000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderKoto NetDealer (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "UnderKoto NetDealer (30000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Gas Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Bomb Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Mother Comp 1 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Netopia",
+          "time": "",
+          "location": "Castle Comp 1 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Airplane",
+          "time": "",
+          "location": "Air Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Airplane",
+          "time": "",
+          "location": "Air Comp 4 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Kotobuki Town",
+          "time": "",
+          "location": "Apartment Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Piano Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Yai's HP BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Beat GateMan for the 1st time",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Guardian Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Airport",
+          "time": "",
+          "location": "Beat HeatMan for the 1st time",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Netopia",
+          "time": "",
+          "location": "Examine Hotel Room refrigerator",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Netopia",
+          "time": "",
+          "location": "Beat the Quiz Master in Banquet Room (Ch. 7)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Airplane",
+          "time": "",
+          "location": "Examine Business class curtains",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Kotobuki Town",
+          "time": "",
+          "location": "Examine 9F west door",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Netopia 3 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request Board \"At the cafe\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request Board \"Help reconcile us\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Story",
+          "time": "",
+          "location": "Complete Z License Test",
+          "item": "Chip Selection System (4MB)"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Story",
+          "time": "",
+          "location": "Complete B License Test",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Story",
+          "time": "",
+          "location": "Request Board \"Mission1\"",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Story",
+          "time": "",
+          "location": "Complete A License Test",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Gas Comp 2 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Bomb Comp 3 BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Mother Comp 2 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Mother Comp 5 BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Netopia",
+          "time": "",
+          "location": "Castle Comp 3 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Airplane",
+          "time": "",
+          "location": "Air Comp 1 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Airplane",
+          "time": "",
+          "location": "Air Comp 4 BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Kotobuki Town",
+          "time": "",
+          "location": "Apartment Comp 1 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Kotobuki Town",
+          "time": "",
+          "location": "Gospel Server 1 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Piano Comp BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Telephone Comp BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Broken Toy Comp BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Complete S License Test",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Complete SS License Test",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Complete SSS License Test",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Coffee Machine Comp BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Marine Harbor",
+          "time": "",
+          "location": "Monitor Comp BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Talk to hidden NPC in Camp Road 2 (Ch. 8)",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Okuden Valley",
+          "time": "",
+          "location": "Bear Comp BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Airport",
+          "time": "",
+          "location": "Examine Boarding (Netopia) postcard stand",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Netopia",
+          "time": "",
+          "location": "Examine Underground trash bin",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Netopia",
+          "time": "",
+          "location": "Beat the Quiz King in Arrow Room (Ch. 8)",
+          "item": "RegUP3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Kotobuki Town",
+          "time": "",
+          "location": "Vending Machine Comp BMD",
+          "item": "RegUP3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Yumland 1 BMD",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 BMD",
+          "item": "RegUP2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request Board \"Need help\"",
+          "item": "RegUP1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request Board \"For male pride\"",
+          "item": "RegUP2"
+        }
+      ],
+      "programs": []
+    },
+    "3": {
+      "upgrades": [
+        {
+          "type": "Sub Memory",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Hospital Comp 3 BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Yoka",
+          "time": "",
+          "location": "Armor Comp BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 6 BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Job BBS \"Looking for condor\"",
+          "item": "SubMem"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Story",
+          "time": "",
+          "location": "Job BBS \"Stuntmen wanted(Tora)\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC 2 NetDealer (1000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC 2 NetDealer (3000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Square NetDealer (2000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Square NetDealer (5000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "SciLab Square NetDealer (2000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "SciLab Square NetDealer (4000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "SciLab Square NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Yoka Square NetDealer (4000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Yoka Square NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Yoka Square NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Beach Square NetDealer (5000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Beach Square NetDealer (9000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Beach Square NetDealer (13000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Under Square NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Under Square NetDealer (16000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Under Square NetDealer (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 4 NetDealer (8000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 4 NetDealer (12000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 4 NetDealer (16000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Secret 2 NetDealer (20000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Secret 2 NetDealer (30000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Secret 2 NetDealer (40000 z )",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Principal Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Yoka",
+          "time": "",
+          "location": "Zoo Comp 1 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Hospital Comp 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Hospital Comp 5 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "WWW Base",
+          "time": "",
+          "location": "WWW Comp 1 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "WWW Base",
+          "time": "",
+          "location": "WWW Comp 4 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Sign Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Tank Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "School Server Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Yoka",
+          "time": "",
+          "location": "QuizMaster (Outdoor Bath)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Examine Hospital 3F Tree of Life",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Editing Comp BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Hades Island",
+          "time": "",
+          "location": "Examine Hades Isle large crab by boat ramp",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Mayl's HP PMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Yoka 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 5 BMD (hidden under upper floor path)",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 7 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Secret Area 2 BMD",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Job BBS \"Transmission error\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Job BBS \"I'm broke...!\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Job BBS \"Finding the blue Navi\"",
+          "item": "HPMemory"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Story",
+          "time": "",
+          "location": "Job BBS \"Look for friends(Tora)\"",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Principal Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Yoka",
+          "time": "",
+          "location": "Zoo Comp 4 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Hospital Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "WWW Base",
+          "time": "",
+          "location": "WWW Comp 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Examine Staff Lounge desk (Ch. 7)",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Examine Class 5-B shelf (Ch. 3)",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Tank Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Blackboard Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "SciLab",
+          "time": "",
+          "location": "Examine SciLab Station garbage bin (Ch. 6)",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "SciLab",
+          "time": "",
+          "location": "Vending Machine Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Yoka",
+          "time": "",
+          "location": "Examine Guest Room vase (Ch. 3)",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Yoka",
+          "time": "",
+          "location": "Mr. Quiz (Hall - Ura Inn)",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Yoka",
+          "time": "",
+          "location": "Ticket Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Yoka",
+          "time": "",
+          "location": "Alarm Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Examine TV Station Hall 1 wooden display",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Examine Shoreline metal vent",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Examine Editing Room schedule",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "TV Board Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Beach St.",
+          "time": "",
+          "location": "Bed Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "WWW Base",
+          "time": "",
+          "location": "Examine Control Room monitor",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Yai's HP BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "SciLab 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Beach 2 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Job BBS \"My Navi is sick\"",
+          "item": "RegUp3"
+        }
+      ],
+      "programs": [
+        {
+          "name": "SprArmor",
+          "location": "Red: Guts Style LV2"
+        },
+        {
+          "name": "BrakBust",
+          "location": "Red: Guts Style LV3"
+        },
+        {
+          "name": "BrakChrg",
+          "location": "Orange: NCP at DNN Lobby; Red: Guts Style LV4"
+        },
+        {
+          "name": "SetGreen",
+          "location": "Green: Ground Style LV2"
+        },
+        {
+          "name": "SetIce",
+          "location": "Green: Ground Style LV3"
+        },
+        {
+          "name": "SetLava",
+          "location": "Green: Ground Style LV4"
+        },
+        {
+          "name": "SetSand",
+          "location": "Green: Number Trader (19878934)"
+        },
+        {
+          "name": "SetMetal",
+          "location": "Green: UnderSquare Program Dealer (5000z)"
+        },
+        {
+          "name": "SetHoly",
+          "location": "Green: Ground Style LV5"
+        },
+        {
+          "name": "Custom1",
+          "location": "Yellow: Custom Style LV3; Blue: Custom Style LV2"
+        },
+        {
+          "name": "Custom2",
+          "location": "Blue: Custom Style LV4"
+        },
+        {
+          "name": "MegFldr1",
+          "location": "Pink: Team Style LV3; Green: Team Style LV2"
+        },
+        {
+          "name": "MegFldr2",
+          "location": "Green: Team Style LV4"
+        },
+        {
+          "name": "Block",
+          "location": "Blue: Shield Style LV2"
+        },
+        {
+          "name": "Shield",
+          "location": "Blue: Shield Style LV3"
+        },
+        {
+          "name": "Reflect",
+          "location": "Blue: Shield Style LV4"
+        },
+        {
+          "name": "ShdwShoe",
+          "location": "Red: Shadow Style LV2"
+        },
+        {
+          "name": "FlotShoe",
+          "location": "Red: Shadow Style LV3"
+        },
+        {
+          "name": "AntiDmg",
+          "location": "Red: Shadow Style LV4"
+        },
+        {
+          "name": "Press",
+          "location": "White: Given by Cossak during the story"
+        },
+        {
+          "name": "EngyChng",
+          "location": "White: Given by a Mr. Prog during the story"
+        },
+        {
+          "name": "Alpha",
+          "location": "Pink: Given by Dad during the story"
+        },
+        {
+          "name": "SneakRun",
+          "location": "Yellow: Zoo Comp 3 BMD"
+        },
+        {
+          "name": "OilBody",
+          "location": "Yellow: Hospital Comp 1 BMD"
+        },
+        {
+          "name": "Fish",
+          "location": "Pink: Beach Square (8000z)"
+        },
+        {
+          "name": "Battery",
+          "location": "Yellow: Under Square (8000z)"
+        },
+        {
+          "name": "Jungle",
+          "location": "White: WWW Comp 3 BMD"
+        },
+        {
+          "name": "Collect",
+          "location": "Pink: Wall Comp BMD (hidden behind wall at WWW base)"
+        },
+        {
+          "name": "AirShoes",
+          "location": "White: Number Trader (23415891)"
+        },
+        {
+          "name": "UnderSht",
+          "location": "White: Start with it"
+        },
+        {
+          "name": "FstGauge",
+          "location": "Pink: Number Trader (67918452)"
+        },
+        {
+          "name": "Rush",
+          "location": "Yellow: Undernet 6 BugFrag Trader (100B)"
+        },
+        {
+          "name": "Beat",
+          "location": "White: Under Square Shop (10000z)"
+        },
+        {
+          "name": "Tango",
+          "location": "Pink: Under Square Shop (10000z)"
+        },
+        {
+          "name": "BugStop",
+          "location": "White: Bug Style LV2"
+        },
+        {
+          "name": "Humor",
+          "location": "Pink: “Help with rehab” Job BBS"
+        },
+        {
+          "name": "BlckMind",
+          "location": "White: Given by Chaud during the story"
+        },
+        {
+          "name": "BustrMAX",
+          "location": "Pink: Undernet 6 BugFrag Trader (150BF)"
+        },
+        {
+          "name": "GigFldr1",
+          "location": "Purple: Undernet 7 BMD (after beating Bass GS)"
+        },
+        {
+          "name": "HubBatc",
+          "location": "Orange: Secret Area 3 BMD on a hidden path"
+        },
+        {
+          "name": "DarkLcns",
+          "location": "Gray: Bug Style LV3"
+        },
+        {
+          "name": "WeapLV+1",
+          "location": "White: Number Trader (41465278) ; Pink: Statue Comp BMD at Hades Isle ; Yellow: Undernet 6 BMD (FlameMan Cube)"
+        },
+        {
+          "name": "HP+100",
+          "location": "White: Undernet 6 BugFrag Trader (50BF) ; Pink: DNN Van Comp BMD ; Yellow: Zoo Comp 4 BMD"
+        },
+        {
+          "name": "HP+200",
+          "location": "Pink: Undernet 1 BMD (behind WWW-ID door) ; Yellow: Undernet 6 BugFrag Trader (80BF)"
+        },
+        {
+          "name": "HP+300",
+          "location": "Pink: UnderSquare Program Dealer (20000z)"
+        },
+        {
+          "name": "HP+500",
+          "location": "Yellow: Secret Area 2 BMD"
+        },
+        {
+          "name": "Reg+5",
+          "location": "White: BeachSquare Program Dealer (5000z) ; Yellow: Undernet 6 BugFrag Trader (70BF)"
+        },
+        {
+          "name": "Atk+1",
+          "location": "White: BeachSquare Program Dealer (3000z) ; Pink: Start with it, TV Board Comp PMD at DNN ; Yellow: Hospital Comp 2 BMD (via Beach 1 using HospitalCode)"
+        },
+        {
+          "name": "Speed+1",
+          "location": "White: Start with it, Undernet 4 BMD ; Pink: Undernet 6 BugFrag Trader (40BF) ; Yellow: Yoka Area 1 BMD"
+        },
+        {
+          "name": "Charge+1",
+          "location": "White: BeachSquare Program Dealer (2000z) ; Pink: Zoo Comp 2 BMD, Beach Area 1 BMD ; Yellow: Hospital Comp 5 BMD"
+        }
+      ]
+    },
+    "4": {
+      "upgrades": [
+        {
+          "type": "Sub Memory",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Ticket Comp BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "NetFrica",
+          "time": "1st",
+          "location": "Nupopo Comp BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Castillo",
+          "time": "2nd",
+          "location": "Castillo NetBattle Machine Comp BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "Sharo Area BMD",
+          "item": "SubMem"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "ACDC Area 2 NetDealer (1000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "ACDC Area 2 NetDealer (3200 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Town Area 3 NetDealer (2500 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Town Area 3 NetDealer (6000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Town Area 3 NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Netopia Area NetDealer (6000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Netopia Area NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Netopia Area NetDealer (14000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 1 NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 1 NetDealer (15000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 1 NetDealer (20000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 1 NetDealer (30000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 5 NetDealer (30000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "Once",
+          "location": "Undernet 5 NetDealer (50000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Elec Town",
+          "time": "3rd",
+          "location": "Elec Tower Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Elec Town",
+          "time": "1st",
+          "location": "Elec Tower Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Elec Town",
+          "time": "2nd",
+          "location": "Elec Tower Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "3rd",
+          "location": "Toy Robo Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Toy Robo Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "2nd",
+          "location": "Toy Robo Comp 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Toy Robo Comp 4 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "NAXA",
+          "time": "1st",
+          "location": "Meteor Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "NAXA",
+          "time": "3rd",
+          "location": "Meteor Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "NAXA",
+          "time": "2nd",
+          "location": "Meteor Comp 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "DenDome",
+          "time": "1st",
+          "location": "Hotdog Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Castillo NetBattle Machine Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "YumLand",
+          "time": "2nd",
+          "location": "Statue Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "DenDome",
+          "time": "2nd",
+          "location": "Vending Machine Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Stand Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Sharo",
+          "time": "1st",
+          "location": "Antenna Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Town Area 1 PMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "Town Area 3 PMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Park Area 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Park Area 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "Park Area 3 PMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Netopia Area BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "NetFrica Area BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Sharo Area BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Sharo Area BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Undernet 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Undernet 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "Undernet 4 PMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Undernet 4 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Black Earth 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Black Earth 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "1st",
+          "location": "Elec Tower Comp 1 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "2nd",
+          "location": "Elec Tower Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "3rd",
+          "location": "Elec Tower Comp 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "2nd",
+          "location": "Toy Robo Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Toy Robo Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "1st",
+          "location": "Toy Robo Comp 3 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "2nd",
+          "location": "Toy Robo Comp 4 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "3rd",
+          "location": "Toy Robo Comp 4 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NAXA",
+          "time": "Once",
+          "location": "Examine NAXA Lobby spacesuit",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NAXA",
+          "time": "3rd",
+          "location": "Meteor Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NAXA",
+          "time": "2nd",
+          "location": "Meteor Comp 2 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NAXA",
+          "time": "1st",
+          "location": "Meteor Comp 2 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NAXA",
+          "time": "2nd",
+          "location": "Meteor Comp 4 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "1st",
+          "location": "Stereo Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "1st",
+          "location": "LCD Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Elec Town",
+          "time": "2nd",
+          "location": "LCD Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "DenDome",
+          "time": "Once",
+          "location": "Examine DenDome folded chair",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Castillo",
+          "time": "2nd",
+          "location": "Stand Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NetFrica",
+          "time": "Once",
+          "location": "Examine Netfrica house",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "NetFrica",
+          "time": "1st",
+          "location": "Lion Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sharo",
+          "time": "2nd",
+          "location": "Computer Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sharo",
+          "time": "1st",
+          "location": "Antenna Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "ACDC Area 1 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Town Area 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Park Area 1 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Park Area 1 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "1st",
+          "location": "YumLand Area BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "3rd",
+          "location": "YumLand Area PMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Netopia Area BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "1st",
+          "location": "Undernet 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "2nd",
+          "location": "Undernet 2 BMD",
+          "item": "RegUp1"
+        }
+      ],
+      "programs": [
+        {
+          "name": "SprArmr",
+          "location": "Red: Netopia Area BMD (1st) - behind Nebula Door"
+        },
+        {
+          "name": "Custom1",
+          "location": "Blue: Undernet 4 BMD (1st), Castillo HP Program Dealer (9600z), Undernet 6 Program Dealer (9600z)"
+        },
+        {
+          "name": "Custom2",
+          "location": "Yellow: Lotto Number (75420107)"
+        },
+        {
+          "name": "MegFldr1",
+          "location": "Green: Park Area 3 BMD (1st), Castillo HP Program Dealer (8000z), Undernet 6 Program Dealer (8000z)"
+        },
+        {
+          "name": "MegFldr2",
+          "location": "Green: Lotto Number (02109544)"
+        },
+        {
+          "name": "GigFldr1",
+          "location": "Red: Black Earth 2 BMD (1st)"
+        },
+        {
+          "name": "FstBarr",
+          "location": "White: Castillo HP Program Dealer (6800z)"
+        },
+        {
+          "name": "Shield",
+          "location": "Blue: Castillo HP Program Dealer (5500z)"
+        },
+        {
+          "name": "Reflect",
+          "location": "Blue: Undernet 6 Program Dealer (13000z)"
+        },
+        {
+          "name": "AntiMagc",
+          "location": "Red: Undernet 4 BugFrag Trader (36 BF)"
+        },
+        {
+          "name": "FloatShoe",
+          "location": "Green: Undernet 6 Program Dealer (8400z)"
+        },
+        {
+          "name": "AirShoes",
+          "location": "Blue: Undernet 4 BugFrag Trader (22 BF)"
+        },
+        {
+          "name": "UnderSht",
+          "location": "White: Start with it"
+        },
+        {
+          "name": "SneakRun",
+          "location": "Yellow: Park Area 3 BugFrag Trader (8 BF)"
+        },
+        {
+          "name": "OilBody",
+          "location": "Red: Undernet 6 Program Dealer (6200z)"
+        },
+        {
+          "name": "Fish",
+          "location": "Blue: Water Comp in Den Dome BMD (1st) - during 3rd tournament."
+        },
+        {
+          "name": "Battery",
+          "location": "Yellow: Antenna 4 BMD (1st)"
+        },
+        {
+          "name": "Jungle",
+          "location": "Green: NetFrica Area BMD (1st)"
+        },
+        {
+          "name": "Collect",
+          "location": "White: Park Area 3 BugFrag Trader (42 BF)"
+        },
+        {
+          "name": "Humor",
+          "location": "Pink: Town Area 3 Navi during 3rd tournament (1st)"
+        },
+        {
+          "name": "BustPack",
+          "location": "Red: Lotto Code (05178924)"
+        },
+        {
+          "name": "BodyPack",
+          "location": "Blue: Lotto Code (43494372)"
+        },
+        {
+          "name": "HubBatc",
+          "location": "White: Defeat Black Earth 2 MegaManDS (1st) - only can be given if Karma is 500 or above"
+        },
+        {
+          "name": "BugStop",
+          "location": "White: ACDC Area 1 BMD (1st) - behind Nebula door"
+        },
+        {
+          "name": "SoulClen",
+          "location": "White: Defeat Black Earth 2 MegaManDS (1st)"
+        },
+        {
+          "name": "Rush",
+          "location": "Yellow: Lotto Number (73298100)"
+        },
+        {
+          "name": "Beat",
+          "location": "Blue: Lotto Number (25435428)"
+        },
+        {
+          "name": "Tango",
+          "location": "Green: Lotto Number (10170506)"
+        },
+        {
+          "name": "Attack+1",
+          "location": "White: Meteor 4 BMD (1st), ToyRobo 3 BMD (2nd) ; Pink: Start with it; Yellow: Undernet 6 BMD (1st - hidden under large stairs)"
+        },
+        {
+          "name": "Speed+1",
+          "location": "White: Start with it, Water Comp in Den Dome BMD (2nd) ; Pink: Computer Comp in Sharo BMD (1st) ; Yellow: Sharo Area BMD (2nd)"
+        },
+        {
+          "name": "Charge+1",
+          "location": "White: Park Area 3 BMD (2nd) ; Pink: ElecTower 1 BMD (3rd), ACDC Area 3 BMD (2nd); Yellow: ToyRobo 3 BMD (1st)"
+        },
+        {
+          "name": "AttckMAX",
+          "location": "White: Undernet 4 BugFrag Trader (72 BF)"
+        },
+        {
+          "name": "SpeedMAX",
+          "location": "White: Undernet 2 BMD"
+        },
+        {
+          "name": "ChargMAX",
+          "location": "Pink: Castillo Program Dealer (4800z)"
+        },
+        {
+          "name": "HP+50",
+          "location": "White: Dog House BMD (2nd) ; Pink: ToyRobo 1 BMD (1st) ; Yellow: ACDC Area 1 BMD (3rd)"
+        },
+        {
+          "name": "HP+100",
+          "location": "Pink: Meteor 3 PMD (1st) ; Yellow: Castillo Program Dealer (3400z)"
+        },
+        {
+          "name": "HP+200",
+          "location": "White: Sharo Area BMD (1st) ; Pink: Meteor 4 BMD (2nd) ; Yellow: Park Area 2 PMD (3rd)"
+        },
+        {
+          "name": "HP+300",
+          "location": "White: Undernet 2 BMD (3rd) ; Pink: Undernet 6 Program Dealer (9600z) ; Yellow: ToyRobo 3 BMD (3rd)"
+        },
+        {
+          "name": "HP+400",
+          "location": "White: Undernet 1 PMD (3rd) ; Pink: Park Area 3 BugFrag Trader (16 BF); Yellow: Town Area 3 PMD (2nd)"
+        },
+        {
+          "name": "HP+500",
+          "location": "White: Lotto Number (30873642); Pink: Lotto Number (97618739)"
+        }
+      ]
+    },
+    "5": {
+      "upgrades": [
+        {
+          "type": "Sub Memory",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Ship Comp 3",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Mt. Belenus",
+          "time": "",
+          "location": "Factory Comp 4 BMD",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Engine Comp BMD",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Examine End City front desk",
+          "item": "SubMemry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area 2 NetDealer (1000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area 2 NetDealer (3200 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area 2 NetDealer (5000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Oran Area 1 NetDealer (2500 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Oran Area 1 NetDealer (6000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Oran Area 1 NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "End Area 1 NetDealer (6000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "End Area 1 NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "End Area 1 NetDealer (14000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 NetDealer (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 NetDealer (15000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 NetDealer (20000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 NetDealer (30000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 2 NetDealer (20000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 2 NetDealer (26000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 2 NetDealer (34000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 2 NetDealer (50000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Examine Higsby's Base computer",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "SciLab",
+          "time": "",
+          "location": "Main Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Oran Island",
+          "time": "",
+          "location": "Examine Old Mine 2 crate",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Oran Island",
+          "time": "",
+          "location": "Drill Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Oran Island",
+          "time": "",
+          "location": "Drill Comp 4 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Ship Comp 2",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Examine Castle Exterior's back of statue",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Talk to NPC in Castle Exterior (Ch. 7)",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Gargoyle Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Gargoyle Comp 3",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Mt. Belenus",
+          "time": "",
+          "location": "Factory Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Mt. Belenus",
+          "time": "",
+          "location": "Factory Comp 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "View Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "End City",
+          "time": "",
+          "location": "Katana Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Tree Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "SciLab",
+          "time": "",
+          "location": "Sculpture Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Mt. Belenus",
+          "time": "",
+          "location": "Pipe Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Squirrel Comp 8 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Dex's HP BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Furnace Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Oran Area 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "SciLab Area 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Server Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "End Area 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 4 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Nebula Area 6 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Ship Comp 2",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "End City",
+          "time": "",
+          "location": "Gargoyle Comp 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "End City",
+          "time": "",
+          "location": "Gargoyle Comp 4",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Mt. Belenus",
+          "time": "",
+          "location": "Factory Comp 2 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Doghouse Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Squirrel Comp 13 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Old Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Oran Island",
+          "time": "",
+          "location": "Examine Old Mine entrance wheelbarrow",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "SciLab",
+          "time": "",
+          "location": "Examine SciLab Lobby trash can",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "SciLab",
+          "time": "",
+          "location": "Talk to NPC in SciLab Lobby (Ch. 7)",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "SciLab",
+          "time": "",
+          "location": "Dad's Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Examine Bridge life jackets",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Wine Case Comp BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Queen Bohemia",
+          "time": "",
+          "location": "Screw Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "End City",
+          "time": "",
+          "location": "Examine Mum Room armor",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "End City",
+          "time": "",
+          "location": "Helmet Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Dex's HP BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Furnace Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Elevator Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Crane Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Old Terminal Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Examine box next to SciLab Vision Burst copy machine",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "End Area 1 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 2 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Message Comp BMD",
+          "item": "RegUp3"
+        }
+      ],
+      "programs": [
+        {
+          "name": "SprArmr",
+          "location": "Red: Oran Area 3 Program Dealer (7800z)"
+        },
+        {
+          "name": "Custom1",
+          "location": "Blue: SciLab 1 Area BMD, Undernet 3 Program Dealer (5500z)"
+        },
+        {
+          "name": "Custom2",
+          "location": "Blue: Lotto Number (15595587)"
+        },
+        {
+          "name": "MegFldr1",
+          "location": "Green: Oran Area 3 Program Dealer (4700z), SciLab Area 4 BMD ; Pink: Not available, menu mistake in some versions of the game"
+        },
+        {
+          "name": "MegFldr2",
+          "location": "Green: Lotto Number (97513648)"
+        },
+        {
+          "name": "GigFldr1",
+          "location": "Red: Undernet 2 BugFrag Trader (90 BF)"
+        },
+        {
+          "name": "FstBarr",
+          "location": "Blue: Squirrel Comp 15 BMD"
+        },
+        {
+          "name": "Shield",
+          "location": "Green: SciLab Area 2 BMD"
+        },
+        {
+          "name": "Reflect",
+          "location": "White: Undernet 3 Program Dealer (8700z)"
+        },
+        {
+          "name": "AntiDmg",
+          "location": "Red: Trade AntiDamage F to NPC in Helmet Comp."
+        },
+        {
+          "name": "FlotShoe",
+          "location": "Blue: SciLab Area 3 BugFrag Trader (40 BF)"
+        },
+        {
+          "name": "AirShoes",
+          "location": "Yellow: End Area 4 BMD (behind Nebula Door)"
+        },
+        {
+          "name": "UnderSht",
+          "location": "White: Start with it"
+        },
+        {
+          "name": "SneakRun",
+          "location": "Blue: Undernet 2 BugFrag Trader (20 BF)"
+        },
+        {
+          "name": "OilBody",
+          "location": "Red: Factory Comp 2 BMD"
+        },
+        {
+          "name": "Fish",
+          "location": "Blue: Undernet 3 Program Dealer (4200z)"
+        },
+        {
+          "name": "Battery",
+          "location": "Yellow: Air Conditioner Comp BMD"
+        },
+        {
+          "name": "Jungle",
+          "location": "Green: Undernet 3 Program Dealer (6000z)"
+        },
+        {
+          "name": "Collect",
+          "location": "Yellow: End Area 1 PMD"
+        },
+        {
+          "name": "Millions",
+          "location": "Green: SciLab 3 BugFrag Trader (22 BF)"
+        },
+        {
+          "name": "Humor",
+          "location": "Pink: End Area 4 Mr. Prog (Chapter 6)"
+        },
+        {
+          "name": "Chivalry",
+          "location": "Yellow: Quiz King in the Oran BigMines."
+        },
+        {
+          "name": "AutoRun",
+          "location": "Red: SciLab Area 3 Bugfrag Trader (8 BF)"
+        },
+        {
+          "name": "AutoHeal",
+          "location": "Pink: Oran Area 3 Program Dealer (5500z)"
+        },
+        {
+          "name": "BustPack",
+          "location": "Blue: Lotto Number (80246758)"
+        },
+        {
+          "name": "BodyPack",
+          "location": "Green: Lotto Number (30112002)"
+        },
+        {
+          "name": "BugStop",
+          "location": "White: Undernet 3 Program Dealer (13000z)"
+        },
+        {
+          "name": "SoulClen",
+          "location": "White: Trade JusticeOne J in OldComp at Higsby's."
+        },
+        {
+          "name": "Rush",
+          "location": "Yellow: Lotto Number (09609807)"
+        },
+        {
+          "name": "Beat",
+          "location": "Blue: Lotto Number (79877132)"
+        },
+        {
+          "name": "Tango",
+          "location": "Green: Lotto Number (54288793)"
+        },
+        {
+          "name": "Attck+1",
+          "location": "White: (JP)(5DS)(BNLC) Ship Comp 4 / (GBA-EN) Ship Comp 3 BMD ; Pink: Start with it ; Yellow: Undernet 3 BMD"
+        },
+        {
+          "name": "Speed+1",
+          "location": "White: Start with it; Pink: Gargoyle Comp 1 BMD; Yellow: (5DS) BN3 W-Slot - End Area Program Dealer (1500z)"
+        },
+        {
+          "name": "Charge+1",
+          "location": "White: Squirrel Comp 5 BMD; Pink: (5DS) BN3 W-Slot - End Area Program Dealer (1500z); Yellow: Drill Comp 2 BMD"
+        },
+        {
+          "name": "SoulT+1",
+          "location": "White: Undernet 1 BMD ; Pink: Oran Area 3 Program Dealer (3800z); Yellow: Lotto Number (28256341)"
+        },
+        {
+          "name": "AttckMAX",
+          "location": "Yellow: Lotto Number (63231870)"
+        },
+        {
+          "name": "SpeedMAX",
+          "location": "Pink: Lotto Number (36695497)"
+        },
+        {
+          "name": "ChargMAX",
+          "location": "White: Lotto Number (87412146)"
+        },
+        {
+          "name": "HP+50",
+          "location": "White: Oran Area 3 Program Dealer (1300z); Pink: NetBattle Comp BMD; Yellow: Lotto Number (31084443)"
+        },
+        {
+          "name": "HP+100",
+          "location": "White: Drill Comp 3 BMD; Yellow: Armor Comp BMD ; Pink: Gargoyle Comp 2 BMD"
+        },
+        {
+          "name": "HP+200",
+          "location": "White: Oran Area 3 Program Dealer (6000z); Pink: Lotto Number (90630807); Yellow: ACDC Area 1 BMD (behind Nebula door)"
+        },
+        {
+          "name": "HP+300",
+          "location": "White: Lotto Number (13926561); Pink: Lotto Number (48785625); Yellow: Undernet 2 Bugfrag Trader (30 BF)"
+        },
+        {
+          "name": "HP+400",
+          "location": "White: Undernet 3 Program Dealer (10000z); Yellow: Lotto Number (45654128); Pink: Lotto Number (03419893)"
+        },
+        {
+          "name": "HP+500",
+          "location": "White: Lotto Number (72846472); Pink: Lotto Number (50906652); Yellow: (5DS) BN3 W-Slot - End Area Program Dealer (12000z)"
+        },
+        {
+          "name": "NavChg+1",
+          "location": "Yellow: (5DS) End Area 3 Program Dealer (9800z)"
+        },
+        {
+          "name": "NavChg+1",
+          "location": "White: (5DS) Undernet 3 Program Dealer (14800z)"
+        },
+        {
+          "name": "Spport",
+          "location": "White: (5DS) NC Machine Comp BMD"
+        }
+      ]
+    },
+    "6": {
+      "upgrades": [
+        {
+          "type": "Sub Memory",
+          "area": "Green Town",
+          "time": "",
+          "location": "Book Comp BMD",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 HeelNavi NPC (Ch. 2)",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 1 BMD",
+          "item": "SubMemry"
+        },
+        {
+          "type": "Sub Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Underground 2 BMD",
+          "item": "SubMemry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Story",
+          "time": "",
+          "location": "Obtain from finishing round 1 of the Operator Navi test (Ch. 4)",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Story",
+          "time": "",
+          "location": "Obtain from completing final round of the Operator Navi test (Ch. 6)",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "NetCafe",
+          "time": "",
+          "location": "Continuously use Sky Area 1 NetCafe (Ch. 7)",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 NetMerchant (1000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 NetMerchant (2000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 NetMerchant (4000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 NetMerchant (8000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 3 NetMerchant (2500 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 3 NetMerchant (5000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 3 NetMerchant (7500 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 3 NetMerchant (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Green Area 1 Program Dealer (4800 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Green Area 1 Program Dealer (8400 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area NetMerchant (4000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area NetMerchant (7500 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area NetMerchant (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "ACDC Area NetMerchant (13000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 1 NetMerchant (10000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 1 NetMerchant (16000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 1 NetMerchant (23000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 1 NetMerchant (30000 z )",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Central Town",
+          "time": "",
+          "location": "Robot Control Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Seaside Town",
+          "time": "",
+          "location": "Aquarium Comp 1 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Green Town",
+          "time": "",
+          "location": "Judge Tree Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Mr Weather Comp 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Central Town",
+          "time": "",
+          "location": "Pavilion Comp 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Central Town",
+          "time": "",
+          "location": "Class 1-2 Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Central Town",
+          "time": "",
+          "location": "Principal's Office Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Seaside Town",
+          "time": "",
+          "location": "Examine Control Room ladder",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Seaside Town",
+          "time": "",
+          "location": "Popcorn Shop Comp BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Examine OpRoom rightmost air tank",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "ACDC Town",
+          "time": "",
+          "location": "Examine Dex's house door",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Aquarium HP BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Green HP BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 1 BMD (invisible path, bottom floor)",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Green Area 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Underground 2 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 3 BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Immortal Area BMD",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 2",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"TimeCpsl\"",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"For Victory!\"",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"StandIn Recruit\"",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Do Something!\"",
+          "item": "HP Memry"
+        },
+        {
+          "type": "HP Memory",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"SupportChip Pls\"",
+          "item": "HP Memry"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Examine grid next to Room 6-1 blackboard",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Examine Principal's Office Coffee Table",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Examine Seaside Hall waterfall",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Seaside Town",
+          "time": "",
+          "location": "Examine Auditorium trash bin",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Green Town",
+          "time": "",
+          "location": "Examine Court Foyer large flowerbed",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Central Area 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Seaside Area 3 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Sky Area 2 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet Zero BMD (via Green Area 2)",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Undernet 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Internet",
+          "time": "",
+          "location": "Graveyard 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Robot Control Comp 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Seaside Town",
+          "time": "",
+          "location": "Aquarium Comp 2 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Green Town",
+          "time": "",
+          "location": "Judge Tree Comp 3 BMD",
+          "item": "RegUp3"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Mr Weather Comp 1 BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Pavilion Comp 2 BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Room 6-2 Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Teachers Room Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Central Town",
+          "time": "",
+          "location": "Mascot Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Green Town",
+          "time": "",
+          "location": "Symbol Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Air Conditioner Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Shower Comp BMD",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Sky Town",
+          "time": "",
+          "location": "Observation Comp BMD",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Find Keepsake\"",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Get The Chip!\"",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Daughter Worry\"",
+          "item": "RegUp1"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Songwriter\"",
+          "item": "RegUp2"
+        },
+        {
+          "type": "Regular UP",
+          "area": "Job",
+          "time": "",
+          "location": "Request BBS \"Not Engh Member\"",
+          "item": "RegUp2"
+        }
+      ],
+      "programs": [
+        {
+          "name": "SuprArmr",
+          "location": "Red: Undernet 2 Bugfrag Dealer (35 BF)"
+        },
+        {
+          "name": "Custom1",
+          "location": "Blue: Green Area 1 Program Dealer (4600z)"
+        },
+        {
+          "name": "Custom2",
+          "location": "White: \"Get the Bad Guy\" Request BBS ((JP)(BNLC) e-Reader job)"
+        },
+        {
+          "name": "MegFldr1",
+          "location": "Green: Green Area 1 Program Dealer (3000z)"
+        },
+        {
+          "name": "MegFldr2",
+          "location": "White: \"Update Help\" Request BBS ((JP)(BNLC) e-Reader job)"
+        },
+        {
+          "name": "GigFldr1",
+          "location": "Red: Undernet 2 BugFrag Trader (100 BF)"
+        },
+        {
+          "name": "FstBarr",
+          "location": "Blue: Aquarium Comp 2 BMD"
+        },
+        {
+          "name": "Shield",
+          "location": "Blue: Mr.Weather Comp 2 BMD"
+        },
+        {
+          "name": "Reflect",
+          "location": "Green: Undernet 2 BugFrag Trader (48 BF)"
+        },
+        {
+          "name": "AntiDmg",
+          "location": "Green: Undernet 2 PMD"
+        },
+        {
+          "name": "FlotShoe",
+          "location": "Pink: Green Area 1 Program Dealer (3800z)"
+        },
+        {
+          "name": "AirShoes",
+          "location": "White: Underground 1 PMD (invisible path)"
+        },
+        {
+          "name": "UnderSht",
+          "location": "White: Start with it"
+        },
+        {
+          "name": "ChpShufl",
+          "location": "Green: Green Area 1 Program Dealer (6600z)"
+        },
+        {
+          "name": "NumbrOpn",
+          "location": "Pink: \"Where's my Navi?\" Request BBS"
+        },
+        {
+          "name": "SneakRun",
+          "location": "White: Undernet 2 BugFrag Trader (20BF)"
+        },
+        {
+          "name": "OilBody",
+          "location": "Red: Fan Comp BMD"
+        },
+        {
+          "name": "Fish",
+          "location": "Blue: Sky Area 1 Normal Navi (Chapter 5)"
+        },
+        {
+          "name": "Battery",
+          "location": "Yellow: Vending Machine Comp BMD"
+        },
+        {
+          "name": "Jungle",
+          "location": "Green: Security Camera Comp BMD"
+        },
+        {
+          "name": "Collect",
+          "location": "Pink: Undernet 2 BugFrag Dealer (62 BF)"
+        },
+        {
+          "name": "Millions",
+          "location": "Red: \"Can't Open Safe\" Request BBS"
+        },
+        {
+          "name": "Humor",
+          "location": "Pink: Green Area 1 Heel Navi (Chapter 5)"
+        },
+        {
+          "name": "Poem",
+          "location": "Yellow: Punishment Room Mr.Prog in Green Town (Chapter 6)"
+        },
+        {
+          "name": "SlipRunr",
+          "location": "Yellow: Complete QuizMaster Quiz (Aquarium, Chapter 5)"
+        },
+        {
+          "name": "AutoHeal",
+          "location": "Pink: Sky HP PMD"
+        },
+        {
+          "name": "BustPack",
+          "location": "Red: Lotto Number (19790420)"
+        },
+        {
+          "name": "BodyPack",
+          "location": "Pink: Lotto Number (28271002)"
+        },
+        {
+          "name": "FldrPak1",
+          "location": "Yellow: Juvenile Division Request BBS ((JP)(BNLC) e-Reader job)"
+        },
+        {
+          "name": "FldrPak2",
+          "location": "Pink: (JP)(BNLC) \"Iris's Kindness\" e-Reader Item Card, (EN) Initial prize from Virus Battle Machine V4 (Oxygen Tank Comp, Sky Town)"
+        },
+        {
+          "name": "BugStop",
+          "location": "Yellow: Hear all advice at Central Area 1 NetCafe (Starts Ch.7)"
+        },
+        {
+          "name": "Rush",
+          "location": "Yellow: Lotto Number (32132348)"
+        },
+        {
+          "name": "Beat",
+          "location": "Blue: Lotto Number (70741543)"
+        },
+        {
+          "name": "Tango",
+          "location": "Green: Lotto Number (69548756)"
+        },
+        {
+          "name": "Attack+1",
+          "location": "Pink: Start with it, Green Area 1 Program Dealer (2000z); Red: Seaside Area 2 BMD; Blue: Pavilion Comp 3 BMD"
+        },
+        {
+          "name": "Speed+1",
+          "location": "White: Start with it, (JP)(BNLC) Undernet 3 BMD, (GBA-EN) Class 1-2 Comp BMD ; Pink: Elevator Comp BMD; Green: Green Area 2 BMD"
+        },
+        {
+          "name": "Charge+1",
+          "location": "White: Heater Comp BMD, Teachers' Room Comp BMD; Blue: Blue Navi in Aquarium Comp 1; Pink: (JP)(BNLC) Graveyard 2 BMD, (GBA-EN) Graveyard BMD"
+        },
+        {
+          "name": "AttckMAX",
+          "location": "Red: (JP)(BNLC) \"Joe Mach's Fists\" e-Reader Item Card, (GBA-EN) Graveyard BMD"
+        },
+        {
+          "name": "SpeedMAX",
+          "location": "Green: Lotto Number (12046210)"
+        },
+        {
+          "name": "ChargMAX",
+          "location": "Blue: Lotto Number (94305487)"
+        },
+        {
+          "name": "HP+50",
+          "location": "White: Aquarium Comp 3 BMD; Pink: Lotto Number (37889678); Blue: Heliport Comp BMD"
+        },
+        {
+          "name": "HP+100",
+          "location": "White: Lotto Number (49951337); Pink: Green Area 1 BMD; Blue: Sky Area 1 BMD"
+        },
+        {
+          "name": "HP+200",
+          "location": "White: Lotto Number (24823665); Yellow: Green Area 1 Program Dealer (4200z); Blue: Seaside Area 1 BMD"
+        },
+        {
+          "name": "HP+300",
+          "location": "White: (JP)(BNLC) Graveyard 1 BMD, (GBA-EN) Dog House Comp ; Pink: Lotto Number (49951337); Green: ACDC Area BMD"
+        },
+        {
+          "name": "HP+400",
+          "location": "White: Principal Office Comp BMD; Yellow: Undernet 2 BugFrag Dealer (76 BF); Green: Lotto Number (08749780)"
+        },
+        {
+          "name": "HP+500",
+          "location": "White: Lotto Number (55031325); Pink: (JP)(BNLC) Graveyard 2 PMD, (GBA-EN) Graveyard PMD ; Green: (JP)(BNLC) \"Dex's Key to Victory\" e-Reader Item Card, (EN) Initial prize from Virus Battle Machine V2 (Water Machine Comp, Seaside Town)"
+        }
+      ]
+    }
+  }
+}

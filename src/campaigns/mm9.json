@@ -1,0 +1,229 @@
+{
+  "id": "mm9",
+  "series": "classic",
+  "displayId": "9",
+  "title": "Mega Man 9",
+  "collection": "Mega Man Legacy Collection 2",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man’s main campaign returns to the Mega Man 2 controls: no slide and no charged Buster. Rush Coil is available at the start; Rush Jet is awarded after five Robot Master clears.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "There are no hidden permanent health or armor pickups. Bolts buy supplies and conveniences at the shop. Legacy Collection 2 also includes Proto Man’s separate campaign and the original extra modes."
+  ],
+  "routeIntro": "Galaxy gives a manageable Buster start. Follow the complete weakness loop; Jewel Satellite is especially useful against ordinary enemies.",
+  "route": [],
+  "stages": [
+    {
+      "id": "galaxy-man",
+      "name": "Galaxy Man",
+      "weakness": "Concrete Shot",
+      "reward": "Black Hole Bomb",
+      "weapon": "Buster",
+      "tip": "Jump his low flight and run away from the forming black hole.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "GalaxyMan",
+        "src": "assets/classic-mm9-galaxyman.gif",
+        "width": 41,
+        "height": 36,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "jewel-man",
+      "name": "Jewel Man",
+      "weakness": "Black Hole Bomb",
+      "reward": "Jewel Satellite",
+      "weapon": "Black Hole Bomb",
+      "tip": "Place and trigger a black hole near his orbiting jewels; avoid landing directly beside him.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "JewelMan",
+        "src": "assets/classic-mm9-jewelman.gif",
+        "width": 40,
+        "height": 36,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "plug-man",
+      "name": "Plug Man",
+      "weakness": "Jewel Satellite",
+      "reward": "Plug Ball",
+      "weapon": "Jewel Satellite",
+      "tip": "Use Jewel Satellite near him. Rush Coil helps with disappearing-block routes once their timing is understood.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "PlugMan",
+        "src": "assets/classic-mm9-plugman.gif",
+        "width": 45,
+        "height": 40,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "tornado-man",
+      "name": "Tornado Man",
+      "weakness": "Plug Ball",
+      "reward": "Tornado Blow",
+      "weapon": "Plug Ball",
+      "tip": "Send Plug Ball along the floor and walls. Wind changes your jump distance.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "TornadoMan",
+        "src": "assets/classic-mm9-tornadoman.gif",
+        "width": 38,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "magma-man",
+      "name": "Magma Man",
+      "weakness": "Tornado Blow",
+      "reward": "Magma Bazooka",
+      "weapon": "Tornado Blow",
+      "tip": "Use Tornado Blow to interrupt his flame columns.",
+      "now": "Rush Jet",
+      "items": [
+        {
+          "name": "Rush Jet",
+          "text": "Awarded after your fifth Robot Master clear, whichever boss that is. In this route it appears after Magma.",
+          "need": "Five clears",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "magma-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "MagmaMan",
+        "src": "assets/classic-mm9-magmaman.gif",
+        "width": 53,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "hornet-man",
+      "name": "Hornet Man",
+      "weakness": "Magma Bazooka",
+      "reward": "Hornet Chaser",
+      "weapon": "Magma Bazooka",
+      "tip": "Charge Magma Bazooka while dodging the hornets; fire when he descends.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "HornetMan",
+        "src": "assets/classic-mm9-hornetman.gif",
+        "width": 48,
+        "height": 36,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "splash-woman",
+      "name": "Splash Woman",
+      "weakness": "Hornet Chaser",
+      "reward": "Laser Trident",
+      "weapon": "Hornet Chaser",
+      "tip": "Let the hornets track her. Dodge the falling tridents while moving along the floor.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SplashWoman",
+        "src": "assets/classic-mm9-splashwoman.gif",
+        "width": 49,
+        "height": 58,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "concrete-man",
+      "name": "Concrete Man",
+      "weakness": "Laser Trident",
+      "reward": "Concrete Shot",
+      "weapon": "Laser Trident",
+      "tip": "Shoot through his blocks with Laser Trident and jump before his landing shakes the floor.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "ConcreteMan",
+        "src": "assets/classic-mm9-concreteman.gif",
+        "width": 43,
+        "height": 34,
+        "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "sections": [
+    {
+      "id": "shop",
+      "title": "Shop and safe preparation",
+      "paragraphs": [
+        "Buy E-Tanks, an Energy Balancer and Beat rescue supplies before the fortress. Beat saves you from a pit while a rescue remains; it does not make spikes safe.",
+        "Hornet Chaser retrieves distant items. Jewel Satellite blocks many small enemies and projectiles, so use it while crossing long enemy-filled routes."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Stage 1: use Tornado Blow for wind platforms and Concrete Shot to freeze magma beams. Stage 2: Rush Jet and Coil help with the long gaps. Preserve enough energy for the rooms ahead.",
+        "Use Laser Trident against the Wily stage 1 multi-part shark. In stage 2, shoot the Mega Man copies only when the vulnerable one is visible. Black Hole Bomb damages the Twin Devil’s exposed crossing eye in stage 3.",
+        "Wily Machine: return its eggs with the Buster, then use Concrete Shot on the next form. Capsule: use Plug Ball or Hornet Chaser when Wily appears."
+      ]
+    },
+    {
+      "id": "proto-man",
+      "title": "Proto Man and extra modes",
+      "paragraphs": [
+        "Proto Man can slide, charge and block frontal shots while jumping, but takes more damage and knockback. His mobility tools replace Rush. This is a separate save and a harder first-playthrough choice.",
+        "The Fake Man stage and Endless/Time Attack modes are optional collection extras. Finish the main route before using them as completion targets."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 9 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM9.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM9-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc2.html"
+    },
+    {
+      "title": "GameFAQs · Mega Man 9 walkthrough and fortress",
+      "url": "https://gamefaqs.gamespot.com/wii/950625-mega-man-9/faqs/54160"
+    }
+  ],
+  "libraryIntro": "A weakness route, shop preparation and fortress advice for Mega Man, with Proto Man’s different controls explained."
+}

@@ -1,0 +1,378 @@
+{
+  "id": "bn1",
+  "series": "network",
+  "networkGame": 1,
+  "displayId": "BN1",
+  "title": "Mega Man Battle Network 1",
+  "collection": "Battle Network Legacy Collection · Vol. 1",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "Lan’s first story, all 45 health memories, 12 Buster upgrades and elemental armor.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "Single campaign"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "BN1 restores health after ordinary battles. It has no Regular Chip, wildcard code, NaviCust or Styles. Up to ten copies of one chip and five Navi chips fit in a folder, so a few dependable same-code attacks work well.",
+    "Put a PowerUP into Charge before expecting charged shots. Twelve PowerUPs bring Attack, Speed and Charge to level 5; you choose the allocation. Elemental armor reduces most damage but makes its elemental weakness dangerous."
+  ],
+  "features": [
+    [
+      "Health",
+      "45 HPMemory items: buy shop stock, open fixed data and examine real-world objects. They are more useful than waiting for an experience level that does not exist."
+    ],
+    [
+      "Saving",
+      "Save manually before the final pair. Continue returns to the last save with a clear star; it does not save every action taken after the final save."
+    ]
+  ],
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "oven-fire",
+      "name": "Oven fire",
+      "area": "ACDC Town · Lan’s house",
+      "weakness": "FireMan · Aqua attacks",
+      "reward": "School takeover",
+      "tip": "Complete school’s chip tutorial and find Glyde’s missing program on the Net. When the oven catches fire, jack in. Use IceBlocks only on flames blocking the route. At the forced interruption, check the PET, take the water gun from Lan’s room and return to the oven.",
+      "notes": [],
+      "now": "Early HP and Buster upgrades",
+      "items": [
+        {
+          "name": "Early HP and Buster upgrades",
+          "text": "From Lan’s PC, find the Internet 1 merchant. Buy its cheap HPMemory stock; put the first PowerUP into Charge to enable charged shots.",
+          "need": "Zenny",
+          "extra": "Attack increases each shot; Charge shortens charging time and unlocks the charge shot. Speed improves rapid-fire recovery.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "oven-fire-early-hp-and-buster-upgrades"
+        }
+      ]
+    },
+    {
+      "id": "school-takeover",
+      "name": "School takeover",
+      "area": "School Comp",
+      "weakness": "NumberMan · rapid shots / swords",
+      "reward": "Metro access",
+      "tip": "Talk to the classmates after the takeover, then jack into the blackboard. The hinted locks are 9, 30 and 15. For random locks, use the digit feedback to narrow each number. Reboot the AV-room computer when MegaMan is trapped; get Ms. Mari’s ID from the storage room for the last door.",
+      "notes": [],
+      "now": "School health upgrades",
+      "items": [
+        {
+          "name": "School health upgrades",
+          "text": "Open the fixed data in School Comp 3. Examine the school storage-room shelf in the real world for another HPMemory.",
+          "need": "School access",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "school-takeover-school-health-upgrades"
+        }
+      ]
+    },
+    {
+      "id": "metro-blockade",
+      "name": "Metro blockade",
+      "area": "Internet beyond Dex’s homepage",
+      "weakness": "GutsMan, then StoneMan",
+      "reward": "Government Complex",
+      "tip": "Ask the Metro staff what happened. Accept Dex’s challenge and earn his link; if requested, take Recov50 from Mayl’s piano. Enter the passage past Dex’s access point and defeat StoneMan at the blockade.",
+      "notes": [],
+      "now": "Dad’s upgrades",
+      "items": [
+        {
+          "name": "Dad’s upgrades",
+          "text": "Visit Dad’s office at SciLab and speak to the program in his PC. Return to ACDC and read Dad’s Sorry Lan mail for HPMemory and a PowerUP.",
+          "need": "Government Complex opened",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "metro-blockade-dad-s-upgrades"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-gutsman.gif",
+        "width": 40,
+        "height": 45,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html",
+        "alt": "GutsMan"
+      }
+    },
+    {
+      "id": "water-shortage",
+      "name": "Water shortage",
+      "area": "Waterworks",
+      "weakness": "IceMan · Elec attacks",
+      "reward": "Dentown",
+      "tip": "Get the Waterworks ID from Dad’s lab coat, explore the plant, then hide in his office until closing. Jack into the water cooler. Turn the faucets, clear the ice-bear fight, and return to town. Rescue Froid’s son from the car near Higsby’s; use the repaired handle to reach IceMan.",
+      "notes": [],
+      "now": "Waterworks PowerUP · Waterworks HP",
+      "items": [
+        {
+          "name": "Waterworks PowerUP",
+          "text": "Collect fixed data in Waterworks Comp 5. The ice floor partly hides it.",
+          "need": "Waterworks accessible",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "water-shortage-waterworks-powerup"
+        },
+        {
+          "name": "Waterworks HP",
+          "text": "Collect Comp 2’s fixed HPMemory, examine the control-room locker, and jack into the recycled PET for another.",
+          "need": "Explore side devices",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "water-shortage-waterworks-hp"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-iceman.gif",
+        "width": 20,
+        "height": 28,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html",
+        "alt": "IceMan"
+      }
+    },
+    {
+      "id": "traffic-emergency",
+      "name": "Traffic emergency",
+      "area": "Dentown traffic lights",
+      "weakness": "ColorMan · reach the main body",
+      "reward": "SciLab party",
+      "tip": "Deliver Lan’s reply to Roll, then meet Mayl in Dentown. Trigger the bus event in Block 1. After the opening repair, talk to the car-program crowd and Madd. The remaining traffic-light order is Block 4 → Block 2 → Block 3 → Central.",
+      "notes": [],
+      "now": "Dentown PowerUP and HP",
+      "items": [
+        {
+          "name": "Dentown PowerUP and HP",
+          "text": "Jack into the separate blackboard for a PowerUP. Open the fixed HPMemory in Traffic Light Comp 4.",
+          "need": "Dentown accessible",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "traffic-emergency-dentown-powerup-and-hp"
+        }
+      ]
+    },
+    {
+      "id": "power-failure",
+      "name": "Power failure",
+      "area": "SciLab / Power Plant",
+      "weakness": "ElecMan · Wood; then ProtoMan",
+      "reward": "WWW address search",
+      "tip": "Attend Dad’s party. Talk to the people blocking the doors again to open the route down. Jack into the computer and solve the battery/light-path puzzles. Unnecessary walking drains the battery; once restored, follow the lit paths. Save before ElecMan and the immediate ProtoMan fight.",
+      "notes": [],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-elecman.gif",
+        "width": 26,
+        "height": 43,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html",
+        "alt": "ElecMan"
+      }
+    },
+    {
+      "id": "www-address",
+      "name": "WWW address",
+      "area": "Internet and Undernet",
+      "weakness": "BombMan · interrupt the bombs",
+      "reward": "WWW base",
+      "tip": "Speak to Chaud in Dentown, then Higsby behind his shop counter. Use his memo through the Internet 4 gate; Miyu’s link opens the necessary access. Visit the SciLab scientist, Yuri at the Dentown school, and the old man behind ACDC’s Metro for the other memos. Yuri checks 60 library chips; the old man checks level 30.",
+      "notes": [
+        "Level comes from upgrades, not battle experience. Buy affordable HPMemory and PowerUP stock before the level gate."
+      ],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "www-base",
+      "name": "WWW base",
+      "area": "Hidden school Metro → WWW",
+      "weakness": "MagicMan; LifeVirus · 100+ hit",
+      "reward": "Ending and postgame",
+      "tip": "Take the WWW Pass by Higsby’s register. Speak to Metro staff, inspect the school statue by the fountain, then have Dad renew the expired pass. Return through the hidden Metro. Clear the flame, password, ice and invisible-path servers; inspect Wily’s portrait twice. Save by the final program before MagicMan.",
+      "notes": [
+        "LifeVirus has a regenerating 100-damage aura. Use a single 100+ attack to remove it, then strike the body before it returns. Keep weak shots for clearing the small helpers."
+      ],
+      "now": "WWW health upgrade",
+      "items": [
+        {
+          "name": "WWW health upgrade",
+          "text": "Open the fixed HPMemory in WWW Comp 4 before the final save.",
+          "need": "WWW base",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "www-base-www-health-upgrade"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-magicman.gif",
+        "width": 24,
+        "height": 46,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html",
+        "alt": "MagicMan"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "45 HPMemory, 12 PowerUPs and the three optional armor purchases. Complete the ending first; the deep-net bosses and full chip library are separate goals.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, ShockWav for enemies on the ground, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>Use the same chip type or the same letter. BN1 has no wildcard code.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Cannon A → Cannon B → Cannon C in that order for Z-Canon. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Not available in BN1. Your opening hand is random.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "armor",
+      "title": "Optional · elemental armor",
+      "html": "<p>Buy armor when its protection suits the next fights, then equip it in MegaMan’s status menu. Normal armor remains available. Each elemental armor halves most incoming damage but takes full damage from its weakness.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Optional · elemental armor\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Armor</th><th scope=\"col\">Buy from</th><th scope=\"col\">Weakness</th></tr></thead><tbody><tr><td>Wood</td><td>Internet 3 merchant · 15,000z</td><td>Fire</td></tr><tr><td>Heat</td><td>Internet 4 merchant · 20,000z</td><td>Aqua</td></tr><tr><td>Aqua</td><td>Undernet 6 merchant · 30,000z</td><td>Elec</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · deep-net bosses",
+      "paragraphs": [
+        "BN1’s original areas were not named on screen. This guide uses Internet 1–4, then Undernet 1–12; older maps call all of them Internet 1–16. Undernet 8 is old Internet 12, Undernet 11 is old Internet 15, and Undernet 12 is old Internet 16.",
+        "After the clear star, find PharaohMan’s fixed encounter in Undernet 8 at level 70. ShadowMan’s fixed encounter is in Undernet 11 after registering 140 chips. Bass is a random encounter in Undernet 12 with at least 174 library chips and level 70. Break his 100-damage aura before attacking.",
+        "NPC rematches and roaming Navi ghosts supply stronger Navi chips. Defeat each earlier version first; then seek the next version. The Download Bass chip is separate from Bass’s LifeAura reward and is not needed for the story."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Fight familiar viruses with attacks that delete several together for better chip ranks. BN1 does not use later games’ Full Synchro counter system.",
+        "Buy health before an expensive chip gamble. Save before exploring unfamiliar deep areas; there is no automatic checkpoint between every battle."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN1.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN1)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · BN1 boss access and rematches",
+      "url": "https://www.therockmanexezone.com/wiki/Bosses_in_Mega_Man_Battle_Network_1"
+    },
+    {
+      "title": "The Rockman EXE Zone · BN1 shop stock and armor",
+      "url": "https://www.therockmanexezone.com/wiki/Shop_Locations_(MMBN1)"
+    },
+    {
+      "title": "Sb20 · armor merchants and stat upgrades",
+      "url": "https://gamefaqs.gamespot.com/gba/457634-mega-man-battle-network/faqs/14657"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-e-mail",
+      "name": "E-Mail",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"E-Mail upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>E-Mail from Dad: &quot;Sorry Lan&quot; (Ch. 4)</td></tr><tr><td>HPMemory</td><td>E-Mail from Dad: &quot;Sorry Lan&quot; (Ch. 4)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "HP and memory checklist",
+      "count": 43,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Internet 1 Net Merchant (2000 z )</td></tr><tr><td>PowerUP</td><td>Internet 1 Net Merchant (5000 z )</td></tr><tr><td>PowerUP</td><td>Undernet 1 Net Merchant (20000 z )</td></tr><tr><td>PowerUP</td><td>Undernet 6 Net Merchant (25000 z )</td></tr><tr><td>PowerUP</td><td>Undernet 8 Net Merchant (25000 z )</td></tr><tr><td>PowerUP</td><td>Undernet 8 Net Merchant (50000 z )</td></tr><tr><td>PowerUP</td><td>Undernet 11 Net Merchant (100000 z )</td></tr><tr><td>PowerUP</td><td>Internet 2 FMD (requires WWW PIN)</td></tr><tr><td>PowerUP</td><td>Undernet 10 FMD (requires WWW PIN)</td></tr><tr><td>HPMemory</td><td>Internet 1 Net Merchant (500 z )</td></tr><tr><td>HPMemory</td><td>Internet 1 Net Merchant (1000 z )</td></tr><tr><td>HPMemory</td><td>Internet 1 Net Merchant (2000 z )</td></tr><tr><td>HPMemory</td><td>Internet 1 Net Merchant (3000 z )</td></tr><tr><td>HPMemory</td><td>Internet 1 Net Merchant (5000 z )</td></tr><tr><td>HPMemory</td><td>Internet 3 Net Merchant (4000 z )</td></tr><tr><td>HPMemory</td><td>Internet 3 Net Merchant (6000 z )</td></tr><tr><td>HPMemory</td><td>Internet 3 Net Merchant (9000 z )</td></tr><tr><td>HPMemory</td><td>Internet 3 Net Merchant (12000 z )</td></tr><tr><td>HPMemory</td><td>Internet 3 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 Net Merchant (6000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 Net Merchant (8000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 Net Merchant (10000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 Net Merchant (12000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 Net Merchant (8000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 Net Merchant (10000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 Net Merchant (12000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 6 Net Merchant (12000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 6 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 6 Net Merchant (20000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 6 Net Merchant (25000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 8 Net Merchant (12000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 8 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 8 Net Merchant (20000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 8 Net Merchant (25000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 11 Net Merchant (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 11 Net Merchant (20000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 11 Net Merchant (25000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 11 Net Merchant (40000 z )</td></tr><tr><td>HPMemory</td><td>Internet 4 FMD (requires WWW PIN) ; The Mystery Data is obscured by the upper level path.</td></tr><tr><td>HPMemory</td><td>Undernet 1 FMD (requires WWW PIN)</td></tr><tr><td>HPMemory</td><td>Undernet 6 FMD (requires WWW PIN)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-govt-complex",
+      "name": "Govt Complex",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Govt Complex upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Waterworks Comp 5 FMD ; The Mystery Data is obscured by the ice floor.</td></tr><tr><td>HPMemory</td><td>Waterworks Comp 2 FMD</td></tr><tr><td>HPMemory</td><td>Examine Waterworks Control Room locker</td></tr><tr><td>HPMemory</td><td>Beat SharkMan for the 1st time</td></tr><tr><td>HPMemory</td><td>Recycled PET Comp FMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-dentown",
+      "name": "Dentown",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Dentown upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Blackboard Comp FMD</td></tr><tr><td>HPMemory</td><td>Traffic Light Comp 4 FMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town",
+      "title": "HP and memory checklist",
+      "count": 4,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"ACDC Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>School Comp 3 FMD</td></tr><tr><td>HPMemory</td><td>Examine Storage room shelf in ACDC Elementary</td></tr><tr><td>HPMemory</td><td>Servbot Comp FMD</td></tr><tr><td>HPMemory</td><td>Car Comp FMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-www-base",
+      "name": "WWW Base",
+      "title": "HP and memory checklist",
+      "count": 1,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"WWW Base upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>WWW Comp 4 FMD</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-e-mail",
+      "name": "E-Mail · upgrades"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-govt-complex",
+      "name": "Govt Complex · upgrades"
+    },
+    {
+      "id": "inventory-dentown",
+      "name": "Dentown · upgrades"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town · upgrades"
+    },
+    {
+      "id": "inventory-www-base",
+      "name": "WWW Base · upgrades"
+    }
+  ]
+}

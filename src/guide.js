@@ -60,15 +60,20 @@
     document.body.classList.remove('viewer-open');
     opener?.focus({preventScroll:true});
   });
-  // Direct links to a pickup in any future collapsed module reveal its ancestors.
-  const revealHash = () => {
+  // Open a linked disclosure as well as any collapsed containers around it.
+  const revealHash = (hash = location.hash) => {
     let id;
-    try { id = decodeURIComponent(location.hash.slice(1)); } catch { return; }
+    try { id = decodeURIComponent(hash.slice(1)); } catch { return; }
     const target = document.getElementById(id);
     if (!target) return;
-    let parent = target.parentElement;
+    let parent = target;
     while (parent) { if (parent.tagName === 'DETAILS') parent.open = true; parent = parent.parentElement; }
+    requestAnimationFrame(() => target.scrollIntoView({block:'start', behavior:'instant'}));
   };
-  window.addEventListener('hashchange', revealHash);
+  window.addEventListener('hashchange', () => revealHash());
+  document.addEventListener('click', event => {
+    const link = event.target.closest('a[href^="#"]');
+    if (link && !event.ctrlKey && !event.metaKey && !event.shiftKey && event.button === 0) revealHash(link.hash);
+  });
   revealHash();
 })();

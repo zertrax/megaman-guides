@@ -1,0 +1,423 @@
+{
+  "id": "zero1",
+  "series": "zero",
+  "displayId": "ZERO",
+  "title": "Mega Man Zero",
+  "collection": "Mega Man Zero/ZX Legacy Collection · GBA",
+  "intro": "A mission route with the health upgrades, Sub Tanks, equipment and rank decisions explained before you need them.",
+  "primer": [
+    "Zero can dash, dash-jump and wall-jump immediately. Set Attack Mode B if you want a separate button for each weapon. Use the Saber for close combat and the Buster when an approach is unsafe.",
+    "Weapons level up through use. Your early Saber cannot yet charge or perform its full combo; practice on ordinary enemies outside missions until those abilities unlock. Equipped elemental chips affect fully charged attacks, not every normal slash.",
+    "Cyber-elves provide the health and tank upgrades that X got from pickups. Feed them at a Trans Server, download a grown elf, then use it from the menu. Permanent elf effects make survival easier but also leave a permanent score penalty. Rank does not unlock playable EX Skills in Zero 1.",
+    "Talk to Ciel to save. Save Assist is an optional collection checkpoint system; Casual Scenario is a separate easier mode. The original Give Up option can permanently fail a mission and remove later missions from its chain."
+  ],
+  "facts": [
+    "Missions, equipment and Cyber-elves",
+    "Normal mode unless noted"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Mission overview",
+  "routeIntro": "Aztec is the first required mission. Clear the train to open the factory, then collect the Flame and Ice chips and a Sub Tank. The base-defense events occur automatically; follow them when they interrupt the selectable missions. Leave Retrieve Data until your laboratory collecting and weapon practice are finished.",
+  "route": [
+    "At the base, collect Lippie from above the desert gate. Grow it for +4 maximum health. Check Cerveau after missions for Shield Boomerang and later Triple Rod.",
+    "Save after each successful mission and equipment collection. Fill your tanks by collecting health while your life bar is full."
+  ],
+  "warning": {
+    "title": "Save before missions. Give Up can permanently close a route.",
+    "text": "Use Reload or a collection checkpoint when an attempt fails if you want every mission. Retrieve Data destroys the laboratory: collect its elves before starting it. Elf upgrades are helpful; use them freely on a survival run, or keep a separate save for a rank run."
+  },
+  "features": [
+    [
+      "Survival run",
+      "Grow health, defense and Sub Tank elves. Lower rank is a tradeoff, not a failed playthrough."
+    ],
+    [
+      "Rank run",
+      "Avoid permanent elf use and practise missions from a spare save. High ranks add boss attacks, but do not award EX Skills here."
+    ]
+  ],
+  "stages": [
+    {
+      "id": "golem",
+      "name": "Golem",
+      "area": "Underground Laboratory · introduction",
+      "weakness": "Saber at the head",
+      "reward": "Z-Saber",
+      "tip": "Protect Ciel and aim for the head. Use the Saber as soon as it is handed to you.",
+      "now": "Nuppie · health increase",
+      "items": [
+        {
+          "name": "Nuppie · health increase",
+          "text": "Near the end, break the capsule in the hidden ceiling alcove. Collect it before the laboratory closes later.",
+          "need": "Explore the high ceiling",
+          "extra": "Feed the amount shown at the server, then use it for +4 maximum health.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "golem-nuppie-health-increase"
+        },
+        {
+          "id": "base-lippie",
+          "name": "Lippie · health increase",
+          "text": "At the Resistance Base, climb above the gate leading to the desert and break the capsule.",
+          "extra": "Grow and use for +4 maximum health.",
+          "need": "Collect, grow and use the elf",
+          "timing": "first",
+          "when": "During this mission",
+          "media": []
+        }
+      ]
+    },
+    {
+      "id": "aztec-falcon",
+      "name": "Aztec Falcon",
+      "area": "Save Reploid · Disposal Center",
+      "weakness": "Ice; use Saber/Buster first",
+      "reward": "Thunder Chip",
+      "tip": "Climb to avoid the horizontal attacks and strike after he lands. The rescue has a real timer.",
+      "now": "Mippie · health increase",
+      "items": [
+        {
+          "name": "Mippie · health increase",
+          "text": "Take the capsule on the long hook to the right of the tall wall.",
+          "need": "Wall-jump",
+          "extra": "Grow and use for +4 maximum health.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "aztec-falcon-mippie-health-increase"
+        },
+        {
+          "id": "disposal-gibber",
+          "name": "Gibber · faster climbing",
+          "text": "Defeat the purple spike-pillar enemies until the elf appears.",
+          "extra": "Growing it increases wall-climbing speed.",
+          "need": "Collect, grow and use the elf",
+          "timing": "first",
+          "when": "During this mission",
+          "media": []
+        }
+      ],
+      "sprite": {
+        "name": "Aztec Falcon",
+        "src": "assets/zero-mmz1-afalcon.gif",
+        "width": 62,
+        "height": 57,
+        "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "train-engine",
+      "name": "Train Engine",
+      "area": "Destroy Train · Subway",
+      "weakness": "Thunder charged attacks",
+      "reward": "Train mission cleared",
+      "tip": "Attack the exposed engine between its flame attacks; move before rising floor blocks push you into spikes.",
+      "now": "",
+      "items": [
+        {
+          "id": "train-buffer",
+          "name": "Buffer · no recoil",
+          "text": "Defeat the large-armed blue soldiers until the elf appears.",
+          "extra": "Growing it prevents ordinary hit knockback.",
+          "need": "Collect, grow and use the elf",
+          "timing": "first",
+          "when": "During this mission",
+          "media": []
+        },
+        {
+          "id": "train-totten",
+          "name": "Totten · spike protection",
+          "text": "Collect the elf dropped by the train engine. Grow it through both stages.",
+          "extra": "Using it covers spike areas with protective platforms and gives a lasting score penalty.",
+          "need": "Collect, grow and use the elf",
+          "timing": "first",
+          "when": "During this mission",
+          "media": []
+        }
+      ]
+    },
+    {
+      "id": "serpent-spider",
+      "name": "Serpent Spider",
+      "area": "Occupy Factory",
+      "weakness": "Charged Saber / Buster",
+      "reward": "Flame Chip",
+      "tip": "Hit the center gem when the arms open. Keep away from the attacking heads.",
+      "now": "Winkie · doubled health · Nutan · Sub Tank · Ribbid · climbing",
+      "items": [
+        {
+          "name": "Winkie · doubled health",
+          "text": "Above the second moving-platform transfer over the large shaft, break the capsule in the enclosed high alcove.",
+          "need": "Wall-jump / ranged attack",
+          "extra": "Grow through both stages, then use it to double your life gauge.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "serpent-spider-winkie-doubled-health"
+        },
+        {
+          "name": "Nutan · Sub Tank",
+          "text": "Enter the concealed room just beneath the final ladder before the boss.",
+          "need": "Explore below the ladder",
+          "extra": "Grow and use the elf to create a reusable Sub Tank.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "serpent-spider-nutan-sub-tank"
+        },
+        {
+          "name": "Ribbid · slower wall slide",
+          "text": "Defeat the wide-angle shooting robots just inside the factory entrance until the elf drops.",
+          "need": "Enemy drop",
+          "extra": "Growing it slows your slide down walls.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "serpent-spider-ribbid-climbing"
+        }
+      ]
+    },
+    {
+      "id": "anubis-necromancess",
+      "name": "Anubis Necromancess",
+      "area": "Find Shuttle · Desert",
+      "weakness": "Flame charged attacks",
+      "reward": "Shuttle mission cleared",
+      "tip": "Cut the summoned soldiers and attack Anubis when he emerges.",
+      "now": "Lubtan · Sub Tank",
+      "items": [
+        {
+          "name": "Lubtan · Sub Tank",
+          "text": "Climb above the crumbling desert ruins and break the capsule.",
+          "need": "Dash wall-jump",
+          "extra": "Grow and use to create a reusable Sub Tank.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "anubis-necromancess-lubtan-sub-tank"
+        }
+      ],
+      "sprite": {
+        "name": "Anubis Necromancess",
+        "src": "assets/zero-mmz1-anecromancess.gif",
+        "width": 34,
+        "height": 58,
+        "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "hittite-hottide",
+      "name": "Hittite Hottide",
+      "area": "Defend the base · automatic event",
+      "weakness": "Buster / Saber on exposed parts",
+      "reward": "Base protected",
+      "tip": "Follow the moving tank, destroy its rear weapon and then its upper target. Let it open the sealed building passage first.",
+      "now": "Hapitan · Sub Tank",
+      "items": [
+        {
+          "name": "Hapitan · Sub Tank",
+          "text": "Let the tank break the wall of the large building near the base gate. Drop into the newly accessible deep shaft for the capsule.",
+          "need": "Tank must open the wall",
+          "extra": "Grow and use to create a reusable Sub Tank.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hittite-hottide-hapitan-sub-tank"
+        }
+      ]
+    },
+    {
+      "id": "blizzack-staggroff",
+      "name": "Blizzack Staggroff",
+      "area": "Find Hidden Base · Desert",
+      "weakness": "Flame charged attacks",
+      "reward": "Ice Chip",
+      "tip": "Dash beneath his leap, avoid the ice and attack at landing.",
+      "now": "Nebitan · Sub Tank · Shelter · defense",
+      "items": [
+        {
+          "name": "Nebitan · Sub Tank",
+          "text": "At the bottom of the deep base-entry shaft, enter behind the left sandfall.",
+          "need": "Hidden passage",
+          "extra": "Grow and use to create a reusable Sub Tank.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "blizzack-staggroff-nebitan-sub-tank"
+        },
+        {
+          "name": "Shelter · defense",
+          "text": "Destroy the bomb-throwing turtle robots until the elf appears.",
+          "need": "Enemy drop",
+          "extra": "Grow both stages and use it to halve ordinary damage.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "blizzack-staggroff-shelter-defense"
+        }
+      ],
+      "sprite": {
+        "name": "Blizzack Staggroff R",
+        "src": "assets/zero-mmz1-bstaggroff.gif",
+        "width": 49,
+        "height": 72,
+        "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "harpuia",
+      "name": "Harpuia",
+      "area": "Rescue Colbor · Subway",
+      "weakness": "Ice charged attacks",
+      "reward": "Colbor rescued",
+      "tip": "Use Ice to interrupt him. Move away from the lightning line before approaching again.",
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "fefnir",
+      "name": "Fefnir",
+      "area": "Duel in Desert",
+      "weakness": "Thunder charged attacks",
+      "reward": "Desert secured",
+      "tip": "Keep room to jump the ground attacks and use Thunder at openings.",
+      "now": "Turbo · speed",
+      "items": [
+        {
+          "name": "Turbo · speed",
+          "text": "Collect the elf dropped after Fefnir.",
+          "need": "Boss clear",
+          "extra": "Growing and using it increases running speed.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "fefnir-turbo-speed"
+        }
+      ]
+    },
+    {
+      "id": "phantom",
+      "name": "Phantom",
+      "area": "Protect Factory",
+      "weakness": "Neutral charged attacks",
+      "reward": "Factory protected",
+      "tip": "Watch the real ninja and his shuriken. After the fight, dash away from his self-destruction.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Phantom",
+        "src": "assets/zero-mmz1-phantom.gif",
+        "width": 35,
+        "height": 37,
+        "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "leviathan",
+      "name": "Leviathan",
+      "area": "Stop the Hacking · Hidden Base",
+      "weakness": "Flame charged attacks",
+      "reward": "Hacking stopped",
+      "tip": "Destroy every marked computer before the fight. Use Flame against Leviathan and steer through the underwater spikes.",
+      "now": "Reppie · health increase",
+      "items": [
+        {
+          "name": "Reppie · health increase",
+          "text": "Destroy the upper-left computer in the hacking room and collect its elf.",
+          "need": "Destroy the marked computer",
+          "extra": "Grow and use for +4 maximum health.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "leviathan-reppie-health-increase"
+        }
+      ]
+    },
+    {
+      "id": "hanumachine",
+      "name": "Hanumachine",
+      "area": "Second base attack · automatic event",
+      "weakness": "Thunder charged attacks",
+      "reward": "Base protected",
+      "tip": "Use Thunder between his flame and clone attacks. Watch the ceiling before following him.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Hanumachine",
+        "src": "assets/zero-mmz1-hanumachine.gif",
+        "width": 41,
+        "height": 45,
+        "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "maha-ganeshariff",
+      "name": "Maha Ganeshariff",
+      "area": "Retrieve Data · Underground Laboratory",
+      "weakness": "Neutral charged attacks",
+      "reward": "Triple Rod from Cerveau",
+      "tip": "Collect the remaining laboratory elves before accepting this mission. After the boss, dash out and cut open the closing doors.",
+      "now": "",
+      "items": []
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Revisit cleared areas from the base for equipment and supplies. Keep a separate save before a one-time mission or the final assault.",
+  "completionText": "Four health-extension elves + Winkie, all four tank elves, Shelter if desired, four weapons and all three elemental chips. Feed and activate elves: finding them alone gives no upgrade.",
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Neo Arcadia",
+      "paragraphs": [
+        "Shrine: use Ice charged attacks on Herculious Anchortus and take safe wall positions during the statue fights. Tower: aim at Rainbow Devil’s head when it reforms; use neutral charged attacks.",
+        "Core: reuse the elemental weaknesses in the guardian rematches. Copy X’s first form changes element; watch his attacks rather than chasing him across the room.",
+        "Final form: target the head from underneath when reachable. Jump onto a side wall or platform to avoid the ground flame, then return to the main floor. Move before the binding rings land. Bring filled tanks."
+      ]
+    },
+    {
+      "id": "elf-completion",
+      "title": "Elves and optional completion",
+      "paragraphs": [
+        "The full elf collection includes temporary healing, enemy drops, base conversations and timed mission rewards. Those temporary elves are separate from the permanent health, defense, mobility and tank upgrades shown above.",
+        "All normal elves must be found and fully grown for Jackson. Ultimate Mode additionally requires using the normal elves and completing the game. Preserve a save before pursuing this, since it conflicts with a no-elf rank run."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Before Retrieve Data, the laboratory’s respawning spiders provide legitimate crystal gathering and weapon practice. Outside a mission, taking time to practise does not lower a mission score.",
+        "Break an elf capsule with a ranged attack when the alcove is unsafe to enter. The freed elf can move through walls toward you."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, equipment and final stages",
+      "url": "https://www.mmhp.net/GameHints/MMZ1.html"
+    },
+    {
+      "title": "MMHP · weapon, elf and boss data",
+      "url": "https://www.mmhp.net/GameHints/MMZ1-Data.html"
+    },
+    {
+      "title": "Mega Man XZ · elf effects and mission locations",
+      "url": "https://megaman.retropixel.net/mmz/1/cyberelf.php"
+    },
+    {
+      "title": "Nintendo · original Zero manual",
+      "url": "https://www.nintendo.com/eu/media/downloads/games_8/emanuals/game_boy_advance_8/Manual_GameBoyAdvance_MegaManZero_EN_DE_FR.pdf"
+    },
+    {
+      "title": "Capcom · collection assists",
+      "url": "https://news.capcomusa.com/lets/browse/mission-start-mega-man-zero-zx-legacy-collection-is-out-now"
+    }
+  ],
+  "libraryIntro": "The first mission sequence, four elf Sub Tanks and health upgrades. Know what mission failure and elf use change before committing."
+}

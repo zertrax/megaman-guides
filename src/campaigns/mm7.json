@@ -1,0 +1,389 @@
+{
+  "id": "mm7",
+  "series": "classic",
+  "displayId": "7",
+  "title": "Mega Man 7",
+  "collection": "Mega Man Legacy Collection 2",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 7 starts with four selectable Robot Masters. The second four open after the museum intermission. You have a slide, charged Buster and Rush Coil.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Collect RUSH letters for Super Adapter. Its short second jump and homing punch help with later pickups, but it cannot slide. Many upgrades can also be built at Auto’s shop using bolts."
+  ],
+  "routeIntro": "Cloud → Junk → Freeze → Burst follows the first weakness loop. Revisit Cloud and Junk with Freeze Cracker for their letters, then follow the second loop.",
+  "route": [],
+  "stages": [
+    {
+      "id": "cloud-man",
+      "name": "Cloud Man",
+      "weakness": "Danger Wrap",
+      "reward": "Thunder Bolt",
+      "weapon": "Charged Buster",
+      "tip": "Use charged Buster shots, jump the lightning and move away from the wind push.",
+      "now": "U letter",
+      "items": [
+        {
+          "name": "U letter",
+          "text": "Return with Freeze Cracker. Freeze the second weather machine so snow reveals the hidden platforms, climb the later ladder, then jump left from the 1-Up ledge.",
+          "need": "Freeze Cracker",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "cloud-man-u-letter"
+        },
+        {
+          "id": "cloud-man-super-adapter",
+          "name": "Super Adapter",
+          "text": "Collect all four RUSH letters. Equip the combined adapter for a midair boost and homing punch; switch back to ordinary Mega Man to slide.",
+          "need": "R, U, S and H letters",
+          "timing": "return",
+          "when": "After the Cloud and Junk letter returns",
+          "media": []
+        }
+      ],
+      "sprite": {
+        "name": "CloudMan",
+        "src": "assets/classic-mm7-cloudman.gif",
+        "width": 31,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "junk-man",
+      "name": "Junk Man",
+      "weakness": "Thunder Bolt",
+      "reward": "Junk Shield",
+      "weapon": "Thunder Bolt",
+      "tip": "Use Thunder Bolt when he opens his defense. Avoid the suspended junk before it falls.",
+      "now": "S letter · Rush Jet",
+      "items": [
+        {
+          "name": "S letter",
+          "text": "Freeze the pouring lava with Freeze Cracker and enter the passage it reveals.",
+          "need": "Freeze Cracker",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "junk-man-s-letter"
+        },
+        {
+          "name": "Rush Jet",
+          "text": "Electrify the machinery beneath the red AC sign. Use the activated lifts or Rush Coil to reach the ladder and item.",
+          "need": "Thunder Bolt + Rush Coil",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "junk-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "JunkMan",
+        "src": "assets/classic-mm7-junkman.gif",
+        "width": 29,
+        "height": 42,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "freeze-man",
+      "name": "Freeze Man",
+      "weakness": "Junk Shield",
+      "reward": "Freeze Cracker",
+      "weapon": "Junk Shield",
+      "tip": "Bring Junk Shield close during an opening. Avoid the falling icicles.",
+      "now": "H letter · Rush Search · Escape Unit",
+      "items": [
+        {
+          "name": "H letter",
+          "text": "Use Rush Coil to reach the high ladder and climb to the letter.",
+          "need": "Rush Coil",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "freeze-man-h-letter"
+        },
+        {
+          "name": "Rush Search",
+          "text": "Cross the small ice platforms to the visible item. Return with Jet if the jumps are difficult.",
+          "need": "Rush Coil / Rush Jet",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "freeze-man-rush-search"
+        },
+        {
+          "name": "Escape Unit",
+          "text": "After getting Rush Search, dig a few blocks left of the boss gate.",
+          "need": "Rush Search",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "freeze-man-escape-unit"
+        }
+      ],
+      "sprite": {
+        "name": "FreezeMan",
+        "src": "assets/classic-mm7-freezeman.gif",
+        "width": 27,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "burst-man",
+      "name": "Burst Man",
+      "weakness": "Freeze Cracker",
+      "reward": "Danger Wrap",
+      "weapon": "Freeze Cracker",
+      "tip": "Break trapping bubbles promptly and keep away from the ceiling spikes.",
+      "now": "R letter",
+      "items": [
+        {
+          "name": "R letter",
+          "text": "Collect the visible letter in the later bubble section. Watch the water height before jumping.",
+          "need": "Careful jump",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "burst-man-r-letter"
+        }
+      ],
+      "sprite": {
+        "name": "BurstMan",
+        "src": "assets/classic-mm7-burstman.gif",
+        "width": 27,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "slash-man",
+      "name": "Slash Man",
+      "weakness": "Freeze Cracker / Scorch Wheel",
+      "reward": "Slash Claw",
+      "weapon": "Freeze Cracker / Scorch Wheel",
+      "tip": "Use Freeze Cracker and avoid the falling red gel. Do not get trapped in a corner.",
+      "now": "Beat",
+      "items": [
+        {
+          "name": "Beat",
+          "text": "Return with Scorch Wheel and burn the trees near the end. Climb the revealed ladder and shoot the cage.",
+          "need": "Scorch Wheel",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "Beat rescues you from pits while rescue uses remain; he is not the attacking Beat from Mega Man 5.",
+          "media": [],
+          "id": "slash-man-beat"
+        }
+      ],
+      "sprite": {
+        "name": "SlashMan",
+        "src": "assets/classic-mm7-slashman.gif",
+        "width": 31,
+        "height": 27,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "spring-man",
+      "name": "Spring Man",
+      "weakness": "Slash Claw",
+      "reward": "Wild Coil",
+      "weapon": "Slash Claw",
+      "tip": "Strike when he comes down into reach; leave room for his long spring jumps.",
+      "now": "Hyper Bolt",
+      "items": [
+        {
+          "name": "Hyper Bolt",
+          "text": "In the spring-box room, rotate the arrow box to point left and wait for its fist to break the gate. Take the bolt to Auto.",
+          "need": "Rotate the spring box",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "spring-man-hyper-bolt"
+        }
+      ],
+      "sprite": {
+        "name": "SpringMan",
+        "src": "assets/classic-mm7-springman.gif",
+        "width": 26,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "shade-man",
+      "name": "Shade Man",
+      "weakness": "Wild Coil",
+      "reward": "Noise Crush",
+      "weapon": "Wild Coil",
+      "tip": "Use charged Wild Coil, then dodge the swoop and sound waves.",
+      "now": "Energy Balancer",
+      "items": [
+        {
+          "name": "Energy Balancer",
+          "text": "Destroy the pumpkin miniboss by attacking its outer eyes to open the right route. Use Rush Search beneath the Wily portrait.",
+          "need": "Rush Search",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "shade-man-energy-balancer"
+        },
+        {
+          "id": "shade-man-proto-shield",
+          "name": "Proto Shield",
+          "text": "First speak to Proto Man in Cloud’s high room: use Rush Coil to reach the ladder above a Sniper Joe near the late outdoor section. In Turbo’s traffic-light shaft, jump right through the false wall near the higher tire-throwing robot. Return to Shade, destroy the pumpkin’s inner core, descend and defeat the Sniper Joe. Walk right through the wall instead of taking the ladder. Defeat Proto Man for the shield.",
+          "need": "Both earlier Proto Man encounters + Rush Coil",
+          "timing": "return",
+          "when": "After visiting Cloud and Turbo",
+          "extra": "Original passwords do not retain the two conversations. Use the collection save feature or finish all three encounters in the same session.",
+          "media": []
+        }
+      ],
+      "sprite": {
+        "name": "ShadeMan",
+        "src": "assets/classic-mm7-shademan.gif",
+        "width": 37,
+        "height": 37,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "turbo-man",
+      "name": "Turbo Man",
+      "weakness": "Noise Crush",
+      "reward": "Scorch Wheel",
+      "weapon": "Noise Crush",
+      "tip": "Bounce Noise Crush off a wall to empower it before firing. Jump over the car rush.",
+      "now": "Rocket Buster upgrade",
+      "items": [
+        {
+          "name": "Rocket Buster upgrade",
+          "text": "Use Rush Search on the first stoplight platform in the tall ladder shaft. This improves Super Adapter’s punch.",
+          "need": "Rush Search + Super Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "turbo-man-rocket-buster-upgrade"
+        }
+      ],
+      "sprite": {
+        "name": "TurboMan",
+        "src": "assets/classic-mm7-turboman.gif",
+        "width": 26,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "cloud-man",
+      "title": "U letter with Freeze Cracker",
+      "items": [
+        "cloud-man-u-letter",
+        "cloud-man-super-adapter"
+      ]
+    },
+    {
+      "stage": "junk-man",
+      "title": "S letter with Freeze Cracker",
+      "items": [
+        "junk-man-s-letter"
+      ]
+    },
+    {
+      "stage": "slash-man",
+      "title": "Beat with Scorch Wheel",
+      "items": [
+        "slash-man-beat"
+      ]
+    },
+    {
+      "stage": "shade-man",
+      "title": "Proto Shield after both encounters",
+      "items": [
+        "shade-man-proto-shield"
+      ]
+    }
+  ],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "sections": [
+    {
+      "id": "proto-shield",
+      "title": "Proto Shield and shop choices",
+      "paragraphs": [
+        "Proto Shield blocks suitable projectiles coming from the front while you stand still. It is optional. The three encounters are shown together in Shade Man’s pickup card and return disclosure.",
+        "Bring the Hyper Bolt to Auto to unlock his improved shop. Buy supplies and useful upgrades before Wily; items already found do not need to be bought again."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Use Thunder Bolt on Bass’s first fight, then Super Adapter or charged Buster on the merged Bass/Treble form. Super Adapter is useful on the reachable fortress targets.",
+        "Against the turtle, strike the head with Wild Coil. Slash Claw works against the Guts-themed boss; shoot the blue cockpit of HannyaNED² with charged Buster or Slash Claw.",
+        "Wily Machine: use Thunder Bolt. Final Capsule: charge Wild Coil and control its bounce height to reach Wily. His elemental orbs are dangerous; bring several E-Tanks and a reserve weapon refill."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Switch out of Super Adapter before a slide tunnel. Rush Search takes time; activate it from the stated position rather than anywhere in the room.",
+        "Freeze Cracker changes stage hazards, not just bosses. Snow makes Cloud’s hidden route easier to see."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 7 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM7.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM7-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc2.html"
+    },
+    {
+      "title": "Almar’s Guides · three Proto Man encounters",
+      "url": "https://almarsguides.com/retro/walkthroughs/snes/games/megamanvii/"
+    },
+    {
+      "title": "GameFAQs · illustrated Mega Man 7 item locations",
+      "url": "https://gamefaqs.gamespot.com/snes/588477-mega-man-7/faqs/80224/items"
+    }
+  ],
+  "libraryIntro": "A route through the two boss groups, all four Rush letters, the Super Adapter and Proto Man’s shield encounters."
+}

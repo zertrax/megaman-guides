@@ -1,0 +1,497 @@
+{
+  "id": "bn5-team-colonel",
+  "series": "network",
+  "networkGame": 5,
+  "displayId": "BN5 · TEAM COLONEL",
+  "title": "Mega Man Battle Network 5 · Team Colonel",
+  "collection": "Battle Network Legacy Collection · Vol. 2",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "Version-specific liberation tactics, six Souls, Chaos Unison and every HP/memory upgrade.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "Team Colonel"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "Liberation Missions mix a turn-based map with normal battles. Each Navi acts once per phase. Battles last at most three Custom turns; a one-turn victory can clear extra surrounding panels. The target phase count controls rewards, not a strict story deadline. Replay a cleared mission for the better chip.",
+    "Dark Holes are the main objectives. Clearing one removes its nearby Dark Panels and guardians. Do not spend phases clearing the entire map. Spend Order Points when a special command saves several Navi turns, and keep teammates away from the boss’s overworld attack range while recovering.",
+    "You earn all six Team Colonel Souls during this story; BN4’s repeated-run requirement does not apply. Colonel, KnightMan, ShadowMan, TomahawkMan, NumberMan, ToadMan make up this team. Only MegaMan uses Soul Unison and NaviCust; Link Navis have fixed abilities.",
+    "Chaos Unison becomes available late in the story. Offer the matching DarkChip for a one-turn Soul with a timed Dark power charge. Release on purple; a mistimed green release ends the form and summons an invulnerable hostile Dark Soul. Learn the ordinary Soul first; no pause trick is needed."
+  ],
+  "features": [
+    [
+      "Three-turn battles",
+      "A compatible attack chain and a useful REG chip matter more than drawing one enormous but unusable attack. Fan plus a same-code area attack can group and delete several viruses."
+    ],
+    [
+      "This collection",
+      "Legacy Collection uses the GBA campaigns. DS Transport Chips, party switching and its extra NaviCust programs are not part of these guides. Former Patch Cards and Download Chips are available separately."
+    ]
+  ],
+  "warning": {
+    "title": "DarkChips permanently reduce maximum HP.",
+    "text": "Using an ordinary DarkChip removes 1 maximum HP per battle and pushes MegaMan toward Dark status. You can finish the story without them. Later, Chaos Unison uses a DarkChip as a transformation offering without this HP cost; it is a different action."
+  },
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "scilab-recruitment",
+      "name": "SciLab recruitment",
+      "area": "ACDC → SciLab Main Comp",
+      "weakness": "Colonel · blocking / swords",
+      "reward": "First liberation",
+      "tip": "Finish the PC tutorial and visit Dad at SciLab. After the attack, get Dad’s ID from his desk drawer and enter the locked system room. Rearrange Main Comp data: 762; NAP; OWL + RAT; DOCK + HALL; HIP + TOE + ARM. Activate side switches before taking the remaining route. For the last lock, inspect Dad’s office sofa for 53214.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "liberation-1-acdc-3",
+      "name": "Liberation 1 · ACDC 3",
+      "area": "ACDC Area 3",
+      "weakness": "BlizzardMan · Fire",
+      "reward": "Oran Island",
+      "tip": "Clear the path to each Dark Hole before the boss. Use MegaMan’s LongSwrd and Colonel’s three-panel command to save phases. Guardians disappear when their Dark Hole is liberated, so skip fights that do not block the route. A slower first clear is fine; replay later for the best chip reward.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "oran-mine",
+      "name": "Oran mine",
+      "area": "Oran Island · Drill Comp 1–4",
+      "weakness": "KnightMan",
+      "reward": "Liberation 2",
+      "tip": "Patrol liberated ACDC, then join the island trip. Fishing supplies: bamboo in the woods, worm by the waterfall, line behind the boat platform. Fire supplies: driftwood on the beach, branch by the speaker, grass near the fishing spot. Enter the mine, buy the door key from the Oran 1 Navi for 1000z, and stop all four Drill computers. Hold Run against conveyors; obtain StopKey in Drill Comp 3.",
+      "notes": [],
+      "now": "NaviCustomizer",
+      "items": [
+        {
+          "name": "NaviCustomizer",
+          "text": "Read the SciLab mail after the camp meal and complete the tutorial. HP and Buster programs work only while equipped.",
+          "need": "Oran story progress",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "oran-mine-navicustomizer"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-knightman.gif",
+        "width": 48,
+        "height": 57,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "KnightMan"
+      }
+    },
+    {
+      "id": "liberation-2-oran-3",
+      "name": "Liberation 2 · Oran 3",
+      "area": "Oran Area 3",
+      "weakness": "ShadeMan · avoid the bite",
+      "reward": "SciLab scout",
+      "tip": "Use KnightMan’s protection while advancing. Open the center of the T-shaped blockade between the paired Dark Holes, then use Colonel to clear its three-panel bar. Eliminate both holes to open the boss approach. Clear panels near ShadeMan if the battle’s cramped field is difficult.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "scilab-scout",
+      "name": "SciLab scout",
+      "area": "Oran → SciLab Areas 1–2",
+      "weakness": "ShadowMan",
+      "reward": "Liberation 3",
+      "tip": "Delete six agents: three in Oran 1/2 and three in Oran 3; restore the far Oran 3 connection. After scouting SciLab, return to the four Drill controls for KnightMan’s parts. Meet the team at SciLab, then chase ShadowMan through the cloud network. Empty the vacuum at programs along the route; choose a path to the next program before filling it with clouds.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "liberation-3-scilab-3",
+      "name": "Liberation 3 · SciLab 3",
+      "area": "SciLab Area 3",
+      "weakness": "CloudMan · clear the clouds",
+      "reward": "Temporary Link Navi",
+      "tip": "Use ShadowMan to cross Dark Panels and reach isolated keys. First key: item panel at the forward dead end reached around the barriers. Second key: isolated item on the upper-right narrow branch. Open the holes rather than clearing every nearby tile; move the whole team toward CloudMan before the last assault.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "queen-bohemia",
+      "name": "Queen Bohemia",
+      "area": "End access → cruise ship",
+      "weakness": "TomahawkMan",
+      "reward": "Liberation 4",
+      "tip": "Inspect the End gate, then pass the guard’s virus test in SciLab 4 for its key. Get the cruise invitation from Pride on Oran. Onboard, stamp the bow, bridge wheel and entrance sofa. Engine-room code: 11922911. During the theft investigation, choose mirror → reflection and inspect the engine-room ladder. In Ship Comp, release the direction before pressing against an incoming current.",
+      "notes": [
+        "MegaMan is temporarily unavailable. Colonel cannot collect HPMemory or use NaviCust. Remember unopened health data and return after the next liberation. Other permanent memory items can still be obtained."
+      ],
+      "now": "Expansion Memory 1 · White rotation",
+      "items": [
+        {
+          "name": "Expansion Memory 1",
+          "text": "Open Ship Comp 4’s blue data. This expands the NaviCust grid for MegaMan’s return. Legacy Collection follows this location; the old English GBA guide says Ship Comp 3.",
+          "need": "Ship Comp 4",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "queen-bohemia-expansion-memory-1"
+        },
+        {
+          "name": "White rotation",
+          "text": "Open Ship Comp 1’s blue data. The Legacy Collection places White rotation here; the old English GBA release used Radar Comp.",
+          "need": "Ship Comp 1",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "queen-bohemia-white-rotation"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-tomahawkman.gif",
+        "width": 21,
+        "height": 35,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN5-Data.html",
+        "alt": "TomahawkMan"
+      }
+    },
+    {
+      "id": "liberation-4-end-2",
+      "name": "Liberation 4 · End 2",
+      "area": "End Area 2",
+      "weakness": "Dark MegaMan",
+      "reward": "MegaMan returns",
+      "tip": "Use TomahawkMan to clear large blockades, but its command destroys ordinary item rewards. Break the paired Dark Holes near the first large junction; their removal opens the route. Against Dark MegaMan, stay out of his attack row and keep a recovery option. Finish this mission to recover MegaMan.",
+      "notes": [],
+      "now": "Return for ship health",
+      "items": [
+        {
+          "name": "Return for ship health",
+          "text": "Collect the Queen Bohemia HPMemory that Colonel left unopened, including View Comp’s data. Check the grouped ship inventory for all rewards.",
+          "need": "MegaMan restored",
+          "extra": "",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "liberation-4-end-2-return-for-ship-health"
+        }
+      ]
+    },
+    {
+      "id": "hikari-report-and-castle",
+      "name": "Hikari Report and castle",
+      "area": "ACDC → Oran → End City",
+      "weakness": "NumberMan",
+      "reward": "Liberation 5",
+      "tip": "Inspect Dad’s computer and talk to Higsby by the SciLab docks. Clues lead to the rear doghouse → Oran air filter’s upper-right corner → right rooftop gargoyle’s eye → ACDC 3’s nine-panel grid, middle tile on its right edge. Enter the VisionBurst and clear the agents. Later, collect armor data from the katana, helmet and armor displays; finish the 100-samurai challenge and enter Gargoyle Comp.",
+      "notes": [
+        "Gargoyle traps need red ninjas for spears, white for ceiling traps and blue for water. Walking into another ninja replaces your current lineup as it fills. Use loops and one-way tiles to approach the wanted color last; reset through the nearby program if the lineup is wrong."
+      ],
+      "now": "End City Sub Memory · Yellow rotation",
+      "items": [
+        {
+          "name": "End City Sub Memory",
+          "text": "Inspect the front desk outside the castle, beneath the pamphlets.",
+          "need": "End City",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "hikari-report-and-castle-end-city-sub-memory"
+        },
+        {
+          "name": "Yellow rotation",
+          "text": "Open the blue data in End Area 4.",
+          "need": "End network",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "hikari-report-and-castle-yellow-rotation"
+        }
+      ]
+    },
+    {
+      "id": "liberation-5-end-5",
+      "name": "Liberation 5 · End 5",
+      "area": "End Area 5",
+      "weakness": "CosmoMan",
+      "reward": "Undernet route",
+      "tip": "Use NumberMan before TomahawkMan so the team can collect keys and avoid traps. Keys: center of the six-item group on the left; extreme right corner beside BarrierPanel3; upper-left item group, between the two Dark Holes and two bonus panels. Clear each key’s barrier and nearby holes before moving to CosmoMan.",
+      "notes": [],
+      "now": "NebulaID",
+      "items": [
+        {
+          "name": "NebulaID",
+          "text": "After defeating CosmoMan, buy NebulaID from the former Nebula member in Oran’s Old Mine. It opens skull-marked gates throughout the Net.",
+          "need": "CosmoMan defeated",
+          "extra": "",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "liberation-5-end-5-nebulaid"
+        }
+      ]
+    },
+    {
+      "id": "undernet-recruitment",
+      "name": "Undernet recruitment",
+      "area": "VisionBursts → Higsby’s command room",
+      "weakness": "ToadMan",
+      "reward": "Liberation 6",
+      "tip": "Follow the missing-dog clue: obtain Mom’s photo, speak to Oran’s old man, take the speaker Navi’s P-Code, then enter the SciLab 3 terminal for the old ACDC 2 Navi’s clue. Search beside Drill Comp 4’s end control for the Oran VisionBurst. After the SciLab defense, find Higsby’s lost data behind the cyber-castle in End 3 and open the new command room. Pursue ToadMan to Undernet 3’s broad central ramp.",
+      "notes": [],
+      "now": "Expansion Memory 2 · Pink rotation",
+      "items": [
+        {
+          "name": "Expansion Memory 2",
+          "text": "Use an Unlocker on the purple data in Undernet 3. The second expansion completes the 5×5 grid.",
+          "need": "Undernet access + Unlocker",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "undernet-recruitment-expansion-memory-2"
+        },
+        {
+          "name": "Pink rotation",
+          "text": "Jack into the old computer behind the boxes in Higsby’s storage room and collect its data.",
+          "need": "New command room",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "undernet-recruitment-pink-rotation"
+        }
+      ]
+    },
+    {
+      "id": "liberation-6-undernet-4",
+      "name": "Liberation 6 · Undernet 4",
+      "area": "Undernet 4",
+      "weakness": "Colonel · Dark Power",
+      "reward": "SoulServer investigation",
+      "tip": "Reach the upper-right key on its isolated corner, then the key down-right of the next Dark Hole at the area edge. Use ToadMan’s song on a teammate before their turn, then liberate a straight route through the blockade. Search trap groups before clearing them. After the last hole, clear the remaining approach panel to the team leader.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "soulserver-and-final-assault",
+      "name": "SoulServer and final assault",
+      "area": "Microservers → Nebula base",
+      "weakness": "NebulaGray · blue flame",
+      "reward": "Clear save / Nebula Area",
+      "tip": "Disable four microservers: tree behind ACDC Metro, SciLab lobby terminal, Queen Bohemia battle machine, rooftop Gargoyle Comp 3. Investigate Undernet 4, then search SciLab 3’s isolated platform on its upper-right edge for the final VisionBurst. At Nebula base, switch between team members to hold switches and open their matching obstacles. Save before the final no-save path.",
+      "notes": [
+        "At Regal’s chip cases, inspect the left case for the PETs and the middle case to open the path. NebulaGray’s body is not the target: hit the blue flame while it travels from the lower-right to the central panel after an attack. Ordinary DarkChips are rejected, but Chaos Unison remains usable. AirShoes helps you move over the broken field."
+      ],
+      "now": "",
+      "items": []
+    }
+  ],
+  "returns": [
+    {
+      "stage": "liberation-4-end-2",
+      "title": "Related returns",
+      "items": [
+        "liberation-4-end-2-return-for-ship-health"
+      ]
+    },
+    {
+      "stage": "liberation-5-end-5",
+      "title": "Related returns",
+      "items": [
+        "liberation-5-end-5-nebulaid"
+      ]
+    }
+  ],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "All 45 ordinary HPMemory items bring base maximum health to 1000. Sub Memory raises Sub Chip carrying capacity; Regular UP raises the MB limit for the guaranteed opening chip. NaviCust HP programs add temporary equipped health above the base.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, Vulcan for a lined-up target, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>The * code works with any letter. Use * support chips to keep turns flowing.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Sword → WideSwrd → LongSwrd with the same letter code, in that order, for LifeSwrd. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Set a useful chip as REG in Folder Edit. It is guaranteed in the opening selection if its MB fits your Regular Memory.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "team",
+      "title": "Use each team member’s role",
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Use each team member’s role\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Navi</th><th scope=\"col\">Liberation command / role</th></tr></thead><tbody><tr><td>Colonel</td><td>Screen Divide clears three panels ahead.</td></tr><tr><td>KnightMan</td><td>Passive protection covers adjacent teammates; KnightMan ignores overworld attacks.</td></tr><tr><td>ShadowMan</td><td>Crosses Dark Panels; SneakAttack damages a guardian or boss without a battle.</td></tr><tr><td>TomahawkMan</td><td>TomahawkSwing clears a large group, destroying ordinary item rewards.</td></tr><tr><td>NumberMan</td><td>NumberCheck searches an adjacent group and safely retrieves their items/keys.</td></tr><tr><td>ToadMan</td><td>LifeMelody lets a teammate’s next normal liberation clear a long straight line.</td></tr></tbody></table></div><p>Check the map before moving the next Navi. Use the scout to reach keys; use the search member to recover items safely; then clear the opened route with the demolition member. These actions need Order Points and often use the Navi’s whole turn.</p>"
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · Nebula Area and stronger viruses",
+      "paragraphs": [
+        "After the clear star and 100 Standard chips, take the secret route toward Nebula Area from Undernet 2, reached through Undernet 3. Finish the additional liberation missions as the gates open: 140 Standard chips for Area 3; 40 Mega chips and all 180 Standard chips for the deeper Area 5 route.",
+        "Opening the Nebula gates raises ordinary virus tiers and changes some drops. Finish useful low-tier chip farming first. Stronger enemies are postgame progression, not proof that the story requires more grinding.",
+        "In Nebula Area 6, each team-Navi gate requires an S-rank against that teammate’s SP rematch. Aim for a fast, clean win and turn off Buster MAX while setting records. Beyond those gates, six DS battles lead to the Chaos Lord; their combined deletion time decides which boss appears. The first visit gives NebulaGray; later totals under 2 minutes give Dark MegaMan, 2–3 minutes give Bass, and over 3 minutes give NebulaGray.",
+        "The seven marks cover story clear, all Standard chips, Mega chips, Giga chips, all 30 Program Advances, all 12 DarkChips and Bass SP. After the Chaos Lord’s Bass encounter, seek Bass SP as a random encounter in Nebula Area 6. With all seven marks, replay the final boss for NebulaGray SP. Opposite-version entries are Secret chips, separate from the ordinary Mega completion mark."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "SloGauge gives more real time inside each Custom turn during liberation. It does not add extra turns, but it helps you line up attacks before the three-turn limit. Find it in End 3’s protected in-battle Mystery Data.",
+        "If a mission boss is too hard, clear the Dark Panels surrounding it for a better battle field. Recover outside its overworld attack range, then attack with several healthy Navis in one phase.",
+        "Use linked homepages and activated real-world machines to shorten return trips. Carry an Unlocker for purple data rather than walking the whole route twice."
+      ]
+    },
+    {
+      "id": "programs",
+      "title": "NaviCust program locations",
+      "html": "<p>These are equipable programs, not permanent stat increases. Color words describe the program’s color, not the game version. RUN after editing NaviCust. This list uses Legacy Collection locations; former e-Reader rewards are supplied by its Patch Cards menu. Lottery numbers are normal shop inputs.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Program locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Program</th><th scope=\"col\">Acquisition / color variants</th></tr></thead><tbody><tr><td>SprArmr</td><td>Red: Oran Area 3 Program Dealer (7800z)</td></tr><tr><td>Custom1</td><td>Blue: SciLab 1 Area BMD, Undernet 3 Program Dealer (5500z)</td></tr><tr><td>Custom2</td><td>Blue: Lotto Number (15595587)</td></tr><tr><td>MegFldr1</td><td>Green: Oran Area 3 Program Dealer (4700z), SciLab Area 4 BMD</td></tr><tr><td>MegFldr2</td><td>Green: Lotto Number (97513648)</td></tr><tr><td>GigFldr1</td><td>Red: Undernet 2 BugFrag Trader (90 BF)</td></tr><tr><td>FstBarr</td><td>Blue: Squirrel Comp 15 BMD</td></tr><tr><td>Shield</td><td>Green: SciLab Area 2 BMD</td></tr><tr><td>Reflect</td><td>White: Undernet 3 Program Dealer (8700z)</td></tr><tr><td>AntiDmg</td><td>Red: Trade AntiDamage F to NPC in Helmet Comp.</td></tr><tr><td>FlotShoe</td><td>Blue: SciLab Area 3 BugFrag Trader (40 BF)</td></tr><tr><td>AirShoes</td><td>Yellow: End Area 4 BMD (behind Nebula Door)</td></tr><tr><td>UnderSht</td><td>White: Start with it</td></tr><tr><td>SneakRun</td><td>Blue: Undernet 2 BugFrag Trader (20 BF)</td></tr><tr><td>OilBody</td><td>Red: Factory Comp 2 BMD</td></tr><tr><td>Fish</td><td>Blue: Undernet 3 Program Dealer (4200z)</td></tr><tr><td>Battery</td><td>Yellow: Air Conditioner Comp BMD</td></tr><tr><td>Jungle</td><td>Green: Undernet 3 Program Dealer (6000z)</td></tr><tr><td>Collect</td><td>Yellow: End Area 1 PMD</td></tr><tr><td>Millions</td><td>Green: SciLab 3 BugFrag Trader (22 BF)</td></tr><tr><td>Humor</td><td>Pink: End Area 4 Mr. Prog (Chapter 6)</td></tr><tr><td>Chivalry</td><td>Yellow: Quiz King in the Oran BigMines.</td></tr><tr><td>AutoRun</td><td>Red: SciLab Area 3 Bugfrag Trader (8 BF)</td></tr><tr><td>AutoHeal</td><td>Pink: Oran Area 3 Program Dealer (5500z)</td></tr><tr><td>BustPack</td><td>Blue: Lotto Number (80246758)</td></tr><tr><td>BodyPack</td><td>Green: Lotto Number (30112002)</td></tr><tr><td>BugStop</td><td>White: Undernet 3 Program Dealer (13000z)</td></tr><tr><td>SoulClen</td><td>White: Trade JusticeOne J in OldComp at Higsby&#39;s.</td></tr><tr><td>Rush</td><td>Yellow: Lotto Number (09609807)</td></tr><tr><td>Beat</td><td>Blue: Lotto Number (79877132)</td></tr><tr><td>Tango</td><td>Green: Lotto Number (54288793)</td></tr><tr><td>Attck+1</td><td>White: Ship Comp 4; Pink: Start with it; Yellow: Undernet 3 BMD</td></tr><tr><td>Speed+1</td><td>White: Start with it; Pink: Gargoyle Comp 1 BMD</td></tr><tr><td>Charge+1</td><td>White: Squirrel Comp 5 BMD; Yellow: Drill Comp 2 BMD</td></tr><tr><td>SoulT+1</td><td>White: Undernet 1 BMD; Pink: Oran Area 3 Program Dealer (3800z); Yellow: Lotto Number (28256341)</td></tr><tr><td>AttckMAX</td><td>Yellow: Lotto Number (63231870)</td></tr><tr><td>SpeedMAX</td><td>Pink: Lotto Number (36695497)</td></tr><tr><td>ChargMAX</td><td>White: Lotto Number (87412146)</td></tr><tr><td>HP+50</td><td>White: Oran Area 3 Program Dealer (1300z); Pink: NetBattle Comp BMD; Yellow: Lotto Number (31084443)</td></tr><tr><td>HP+100</td><td>White: Drill Comp 3 BMD; Yellow: Armor Comp BMD; Pink: Gargoyle Comp 2 BMD</td></tr><tr><td>HP+200</td><td>White: Oran Area 3 Program Dealer (6000z); Pink: Lotto Number (90630807); Yellow: ACDC Area 1 BMD (behind Nebula door)</td></tr><tr><td>HP+300</td><td>White: Lotto Number (13926561); Pink: Lotto Number (48785625); Yellow: Undernet 2 Bugfrag Trader (30 BF)</td></tr><tr><td>HP+400</td><td>White: Undernet 3 Program Dealer (10000z); Yellow: Lotto Number (45654128); Pink: Lotto Number (03419893)</td></tr><tr><td>HP+500</td><td>White: Lotto Number (72846472); Pink: Lotto Number (50906652)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "rotation",
+      "title": "Remaining rotation tools",
+      "paragraphs": [
+        "White, Yellow and Pink rotation are listed in their chapters above. For the other three, enter these lottery numbers at Higsby’s: Blue 12541883, Green 78987728, Red 30356451. These are ordinary in-game inputs. Select a NaviCust program and use its rotation control after obtaining the matching color."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN5.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN5-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN5)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · Soul and Chaos Unison rules",
+      "url": "https://www.therockmanexezone.com/wiki/Double_Soul_(MMBN5)"
+    },
+    {
+      "title": "The Rockman EXE Zone · network and postgame gates",
+      "url": "https://www.therockmanexezone.com/wiki/Map_Guide_(MMBN5)"
+    },
+    {
+      "title": "Casebier · liberation mission tactics and rewards",
+      "url": "https://gamefaqs.gamespot.com/gba/924453-mega-man-battle-network-5-team-colonel/faqs/36186"
+    },
+    {
+      "title": "King_of_Inland · campaign and Chaos Lord progression",
+      "url": "https://gamefaqs.gamespot.com/gba/924452-mega-man-battle-network-5-team-protoman/faqs/38395"
+    },
+    {
+      "title": "The Rockman EXE Zone · NaviCust and program acquisition",
+      "url": "https://www.therockmanexezone.com/wiki/NaviCustomizer_(MMBN5)"
+    },
+    {
+      "title": "TheProudCanadian · Nebula gates and Bass progression",
+      "url": "https://gamefaqs.gamespot.com/gba/924452-mega-man-battle-network-5-team-protoman/faqs/37936"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-queen-bohemia",
+      "name": "Queen Bohemia",
+      "title": "HP and memory checklist",
+      "count": 8,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Queen Bohemia upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMemry</td><td>Ship Comp 3</td></tr><tr><td>SubMemry</td><td>Engine Comp BMD</td></tr><tr><td>HP Memry</td><td>Ship Comp 2</td></tr><tr><td>HP Memry</td><td>View Comp BMD</td></tr><tr><td>RegUp3</td><td>Ship Comp 2</td></tr><tr><td>RegUp2</td><td>Examine Bridge life jackets</td></tr><tr><td>RegUp3</td><td>Wine Case Comp BMD</td></tr><tr><td>RegUp2</td><td>Screw Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-mt-belenus",
+      "name": "Mt. Belenus",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Mt. Belenus upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMemry</td><td>Factory Comp 4 BMD</td></tr><tr><td>HP Memry</td><td>Factory Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Factory Comp 3 BMD</td></tr><tr><td>HP Memry</td><td>Pipe Comp BMD</td></tr><tr><td>RegUp3</td><td>Factory Comp 2 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-end-city",
+      "name": "End City",
+      "title": "HP and memory checklist",
+      "count": 10,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"End City upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMemry</td><td>Examine End City front desk</td></tr><tr><td>HP Memry</td><td>Examine Castle Exterior's back of statue</td></tr><tr><td>HP Memry</td><td>Talk to NPC in Castle Exterior (Ch. 7)</td></tr><tr><td>HP Memry</td><td>Gargoyle Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Gargoyle Comp 3</td></tr><tr><td>HP Memry</td><td>Katana Comp BMD</td></tr><tr><td>RegUp2</td><td>Gargoyle Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>Gargoyle Comp 4</td></tr><tr><td>RegUp1</td><td>Examine Mum Room armor</td></tr><tr><td>RegUp2</td><td>Helmet Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "HP and memory checklist",
+      "count": 36,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>ACDC Area 2 NetDealer (1000 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area 2 NetDealer (3200 z )</td></tr><tr><td>HP Memry</td><td>ACDC Area 2 NetDealer (5000 z )</td></tr><tr><td>HP Memry</td><td>Oran Area 1 NetDealer (2500 z )</td></tr><tr><td>HP Memry</td><td>Oran Area 1 NetDealer (6000 z )</td></tr><tr><td>HP Memry</td><td>Oran Area 1 NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>End Area 1 NetDealer (6000 z )</td></tr><tr><td>HP Memry</td><td>End Area 1 NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>End Area 1 NetDealer (14000 z )</td></tr><tr><td>HP Memry</td><td>Undernet 3 NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>Undernet 3 NetDealer (15000 z )</td></tr><tr><td>HP Memry</td><td>Undernet 3 NetDealer (20000 z )</td></tr><tr><td>HP Memry</td><td>Undernet 3 NetDealer (30000 z )</td></tr><tr><td>HP Memry</td><td>Nebula Area 2 NetDealer (20000 z )</td></tr><tr><td>HP Memry</td><td>Nebula Area 2 NetDealer (26000 z )</td></tr><tr><td>HP Memry</td><td>Nebula Area 2 NetDealer (34000 z )</td></tr><tr><td>HP Memry</td><td>Nebula Area 2 NetDealer (50000 z )</td></tr><tr><td>HP Memry</td><td>Dex's HP BMD</td></tr><tr><td>HP Memry</td><td>Furnace Comp BMD</td></tr><tr><td>HP Memry</td><td>Oran Area 2 BMD</td></tr><tr><td>HP Memry</td><td>SciLab Area 2 BMD</td></tr><tr><td>HP Memry</td><td>Server Comp BMD</td></tr><tr><td>HP Memry</td><td>End Area 3 BMD</td></tr><tr><td>HP Memry</td><td>Undernet 1 BMD</td></tr><tr><td>HP Memry</td><td>Nebula Area 2 BMD</td></tr><tr><td>HP Memry</td><td>Nebula Area 4 BMD</td></tr><tr><td>HP Memry</td><td>Nebula Area 6 BMD</td></tr><tr><td>RegUp1</td><td>Dex's HP BMD</td></tr><tr><td>RegUp1</td><td>Furnace Comp BMD</td></tr><tr><td>RegUp1</td><td>Elevator Comp BMD</td></tr><tr><td>RegUp2</td><td>Crane Comp BMD</td></tr><tr><td>RegUp2</td><td>Old Terminal Comp BMD</td></tr><tr><td>RegUp1</td><td>Examine box next to SciLab Vision Burst copy machine</td></tr><tr><td>RegUp2</td><td>End Area 1 BMD</td></tr><tr><td>RegUp3</td><td>Undernet 2 BMD</td></tr><tr><td>RegUp3</td><td>Message Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town",
+      "title": "HP and memory checklist",
+      "count": 6,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"ACDC Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Examine Higsby's Base computer</td></tr><tr><td>HP Memry</td><td>Tree Comp BMD</td></tr><tr><td>HP Memry</td><td>Squirrel Comp 8 BMD</td></tr><tr><td>RegUp2</td><td>Doghouse Comp BMD</td></tr><tr><td>RegUp1</td><td>Squirrel Comp 13 BMD</td></tr><tr><td>RegUp1</td><td>Old Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-scilab",
+      "name": "SciLab",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"SciLab upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Main Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Sculpture Comp BMD</td></tr><tr><td>RegUp1</td><td>Examine SciLab Lobby trash can</td></tr><tr><td>RegUp2</td><td>Talk to NPC in SciLab Lobby (Ch. 7)</td></tr><tr><td>RegUp2</td><td>Dad's Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-oran-island",
+      "name": "Oran Island",
+      "title": "HP and memory checklist",
+      "count": 4,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Oran Island upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>Examine Old Mine 2 crate</td></tr><tr><td>HP Memry</td><td>Drill Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>Drill Comp 4 BMD</td></tr><tr><td>RegUp1</td><td>Examine Old Mine entrance wheelbarrow</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-queen-bohemia",
+      "name": "Queen Bohemia · upgrades"
+    },
+    {
+      "id": "inventory-mt-belenus",
+      "name": "Mt. Belenus · upgrades"
+    },
+    {
+      "id": "inventory-end-city",
+      "name": "End City · upgrades"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town · upgrades"
+    },
+    {
+      "id": "inventory-scilab",
+      "name": "SciLab · upgrades"
+    },
+    {
+      "id": "inventory-oran-island",
+      "name": "Oran Island · upgrades"
+    }
+  ]
+}

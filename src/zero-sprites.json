@@ -1,0 +1,252 @@
+{
+  "MMZ1": [
+    {
+      "name": "Phantom",
+      "src": "assets/zero-mmz1-phantom.gif",
+      "width": 35,
+      "height": 37,
+      "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Aztec Falcon",
+      "src": "assets/zero-mmz1-afalcon.gif",
+      "width": 62,
+      "height": 57,
+      "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Hanumachine",
+      "src": "assets/zero-mmz1-hanumachine.gif",
+      "width": 41,
+      "height": 45,
+      "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Anubis Necromancess",
+      "src": "assets/zero-mmz1-anecromancess.gif",
+      "width": 34,
+      "height": 58,
+      "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Blizzack Staggroff R",
+      "src": "assets/zero-mmz1-bstaggroff.gif",
+      "width": 49,
+      "height": 72,
+      "source": "https://www.mmhp.net/GameHints/MMZ1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "MMZ2": [
+    {
+      "name": "Hyleg Ourobockle",
+      "src": "assets/zero-mmz2-hourobockle.gif",
+      "width": 52,
+      "height": 50,
+      "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Poler Kamrous",
+      "src": "assets/zero-mmz2-pkamrous.gif",
+      "width": 107,
+      "height": 90,
+      "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Panter Flauclaws",
+      "src": "assets/zero-mmz2-pflauclaws.gif",
+      "width": 58,
+      "height": 41,
+      "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Phoenix Magnion",
+      "src": "assets/zero-mmz2-pmagnion.gif",
+      "width": 96,
+      "height": 81,
+      "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Burble Hekelot",
+      "src": "assets/zero-mmz2-bhekelot.gif",
+      "width": 37,
+      "height": 26,
+      "source": "https://www.mmhp.net/GameHints/MMZ2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "MMZ3": [
+    {
+      "name": "Anubis Necromancess V",
+      "src": "assets/zero-mmz3-anecromancess.gif",
+      "width": 34,
+      "height": 58,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Blazin' Flizard",
+      "src": "assets/zero-mmz3-bflizard.gif",
+      "width": 58,
+      "height": 52,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Blizzack Staggroff R",
+      "src": "assets/zero-mmz3-bstaggroff.gif",
+      "width": 49,
+      "height": 72,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Childre Inarabitta",
+      "src": "assets/zero-mmz3-cinarabitta.gif",
+      "width": 44,
+      "height": 52,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Cubit Foxtar",
+      "src": "assets/zero-mmz3-cfoxtar.gif",
+      "width": 38,
+      "height": 55,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Deathtanz Mantisk",
+      "src": "assets/zero-mmz3-dmantisk.gif",
+      "width": 46,
+      "height": 77,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Devilbat Schilt",
+      "src": "assets/zero-mmz3-dschilt.gif",
+      "width": 56,
+      "height": 72,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Glacier Le Cactank",
+      "src": "assets/zero-mmz3-gcactank.gif",
+      "width": 68,
+      "height": 66,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Hanumachine R",
+      "src": "assets/zero-mmz3-hanumachine.gif",
+      "width": 41,
+      "height": 45,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Phantom",
+      "src": "assets/zero-mmz3-phantom.gif",
+      "width": 35,
+      "height": 37,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Tretista Kelverian",
+      "src": "assets/zero-mmz3-tkelverian.gif",
+      "width": 63,
+      "height": 49,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Volteel Biblio",
+      "src": "assets/zero-mmz3-vbiblio.gif",
+      "width": 59,
+      "height": 91,
+      "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "MMZ4": [
+    {
+      "name": "Fenri Lunaedge",
+      "src": "assets/zero-mmz4-flunaedge.gif",
+      "width": 84,
+      "height": 47,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Heat Genblem",
+      "src": "assets/zero-mmz4-hgenblem.gif",
+      "width": 68,
+      "height": 67,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Mino Magnus",
+      "src": "assets/zero-mmz4-mmagnus.gif",
+      "width": 126,
+      "height": 98,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Noble Mandrago",
+      "src": "assets/zero-mmz4-nmandrago.gif",
+      "width": 42,
+      "height": 56,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Pegasolata Eclair",
+      "src": "assets/zero-mmz4-peclair.gif",
+      "width": 74,
+      "height": 74,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Popla Cocapetri",
+      "src": "assets/zero-mmz4-pcocapetri.gif",
+      "width": 42,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Sol Titanion",
+      "src": "assets/zero-mmz4-stitanion.gif",
+      "width": 68,
+      "height": 61,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "Tech Kraken",
+      "src": "assets/zero-mmz4-tkraken.gif",
+      "width": 58,
+      "height": 87,
+      "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "MMZX": [],
+  "MMZXA": []
+}

@@ -1,0 +1,186 @@
+{
+  "id": "mm11",
+  "series": "classic",
+  "displayId": "11",
+  "title": "Mega Man 11",
+  "collection": "Mega Man 11 · standalone",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 11 restores the slide and charged Buster. Speed Gear slows the world so you can read hazards; Power Gear strengthens the Buster and special weapons. Both build heat, so switch them off before overheating.",
+    "At low health, Double Gear activates both together for a short emergency burst. It cannot be cancelled and leaves you with a recovery period. Use it deliberately, rather than waiting until a hit is already unavoidable.",
+    "There are no hidden armor parts or permanent health tanks. Dr. Light’s shop sells reusable parts and consumable E/W/M-Tanks. Rush Coil is available from the start; Rush Jet unlocks after four Robot Master clears. Purchased parts can be enabled or disabled in the menu."
+  ],
+  "routeIntro": "Block is a practical starting point for learning the gears. Follow the weakness chain through Acid → Impact → Bounce → Fuse → Tundra → Torch → Blast.",
+  "route": [],
+  "stages": [
+    {
+      "id": "block-man",
+      "name": "Block Man",
+      "weakness": "Chain Blast",
+      "reward": "Block Dropper",
+      "weapon": "Charged Buster",
+      "tip": "Use charged Buster first. During his giant form, use Speed Gear to cross safely and target the glowing chest.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "acid-man",
+      "name": "Acid Man",
+      "weakness": "Block Dropper",
+      "reward": "Acid Barrier",
+      "weapon": "Block Dropper",
+      "tip": "Drop blocks to break his shield, then attack before he reforms it. Acid pools can change when enemies fire into them.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "impact-man",
+      "name": "Impact Man",
+      "weakness": "Acid Barrier",
+      "reward": "Pile Driver",
+      "weapon": "Acid Barrier",
+      "tip": "Raise Acid Barrier and fire at openings; use Speed Gear to read the drill charges.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "bounce-man",
+      "name": "Bounce Man",
+      "weakness": "Pile Driver",
+      "reward": "Bounce Ball",
+      "weapon": "Pile Driver",
+      "tip": "Pile Driver splits his body. Keep track of the central piece and avoid the bouncing hands.",
+      "now": "Rush Jet",
+      "items": [
+        {
+          "name": "Rush Jet",
+          "text": "Unlocks after the fourth Robot Master clear, whichever boss is fourth. Use it for gaps when a safe landing is available.",
+          "need": "Four clears",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "bounce-man-rush-jet"
+        }
+      ]
+    },
+    {
+      "id": "fuse-man",
+      "name": "Fuse Man",
+      "weakness": "Bounce Ball",
+      "reward": "Scramble Thunder",
+      "weapon": "Bounce Ball",
+      "tip": "Use Bounce Ball and switch on Speed Gear briefly during his fast electric rushes.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "tundra-man",
+      "name": "Tundra Man",
+      "weakness": "Scramble Thunder",
+      "reward": "Tundra Storm",
+      "weapon": "Scramble Thunder",
+      "tip": "Send thunder across the floor and walls. Stay clear of his skating passes and use short jumps on ice.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "torch-man",
+      "name": "Torch Man",
+      "weakness": "Tundra Storm",
+      "reward": "Blazing Torch",
+      "weapon": "Tundra Storm",
+      "tip": "Use Tundra Storm in range. In the stage, Speed Gear gives time to cross the pursuing fire; Tundra Storm can extinguish it.",
+      "now": "Weapon reward on clear",
+      "items": []
+    },
+    {
+      "id": "blast-man",
+      "name": "Blast Man",
+      "weakness": "Blazing Torch",
+      "reward": "Chain Blast",
+      "weapon": "Blazing Torch",
+      "tip": "Burn through the bombs with Blazing Torch. Ordinary shots can trigger stage explosives, so check the ground before firing.",
+      "now": "Weapon reward on clear",
+      "items": []
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "features": [
+    [
+      "Speed Gear",
+      "Use short bursts for hazards and fast attacks. Turning it off between jumps lets the heat fall."
+    ],
+    [
+      "Power Gear",
+      "Stronger shots cost more weapon energy. Use it when the extra damage will connect, not while a boss is invulnerable."
+    ],
+    [
+      "Shop parts",
+      "Auto-Charge, cooling and recovery parts make a first run more forgiving. Read each effect and disable any part that changes controls in a way you dislike."
+    ]
+  ],
+  "sections": [
+    {
+      "id": "shop",
+      "title": "Shop upgrades and unlocks",
+      "paragraphs": [
+        "Buy Energy Balancer to direct weapon refills, then Energy Balancer Neo if you want a refill to spread across weapons. Auto-Charge lets you focus on movement. Cooling System improves the gear’s recovery.",
+        "Buster Plus unlocks after 500 ordinary Buster shots (250 on Newcomer). Cooling System requires 100 gear activations (50 on Newcomer); Speed Gear Booster requires 50 Speed Gear activations (25 on Newcomer).",
+        "Power Shield unlocks after 200 total damage (100 on Newcomer). Pierce Protector unlocks after five spike deaths; Energy Catcher after ten Game Overs. These are recovery aids, not goals worth deliberately dying for.",
+        "Capsule Catcher requires emptying a special-weapon or Rush meter 30 times. Screw Catcher appears on Saturdays. After beating Wily, Awakener Chip and Cooling System Infinity become available.",
+        "E-Tank restores health, W-Tank restores weapons, M-Tank restores both. Stock them before entering the Gear Fortress. Ordinary bolts can be gathered on repeat stage visits; there is no Mega Man 8-style fixed limit."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Gear Fortress",
+      "paragraphs": [
+        "Yellow Devil MK-III: use Speed Gear to read the traveling blocks and Chain Blast on the exposed eye. Against Mawverne, avoid the platform edges and attack the exposed target with Bounce Ball.",
+        "Reuse the weakness chain in the rematches. Against Wily Machine, use Acid Barrier and attack the exposed target after avoiding the moving machinery.",
+        "Wily Machine, second form: use Scramble Thunder while reading the gear-enhanced attacks. Keep heat under control and use tanks from the menu before a lethal hit."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Speed Gear helps you learn a room, but does not grant invincibility. Switch it off on safe ground to cool down.",
+        "On a failed attempt, buy a useful part or study one hazard before returning. Extra equipment is a normal part of the game."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 11 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM11.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM11-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://www.capcom.com/megaman11/"
+    },
+    {
+      "title": "Prima Games · shop unlock conditions",
+      "url": "https://primagames.com/tips/mega-man-11-unlock-parts-and-items"
+    },
+    {
+      "title": "Prima Games · Robot Master and fortress weaknesses",
+      "url": "https://primagames.com/tips/mega-man-11-boss-order-and-boss-weakness"
+    }
+  ],
+  "libraryIntro": "Learn the Double Gear system, follow the weakness chain, and choose useful upgrades from Dr. Light’s shop."
+}

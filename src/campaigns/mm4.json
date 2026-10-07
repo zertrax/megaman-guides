@@ -1,0 +1,251 @@
+{
+  "id": "mm4",
+  "series": "classic",
+  "displayId": "4",
+  "title": "Mega Man 4",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 4 adds charged Buster shots. Hold Fire until fully charged, then release. Slide remains Down + Jump. Rush Coil is available immediately.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Balloon and Wire are optional hidden mobility tools. You can revisit stages to collect them. Original passwords do not preserve E-Tanks or progress through the two fortresses; use the collection save feature when stopping."
+  ],
+  "routeIntro": "Toad is a manageable charged-Buster start. Follow Rain Flush to Bright and Flash Stopper to Pharaoh; continue around the weakness chain.",
+  "route": [],
+  "stages": [
+    {
+      "id": "toad-man",
+      "name": "Toad Man",
+      "weakness": "Drill Bomb",
+      "reward": "Rain Flush",
+      "weapon": "Charged Buster",
+      "tip": "Keep shooting to interrupt his rain dance and jump over his leap.",
+      "now": "Rush Marine",
+      "items": [
+        {
+          "name": "Rush Marine",
+          "text": "Clear Toad Man to unlock the underwater Rush form.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "toad-man-rush-marine"
+        }
+      ],
+      "sprite": {
+        "name": "ToadMan",
+        "src": "assets/classic-mm4-toadman.gif",
+        "width": 45,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "bright-man",
+      "name": "Bright Man",
+      "weakness": "Rain Flush",
+      "reward": "Flash Stopper",
+      "weapon": "Rain Flush",
+      "tip": "Use Rain Flush and watch his leap after the freeze attack.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "BrightMan",
+        "src": "assets/classic-mm4-brightman.gif",
+        "width": 30,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "pharaoh-man",
+      "name": "Pharaoh Man",
+      "weakness": "Flash Stopper",
+      "reward": "Pharaoh Shot",
+      "weapon": "Flash Stopper",
+      "tip": "Freeze him and shoot during the stopped interval. Collect Balloon before dropping into the main underground route.",
+      "now": "Balloon Adapter",
+      "items": [
+        {
+          "name": "Balloon Adapter",
+          "text": "At the first large pit near the beginning, jump across to the right rather than dropping into the stage. Continue over the sand to the item.",
+          "need": "Rush Coil if needed",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "pharaoh-man-balloon-adapter"
+        }
+      ],
+      "sprite": {
+        "name": "PharaohMan",
+        "src": "assets/classic-mm4-pharaohman.gif",
+        "width": 28,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "ring-man",
+      "name": "Ring Man",
+      "weakness": "Pharaoh Shot",
+      "reward": "Ring Boomerang",
+      "weapon": "Pharaoh Shot",
+      "tip": "Charge Pharaoh Shot and jump the returning rings. Keep track of his advance.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "RingMan",
+        "src": "assets/classic-mm4-ringman.gif",
+        "width": 27,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "dust-man",
+      "name": "Dust Man",
+      "weakness": "Ring Boomerang",
+      "reward": "Dust Crusher",
+      "weapon": "Ring Boomerang",
+      "tip": "Jump straight up over Dust Crusher so the split pieces pass below you. Avoid his suction phase.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "DustMan",
+        "src": "assets/classic-mm4-dustman.gif",
+        "width": 35,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "skull-man",
+      "name": "Skull Man",
+      "weakness": "Dust Crusher",
+      "reward": "Skull Barrier",
+      "weapon": "Dust Crusher",
+      "tip": "Wait for his barrier to end before firing. Move away from his rush.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SkullMan",
+        "src": "assets/classic-mm4-skullman.gif",
+        "width": 27,
+        "height": 27,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "dive-man",
+      "name": "Dive Man",
+      "weakness": "Skull Barrier",
+      "reward": "Dive Missile",
+      "weapon": "Skull Barrier",
+      "tip": "Raise Skull Barrier near his charge and move before it runs out. Watch the underwater jump height.",
+      "now": "Wire Adapter",
+      "items": [
+        {
+          "name": "Wire Adapter",
+          "text": "After the second whale, drop into the first pit when the screen changes. Steer between the spikes to the room at the bottom.",
+          "need": "Controlled fall",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "dive-man-wire-adapter"
+        }
+      ],
+      "sprite": {
+        "name": "DiveMan",
+        "src": "assets/classic-mm4-diveman.gif",
+        "width": 30,
+        "height": 37,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "drill-man",
+      "name": "Drill Man",
+      "weakness": "Dive Missile",
+      "reward": "Drill Bomb",
+      "weapon": "Dive Missile",
+      "tip": "Fire homing missiles when he is above ground. Keep moving until his underground attack surfaces.",
+      "now": "Rush Jet",
+      "items": [
+        {
+          "name": "Rush Jet",
+          "text": "Clear Drill Man to unlock the forward-flying Rush form.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "drill-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "DrillMan",
+        "src": "assets/classic-mm4-drillman.gif",
+        "width": 31,
+        "height": 33,
+        "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Cossack and Wily fortresses",
+      "paragraphs": [
+        "Cossack: target the drill boss’s small gem with Ring Boomerang. Dust Crusher reaches the moving room’s top gem. Drill Bomb or charged Pharaoh Shot works on the wall climbers. Slide beneath Cossack’s claw.",
+        "Wily: use charged Buster or Ring Boomerang on the giant Met, then Ring Boomerang on the green target of the bomb-dropping machine.",
+        "Wily Machine: use Buster or Dust Crusher on the mouth, then detonate Drill Bomb just beside the green cockpit target by pressing Fire again.",
+        "Wily Capsule: use charged Pharaoh Shot and dodge toward open ground after noting where Wily appears. Keep Pharaoh Shot energy for this fight."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Flash Stopper pauses many dangerous enemies while still allowing Buster fire. Balloon is useful for high pickups but its platforms rise and expire.",
+        "Skull Man’s stage has accessible E-Tanks for restocking before committing to both fortresses."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 4 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM4.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM4-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Use the new charge shot, collect Balloon and Wire, and prepare for both Cossack’s and Wily’s fortresses."
+}

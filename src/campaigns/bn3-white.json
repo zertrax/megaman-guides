@@ -1,0 +1,507 @@
+{
+  "id": "bn3-white",
+  "series": "network",
+  "networkGame": 3,
+  "displayId": "BN3 · WHITE",
+  "title": "Mega Man Battle Network 3 · White",
+  "collection": "Battle Network Legacy Collection · Vol. 1",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "Ground Style, MistMan, NaviCust and the full health/memory checklist.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "White"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "NaviCust replaces permanent Buster PowerUPs. Fit programs into its grid to adjust combat and travel; HP+ programs help only while installed. Solid programs must touch the command line, patterned stat blocks must avoid it, and matching colors cannot touch.",
+    "Styles still depend on battle habits, but only one elemental Style can be stored. After a Style level-up, choose whether to develop it for another program or seek a new one. A new Style takes 100 qualifying battles. You retain programs earned from earlier Styles.",
+    "Countering an enemy as its attack starts awards BugFrags in BN3. It does not grant the later Full Synchro damage bonus. Practice on Mettaurs raising their pickaxes; use earned BugFrags for the useful shop stock.",
+    "White has Ground Style and MistMan. Ground’s panel-setting programs support terrain-based folders. Other ordinary story chapters match Blue."
+  ],
+  "features": [
+    [
+      "Folder limits",
+      "Standard chips allow four copies, Mega chips one of each with five total, and Giga chips one total by default. NaviCust and some Styles can alter the totals."
+    ],
+    [
+      "Compatibility",
+      "BN3 limits program colors by your current Style. An NPC’s ModTools code can resolve a specified error; BN4–6 do not use this same compatibility system."
+    ]
+  ],
+  "warning": {
+    "title": "Keep spare Fire and Aqua chips for the story.",
+    "text": "EngyChng consumes real chips from your pack to clear vines and fires. Do not trade away every cheap elemental chip before the hospital and network-fire chapters. If you run short, use OilBody or Fish to find replacements."
+  },
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "school-incident",
+      "name": "School incident",
+      "area": "N1 preliminaries → school",
+      "weakness": "FlashMan · Wood",
+      "reward": "Zoo trip",
+      "tip": "Complete the N1 true/false preliminaries: O in ACDC 3, X in ACDC 2, X in ACDC 1. At night, find the school key in ACDC 2, recover the classroom disk, and visit the teachers’ lounge. After the incident, find your friends, take the parasol from the adjoining classroom and jack into the principal’s computer.",
+      "notes": [],
+      "now": "Early HPMemory",
+      "items": [
+        {
+          "name": "Early HPMemory",
+          "text": "Buy the ACDC 2 and ACDC Square stock as funds allow. Examine side devices, including the town sign and school server, for fixed health data.",
+          "need": "Early network access",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "school-incident-early-hpmemory"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-flashman.gif",
+        "width": 26,
+        "height": 46,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "FlashMan"
+      }
+    },
+    {
+      "id": "zoo-emergency",
+      "name": "Zoo emergency",
+      "area": "Yoka · Zoo Comp",
+      "weakness": "BeastMan · predictable lanes",
+      "reward": "BubbleWash incident",
+      "tip": "Clear the SciLab preliminaries and the PET malfunction, then visit Yoka. Read the animal information panels, investigate the lion cage and jack into the panda control system. Bring the appropriate helper programs to each obstruction: cat for mouse, snake for frog, banana for gorilla, and so on.",
+      "notes": [],
+      "now": "NaviCustomizer · Sub Memory · Yoka",
+      "items": [
+        {
+          "name": "NaviCustomizer",
+          "text": "Complete the story’s tutorial. Place solid programs on the command line, patterned stat blocks off it, and keep matching colors from touching. RUN after changes.",
+          "need": "Yoka story reward",
+          "extra": "UnderSht leaves 1HP after a normally fatal non-multihit attack. Keep it while learning.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "zoo-emergency-navicustomizer"
+        },
+        {
+          "name": "Sub Memory · Yoka",
+          "text": "Jack into the separate armor display at the inn and open its blue data.",
+          "need": "Yoka accessible",
+          "extra": "Sub Memory increases your Sub Chip carrying limit.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "zoo-emergency-sub-memory-yoka"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-beastman.gif",
+        "width": 40,
+        "height": 43,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "BeastMan"
+      }
+    },
+    {
+      "id": "bubblewash-incident",
+      "name": "BubbleWash incident",
+      "area": "Mayl’s house → Yoka network",
+      "weakness": "BubbleMan · Elec",
+      "reward": "N1 tournament",
+      "tip": "Complete Higsby’s jobs and the next preliminaries, using PreFolder when required. Meet Mayl for the BubbleWash incident. Get PresData from the program in Dad’s PC, return it to Higsby and install Press. Chase the Bubble Brigade through ACDC 2, SciLab 1 and Yoka 1, then fight BubbleMan.",
+      "notes": [],
+      "now": "First Style · Press program",
+      "items": [
+        {
+          "name": "First Style",
+          "text": "The Brigade pursuit triggers the first Style. Styles develop according to battle habits. You can keep one elemental Style plus Normal; changing Styles later replaces the earlier one.",
+          "need": "Story reward",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "bubblewash-incident-first-style"
+        },
+        {
+          "name": "Press program",
+          "text": "Install Press to cross narrow network paths. Remove it only when you no longer need that route.",
+          "need": "Story reward",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "bubblewash-incident-press-program"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-bubbleman.gif",
+        "width": 22,
+        "height": 37,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "BubbleMan"
+      }
+    },
+    {
+      "id": "n1-grand-prix",
+      "name": "N1 Grand Prix",
+      "area": "Beach → Hades Isle → DNN",
+      "weakness": "MetalMan, GutsMan, KingMan, DesertMan",
+      "reward": "Hospital visit",
+      "tip": "Visit Roll and Glyde on their homepages and GutsMan in Yoka 1 for the Beach Pass. Clear the Beach virus test and deliver the DataDisk to SciLab. At the tournament, take the ferry to Hades Isle, recover VictData, choose a terrain door for MetalMan, and choose a temporary folder for GutsMan. Re-equip your own folder afterward, then finish KingMan and the DNN incident.",
+      "notes": [],
+      "now": "Expansion Memory 1 · KingMan’s obstacles",
+      "items": [
+        {
+          "name": "Expansion Memory 1",
+          "text": "Read Dad’s Good luck!! mail during the N1 preparations. It expands the NaviCust grid.",
+          "need": "N1 story progress",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "n1-grand-prix-expansion-memory-1"
+        },
+        {
+          "name": "KingMan’s obstacles",
+          "text": "Speak to the DNN-lobby man for BrakChrg and its supplied compatibility code. It lets charged shots break KingMan’s pieces.",
+          "need": "N1 semifinal",
+          "extra": "Use the code the NPC gives; it is an in-game customization feature.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "n1-grand-prix-kingman-s-obstacles"
+        }
+      ]
+    },
+    {
+      "id": "hospital-crisis",
+      "name": "Hospital crisis",
+      "area": "Beach Street · Hospital Comp",
+      "weakness": "PlantMan · Fire",
+      "reward": "SciLab fire incident",
+      "tip": "Visit Yai and Mamoru, then complete Tora’s required jobs at SciLab. Bring Mamoru IceBall M from Hades Isle’s ColdHead viruses; Fish increases Aqua encounters. During the operation, install EngyChng and consume spare Fire chips to open the vine-blocked paths. After the window escape, get the nurse’s basement key and continue through the hospital.",
+      "notes": [
+        "Useful weed switches: Comp 2, topmost weed on the left; Comp 3, middle-left in the right group; Comp 4, upper-right weed of the upper-left clump, then second from right in the line of eight; Comp 5, middle of three weeds, then upper-left of each four-weed group."
+      ],
+      "now": "Hospital HPMemory · Hospital Sub Memory",
+      "items": [
+        {
+          "name": "Hospital HPMemory",
+          "text": "Open Comp 2’s blue data. In Comp 5, burn the upper-left weed of the appropriate four-weed cluster to open the warp to another health item.",
+          "need": "EngyChng + spare Fire chips",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "hospital-crisis-hospital-hpmemory"
+        },
+        {
+          "name": "Hospital Sub Memory",
+          "text": "Open the blue data in Hospital Comp 3.",
+          "need": "Hospital crisis",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "hospital-crisis-hospital-sub-memory"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-plantman.gif",
+        "width": 32,
+        "height": 50,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "PlantMan"
+      }
+    },
+    {
+      "id": "network-fires",
+      "name": "Network fires",
+      "area": "ACDC / SciLab / Yoka / Beach",
+      "weakness": "FlameMan · Aqua; scripted Bass loss",
+      "reward": "Undernet ranking",
+      "tip": "Complete Match’s deliveries: FireData to the SciLab 1 program, HeatData to the lobby vending machine, and FlamData to Dad’s PC. When the Net burns, use EngyChng and spare Aqua chips to extinguish every flame outside the Squares. Follow the Beach 2 Undernet entrance to FlameMan in Undernet 3.",
+      "notes": [
+        "The following Bass encounter is a required loss. His aura cannot be broken at this point; do not spend hours looking for an upgrade to win it."
+      ],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-flameman.gif",
+        "width": 34,
+        "height": 58,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "FlameMan"
+      }
+    },
+    {
+      "id": "undernet-ranking",
+      "name": "Undernet ranking",
+      "area": "Undernet and earlier computers",
+      "weakness": "MistMan · rank 2",
+      "reward": "DrillMan",
+      "tip": "Install Chaud’s BlckMind, meet the UnderSquare contacts and clear all ten bad Navis. Rank 10 is in the first Hades N1 computer; rank 9 is reached through the Beach 1 hospital warp; rank 8 is at FlameMan’s arena; rank 7 is in the principal’s computer and wants the paper bird from Mamoru’s room. Read ACDC’s BBS for the next lead. Fight CopyMan at the end of the Undernet 4 slope, then MistMan in DNN’s battle computer. Continue through the newly opened cave at Yoka’s bath.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "drillman-and-recovery",
+      "name": "DrillMan and recovery",
+      "area": "SciLab → Undernet 5",
+      "weakness": "DrillMan · pierce his guard",
+      "reward": "WWW island",
+      "tip": "From the TetraCode gate in SciLab 1, enter DrillMan’s hole. Stay in Undernet 5 to find him. Afterward, speak to friends in town, get OfclPass from ProtoMan in SciLab Square and visit Dad. Examine Dad’s hospital bed for the key to the SciLab meeting room; ask Yai for transport when the Hades boat cannot help.",
+      "notes": [],
+      "now": "Expansion Memory 2",
+      "items": [
+        {
+          "name": "Expansion Memory 2",
+          "text": "Clear the SciLab Job BBS request Catching gang members, also described as Gang Busting. Find the bad Navis in the Yoka network and report.",
+          "need": "Late-story request",
+          "extra": "The second expansion completes the ordinary 5×5 NaviCust grid.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "drillman-and-recovery-expansion-memory-2"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-drillman.gif",
+        "width": 37,
+        "height": 51,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html",
+        "alt": "DrillMan"
+      }
+    },
+    {
+      "id": "www-island",
+      "name": "WWW island",
+      "area": "WWW Comp 1–4",
+      "weakness": "Bass, then Alpha",
+      "reward": "Ending and Secret Area",
+      "tip": "Before the boat trip, recover health and finish useful requests. Equip Alpha if the floor hazards are hard to see. Clear the WWW servers and rematches. Search Wily’s room and the waterside statue twice; after the third server, inspect the wires in the back of the room to reach the last server. Save before the final pair.",
+      "notes": [
+        "Bass’s aura needs a single 100+ hit, not several small hits totaling 100. Against Alpha, remove the coating over the central gem, then attack the exposed blue core. Chips must reach the central enemy panel; AreaGrab does not advance into this arena. Health resets before the final fights, but you cannot edit the folder between them."
+      ],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-bass.gif",
+        "width": 31,
+        "height": 49,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "Bass"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "drillman-and-recovery",
+      "title": "Related returns",
+      "items": [
+        "drillman-and-recovery-expansion-memory-2"
+      ]
+    }
+  ],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "All 45 ordinary HPMemory items bring base maximum health to 1000. Sub Memory raises Sub Chip carrying capacity; Regular UP raises the MB limit for the guaranteed opening chip. NaviCust HP programs add temporary equipped health above the base.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, ShockWav for enemies on the ground, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>The * code works with any letter. Use * support chips to keep turns flowing.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Sword → WideSwrd → LongSwrd with the same letter code, in that order, for LifeSwrd. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Set a useful chip as REG in Folder Edit. It is guaranteed in the opening selection if its MB fits your Regular Memory.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "styles",
+      "title": "Choose a Style to develop",
+      "paragraphs": [
+        "Custom helps draw compatible attacks and earns Custom1/Custom2; Team raises the Mega-chip limit and earns its folder programs; Shield develops defensive abilities; Guts develops Buster and guard-breaking programs. Ground is White-exclusive and comes from terrain/panel-related chip use.",
+        "Optional Bug Style is earned through battles with a bugged NaviCust and later awards BugStop. This is an intended Style mechanic, but you do not need to deliberately introduce bugs for an ordinary clear.",
+        "Some collection chips need Custom or Team Style rewards. For V4 Navi chips, use Team Style and meet the special S-rank conditions. Read the reference for the exact chip rather than repeatedly fighting in an ineligible Style."
+      ]
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · Secret Area and completion",
+      "paragraphs": [
+        "After Alpha, load the clear-star save. Register 100 Standard chips, return to the Yoka bath cave and enter the Secret Area. Collect the Monolith keys and clear the DarkMan and JapanMan encounters to reach its deeper sections. All 200 Standard chips open Serenade’s final gate.",
+        "Serenade reflects most ordinary attacks. Strike during his attack opening or restrict his movement with AreaGrab. After defeating him, feed 300 BugFrags into the Secret Area 3 trader, jack out and return for Bass GS. Break his 200-damage aura with a single strong hit.",
+        "The seven-star route adds the full Standard library, Mega library, Program Advances, Bass GS, time trials and Omega Navis to the story star. MistMan/BowlMan V1–V4 must be traded or obtained through a compared library and chip ordering to complete the other version’s Mega entries. A purely offline first run cannot promise every star.",
+        "Buster MAX prevents new boss-time records. Turn it off for time-trial goals. The collection’s Download Chips supply former event chips such as Punk; ordinary Punk battles do not award that event chip."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Higsby’s chip-order service can buy registered chips, including entries supplied by a compared library. Keep the codes needed for a Program Advance, not merely one random copy of each chip.",
+        "Use OilBody for Fire encounters and Fish for Aqua when EngyChng supplies run low. Fight for ordinary drops instead of relying on a save exploit.",
+        "For long multi-battle sections, carry FullEnrg Sub Chips and install UnderSht. Heal between encounters when the menu becomes available."
+      ]
+    },
+    {
+      "id": "programs",
+      "title": "NaviCust program locations",
+      "html": "<p>These are equipable parts, not permanent stat increases. Color words describe the part’s color, not the game version. Read the game’s tutorial and RUN after editing. Sources with BNLC tags refer to this collection; 5DS and GBA-EN tags describe other releases. Lottery numbers are ordinary shop inputs, not modified game files.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"NaviCust program locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Program</th><th scope=\"col\">Acquisition / color variants</th></tr></thead><tbody><tr><td>SprArmor</td><td>Red: Guts Style LV2</td></tr><tr><td>BrakBust</td><td>Red: Guts Style LV3</td></tr><tr><td>BrakChrg</td><td>Orange: NCP at DNN Lobby; Red: Guts Style LV4</td></tr><tr><td>SetGreen</td><td>Green: Ground Style LV2</td></tr><tr><td>SetIce</td><td>Green: Ground Style LV3</td></tr><tr><td>SetLava</td><td>Green: Ground Style LV4</td></tr><tr><td>SetSand</td><td>Green: Number Trader (19878934)</td></tr><tr><td>SetMetal</td><td>Green: UnderSquare Program Dealer (5000z)</td></tr><tr><td>SetHoly</td><td>Green: Ground Style LV5</td></tr><tr><td>Custom1</td><td>Yellow: Custom Style LV3; Blue: Custom Style LV2</td></tr><tr><td>Custom2</td><td>Blue: Custom Style LV4</td></tr><tr><td>MegFldr1</td><td>Pink: Team Style LV3; Green: Team Style LV2</td></tr><tr><td>MegFldr2</td><td>Green: Team Style LV4</td></tr><tr><td>Block</td><td>Blue: Shield Style LV2</td></tr><tr><td>Shield</td><td>Blue: Shield Style LV3</td></tr><tr><td>Reflect</td><td>Blue: Shield Style LV4</td></tr><tr><td>Press</td><td>White: Given by Cossak during the story</td></tr><tr><td>EngyChng</td><td>White: Given by a Mr. Prog during the story</td></tr><tr><td>Alpha</td><td>Pink: Given by Dad during the story</td></tr><tr><td>SneakRun</td><td>Yellow: Zoo Comp 3 BMD</td></tr><tr><td>OilBody</td><td>Yellow: Hospital Comp 1 BMD</td></tr><tr><td>Fish</td><td>Pink: Beach Square (8000z)</td></tr><tr><td>Battery</td><td>Yellow: Under Square (8000z)</td></tr><tr><td>Jungle</td><td>White: WWW Comp 3 BMD</td></tr><tr><td>Collect</td><td>Pink: Wall Comp BMD (hidden behind wall at WWW base)</td></tr><tr><td>AirShoes</td><td>White: Number Trader (23415891)</td></tr><tr><td>UnderSht</td><td>White: Start with it</td></tr><tr><td>FstGauge</td><td>Pink: Number Trader (67918452)</td></tr><tr><td>Rush</td><td>Yellow: Undernet 6 BugFrag Trader (100B)</td></tr><tr><td>Beat</td><td>White: Under Square Shop (10000z)</td></tr><tr><td>Tango</td><td>Pink: Under Square Shop (10000z)</td></tr><tr><td>BugStop</td><td>White: Bug Style LV2</td></tr><tr><td>Humor</td><td>Pink: “Help with rehab” Job BBS</td></tr><tr><td>BlckMind</td><td>White: Given by Chaud during the story</td></tr><tr><td>BustrMAX</td><td>Pink: Undernet 6 BugFrag Trader (150BF)</td></tr><tr><td>GigFldr1</td><td>Purple: Undernet 7 BMD (after beating Bass GS)</td></tr><tr><td>HubBatc</td><td>Orange: Secret Area 3 BMD on a hidden path</td></tr><tr><td>DarkLcns</td><td>Gray: Bug Style LV3</td></tr><tr><td>WeapLV+1</td><td>White: Number Trader (41465278) ; Pink: Statue Comp BMD at Hades Isle ; Yellow: Undernet 6 BMD (FlameMan Cube)</td></tr><tr><td>HP+100</td><td>White: Undernet 6 BugFrag Trader (50BF) ; Pink: DNN Van Comp BMD ; Yellow: Zoo Comp 4 BMD</td></tr><tr><td>HP+200</td><td>Pink: Undernet 1 BMD (behind WWW-ID door) ; Yellow: Undernet 6 BugFrag Trader (80BF)</td></tr><tr><td>HP+300</td><td>Pink: UnderSquare Program Dealer (20000z)</td></tr><tr><td>HP+500</td><td>Yellow: Secret Area 2 BMD</td></tr><tr><td>Reg+5</td><td>White: BeachSquare Program Dealer (5000z) ; Yellow: Undernet 6 BugFrag Trader (70BF)</td></tr><tr><td>Atk+1</td><td>White: BeachSquare Program Dealer (3000z) ; Pink: Start with it, TV Board Comp PMD at DNN ; Yellow: Hospital Comp 2 BMD (via Beach 1 using HospitalCode)</td></tr><tr><td>Speed+1</td><td>White: Start with it, Undernet 4 BMD ; Pink: Undernet 6 BugFrag Trader (40BF) ; Yellow: Yoka Area 1 BMD</td></tr><tr><td>Charge+1</td><td>White: BeachSquare Program Dealer (2000z) ; Pink: Zoo Comp 2 BMD, Beach Area 1 BMD ; Yellow: Hospital Comp 5 BMD</td></tr></tbody></table></div>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN3.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN3)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · Style development and version restrictions",
+      "url": "https://www.therockmanexezone.com/wiki/Style_Change_(MMBN3)"
+    },
+    {
+      "title": "GameFAQs · White campaign and Secret Area",
+      "url": "https://gamefaqs.gamespot.com/gba/562255-mega-man-battle-network-3-white-version/faqs/80511/post-game-secret-area-3"
+    },
+    {
+      "title": "TheDarkUnknown · White/Blue version comparison",
+      "url": "https://gamefaqs.gamespot.com/gba/915457-mega-man-battle-network-3-blue-version/faqs/23969"
+    },
+    {
+      "title": "The Rockman EXE Zone · NaviCust and program acquisition",
+      "url": "https://www.therockmanexezone.com/wiki/NaviCustomizer_(MMBN3)"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-beach-st",
+      "name": "Beach St.",
+      "title": "HP and memory checklist",
+      "count": 11,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Beach St. upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>Hospital Comp 3 BMD</td></tr><tr><td>HPMemory</td><td>Hospital Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Hospital Comp 5 BMD</td></tr><tr><td>HPMemory</td><td>Examine Hospital 3F Tree of Life</td></tr><tr><td>HPMemory</td><td>Editing Comp BMD</td></tr><tr><td>RegUp1</td><td>Hospital Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>Examine TV Station Hall 1 wooden display</td></tr><tr><td>RegUp2</td><td>Examine Shoreline metal vent</td></tr><tr><td>RegUp2</td><td>Examine Editing Room schedule</td></tr><tr><td>RegUp1</td><td>TV Board Comp BMD</td></tr><tr><td>RegUp2</td><td>Bed Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-yoka",
+      "name": "Yoka",
+      "title": "HP and memory checklist",
+      "count": 8,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Yoka upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>Armor Comp BMD</td></tr><tr><td>HPMemory</td><td>Zoo Comp 1 BMD</td></tr><tr><td>HPMemory</td><td>QuizMaster (Outdoor Bath)</td></tr><tr><td>RegUp2</td><td>Zoo Comp 4 BMD</td></tr><tr><td>RegUp1</td><td>Examine Guest Room vase (Ch. 3)</td></tr><tr><td>RegUp3</td><td>Mr. Quiz (Hall - Ura Inn)</td></tr><tr><td>RegUp1</td><td>Ticket Comp BMD</td></tr><tr><td>RegUp1</td><td>Alarm Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "HP and memory checklist",
+      "count": 33,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>Undernet 6 BMD</td></tr><tr><td>HPMemory</td><td>ACDC 2 NetDealer (1000 z )</td></tr><tr><td>HPMemory</td><td>ACDC 2 NetDealer (3000 z )</td></tr><tr><td>HPMemory</td><td>ACDC Square NetDealer (2000 z )</td></tr><tr><td>HPMemory</td><td>ACDC Square NetDealer (5000 z )</td></tr><tr><td>HPMemory</td><td>SciLab Square NetDealer (2000 z )</td></tr><tr><td>HPMemory</td><td>SciLab Square NetDealer (4000 z )</td></tr><tr><td>HPMemory</td><td>SciLab Square NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>Yoka Square NetDealer (4000 z )</td></tr><tr><td>HPMemory</td><td>Yoka Square NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>Yoka Square NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>Beach Square NetDealer (5000 z )</td></tr><tr><td>HPMemory</td><td>Beach Square NetDealer (9000 z )</td></tr><tr><td>HPMemory</td><td>Beach Square NetDealer (13000 z )</td></tr><tr><td>HPMemory</td><td>Under Square NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>Under Square NetDealer (16000 z )</td></tr><tr><td>HPMemory</td><td>Under Square NetDealer (20000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 4 NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 4 NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 4 NetDealer (16000 z )</td></tr><tr><td>HPMemory</td><td>Secret 2 NetDealer (20000 z )</td></tr><tr><td>HPMemory</td><td>Secret 2 NetDealer (30000 z )</td></tr><tr><td>HPMemory</td><td>Secret 2 NetDealer (40000 z )</td></tr><tr><td>HPMemory</td><td>Mayl's HP PMD</td></tr><tr><td>HPMemory</td><td>Yoka 2 BMD</td></tr><tr><td>HPMemory</td><td>Undernet 3 BMD</td></tr><tr><td>HPMemory</td><td>Undernet 5 BMD (hidden under upper floor path)</td></tr><tr><td>HPMemory</td><td>Undernet 7 BMD</td></tr><tr><td>HPMemory</td><td>Secret Area 2 BMD</td></tr><tr><td>RegUp2</td><td>Yai's HP BMD</td></tr><tr><td>RegUp2</td><td>SciLab 2 BMD</td></tr><tr><td>RegUp3</td><td>Beach 2 BMD</td></tr><tr><td>RegUp2</td><td>Undernet 2 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Job upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>Job BBS &quot;Looking for condor&quot;</td></tr><tr><td>HPMemory</td><td>Job BBS &quot;Transmission error&quot;</td></tr><tr><td>HPMemory</td><td>Job BBS &quot;I'm broke...!&quot;</td></tr><tr><td>HPMemory</td><td>Job BBS &quot;Finding the blue Navi&quot;</td></tr><tr><td>RegUp3</td><td>Job BBS &quot;My Navi is sick&quot;</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Story upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Job BBS &quot;Stuntmen wanted(Tora)&quot;</td></tr><tr><td>RegUp3</td><td>Job BBS &quot;Look for friends(Tora)&quot;</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town",
+      "title": "HP and memory checklist",
+      "count": 9,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"ACDC Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Principal Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Sign Comp BMD</td></tr><tr><td>HPMemory</td><td>Tank Comp BMD</td></tr><tr><td>HPMemory</td><td>School Server Comp BMD</td></tr><tr><td>RegUp1</td><td>Principal Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>Examine Staff Lounge desk (Ch. 7)</td></tr><tr><td>RegUp2</td><td>Examine Class 5-B shelf (Ch. 3)</td></tr><tr><td>RegUp2</td><td>Tank Comp BMD</td></tr><tr><td>RegUp1</td><td>Blackboard Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-www-base",
+      "name": "WWW Base",
+      "title": "HP and memory checklist",
+      "count": 4,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"WWW Base upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>WWW Comp 1 BMD</td></tr><tr><td>HPMemory</td><td>WWW Comp 4 BMD</td></tr><tr><td>RegUp2</td><td>WWW Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>Examine Control Room monitor</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-hades-island",
+      "name": "Hades Island",
+      "title": "HP and memory checklist",
+      "count": 1,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Hades Island upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Examine Hades Isle large crab by boat ramp</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-scilab",
+      "name": "SciLab",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"SciLab upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>RegUp1</td><td>Examine SciLab Station garbage bin (Ch. 6)</td></tr><tr><td>RegUp2</td><td>Vending Machine Comp BMD</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-beach-st",
+      "name": "Beach St. · upgrades"
+    },
+    {
+      "id": "inventory-yoka",
+      "name": "Yoka · upgrades"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job · upgrades"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story · upgrades"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town · upgrades"
+    },
+    {
+      "id": "inventory-www-base",
+      "name": "WWW Base · upgrades"
+    },
+    {
+      "id": "inventory-hades-island",
+      "name": "Hades Island · upgrades"
+    },
+    {
+      "id": "inventory-scilab",
+      "name": "SciLab · upgrades"
+    }
+  ]
+}

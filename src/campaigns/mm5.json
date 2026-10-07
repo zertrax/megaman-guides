@@ -1,0 +1,315 @@
+{
+  "id": "mm5",
+  "series": "classic",
+  "displayId": "5",
+  "title": "Mega Man 5",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "The slide and charged Buster remain. Getting hit cancels the charge, so release a prepared shot before risking contact. Rush Coil is available from the start.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Each Robot Master stage holds one letter in MEGAMANV. Collect all eight to unlock Beat, an optional homing attack useful in the final fights. Missed letters can be recovered by revisiting stages."
+  ],
+  "routeIntro": "Star first opens the weakness chain and awards Super Arrow. Gyro adds Rush Jet. Collect each stage’s letter before the boss.",
+  "route": [],
+  "stages": [
+    {
+      "id": "star-man",
+      "name": "Star Man",
+      "weakness": "Water Wave",
+      "reward": "Star Crash",
+      "weapon": "Charged Buster",
+      "tip": "Fire charged shots when his shield leaves him; remember that low gravity makes jumps much higher.",
+      "now": "Second M letter · Super Arrow",
+      "items": [
+        {
+          "name": "Second M letter",
+          "text": "Take the visible letter near the early spike-lined section. Use a short, controlled jump in low gravity rather than a full leap into the ceiling.",
+          "need": "Careful jump",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "star-man-second-m-letter"
+        },
+        {
+          "name": "Super Arrow",
+          "text": "Defeat Star Man. Fire an arrow and board it promptly for a moving platform.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "star-man-super-arrow"
+        }
+      ],
+      "sprite": {
+        "name": "StarMan",
+        "src": "assets/classic-mm5-starman.gif",
+        "width": 28,
+        "height": 34,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "gravity-man",
+      "name": "Gravity Man",
+      "weakness": "Star Crash",
+      "reward": "Gravity Hold",
+      "weapon": "Star Crash",
+      "tip": "Raise Star Crash and approach during a safe gravity phase.",
+      "now": "First M letter",
+      "items": [
+        {
+          "name": "First M letter",
+          "text": "When gravity changes around the letter, jump toward it as the floor and ceiling swap. Watch the spikes before committing.",
+          "need": "Time the gravity switch",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "gravity-man-first-m-letter"
+        }
+      ],
+      "sprite": {
+        "name": "GravityMan",
+        "src": "assets/classic-mm5-gravityman.gif",
+        "width": 32,
+        "height": 36,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "gyro-man",
+      "name": "Gyro Man",
+      "weakness": "Gravity Hold",
+      "reward": "Gyro Attack",
+      "weapon": "Gravity Hold",
+      "tip": "Use Gravity Hold when he is exposed; stay away from the falling propeller blades.",
+      "now": "First A letter · Rush Jet",
+      "items": [
+        {
+          "name": "First A letter",
+          "text": "In the falling-platform section, descend to the letter’s lower ledge and jump clear before the block drops.",
+          "need": "Controlled fall",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "gyro-man-first-a-letter"
+        },
+        {
+          "name": "Rush Jet",
+          "text": "Defeat Gyro Man. Use the forward flight for long gaps.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "gyro-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "GyroMan",
+        "src": "assets/classic-mm5-gyroman.gif",
+        "width": 28,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "crystal-man",
+      "name": "Crystal Man",
+      "weakness": "Gyro Attack",
+      "reward": "Crystal Eye",
+      "weapon": "Gyro Attack",
+      "tip": "Aim Gyro Attack toward him and jump through the gaps in the bouncing crystals.",
+      "now": "V letter",
+      "items": [
+        {
+          "name": "V letter",
+          "text": "In the long spike-lined drop, steer left onto the ledge holding the letter.",
+          "need": "Controlled fall",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "crystal-man-v-letter"
+        }
+      ],
+      "sprite": {
+        "name": "CrystalMan",
+        "src": "assets/classic-mm5-crystalman.gif",
+        "width": 28,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "napalm-man",
+      "name": "Napalm Man",
+      "weakness": "Crystal Eye",
+      "reward": "Napalm Bomb",
+      "weapon": "Crystal Eye",
+      "tip": "Let the crystals split across his path; move away from the grenades and charge.",
+      "now": "N letter",
+      "items": [
+        {
+          "name": "N letter",
+          "text": "Take the letter from its side ledge during the vertical descent. Move toward it before dropping past the opening.",
+          "need": "Controlled fall",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "napalm-man-n-letter"
+        }
+      ],
+      "sprite": {
+        "name": "NapalmMan",
+        "src": "assets/classic-mm5-napalmman.gif",
+        "width": 39,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "stone-man",
+      "name": "Stone Man",
+      "weakness": "Napalm Bomb",
+      "reward": "Power Stone",
+      "weapon": "Napalm Bomb",
+      "tip": "Attack after he reforms. Charged Buster is a dependable alternative to awkward bomb timing.",
+      "now": "G letter",
+      "items": [
+        {
+          "name": "G letter",
+          "text": "Near the beginning, shoot the differently patterned blocks at the bottom of the right-hand wall. Slide through the opening.",
+          "need": "Buster + slide",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "stone-man-g-letter"
+        }
+      ],
+      "sprite": {
+        "name": "StoneMan",
+        "src": "assets/classic-mm5-stoneman.gif",
+        "width": 44,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "charge-man",
+      "name": "Charge Man",
+      "weakness": "Power Stone",
+      "reward": "Charge Kick",
+      "weapon": "Power Stone",
+      "tip": "Use Power Stone at close range when he is not flashing. Avoid the coal shower and his fast charge.",
+      "now": "Second A letter",
+      "items": [
+        {
+          "name": "Second A letter",
+          "text": "Use Rush Coil to reach the high letter on the train route.",
+          "need": "Rush Coil",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "charge-man-second-a-letter"
+        }
+      ],
+      "sprite": {
+        "name": "ChargeMan",
+        "src": "assets/classic-mm5-chargeman.gif",
+        "width": 28,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "wave-man",
+      "name": "Wave Man",
+      "weakness": "Charge Kick",
+      "reward": "Water Wave",
+      "weapon": "Charge Kick",
+      "tip": "Select Charge Kick and slide into him during an opening; ordinary Fire does not perform the kick.",
+      "now": "E letter",
+      "items": [
+        {
+          "name": "E letter",
+          "text": "During the water-bike section after the octopus miniboss, jump into the floating letter. Missing it means replaying the stage.",
+          "need": "Time the bike jump",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "wave-man-e-letter"
+        }
+      ],
+      "sprite": {
+        "name": "WaveMan",
+        "src": "assets/classic-mm5-waveman.gif",
+        "width": 30,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "All eight weapons + eight MEGAMANV letters for Beat. Refill Rush Jet and carry E-Tanks.",
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Dark Man and Wily fortresses",
+      "paragraphs": [
+        "Dark Man 1: Water Wave works against the tank; jump its shots and avoid its advancing body. Dark Man 2: Crystal Eye reaches him after the barrier leaves.",
+        "Dark Man 3: use Gyro Attack and avoid the freezing rings. Beat is useful against Dark Man 4 while you concentrate on the moving barriers.",
+        "Wily fortress: shoot the platforms to climb the tower boss; attack the top head. Against the circular machine, send Gyro Attack through the open side doors.",
+        "Wily’s descending machine can be hit with charged Buster or Star Crash. Super Arrow works on the later tank. Beat tracks the final disappearing capsule; preserve its energy."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Use Super Arrow and Rush Jet for difficult reaches instead of making repeated low-health jumps.",
+        "Check the letter row before the fortress. Beat is optional for completion, but makes several late fights easier."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 5 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM5.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM5-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Collect all eight letters for Beat. The route also covers Rush Jet, Super Arrow and both castles."
+}

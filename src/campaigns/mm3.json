@@ -1,0 +1,237 @@
+{
+  "id": "mm3",
+  "series": "classic",
+  "displayId": "3",
+  "title": "Mega Man 3",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 3 adds the slide and Rush. Press Down + Jump to slide. There is still no charged Buster. Rush Coil is available from the start.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "The bosses form two weakness loops. Top Man and Snake Man are the Buster entry points in this route. After all eight clears, four stages reopen with Doc Robot fights before Wily’s fortress."
+  ],
+  "routeIntro": "Start with Top, complete the five-boss loop, then enter the Snake–Gemini–Needle loop. Keep Rush energy for the later Doc Robot stages.",
+  "route": [],
+  "stages": [
+    {
+      "id": "top-man",
+      "name": "Top Man",
+      "weakness": "Hard Knuckle",
+      "reward": "Top Spin",
+      "weapon": "Buster",
+      "tip": "Shoot while he throws tops, then jump over his spinning rush.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "TopMan",
+        "src": "assets/classic-mm3-topman.gif",
+        "width": 22,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "shadow-man",
+      "name": "Shadow Man",
+      "weakness": "Top Spin",
+      "reward": "Shadow Blade",
+      "weapon": "Top Spin",
+      "tip": "Use a brief aerial Top Spin contact when he jumps. Avoid holding it against his invulnerable frames.",
+      "now": "Rush Marine",
+      "items": [
+        {
+          "name": "Rush Marine",
+          "text": "Defeat Shadow Man. Rush becomes a controllable submarine in suitable water.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "shadow-man-rush-marine"
+        }
+      ],
+      "sprite": {
+        "name": "ShadowMan",
+        "src": "assets/classic-mm3-shadowman.gif",
+        "width": 30,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "spark-man",
+      "name": "Spark Man",
+      "weakness": "Shadow Blade",
+      "reward": "Spark Shock",
+      "weapon": "Shadow Blade",
+      "tip": "Aim Shadow Blade upward while avoiding the large electric shot.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SparkMan",
+        "src": "assets/classic-mm3-sparkman.gif",
+        "width": 30,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "magnet-man",
+      "name": "Magnet Man",
+      "weakness": "Spark Shock",
+      "reward": "Magnet Missile",
+      "weapon": "Spark Shock",
+      "tip": "Dodge the descending missiles. Attack between his magnetic pull and shielded phases.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "MagnetMan",
+        "src": "assets/classic-mm3-magnetman.gif",
+        "width": 32,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "hard-man",
+      "name": "Hard Man",
+      "weakness": "Magnet Missile",
+      "reward": "Hard Knuckle",
+      "weapon": "Magnet Missile",
+      "tip": "Send missiles toward him and slide away before he lands.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "HardMan",
+        "src": "assets/classic-mm3-hardman.gif",
+        "width": 36,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "snake-man",
+      "name": "Snake Man",
+      "weakness": "Needle Cannon",
+      "reward": "Search Snake",
+      "weapon": "Buster",
+      "tip": "Jump over his ground snakes and cross to the other side when he leaps.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SnakeMan",
+        "src": "assets/classic-mm3-snakeman.gif",
+        "width": 33,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "gemini-man",
+      "name": "Gemini Man",
+      "weakness": "Search Snake",
+      "reward": "Gemini Laser",
+      "weapon": "Search Snake",
+      "tip": "Let Search Snake travel along the floor. Watch both copies before choosing a landing point.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "GeminiMan",
+        "src": "assets/classic-mm3-geminiman.gif",
+        "width": 27,
+        "height": 27,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "needle-man",
+      "name": "Needle Man",
+      "weakness": "Gemini Laser",
+      "reward": "Needle Cannon",
+      "weapon": "Gemini Laser",
+      "tip": "Fire the laser toward him and avoid the head spike. Use the extra height of Rush Coil if a stage jump needs it.",
+      "now": "Rush Jet",
+      "items": [
+        {
+          "name": "Rush Jet",
+          "text": "Defeat Needle Man. This version of Rush Jet can be steered freely. Keep its energy stocked for Doc Robot’s long gaps.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "needle-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "NeedleMan",
+        "src": "assets/classic-mm3-needleman.gif",
+        "width": 32,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "sections": [
+    {
+      "id": "doc-robot",
+      "title": "Doc Robot return stages",
+      "paragraphs": [
+        "Needle: use Spark Shock or Magnet Missile on the Air copy, then Hard Knuckle on Crash. Refill Rush Jet before the long flight.",
+        "Gemini: use Shadow Blade on Flash and Bubble. Shadow: Needle Cannon or Hard Knuckle on Wood, then Shadow Blade on Heat.",
+        "Spark: Shadow Blade on Metal, then Search Snake or Gemini Laser on Quick. Break Man afterward can be handled with ordinary shots."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Use Hard Knuckle on Kamegoro Maker’s turtles and Hard Knuckle on Yellow Devil’s open eye. Search Snake works against the vulnerable Holograph Mega Man.",
+        "Reuse the boss weaknesses in the rematches. Attack Wily Machine’s first form with Spark Shock, then its raised cockpit with Hard Knuckle or Rush-assisted Buster shots.",
+        "Gamma: climb using Rush Coil, damage the exposed target with Hard Knuckle, then reach Wily and use Top Spin or Search Snake."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Rush Jet is controllable; take time to line up a landing instead of treating it like Mega Man 2’s straight sled.",
+        "Save an E-Tank for a late boss rather than using it to refill a small amount of missing health."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 3 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM3.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM3-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Learn the slide, collect Rush upgrades, then use the separate Doc Robot weakness chart for the remixed stages."
+}

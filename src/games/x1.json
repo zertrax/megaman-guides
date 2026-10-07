@@ -3,7 +3,7 @@
   "id": "x1",
   "title": "Mega Man X",
   "subtitle": "SNES · Original Mega Man X",
-  "intro": "Start with the dash, follow the weakness chain, then finish the three return stops. Includes all 16 upgrades and the optional Hadouken.",
+  "intro": "Start with the dash, follow the weakness chain, then collect the pickups on three return visits. Includes all 16 upgrades and the optional Hadouken.",
   "expectedCounts": {
     "heart": 8,
     "tank": 4,
@@ -527,7 +527,7 @@
     {
       "name": "Standard · all upgrades",
       "subtitle": "Straight weakness chain",
-      "description": "All hearts, tanks and armor, with three cleanup stages.",
+      "description": "All hearts, tanks and armor, with three stages to revisit.",
       "steps": [
         {
           "title": "Penguin → Mandrill → Armadillo",
@@ -614,7 +614,7 @@
   "routeIntro": "Both routes use the boss order below. Choose how far you want to take the run.",
   "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup saved for cleanup.",
   "basicsHtml": "<summary>Controls, tanks &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages. <a href=\"#tank-refill\">Refill health, tanks and lives in Armored Armadillo’s mine →</a></p>",
-  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/1/items.php\" target=\"_blank\" rel=\"noopener\">Original-game items and armor ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/read/147.html\" target=\"_blank\" rel=\"noopener\">Hadouken procedure ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/contents/0.html\" target=\"_blank\" rel=\"noopener\">Fortress walkthrough ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/1/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p><p>Practical tips: <a href=\"https://www.mmhp.net/GameHints/MMX1.html\">MMHP · final battle and general tips</a>; <a href=\"https://www.honestgamers.com/guides/mega-man-x/8/read/141.html\">HonestGamers · Armored Armadillo</a>. Applies to the original game.</p>",
+  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://megaman.retropixel.net/mmx/1/items.php\" target=\"_blank\" rel=\"noopener\">Original-game items and armor ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/read/147.html\" target=\"_blank\" rel=\"noopener\">Hadouken procedure ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x/8/contents/0.html\" target=\"_blank\" rel=\"noopener\">Fortress walkthrough ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/1/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p><p>Practical tips: <a href=\"https://www.mmhp.net/GameHints/MMX1.html\">MMHP · final battle and general tips</a>; <a href=\"https://www.honestgamers.com/guides/mega-man-x/8/read/141.html\">HonestGamers · Armored Armadillo</a>. Applies to the original game.</p><p>Starting mechanics: <a href=\"https://www.mmhp.net/GameHints/MMX1.html\">MMHP · game systems and upgrades</a>.</p>",
   "extraMedia": [
     {
       "src": "assets/x1-armored-armadillo-hadouken.jpg",
@@ -624,5 +624,16 @@
       "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
       "source": "https://www.honestgamers.com/guides/mega-man-x/8/read/147.html"
     }
-  ]
+  ],
+  "heroLinks": [
+    {
+      "href": "#start-here",
+      "text": "First time? Start here"
+    },
+    {
+      "href": "#boss-flow",
+      "text": "Continue to the boss route"
+    }
+  ],
+  "startHereHtml": "<section id=\"start-here\"><div class=\"section-head\"><h2>First time playing X1?</h2><span class=\"eyebrow\">What to know before the route</span></div><p class=\"primer-lead\">X begins with little health and no ground dash. Take the Leg Parts in Chill Penguin’s stage first. Armor, hearts and filled Sub Tanks make the later stages much more forgiving.</p><p>You can wall-jump from the start. Defeating certain bosses also changes other stages: Penguin freezes Mammoth’s lava, Eagle damages Mandrill’s power supply, and Octopus floods Chameleon’s forest. The return visits account for these changes.</p><dl class=\"armor-benefits\"><div><dt>Legs</dt><dd>Add the ground dash and longer dash-jumps. The capsule lies on Penguin’s main route.</dd></div><div><dt>Arms</dt><dd>Strengthen charged Buster shots and let you charge special weapons.</dd></div><div><dt>Body</dt><dd>Reduce incoming damage. Find the capsule above Chameleon’s cave.</dd></div><div><dt>Head</dt><dd>Break marked ceiling blocks. You need this to reach the early Arm Parts capsule.</dd></div></dl><p>Hadouken is an optional hidden attack. You can finish the game without it; collect the regular upgrades first.</p><p class=\"muted primer-note\">Heart Tanks increase maximum health. Fill Sub Tanks by collecting health while your life bar is full, then use them from the pause menu.</p></section>"
 }

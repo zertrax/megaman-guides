@@ -1,0 +1,225 @@
+{
+  "id": "mm10",
+  "series": "classic",
+  "displayId": "10",
+  "title": "Mega Man 10",
+  "collection": "Mega Man Legacy Collection 2",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man has no slide or charged Buster. Proto Man has both, with a shield and increased damage taken. Bass has rapid fire, directional aim and a dash, but cannot shoot while running. Choose a campaign before starting.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Rush Coil is available immediately; Rush Jet follows four Robot Master clears in Mega Man’s campaign. There are no hidden armor or Heart Tanks. Easy mode changes hazards and boss patterns; the route below assumes Normal."
+  ],
+  "routeIntro": "Pump is a reasonable Buster start and avoids relying on awkward Thunder Wool timing. Follow Water Shield through the loop, ending at Sheep.",
+  "route": [],
+  "stages": [
+    {
+      "id": "pump-man",
+      "name": "Pump Man",
+      "weakness": "Thunder Wool",
+      "reward": "Water Shield",
+      "weapon": "Buster",
+      "tip": "Shoot when his water shield opens. Jump or move through gaps in the spreading droplets.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "PumpMan",
+        "src": "assets/classic-mm10-pumpman.gif",
+        "width": 41,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "solar-man",
+      "name": "Solar Man",
+      "weakness": "Water Shield",
+      "reward": "Solar Blaze",
+      "weapon": "Water Shield",
+      "tip": "Use Water Shield close enough to connect. Avoid feeding his overhead fireball with Buster shots.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SolarMan",
+        "src": "assets/classic-mm10-solarman.gif",
+        "width": 34,
+        "height": 42,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "chill-man",
+      "name": "Chill Man",
+      "weakness": "Solar Blaze",
+      "reward": "Chill Spike",
+      "weapon": "Solar Blaze",
+      "tip": "Send Solar Blaze toward him and jump over the ice spikes.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "ChillMan",
+        "src": "assets/classic-mm10-chillman.gif",
+        "width": 32,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "nitro-man",
+      "name": "Nitro Man",
+      "weakness": "Chill Spike",
+      "reward": "Wheel Cutter",
+      "weapon": "Chill Spike",
+      "tip": "Place Chill Spike on the floor; let his motorcycle form run into the spikes.",
+      "now": "Rush Jet",
+      "items": [
+        {
+          "name": "Rush Jet",
+          "text": "Mega Man receives this after the fourth Robot Master clear. Proto Man uses Proto Jet; Bass buys Treble Boost from his shop.",
+          "need": "Four clears / character shop",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "nitro-man-rush-jet"
+        }
+      ],
+      "sprite": {
+        "name": "NitroMan",
+        "src": "assets/classic-mm10-nitroman.gif",
+        "width": 31,
+        "height": 28,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "commando-man",
+      "name": "Commando Man",
+      "weakness": "Wheel Cutter",
+      "reward": "Commando Bomb",
+      "weapon": "Wheel Cutter",
+      "tip": "Use Wheel Cutter and jump before his landing shock. Keep clear of the bomb’s ground explosion.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "CommandoMan",
+        "src": "assets/classic-mm10-commandoman.gif",
+        "width": 45,
+        "height": 51,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "blade-man",
+      "name": "Blade Man",
+      "weakness": "Commando Bomb",
+      "reward": "Triple Blade",
+      "weapon": "Commando Bomb",
+      "tip": "Aim the bomb into the floor or wall beside him so the explosion connects; the direct projectile is weaker.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "BladeMan",
+        "src": "assets/classic-mm10-blademan.gif",
+        "width": 46,
+        "height": 41,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "strike-man",
+      "name": "Strike Man",
+      "weakness": "Triple Blade",
+      "reward": "Rebound Striker",
+      "weapon": "Triple Blade",
+      "tip": "Use Triple Blade and move away from his bouncing path.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "StrikeMan",
+        "src": "assets/classic-mm10-strikeman.gif",
+        "width": 32,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "sheep-man",
+      "name": "Sheep Man",
+      "weakness": "Rebound Striker",
+      "reward": "Thunder Wool",
+      "weapon": "Rebound Striker",
+      "tip": "Bounce Rebound Striker into the visible body. Stay away from the cloud that is about to produce lightning.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "SheepMan",
+        "src": "assets/classic-mm10-sheepman.gif",
+        "width": 29,
+        "height": 27,
+        "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "sections": [
+    {
+      "id": "shop",
+      "title": "Shop, supplies and character choices",
+      "paragraphs": [
+        "Energy Balancer and E-Tanks are useful purchases. Bass’s shop also supplies Treble Boost, which gives flight at the cost of weapon energy.",
+        "Special stages Enker, Punk and Ballade are separate extras. Mega Man earns Mirror Buster, Screw Crusher and Ballade Cracker by clearing them; they are not required for the normal ending."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Weapons Archive: use Wheel Cutter for Elec and Gemini, Triple Blade for Wood, Solar Blaze for Ring, Rebound Striker for Napalm, Water Shield for Flame, Commando Bomb for Frost, Chill Spike for Slash, and Thunder Wool’s lightning for Tornado.",
+        "Crab Puncher: hit the eyes and use Commando Bomb’s explosion while the claws are open. Block Devil: learn the block sequence, then strike the open eye with Thunder Wool’s lightning or Buster.",
+        "Wily Machine: ride the missiles to reach the target and use Solar Blaze. Capsule: use Water Shield during a safe appearance; continue dodging when Wily disappears. Keep a tank for the final fight."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Chill Spike’s ground spikes do the important damage against Nitro. Commando Bomb’s explosion does more damage than a direct hit against Blade.",
+        "Wheel Cutter climbs walls while held against them. It can save a difficult ladder or wall approach without using a glitch."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 10 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM10.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM10-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc2.html"
+    }
+  ],
+  "libraryIntro": "A route for Mega Man, Proto Man and Bass, with the Weapons Archive matchups and advice for the fortress."
+}

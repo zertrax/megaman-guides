@@ -1,5 +1,19 @@
 # Verification
 
+## Current collection · October 6, 2026
+
+36 campaign guides plus the library build without dependencies: 9 X, 11 Classic, 6 Zero/ZX and 10 Battle Network versions. No unfinished cards. `verify-all.cjs` checks local assets and anchors, media provenance, return references, Classic boss rosters, all 40 MM8 Bolts, the Proto Shield return, Zero/ZX health and tank inventories, and all BN base HP/Buster/Sub/Regular Memory upgrades. BN2's initial 4MB unlock is separate from the 46MB of collected increases. Both BN4 versions include all 18 tournament scenario entries.
+
+108 responsive browser checks cover every guide at 390×844, 940×900 and 1440×900. No horizontal page overflow. Sidebar is hidden at 390/940px and visible at 1440px; Contents remains available. X3's three-card previews retain whole images at 220px with fixed 44px arrow targets. On narrow screens, cards stack and use ordinary vertical scrolling; they do not clip content to force one-screen height.
+
+Exercised X3's screenshot viewer: opens locally, focuses Close, Escape closes, returns focus and locks background scrolling only while open. Leaving X3's expanded Volt Catfish return and reopening the guide resumed at scrollY 13348, with Cleanup at 95.86px and the return still expanded. Its Contents highlight matched Cleanup. A direct BN6 link opened Central Town's inventory, positioned it below the header, and displayed all 12 rows in that destination. Tables can receive keyboard focus for horizontal scrolling. BN4's expanded SparkMan scenario survived reload. At 390px, selecting Cloud Man closed Contents and reached its stage; Escape closed Games. ZX Advent's local map enlarged and closed with Escape, returning focus to its link. Representative Classic, Zero and BN desktop views were inspected and saved outside the repository.
+
+Content corrections include BN1 armor merchants, BN4's five-EvilChip Black Earth gate, BN5's Legacy Collection Ship Comp locations and S-rank teammate gates, BN6's initially invulnerable Count and SunKey sequence, and Zero 2's permanent lives and wall/ladder elves. References are retained at each guide's bottom. BN uses chronological chapters, folder/customization guidance, version-specific classes and destination-grouped inventories rather than a platform-game boss chain.
+
+Limits: source checks and browser interaction checks are not a complete gameplay run. New Classic/Zero/BN pages use credited sprites and selected maps/captures; many new pickup cards give text directions without a location image. Temporary consumables, every ordinary chip code, optional Cyber-Elf/Secret Disk catalogues and trophy checklists are not exhaustively reproduced. Relevant full catalogues are linked. No public deployment was performed for this expansion.
+
+## Historical initial release
+
 Checked September 18, 2026, before the initial public release.
 
 ## Build and structure

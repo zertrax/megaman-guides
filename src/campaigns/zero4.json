@@ -1,0 +1,304 @@
+{
+  "id": "zero4",
+  "series": "zero",
+  "displayId": "ZERO 4",
+  "title": "Mega Man Zero 4",
+  "collection": "Mega Man Zero/ZX Legacy Collection · GBA",
+  "intro": "A mission route with the health upgrades, Sub Tanks, equipment and rank decisions explained before you need them.",
+  "primer": [
+    "Zero 4 replaces the rod and shield with Zero Knuckle. Grab designated enemies or devices to take their weapon or object. These stolen weapons have limited ammunition; ordinary Saber and Buster attacks remain available.",
+    "There are no elemental body chips. Elemental attacks come from EX Skills, stolen weapons or elf support. On Normal, select the harder weather for a stage to earn its EX Skill; rank no longer controls that reward. Easy mode does not allow the weather choices needed for EX Skills.",
+    "Your single Cyber-elf is raised with crystals through Alouette. Choose Nurse, Animal and Hacker effects from its menu. Their combined levels must stay within the displayed limit to avoid score penalties. Nurse effects raise health; there are no hidden health-extension elves to consume.",
+    "Enemy parts are crafting ingredients. Take the exact recipe to Cerveau: an incorrect combination consumes the ingredients and gives Junk. Ceratanium is a repeatable stage pickup. Moloid parts come from the one-time settlement rescue, so collect them before leaving."
+  ],
+  "facts": [
+    "Missions, equipment and Cyber-elves",
+    "Normal mode unless noted"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Mission overview",
+  "routeIntro": "Start Noble for a tank. Tech and Pegasolta add elemental EX options; Heat supplies useful crafting ingredients. The settlement rescue interrupts the run after four boss clears. Then collect Fenri’s tank, finish the other bosses and trade for the two additional tanks.",
+  "route": [],
+  "warning": {
+    "title": "Choose harder weather for EX Skills; collect Moloid parts during the rescue.",
+    "text": "The highlighted harder-weather stage awards its skill regardless of rank. Save before selecting a stage if you want that reward. The settlement rescue cannot be revisited: put out every fire, enter every door and gather Moloid parts before speaking to the child at the end."
+  },
+  "stages": [
+    {
+      "id": "noble-mandrago",
+      "name": "Noble Mandrago",
+      "area": "Underground Forest · EX weather: Sunny",
+      "weakness": "Neutral charged attacks",
+      "reward": "Sky Chaser · harder weather",
+      "tip": "Use Zero Knuckle to travel on vines. Attack between her seed and underground movements.",
+      "now": "Physical Sub Tank 1",
+      "items": [
+        {
+          "name": "Physical Sub Tank 1",
+          "text": "At the vertical shaft with spikes on both sides, destroy the lower half of GyroCannonH. Grab the remaining propeller handle with Zero Knuckle and ride it upward.",
+          "need": "Zero Knuckle",
+          "extra": "Grab the handle; do not destroy the whole machine.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "noble-mandrago-physical-sub-tank-1"
+        }
+      ],
+      "sprite": {
+        "name": "Noble Mandrago",
+        "src": "assets/zero-mmz4-nmandrago.gif",
+        "width": 42,
+        "height": 56,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "tech-kraken",
+      "name": "Tech Kraken",
+      "area": "Deep Sea · EX weather: Overcast",
+      "weakness": "Fire attacks",
+      "reward": "Ice Javelin · harder weather",
+      "tip": "Drop through the maze floors to the lower door. Use ordinary charged attacks if you have no fire weapon yet.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Tech Kraken",
+        "src": "assets/zero-mmz4-tkraken.gif",
+        "width": 58,
+        "height": 87,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "pegasolta-eclair",
+      "name": "Pegasolta Eclair",
+      "area": "Hanging Gardens · EX weather: Overcast",
+      "weakness": "Ice attacks",
+      "reward": "Thunder Stab · harder weather",
+      "tip": "Destroy the acid-rain generators for the objective. Ice attacks freeze fountains into footholds.",
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "heat-genblem",
+      "name": "Heat Genblem",
+      "area": "Particle Beam · EX weather: Sunny",
+      "weakness": "Thunder attacks",
+      "reward": "Flame Fang · harder weather",
+      "tip": "Use Thunder Stab if earned. Stand on Faital platforms to avoid the giant laser.",
+      "now": "S-Crystal ingredients · Double Jump ingredients",
+      "items": [
+        {
+          "name": "S-Crystal ingredients",
+          "text": "Collect Faital from the orange platform turret, V.Fire from armed soldiers, and the nearby Ceratanium. Gather Mechameson in Deep Sea or another stage.",
+          "need": "Enemy drops + Ceratanium",
+          "extra": "Faital + Mechameson + V.Fire + Ceratanium creates one S-Crystal.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "heat-genblem-s-crystal-ingredients"
+        },
+        {
+          "name": "Double Jump ingredients",
+          "text": "Gather Faital, GangaGun, GyroCannonH and C-Hopper. Bring all four to Cerveau.",
+          "need": "Enemy parts",
+          "extra": "The second jump helps with later high ledges and the final stages.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "heat-genblem-double-jump-ingredients"
+        }
+      ],
+      "sprite": {
+        "name": "Heat Genblem",
+        "src": "assets/zero-mmz4-hgenblem.gif",
+        "width": 68,
+        "height": 67,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "fenri-lunaedge",
+      "name": "Fenri Lunaedge",
+      "area": "Hibernation Chamber · EX weather: Overcast",
+      "weakness": "Fire attacks",
+      "reward": "Ice Blade · harder weather",
+      "tip": "Use fire against Fenri. For the tank, revisit with sunny weather or melt the snow.",
+      "now": "Physical Sub Tank 2",
+      "items": [
+        {
+          "name": "Physical Sub Tank 2",
+          "text": "With the snow cleared, descend the early deep shaft and enter the door. Take the Card Key from NicosCrabC using Zero Knuckle. Carry it to the sealed door and use it on the switch beside the door.",
+          "need": "Sunny weather / fire + Zero Knuckle",
+          "extra": "The tank room needs the card, not ordinary shots.",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [],
+          "id": "fenri-lunaedge-physical-sub-tank-2"
+        }
+      ],
+      "sprite": {
+        "name": "Fenri Lunaedge",
+        "src": "assets/zero-mmz4-flunaedge.gif",
+        "width": 84,
+        "height": 47,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "popla-cocapetri",
+      "name": "Popla Cocapetri",
+      "area": "Living City · EX weather: Sunny",
+      "weakness": "Neutral charged attacks",
+      "reward": "Time Stopper · harder weather",
+      "tip": "Move through the internal blocks carefully. Avoid his petrifying attack before approaching.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Popla Cocapetri",
+        "src": "assets/zero-mmz4-pcocapetri.gif",
+        "width": 42,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "sol-titanion",
+      "name": "Sol Titanion",
+      "area": "Artificial Sun · EX weather: Sunny",
+      "weakness": "Thunder attacks",
+      "reward": "Burning Shot · harder weather",
+      "tip": "Destroy the temperature generators and use Thunder attacks when he is reachable.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Sol Titanion",
+        "src": "assets/zero-mmz4-stitanion.gif",
+        "width": 68,
+        "height": 61,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "mino-magnus",
+      "name": "Mino Magnus",
+      "area": "Magnetic Zone · EX weather: Lightning",
+      "weakness": "Ice attacks",
+      "reward": "Tractor Shot · harder weather",
+      "tip": "Use Ice Blade or a stolen ice weapon. Magnetized platforms and electric rails change with weather.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Mino Magnus",
+        "src": "assets/zero-mmz4-mmagnus.gif",
+        "width": 126,
+        "height": 98,
+        "source": "https://www.mmhp.net/GameHints/MMZ4-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "hirondelle",
+      "name": "Hirondelle",
+      "area": "Resistance trailers · optional trades",
+      "weakness": "",
+      "reward": "Two extra Sub Tanks",
+      "tip": "Speak to Hirondelle in the rightmost trailer after crafting S-Crystals.",
+      "now": "Trade Sub Tank 3 · Trade Sub Tank 4",
+      "items": [
+        {
+          "name": "Trade Sub Tank 3",
+          "text": "Trade one S-Crystal to Hirondelle.",
+          "need": "Crafted S-Crystal",
+          "extra": "Repeatable supply gathering is legitimate; tank trades stop after both are obtained.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hirondelle-trade-sub-tank-3"
+        },
+        {
+          "name": "Trade Sub Tank 4",
+          "text": "Craft a second S-Crystal and trade it to Hirondelle.",
+          "need": "Second S-Crystal",
+          "extra": "",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hirondelle-trade-sub-tank-4"
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "fenri-lunaedge",
+      "title": "Tank with cleared snow and Card Key",
+      "items": [
+        "fenri-lunaedge-physical-sub-tank-2"
+      ]
+    }
+  ],
+  "returnIntro": "Revisit cleared areas from the base for equipment and supplies. Keep a separate save before a one-time mission or the final assault.",
+  "completionText": "Four tanks, useful crafted chips and raised elf support. For completion, earn all eight weather EX Skills and craft every chip; preserve Moloid ingredients for Rolling and JunkFoot.",
+  "sections": [
+    {
+      "id": "crafting",
+      "title": "Chip recipes",
+      "html": "<p>Select the exact ingredients below. An upgraded recipe lists its ingredients in full; it does not consume the lower chip. Ceratanium can be collected again on stage returns. Some enemy names have spacing differences in the menu.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Chip recipes\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Head chip</th><th scope=\"col\">Ingredients</th></tr></thead><tbody><tr><td>A-Charge</td><td>V.Missile + SandDozer + Raiken ×2</td></tr><tr><td>A-Recover1</td><td>Poplan + V.Fencer</td></tr><tr><td>A-Recover2</td><td>Poplan + V.Fencer + ArcCannon</td></tr><tr><td>A-Recover3</td><td>Poplan + V.Fencer + ArcCannon + P.Corpse</td></tr><tr><td>Q-Charge1</td><td>BeamWalker + RBCannon</td></tr><tr><td>Q-Charge2</td><td>BeamWalker + RBCannon + NicosCrabB</td></tr><tr><td>Q-Charge3</td><td>BeamWalker + RBCannon + NicosCrabB + SerpentGear</td></tr><tr><td>A-Filling</td><td>Bonsect + Molegule + Glacial + Mechameson</td></tr><tr><td>WeaponPlus</td><td>Bonsect + Bongal + V.Fire + Triaformer</td></tr><tr><td>JunkHead</td><td>Junk + SerpentGear + GlassCannon</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Chip recipes\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Body chip</th><th scope=\"col\">Ingredients</th></tr></thead><tbody><tr><td>Absorber</td><td>Axeloid + Gyrator + Ceratanium</td></tr><tr><td>Rolling</td><td>Moloid + LamportX + TellyBomb + Ceratanium</td></tr><tr><td>Erase</td><td>MiniCrabanB + MiniCrabanR + E-Laser + Ceratanium</td></tr><tr><td>Strong</td><td>GangaGun + Ceratanium</td></tr><tr><td>Stronger</td><td>GangaGun + Mechameson + Ceratanium</td></tr><tr><td>Strongest</td><td>GangaGun + Mechameson + NeedBalloon + Ceratanium</td></tr><tr><td>Reflect</td><td>Gyrator + RefleBeemer + Ceratanium</td></tr><tr><td>Extend</td><td>Bombadeer + Hechrysta + EleDeserter + Ceratanium</td></tr><tr><td>Elf</td><td>ScrapElf + Mettaur + Beeneran + Ceratanium</td></tr><tr><td>JunkBody</td><td>Junk + S-Crystal + GangaGun + Ceratanium</td></tr></tbody></table></div><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Chip recipes\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Foot chip</th><th scope=\"col\">Ingredients</th></tr></thead><tbody><tr><td>Quick</td><td>Kerberos ×3</td></tr><tr><td>DoubleJump</td><td>Faital + GangaGun + GyroCannonH + C-Hopper</td></tr><tr><td>SplashJump</td><td>CryoNeon + Yadokroid + MeduHopper</td></tr><tr><td>SpikeTypeI</td><td>NeedBalloon + CryoNeon + Crossbyne</td></tr><tr><td>SpikeTypeW</td><td>V.Claw + Poplan + GlassCannon</td></tr><tr><td>Frog</td><td>MagnePaN + MagnePaS + Kerosh</td></tr><tr><td>JunkFoot</td><td>Junk + Bombadeer + BeamWalker + Moloid</td></tr></tbody></table></div><p>Auto-Recover heals while still but does not fill tanks. DoubleJump adds a small second jump. Strong variants make spikes survivable, not harmless. All three Junk chips together with elf settings at zero increase attack at the cost of defense.</p>"
+    },
+    {
+      "id": "fortress",
+      "title": "Craft and Ragnarok",
+      "paragraphs": [
+        "During the settlement rescue, take a water gun from a pump with Zero Knuckle and extinguish all fires. Enter every building before finishing. Craft’s laser can be avoided from behind him; attack during recovery.",
+        "After all eight bosses, complete the control room and later teleporter routes. Pull each switch handle with Zero Knuckle. Use charged attacks against Craft and the exposed mechanical targets.",
+        "Bring filled tanks and spare lives for Weil. His final core opens between attacks and the fight has a timer; use charged Saber when the guard opens, rather than hitting the covered core."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Return to Area Zero for crystals and supplies after clearing it. A 1-Up is on the right-hand ledge beside the diagonal lift; leave with Escape and revisit to restock lives.",
+        "Allocate Nurse support to health when learning a stage. Raising your elf and crafting better equipment are normal ways to reduce the difficulty; you do not need a high rank for the ending."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, equipment and final stages",
+      "url": "https://www.mmhp.net/GameHints/MMZ4.html"
+    },
+    {
+      "title": "MMHP · weapon, elf and boss data",
+      "url": "https://www.mmhp.net/GameHints/MMZ4-Data.html"
+    },
+    {
+      "title": "GameFAQs · exact parts recipes",
+      "url": "https://gamefaqs.gamespot.com/gba/925724-mega-man-zero-4/faqs/40125"
+    },
+    {
+      "title": "Neoseeker · head chip recipes",
+      "url": "https://megaman.neoseeker.com/wiki/Zero_4_Head_Chips"
+    },
+    {
+      "title": "Neoseeker · body chip recipes",
+      "url": "https://megaman.neoseeker.com/wiki/Zero_4_Body_Chips"
+    },
+    {
+      "title": "StrategyWiki · chips, trades and ingredient sources",
+      "url": "https://strategywiki.org/wiki/Mega_Man_Zero_4/Chips_%26_Sub-Tanks"
+    },
+    {
+      "title": "GameFAQs · weather, missions and elf system",
+      "url": "https://gamefaqs.gamespot.com/gba/925724-mega-man-zero-4/faqs/39663"
+    }
+  ],
+  "libraryIntro": "Weather decides EX Skills. Collect the two physical tanks, craft two more, and check recipes before spending rare materials."
+}

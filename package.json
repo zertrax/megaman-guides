@@ -1,8 +1,8 @@
 {
-  "name": "megaman-x-field-guides",
+  "name": "megaman-field-guides",
   "version": "1.0.0",
   "private": true,
-  "description": "Static Mega Man X1–X4 field guides",
+  "description": "36 static Mega Man guides for X, Classic, Zero/ZX and Battle Network",
   "scripts": {"build": "node scripts/build.cjs", "verify": "node scripts/verify-all.cjs"},
   "engines": {"node": ">=22"}
 }

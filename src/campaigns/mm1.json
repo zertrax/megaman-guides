@@ -1,0 +1,186 @@
+{
+  "id": "mm1",
+  "series": "classic",
+  "displayId": "1",
+  "title": "Mega Man",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "6 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 1 has six Robot Masters. You can run and jump, but cannot slide, charge shots or wall-jump. Special weapons consume energy; select a depleted weapon before collecting weapon energy.",
+    "There are no E-Tanks, Heart Tanks or armor parts. Health pickups restore your fixed life bar. Spikes kill even during the usual flashing period after a hit.",
+    "The original game has no passwords or saves. Use the collection’s save feature before closing. Revisited stages contain their boss again."
+  ],
+  "routeIntro": "Start with Bomb Man, then follow the weakness chain. Guts Man’s Super Arm lets you collect Magnet Beam during the first Elec Man visit.",
+  "route": [],
+  "stages": [
+    {
+      "id": "bomb-man",
+      "name": "Bomb Man",
+      "weakness": "Fire Storm",
+      "reward": "Hyper Bomb",
+      "weapon": "Buster",
+      "tip": "Keep enough space to see each bomb land. Shoot between throws and jump away from the blast.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "BombMan",
+        "src": "assets/classic-mm1-bombman.gif",
+        "width": 27,
+        "height": 33,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "guts-man",
+      "name": "Guts Man",
+      "weakness": "Hyper Bomb",
+      "reward": "Super Arm",
+      "weapon": "Hyper Bomb",
+      "tip": "Jump when he lands to avoid the ground stun. Drop bombs near his landing point.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "GutsMan",
+        "src": "assets/classic-mm1-gutsman.gif",
+        "width": 31,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "cut-man",
+      "name": "Cut Man",
+      "weakness": "Super Arm",
+      "reward": "Rolling Cutter",
+      "weapon": "Super Arm",
+      "tip": "Lift and throw the arena blocks. If you miss or exhaust them, ordinary shots still work.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "CutMan",
+        "src": "assets/classic-mm1-cutman.gif",
+        "width": 24,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "elec-man",
+      "name": "Elec Man",
+      "weakness": "Rolling Cutter",
+      "reward": "Thunder Beam",
+      "weapon": "Rolling Cutter",
+      "tip": "Keep your distance and throw the cutter when he approaches. His beam is dangerous; avoid trading hits.",
+      "now": "Magnet Beam",
+      "items": [
+        {
+          "name": "Magnet Beam",
+          "text": "During the tower climb, find the item behind large blocks on the right. Remove the blocks with Super Arm and collect it before continuing upward.",
+          "need": "Super Arm",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "Creates temporary platforms. Hold Fire to lengthen one, then release to place it.",
+          "media": [],
+          "id": "elec-man-magnet-beam"
+        }
+      ],
+      "sprite": {
+        "name": "ElecMan",
+        "src": "assets/classic-mm1-elecman.gif",
+        "width": 24,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "ice-man",
+      "name": "Ice Man",
+      "weakness": "Thunder Beam",
+      "reward": "Ice Slasher",
+      "weapon": "Thunder Beam",
+      "tip": "Watch the height of the three ice shots and jump through the gaps. Use Magnet Beam over the moving-platform pit.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "IceMan",
+        "src": "assets/classic-mm1-iceman.gif",
+        "width": 24,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "fire-man",
+      "name": "Fire Man",
+      "weakness": "Ice Slasher",
+      "reward": "Fire Storm",
+      "weapon": "Ice Slasher",
+      "tip": "Fire ice shots from a safe distance and jump the flame waves. Avoid running back and forth into his repeated fire.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "FireMan",
+        "src": "assets/classic-mm1-fireman.gif",
+        "width": 24,
+        "height": 31,
+        "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Six weapons + Magnet Beam. Refill Magnet Beam before the fortress; there are no reserve health tanks.",
+  "warning": {
+    "title": "Collect Magnet Beam before Wily’s fortress.",
+    "text": "It is required for the normal route through Wily Stage 1. If you missed it, revisit Elec Man and remove the blocks with Super Arm or Thunder Beam."
+  },
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Stage 1: use Magnet Beam to cross the climbing section. Against Yellow Devil, dodge the travelling blocks and hit the open eye with Thunder Beam. No pause-damage trick is needed.",
+        "Stage 2: fight Cut Man and Elec Man again. The Copy Robot uses your selected weapon; use the Buster or Thunder Beam and dodge before shooting.",
+        "Stage 3: against CWU-01P, use Buster shots on the earlier units, then Super Arm blocks on the faster ones. The blocks do not return after an ordinary death.",
+        "Stage 4: fight Bomb, Fire, Ice and Guts again. Use Fire Storm on Wily’s first machine and Thunder Beam on the exposed second form."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Magnet Beam platforms expire. Make the next platform before the current one disappears and keep enough energy for the fortress.",
+        "Freeze a troublesome enemy with Ice Slasher while crossing a narrow ledge. Kill distant enemies before jumping where a hit would push you into a pit."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM1.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM1-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Six Robot Masters, the Magnet Beam detour and a plan for the Yellow Devil. No slide, charge shot or reserve tanks."
+}

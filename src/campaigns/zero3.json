@@ -1,0 +1,493 @@
+{
+  "id": "zero3",
+  "series": "zero",
+  "displayId": "ZERO 3",
+  "title": "Mega Man Zero 3",
+  "collection": "Mega Man Zero/ZX Legacy Collection · GBA",
+  "intro": "A mission route with the health upgrades, Sub Tanks, equipment and rank decisions explained before you need them.",
+  "primer": [
+    "Zero 3 removes weapon-level grinding: charged attacks and Saber combos are ready from the start. Recoil Rod replaces Chain Rod; its charged downward strike launches Zero upward from ground or suitable enemies. At the base, speak to Cerveau after the introduction to receive Recoil Rod and Shield Boomerang.",
+    "Chips equip separately on the head, body and feet. Body element chips change charged attacks. Two Satellite elf slots provide reusable support without a rank penalty. Fusion elves are consumed and still lower scores; two of them become the extra Sub Tanks.",
+    "EX Skills still require A/S when entering the mission. Entering Cyberspace makes a stage easier and activates many elf effects, but penalizes the mission score and prevents enemy disk drops. Keep rank runs and collection runs on separate saves.",
+    "Take Secret Disks to Cerveau for analysis. A disk in your inventory is not yet an equipped chip or raised elf. Zero 3’s optional modification cards are available through the collection; check the card menu rather than following obsolete e-Reader hardware instructions."
+  ],
+  "facts": [
+    "Missions, equipment and Cyber-elves",
+    "Normal mode unless noted"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Mission overview",
+  "routeIntro": "Devilbat supplies Thunder for Flizard; Flame then handles Childre. Finish Mantisk and the fixed Missile Factory intermission. Collect Elphy at the base before Copy X. Follow the second and final mission groups, returning with Flame or Double Jump for missed equipment.",
+  "route": [],
+  "warning": {
+    "title": "Keep Satellite and Fusion elves separate.",
+    "text": "Satellite support does not lower rank. Consuming Fusion elves and entering Cyberspace do. Collect Elphy in base room 02D after Missile Factory and before Copy X; that base disk is time-sensitive."
+  },
+  "stages": [
+    {
+      "id": "derelict-spacecraft",
+      "name": "Derelict spacecraft",
+      "area": "Introduction",
+      "weakness": "",
+      "reward": "Weapons ready",
+      "tip": "Clear the introduction and save at the base before selecting the first group.",
+      "now": "Sylphy · health elf · disk 024",
+      "items": [
+        {
+          "name": "Sylphy · health elf · disk 024",
+          "text": "Drop into the snow pit and recover the disk. Have Cerveau analyse it.",
+          "need": "Explore the snow pit",
+          "extra": "Grow for 250 crystals; convert to Satellite for another 200 if you want its +4 health without consuming it.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "derelict-spacecraft-sylphy-health-elf-disk-024"
+        }
+      ]
+    },
+    {
+      "id": "devilbat-schilt",
+      "name": "Devilbat Schilt",
+      "area": "Old Residential · first group",
+      "weakness": "Neutral first; Ice later",
+      "reward": "Thunder Body + SaberSmash · A/S entry",
+      "tip": "Attack between his dives. Use the Recoil Rod for the high rooms.",
+      "now": "Physical Sub Tank 1 · Auto-Charge · disk 001",
+      "items": [
+        {
+          "name": "Physical Sub Tank 1",
+          "text": "In the large room with bomb-throwing Pantheons, bounce from the second bomber with charged Recoil Rod toward the high ledge. Return with Double Jump if the approach is too difficult.",
+          "need": "Charged Recoil Rod / later Double Jump",
+          "extra": "",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "devilbat-schilt-physical-sub-tank-1"
+        },
+        {
+          "name": "Auto-Charge · disk 001",
+          "text": "Return with Flame Body. Burn the tree blocking the door near the first Gyro Cannon and open the disk.",
+          "need": "Flame charged attack",
+          "extra": "Automatically prepares charged attacks.",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "media": [],
+          "id": "devilbat-schilt-auto-charge-disk-001"
+        }
+      ],
+      "sprite": {
+        "name": "Devilbat Schilt",
+        "src": "assets/zero-mmz3-dschilt.gif",
+        "width": 56,
+        "height": 72,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "blazin-flizard",
+      "name": "Blazin’ Flizard",
+      "area": "Aegis Volcano Base · first group",
+      "weakness": "Thunder charged attacks",
+      "reward": "Flame Body + BurstShot · A/S entry",
+      "tip": "Use Thunder to stop his attack and move away from the fire columns.",
+      "now": "Artan · tank elf · disk 026",
+      "items": [
+        {
+          "name": "Artan · tank elf · disk 026",
+          "text": "Between the first and second Gyro Cannons, use a Recoil Rod bounce to the high ledge.",
+          "need": "Charged Recoil Rod",
+          "extra": "400 crystals to grow. Fusion use creates a tank and a rank penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "blazin-flizard-artan-tank-elf-disk-026"
+        }
+      ]
+    },
+    {
+      "id": "childre-inarabitta",
+      "name": "Childre Inarabitta",
+      "area": "Oceanic Highway Ruins · first group",
+      "weakness": "Flame charged attacks",
+      "reward": "Ice Body + ThrowBlade · A/S entry",
+      "tip": "Reach and press the underground switches before he destroys them.",
+      "now": "Splash Jump · disk 005",
+      "items": [
+        {
+          "name": "Splash Jump · disk 005",
+          "text": "At the beginning, descend into the water and use charged Recoil Rod to break open the blocked passage.",
+          "need": "Charged Recoil Rod",
+          "extra": "Lets you jump from the water surface.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "childre-inarabitta-splash-jump-disk-005"
+        }
+      ],
+      "sprite": {
+        "name": "Childre Inarabitta",
+        "src": "assets/zero-mmz3-cinarabitta.gif",
+        "width": 44,
+        "height": 52,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "deathtanz-mantisk",
+      "name": "Deathtanz Mantisk",
+      "area": "Weapon Repair Factory · first group",
+      "weakness": "Neutral charged attacks",
+      "reward": "Light Body + 1000 Slash · A/S entry",
+      "tip": "Use charged Recoil Rod to move obstacles; destroy the ceiling alarm cannons for the mission objective.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Deathtanz Mantisk",
+        "src": "assets/zero-mmz3-dmantisk.gif",
+        "width": 46,
+        "height": 77,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "crea-and-prea",
+      "name": "Crea and Prea",
+      "area": "Missile Factory · intermission",
+      "weakness": "Neutral charged attacks",
+      "reward": "Missile operation stopped",
+      "tip": "Complete the factory objective and collect the high disk before leaving.",
+      "now": "Martina · doubled health · disk 021 · Elphy · base health elf · disk 023",
+      "items": [
+        {
+          "name": "Marlina · doubled health · disk 021",
+          "text": "After the conveyors, climb above the area near the first Generator Cannon.",
+          "need": "Wall-jump / Recoil Rod",
+          "extra": "300 then 700 crystals to grow. Convert to Satellite for 300 more if avoiding permanent Fusion penalties.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "crea-and-prea-martina-doubled-health-disk-021"
+        },
+        {
+          "name": "Elphy · base health elf · disk 023",
+          "text": "After this mission, visit base room 02D on the second floor before defeating Copy X.",
+          "need": "Time-sensitive base visit",
+          "extra": "250 crystals to grow; 200 to convert to Satellite.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "crea-and-prea-elphy-base-health-elf-disk-023"
+        }
+      ]
+    },
+    {
+      "id": "anubis-necromancess-v",
+      "name": "Anubis Necromancess V",
+      "area": "Twilight Desert · second group",
+      "weakness": "Ice charged attacks",
+      "reward": "ShieldSweep · A/S entry",
+      "tip": "Use Ice while avoiding the rising sand and summoned enemies.",
+      "now": "Milvy · health elf · disk 022",
+      "items": [
+        {
+          "name": "Milvy · health elf · disk 022",
+          "text": "Climb above the pillar beside the second Cyberspace door.",
+          "need": "Wall-jump",
+          "extra": "250 crystals to grow; 200 for Satellite conversion.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "anubis-necromancess-v-milvy-health-elf-disk-022"
+        }
+      ],
+      "sprite": {
+        "name": "Anubis Necromancess V",
+        "src": "assets/zero-mmz3-anecromancess.gif",
+        "width": 34,
+        "height": 58,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "hanumachine-r",
+      "name": "Hanumachine R",
+      "area": "Forest of Anatre · second group",
+      "weakness": "Thunder charged attacks",
+      "reward": "SplitHeavens · A/S entry",
+      "tip": "Use Thunder and burn foliage only where safe; the falling platforms still matter.",
+      "now": "Physical Sub Tank 2 · Auto-Recover · disk 002",
+      "items": [
+        {
+          "name": "Physical Sub Tank 2",
+          "text": "Near the end, find the left switch among the moving walls and spikes. Move the block onto the switch, then use Recoil Rod to reach the tank ledge.",
+          "need": "Charged Recoil Rod",
+          "extra": "",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hanumachine-r-physical-sub-tank-2"
+        },
+        {
+          "name": "Auto-Recover · disk 002",
+          "text": "Above the first doorway, burn the foliage to reveal the high passage.",
+          "need": "Flame charged attack",
+          "extra": "Restores health while standing still.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "hanumachine-r-auto-recover-disk-002"
+        }
+      ],
+      "sprite": {
+        "name": "Hanumachine R",
+        "src": "assets/zero-mmz3-hanumachine.gif",
+        "width": 41,
+        "height": 45,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "blizzack-staggroff-r",
+      "name": "Blizzack Staggroff R",
+      "area": "Frontline Ice Base · second group",
+      "weakness": "Flame charged attacks",
+      "reward": "BlizzrdArrow · A/S entry",
+      "tip": "Use Flame after his slide; watch the freezing pipes as you cross the underwater section.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Blizzack Staggroff R",
+        "src": "assets/zero-mmz3-bstaggroff.gif",
+        "width": 49,
+        "height": 72,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "copy-x",
+      "name": "Copy X",
+      "area": "Area X-2 · intermission",
+      "weakness": "Neutral charged attacks",
+      "reward": "Quick Foot + ReflectLaser · A/S entry",
+      "tip": "Save before the mission. Attack during an opening and watch the element changes.",
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "cubit-foxtar",
+      "name": "Cubit Foxtar",
+      "area": "Energy Facility · last group",
+      "weakness": "Thunder charged attacks",
+      "reward": "Double Jump + SoulLauncher · A/S entry",
+      "tip": "Use Thunder on the posts to light rooms. Hit Foxtar during a safe opening.",
+      "now": "Frog Foot · disk 004",
+      "items": [
+        {
+          "name": "Frog Foot · disk 004",
+          "text": "In the spiked moving-platform room before the boss, reach the upper-left corner.",
+          "need": "Careful wall-jump",
+          "extra": "Slows wall sliding.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "cubit-foxtar-frog-foot-disk-004"
+        }
+      ],
+      "sprite": {
+        "name": "Cubit Foxtar",
+        "src": "assets/zero-mmz3-cfoxtar.gif",
+        "width": 38,
+        "height": 55,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "glacier-le-cactank",
+      "name": "Glacier Le Cactank",
+      "area": "Snowy Plains · last group",
+      "weakness": "Flame charged attacks",
+      "reward": "Spike Foot + OrbitShield · A/S entry",
+      "tip": "Ride the carts on the scored mission; explore the snow on a return.",
+      "now": "Quick-Charge · disk 003 · Rilphy · health elf · disk 025",
+      "items": [
+        {
+          "name": "Quick-Charge · disk 003",
+          "text": "Break open the snow-hidden box in the plains and analyse the disk.",
+          "need": "Destroy snow boxes",
+          "extra": "Shortens charge time.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "glacier-le-cactank-quick-charge-disk-003"
+        },
+        {
+          "name": "Rilphy · health elf · disk 025",
+          "text": "After the second Shellcrawler, break the snow hiding a room and recover disk 025. Have Cerveau analyse it.",
+          "need": "Snowy Plains exploration",
+          "extra": "250 crystals to grow; 200 for Satellite conversion.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "glacier-le-cactank-rilphy-health-elf-disk-025"
+        }
+      ],
+      "sprite": {
+        "name": "Glacier Le Cactank",
+        "src": "assets/zero-mmz3-gcactank.gif",
+        "width": 68,
+        "height": 66,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "volteel-biblio",
+      "name": "Volteel Biblio",
+      "area": "Sunken Library · last group",
+      "weakness": "Ice charged attacks",
+      "reward": "Shadow Dash + V-Shot · A/S entry",
+      "tip": "Read the terminal’s indicated door colors. Flip turtles to make platforms and leave water before it touches exposed wires.",
+      "now": "",
+      "items": [],
+      "sprite": {
+        "name": "Volteel Biblio",
+        "src": "assets/zero-mmz3-vbiblio.gif",
+        "width": 59,
+        "height": 91,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "tretista-kelverian",
+      "name": "Tretista Kelverian",
+      "area": "Giant Elevator · last group",
+      "weakness": "Neutral charged attacks",
+      "reward": "Absorber Body + GaleAttack · A/S entry",
+      "tip": "Knock shielded enemies off the elevator with Recoil Rod rather than waiting beside them.",
+      "now": "Zictan · tank elf · disk 027",
+      "items": [
+        {
+          "name": "Zictan · tank elf · disk 027",
+          "text": "Before the elevator door, break the left wall with charged Recoil Rod to enter the hidden room.",
+          "need": "Charged Recoil Rod",
+          "extra": "400 crystals to grow; Fusion use creates a tank and a rank penalty.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "tretista-kelverian-zictan-tank-elf-disk-027"
+        }
+      ],
+      "sprite": {
+        "name": "Tretista Kelverian",
+        "src": "assets/zero-mmz3-tkelverian.gif",
+        "width": 63,
+        "height": 49,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "phantom",
+      "name": "Phantom",
+      "area": "Sub Arcadia · optional hidden boss",
+      "weakness": "Neutral charged attacks",
+      "reward": "Ultima Foot · disk 006",
+      "tip": "In Cyberspace, enter the normally inactive door toward the upper left of the moving-platform area.",
+      "now": "Ultima Foot",
+      "items": [
+        {
+          "name": "Ultima Foot",
+          "text": "Defeat Phantom and analyse disk 006.",
+          "need": "Cyberspace door + Phantom victory",
+          "extra": "Combines the other Foot Chip effects. This detour penalizes the active mission score.",
+          "timing": "first",
+          "when": "During this mission",
+          "media": [],
+          "id": "phantom-ultima-foot"
+        }
+      ],
+      "sprite": {
+        "name": "Phantom",
+        "src": "assets/zero-mmz3-phantom.gif",
+        "width": 35,
+        "height": 37,
+        "source": "https://www.mmhp.net/GameHints/MMZ3-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "devilbat-schilt",
+      "title": "Auto-Charge with Flame; retry the tank with Double Jump",
+      "items": [
+        "devilbat-schilt-auto-charge-disk-001"
+      ]
+    }
+  ],
+  "returnIntro": "Revisit cleared areas from the base for equipment and supplies. Keep a separate save before a one-time mission or the final assault.",
+  "completionText": "All three head chips, five body rewards, seven foot options, two physical tanks and Artan/Zictan if using Fusion tanks. Check the twelve EX rewards separately; 200 disks are the optional full collection.",
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Final assault",
+      "paragraphs": [
+        "Complete Sub Arcadia, then the rematches. Elemental bosses retain their weaknesses; neutral charged Saber works on Mantisk and Kelverian.",
+        "Omega’s early forms have exposed targets between large attacks. Use charged Saber/Buster and leave space to read the next pattern.",
+        "Against the final humanoid form, attack during recovery, retreat before his Saber combo, and use filled tanks from the menu. Preserve your endgame save before writing clear-game data."
+      ]
+    },
+    {
+      "id": "disks",
+      "title": "Secret Disks and modification cards",
+      "paragraphs": [
+        "Equipment disks 001–006 and the health/tank disks are listed at their mission stops. The other disks include temporary elves, data and enemy records; there are 200 altogether.",
+        "Enemy disks often require several kills of a specific enemy and cannot drop in Cyberspace. Return in the ordinary world to collect them. Use the referenced numbered disk database for an optional full-library run.",
+        "Collection modification cards change specific effects. They are optional aids; the main route here assumes they are disabled."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Raise a health elf and use it as a Satellite to gain support without consuming it. Only two Satellite effects can run at once, so choose for the next stage.",
+        "Recoil Rod bounces and the later Double Jump make Old Residential’s high tank much easier. You do not need to take repeated risky jumps on your first visit."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, equipment and final stages",
+      "url": "https://www.mmhp.net/GameHints/MMZ3.html"
+    },
+    {
+      "title": "MMHP · weapon, elf and boss data",
+      "url": "https://www.mmhp.net/GameHints/MMZ3-Data.html"
+    },
+    {
+      "title": "MMKB · numbered equipment and elf disk locations",
+      "url": "https://megaman.fandom.com/wiki/Mega_Man_Zero_3/Database"
+    },
+    {
+      "title": "GameFAQs · secret disks and elf upgrades",
+      "url": "https://gamefaqs.gamespot.com/gba/920055-mega-man-zero-3/faqs/32348"
+    },
+    {
+      "title": "MMKB · health-elf locations and growth",
+      "url": "https://megaman.fandom.com/wiki/List_of_Life_Up_locations"
+    },
+    {
+      "title": "GameFAQs · Zero 3 full walkthrough",
+      "url": "https://gamefaqs.gamespot.com/gba/920055-mega-man-zero-3/faqs/30131"
+    }
+  ],
+  "libraryIntro": "Satellite elves, body-part chips and four tank sources. The guide flags the time-limited base health elf before the next mission."
+}

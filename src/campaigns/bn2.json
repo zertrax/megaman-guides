@@ -1,0 +1,426 @@
+{
+  "id": "bn2",
+  "series": "network",
+  "networkGame": 2,
+  "displayId": "BN2",
+  "title": "Mega Man Battle Network 2",
+  "collection": "Battle Network Legacy Collection · Vol. 1",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "Licenses, the long ice scenario, Styles and all health/memory upgrades.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "Single campaign"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "Health no longer resets after each battle. Carry recovery Sub Chips for travel and a recovery chip in the folder. At the Custom Screen you can try to escape an ordinary battle; the Escape chip is more reliable.",
+    "BN2 adds * wildcard codes and Regular Memory. A * support chip works alongside any main letter. ADD discards selected chips for this battle and expands the next selection, helping you draw a useful combination.",
+    "Styles replace BN1 armor. Guts favors Buster use, Custom compatible chip selections, Team Navi chips, and Shield defensive play. A new Style opportunity comes after 280 qualifying battles. Using the current Style develops its level; there is no need to grind that before the first clear."
+  ],
+  "features": [
+    [
+      "Upgrade priorities",
+      "Buy HPMemory and develop Charge/Attack for your preferred combat. RegUP improves the guaranteed opening chip; SubMem lets you carry more travel supplies."
+    ],
+    [
+      "Travel",
+      "GateKeys open homepage shortcuts. GospCode opens optional blocked data. Keep one copy of useful and uncommon chip codes before using a Chip Trader."
+    ]
+  ],
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "yai-s-gas-leak",
+      "name": "Yai’s gas leak",
+      "area": "ACDC Town",
+      "weakness": "AirMan · direct chip attacks",
+      "reward": "BLicense and camping",
+      "tip": "Take the ZLicense test at the Net Square: retrieve both scattered data pieces and report. Visit Yai, investigate the gas, and jack into the ventilation controls to reach AirMan.",
+      "notes": [],
+      "now": "Regular Chip system",
+      "items": [
+        {
+          "name": "Regular Chip system",
+          "text": "The ZLicense test enables a guaranteed opening chip with 4MB capacity. Select REG in Folder Edit; collect RegUPs to fit larger chips.",
+          "need": "ZLicense",
+          "extra": "A dependable attack or recovery chip is useful while learning.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "yai-s-gas-leak-regular-chip-system"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-airman.gif",
+        "width": 34,
+        "height": 43,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "AirMan"
+      }
+    },
+    {
+      "id": "okuden-explosives",
+      "name": "Okuden explosives",
+      "area": "Marine Harbor → Okuden camp",
+      "weakness": "QuickMan · hit during his attack",
+      "reward": "ALicense",
+      "tip": "Register for the BLicense at the Official Center and clear its tests. At camp, gather paper from the tree, a stick from the river and a lighter from the lower path to clear the bees. Find binoculars behind the waterfall to inspect the bear, then jack into it. After the explosion, disable the fisherman’s PET, picnic canteen and waterfall PET; question Dave last.",
+      "notes": [],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-quickman.gif",
+        "width": 24,
+        "height": 48,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "QuickMan"
+      }
+    },
+    {
+      "id": "yumland-attack",
+      "name": "Yumland attack",
+      "area": "ALicense → YumSquare",
+      "weakness": "CutMan · swords / fire on grass",
+      "reward": "Chng.bat",
+      "tip": "Complete the three required requests: find Navis in the playground toy, blackboard and Dex’s game; help the KotoSquare Navi via the Center coffee machine; return the lost program near the Yumland cube. Pass the survival and bad-Navi tests for ALicense, then enter Yumland.",
+      "notes": [],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-cutman.gif",
+        "width": 18,
+        "height": 47,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "CutMan"
+      }
+    },
+    {
+      "id": "mother-computer",
+      "name": "Mother Computer",
+      "area": "Marine Harbor Official Center",
+      "weakness": "ShadowMan · strike after the clones",
+      "reward": "Netopia trip",
+      "tip": "Ask Dad about Chng.bat, post on the Square BBS, then follow the contacts in ACDC park, the campground and KotoSquare to the locked YumSquare data. Bring the program back to Dad. Clear the Goofball attack, then the Mother Computer puzzle and ShadowMan.",
+      "notes": [
+        "Mother Computer answers in order: CAT, RIVER, NB; AFBECD, WATCH, ALMOSTTHERE; WIG lower-left, GEM lower-right, MASK upper-left, KNIFE upper-right; UCANGO, JUMPS, SPIDER, APPLE, B, DONTGIVEUP, RACCOON, GIKMOQSUWY, SYSTEMAHEAD, SYSTEMCLOSE, VIRUS."
+      ],
+      "now": "Style Change",
+      "items": [
+        {
+          "name": "Style Change",
+          "text": "Chng.bat unlocks the first Style. Your battle habits determine its type; the element is random. Keep a useful Style rather than resetting the entire save for one particular element.",
+          "need": "Story reward",
+          "extra": "Store up to two Styles; accepting a third asks which to replace.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "mother-computer-style-change"
+        }
+      ]
+    },
+    {
+      "id": "netopia-theft",
+      "name": "Netopia theft",
+      "area": "Airport → Netopia",
+      "weakness": "ThunderMan · Wood; SnakeMan · Fire",
+      "reward": "Castle meeting",
+      "tip": "Prepare your folder before the trip. Recover the PET from Chaud at the departure gate; question the thief twice on arrival for your zenny. After the next theft, speak to Higsby in the park and retrieve the PET from the hotel. Fight Raoul’s ThunderMan for his code, use his radio to reach Netopia 3 and recover the passport. Give Jim Guard *; challenge the jewelry-shop owner to get the pack back.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "net-castle",
+      "name": "Net Castle",
+      "area": "Netopia Castle",
+      "weakness": "ProtoMan, then KnightMan · Aqua",
+      "reward": "Flight home",
+      "tip": "Enter the castle through the wall crest and speak to the meeting attendees. Jack into the light switch, then the door controls. When Lan throws the Wireless, jack in from where he stands. Save and recover before the ProtoMan and KnightMan sections.",
+      "notes": [],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-protoman.gif",
+        "width": 27,
+        "height": 44,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html",
+        "alt": "ProtoMan"
+      }
+    },
+    {
+      "id": "airplane-emergency",
+      "name": "Airplane emergency",
+      "area": "Return flight",
+      "weakness": "MagnetMan · Wood",
+      "reward": "Gospel’s network ice",
+      "tip": "After the meal, investigate the spider and consult the bug expert and doctor. Bring thread from the stewardess, chopsticks from the economy passenger, whiskey from first class and the pilot’s cap; return to the expert. When the systems fail, speak to the captain and jack into the cockpit.",
+      "notes": [],
+      "now": "Gospel access",
+      "items": [
+        {
+          "name": "Gospel access",
+          "text": "After landing, clear the bad-Navi request that awards GospCode. It opens Gospel-marked cubes for upgrades. Collect GateKeys from requests to open shortcuts beside Lan’s homepage.",
+          "need": "Post-flight requests",
+          "extra": "Optional for the story route, useful for the upgrade checklist.",
+          "timing": "return",
+          "when": "Return when the requirement is met",
+          "media": [],
+          "id": "airplane-emergency-gospel-access"
+        }
+      ],
+      "sprite": {
+        "src": "assets/network-magnetman.gif",
+        "width": 38,
+        "height": 48,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "MagnetMan"
+      }
+    },
+    {
+      "id": "network-freeze",
+      "name": "Network freeze",
+      "area": "Yumland → Undernet → Kotobuki",
+      "weakness": "FreezeMan · Elec",
+      "reward": "Gospel headquarters",
+      "tip": "Follow the cures in order below. Blue ice remains until the FreezeMan fight; you do not need to find a working BlueCure first. Keep recovery supplies for the long trips.",
+      "notes": [
+        "1. Break the white ice in Koto Area 1 and speak to the purple Navi for RedFrag. Take it to Dad for RedCure. Use that cure to reach Roll and the stranded program in Yumland 2.",
+        "2. Read the Square’s Street BBS. Talk to the program in Okuden’s stove for HeatData; if its dialogue sends you back to Yumland, speak to the stranded program and return. Find the Undernet informant, follow his Netopia Square contact and bring ZapRing2 B. Post the password on UnderSquare’s board, then give HeatData to the Doc for YeloCure.",
+        "3. Free the brother behind Netopia 2’s yellow ice. Visit the key maker beside Undernet 3’s blue ice, then return to the brother for BluFragA. Revisit Undernet 3 to trigger the lower-platform Navi scene and read Chaud’s mail.",
+        "4. Get GateKeyD from the key maker in Netopia Square. Use it from Den Area 1, then take the lower-left warp at Koto’s entrance into UnderKoto. Reach Undernet 3’s lower path and defeat the purple Navi for BluFragB and GospelID.",
+        "5. Use GospelID at KotoSquare’s locked door and follow the headquarters path to FreezeMan. Defeat him to end the ice crisis."
+      ],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-freezeman.gif",
+        "width": 27,
+        "height": 47,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "FreezeMan"
+      }
+    },
+    {
+      "id": "gospel-headquarters",
+      "name": "Gospel headquarters",
+      "area": "Kotobuki apartment / server",
+      "weakness": "Bass, then Gospel",
+      "reward": "Ending and WWW postgame",
+      "tip": "Get Dad’s protective equipment before traveling to Kotobuki. Clear the apartment network for the elevator bit, then the AirMan/QuickMan/CutMan gauntlet. On floor 30, clear KnightMan/MagnetMan/FreezeMan. Save when the program warns you; the door after jacking out starts the final sequence.",
+      "notes": [
+        "Gospel is vulnerable when its mouth opens. Save strong attacks for that opening. Thrown or enemy-area attacks can work when its fragments block your row; keep recovery for the unavoidable chip damage."
+      ],
+      "now": "",
+      "items": [],
+      "sprite": {
+        "src": "assets/network-bass.gif",
+        "width": 31,
+        "height": 49,
+        "credit": "The MegaMaster / MMHP · Navi sprite",
+        "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html",
+        "alt": "Bass"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "airplane-emergency",
+      "title": "Related returns",
+      "items": [
+        "airplane-emergency-gospel-access"
+      ]
+    }
+  ],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "All 45 ordinary HPMemory items bring base maximum health to 1000. Sub Memory raises Sub Chip carrying capacity; Regular UP raises the MB limit for the guaranteed opening chip. NaviCust HP programs add temporary equipped health above the base.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, ShockWav for enemies on the ground, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>The * code works with any letter. Use * support chips to keep turns flowing.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Sword → WideSwrd → LongSwrd with the same letter code, in that order, for LifeSwrd. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Set a useful chip as REG in Folder Edit. It is guaranteed in the opening selection if its MB fits your Regular Memory.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · WWW area and five stars",
+      "paragraphs": [
+        "After the ending, the yellow clear star opens the postgame route. Register 130 chips and enter the WWW passage from Undernet 4. Bring an Unlocker; the linked Den Area platform holds ArmyData for the higher license tests.",
+        "Clear the S/SS/SSS license requirements at the Official Center and complete outstanding requests. WWW Area 1 leads to PharaohMan; the deeper gates require stronger progress, including 200 library chips and the SSS License for the final WWW route. NapalmMan, PlanetMan and the stronger Bass encounters follow.",
+        "For all five stars: story clear, the deepest secret-boss clear, all 250 ordinary chips, every Program Advance, and the ten secret chips. Secret chips involve multiplayer/trading; do not promise a strictly solo 100% route. Hard mode is an optional separate challenge after the five-star unlock.",
+        "HubStyle requires S-ranking the relevant V3 Navis; the girl in ACDC park reports the checklist. It is not needed for Gospel or ordinary upgrades."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Set a recovery chip as REG for a long network trip, or choose an early compatible attack for quick virus battles. Change it before a boss if another opening is more useful.",
+        "Keep Guard * for Jim and ZapRing2 B for the ice-scenario contact. A chip’s letter matters when a request names one.",
+        "Use LocEnemy to seek the last virus or Navi you encountered; use Unlockers for purple data. These are ordinary Sub Chips, not modified saves or battle exploits."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN2.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN2)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · BN2 Styles",
+      "url": "https://www.therockmanexezone.com/wiki/Style_Change_(MMBN2)"
+    },
+    {
+      "title": "GameFAQs · WWW postgame and star checklist",
+      "url": "https://gamefaqs.gamespot.com/gba/561218-mega-man-battle-network-2/faqs/55333/post-game-scenario"
+    },
+    {
+      "title": "GameFAQs · ice scenario and cure sequence",
+      "url": "https://gamefaqs.gamespot.com/gba/561218-mega-man-battle-network-2/faqs/55333/scenario-7-civilization-destruction-plan"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "HP and memory checklist",
+      "count": 39,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Den Area 3 NetDealer (5000 z )</td></tr><tr><td>PowerUP</td><td>KotoSquare NetDealer (10000 z )</td></tr><tr><td>PowerUP</td><td>NetSquare NetDealer (10000 z )</td></tr><tr><td>PowerUP</td><td>UnderSquare NetDealer (20000 z )</td></tr><tr><td>PowerUP</td><td>UnderKoto NetDealer (20000 z )</td></tr><tr><td>PowerUP</td><td>Den Area 3 PMD</td></tr><tr><td>PowerUP</td><td>Bomb Comp 4 BMD</td></tr><tr><td>PowerUP</td><td>Castle Comp 4 BMD</td></tr><tr><td>PowerUP</td><td>Apartment Comp 3 BMD</td></tr><tr><td>SubMem</td><td>Undernet 3 PMD</td></tr><tr><td>SubMem</td><td>WWW Area 3 BMD (requires SSS License)</td></tr><tr><td>HPMemory</td><td>Den Area 1 NetDealer (1000 z )</td></tr><tr><td>HPMemory</td><td>Den Area 1 NetDealer (2000 z )</td></tr><tr><td>HPMemory</td><td>Den Area 3 NetDealer (3000 z )</td></tr><tr><td>HPMemory</td><td>Den Area 3 NetDealer (5000 z )</td></tr><tr><td>HPMemory</td><td>Den Area 3 NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>The Square NetDealer (2000 z )</td></tr><tr><td>HPMemory</td><td>The Square NetDealer (4000 z )</td></tr><tr><td>HPMemory</td><td>The Square NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>KotoSquare NetDealer (4000 z )</td></tr><tr><td>HPMemory</td><td>KotoSquare NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>KotoSquare NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>NetSquare NetDealer (8000 z )</td></tr><tr><td>HPMemory</td><td>NetSquare NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>NetSquare NetDealer (16000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 NetDealer (10000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 NetDealer (15000 z )</td></tr><tr><td>HPMemory</td><td>Undernet 1 NetDealer (20000 z )</td></tr><tr><td>HPMemory</td><td>UnderSquare NetDealer (12000 z )</td></tr><tr><td>HPMemory</td><td>UnderSquare NetDealer (16000 z )</td></tr><tr><td>HPMemory</td><td>UnderSquare NetDealer (20000 z )</td></tr><tr><td>HPMemory</td><td>UnderKoto NetDealer (15000 z )</td></tr><tr><td>HPMemory</td><td>UnderKoto NetDealer (20000 z )</td></tr><tr><td>HPMemory</td><td>UnderKoto NetDealer (30000 z )</td></tr><tr><td>HPMemory</td><td>Netopia 3 BMD</td></tr><tr><td>HPMemory</td><td>Undernet 2 BMD</td></tr><tr><td>RegUP1</td><td>Yumland 1 BMD</td></tr><tr><td>RegUP2</td><td>Undernet 1 BMD</td></tr><tr><td>RegUP2</td><td>Undernet 6 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-marine-harbor",
+      "name": "Marine Harbor",
+      "title": "HP and memory checklist",
+      "count": 11,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Marine Harbor upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Examine Dad's Lab white coat</td></tr><tr><td>PowerUP</td><td>Talk to hidden Mr. Prog in the real world Mother Computer room (middle of Ch. 8)</td></tr><tr><td>HPMemory</td><td>Mother Comp 1 BMD</td></tr><tr><td>HPMemory</td><td>Beat GateMan for the 1st time</td></tr><tr><td>RegUP1</td><td>Mother Comp 2 BMD</td></tr><tr><td>RegUP2</td><td>Mother Comp 5 BMD</td></tr><tr><td>RegUP1</td><td>Complete S License Test</td></tr><tr><td>RegUP1</td><td>Complete SS License Test</td></tr><tr><td>RegUP1</td><td>Complete SSS License Test</td></tr><tr><td>RegUP1</td><td>Coffee Machine Comp BMD</td></tr><tr><td>RegUP2</td><td>Monitor Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Job upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>PowerUP</td><td>Request Board &quot;Help research&quot;</td></tr><tr><td>HPMemory</td><td>Request Board &quot;At the cafe&quot;</td></tr><tr><td>HPMemory</td><td>Request Board &quot;Help reconcile us&quot;</td></tr><tr><td>RegUP1</td><td>Request Board &quot;Need help&quot;</td></tr><tr><td>RegUP2</td><td>Request Board &quot;For male pride&quot;</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-netopia",
+      "name": "Netopia",
+      "title": "HP and memory checklist",
+      "count": 8,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Netopia upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>Talk to hidden NPC by Netopia park trees (Ch. 8)</td></tr><tr><td>SubMem</td><td>Castle Comp 3 BMD</td></tr><tr><td>HPMemory</td><td>Castle Comp 1 BMD</td></tr><tr><td>HPMemory</td><td>Examine Hotel Room refrigerator</td></tr><tr><td>HPMemory</td><td>Beat the Quiz Master in Banquet Room (Ch. 7)</td></tr><tr><td>RegUP1</td><td>Castle Comp 3 BMD</td></tr><tr><td>RegUP2</td><td>Examine Underground trash bin</td></tr><tr><td>RegUP3</td><td>Beat the Quiz King in Arrow Room (Ch. 8)</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Story upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Request Board &quot;Mission3&quot;</td></tr><tr><td>Chip Selection System (4MB)</td><td>Complete Z License Test</td></tr><tr><td>RegUP1</td><td>Complete B License Test</td></tr><tr><td>RegUP1</td><td>Request Board &quot;Mission1&quot;</td></tr><tr><td>RegUP2</td><td>Complete A License Test</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-okuden-valley",
+      "name": "Okuden Valley",
+      "title": "HP and memory checklist",
+      "count": 6,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Okuden Valley upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Chip Trading (Camp Road 1 - Ch. 4)</td></tr><tr><td>HPMemory</td><td>Bomb Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Guardian Comp BMD</td></tr><tr><td>RegUP2</td><td>Bomb Comp 3 BMD</td></tr><tr><td>RegUP2</td><td>Talk to hidden NPC in Camp Road 2 (Ch. 8)</td></tr><tr><td>RegUP1</td><td>Bear Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town",
+      "title": "HP and memory checklist",
+      "count": 7,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"ACDC Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Gas Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Piano Comp BMD</td></tr><tr><td>HPMemory</td><td>Yai's HP BMD</td></tr><tr><td>RegUP1</td><td>Gas Comp 2 BMD</td></tr><tr><td>RegUP1</td><td>Piano Comp BMD</td></tr><tr><td>RegUP1</td><td>Telephone Comp BMD</td></tr><tr><td>RegUP1</td><td>Broken Toy Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-airplane",
+      "name": "Airplane",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Airplane upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Air Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Air Comp 4 BMD</td></tr><tr><td>HPMemory</td><td>Examine Business class curtains</td></tr><tr><td>RegUP1</td><td>Air Comp 1 BMD</td></tr><tr><td>RegUP2</td><td>Air Comp 4 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-kotobuki-town",
+      "name": "Kotobuki Town",
+      "title": "HP and memory checklist",
+      "count": 5,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Kotobuki Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Apartment Comp 2 BMD</td></tr><tr><td>HPMemory</td><td>Examine 9F west door</td></tr><tr><td>RegUP1</td><td>Apartment Comp 1 BMD</td></tr><tr><td>RegUP1</td><td>Gospel Server 1 BMD</td></tr><tr><td>RegUP3</td><td>Vending Machine Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-airport",
+      "name": "Airport",
+      "title": "HP and memory checklist",
+      "count": 2,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Airport upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HPMemory</td><td>Beat HeatMan for the 1st time</td></tr><tr><td>RegUP2</td><td>Examine Boarding (Netopia) postcard stand</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-marine-harbor",
+      "name": "Marine Harbor · upgrades"
+    },
+    {
+      "id": "inventory-job",
+      "name": "Job · upgrades"
+    },
+    {
+      "id": "inventory-netopia",
+      "name": "Netopia · upgrades"
+    },
+    {
+      "id": "inventory-story",
+      "name": "Story · upgrades"
+    },
+    {
+      "id": "inventory-okuden-valley",
+      "name": "Okuden Valley · upgrades"
+    },
+    {
+      "id": "inventory-acdc-town",
+      "name": "ACDC Town · upgrades"
+    },
+    {
+      "id": "inventory-airplane",
+      "name": "Airplane · upgrades"
+    },
+    {
+      "id": "inventory-kotobuki-town",
+      "name": "Kotobuki Town · upgrades"
+    },
+    {
+      "id": "inventory-airport",
+      "name": "Airport · upgrades"
+    }
+  ]
+}

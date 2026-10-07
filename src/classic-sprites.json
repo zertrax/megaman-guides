@@ -1,0 +1,663 @@
+{
+  "mm1": [
+    {
+      "name": "BombMan",
+      "src": "assets/classic-mm1-bombman.gif",
+      "width": 27,
+      "height": 33,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CutMan",
+      "src": "assets/classic-mm1-cutman.gif",
+      "width": 24,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ElecMan",
+      "src": "assets/classic-mm1-elecman.gif",
+      "width": 24,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "FireMan",
+      "src": "assets/classic-mm1-fireman.gif",
+      "width": 24,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GutsMan",
+      "src": "assets/classic-mm1-gutsman.gif",
+      "width": 31,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "IceMan",
+      "src": "assets/classic-mm1-iceman.gif",
+      "width": 24,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM1-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm2": [
+    {
+      "name": "AirMan",
+      "src": "assets/classic-mm2-airman.gif",
+      "width": 33,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "BubbleMan",
+      "src": "assets/classic-mm2-bubbleman.gif",
+      "width": 28,
+      "height": 26,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CrashMan",
+      "src": "assets/classic-mm2-crashman.gif",
+      "width": 29,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "FlashMan",
+      "src": "assets/classic-mm2-flashman.gif",
+      "width": 29,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "HeatMan",
+      "src": "assets/classic-mm2-heatman.gif",
+      "width": 30,
+      "height": 25,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "MetalMan",
+      "src": "assets/classic-mm2-metalman.gif",
+      "width": 24,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "QuickMan",
+      "src": "assets/classic-mm2-quickman.gif",
+      "width": 25,
+      "height": 26,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "WoodMan",
+      "src": "assets/classic-mm2-woodman.gif",
+      "width": 32,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm3": [
+    {
+      "name": "DocMan",
+      "src": "assets/classic-mm3-docman.gif",
+      "width": 31,
+      "height": 34,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GeminiMan",
+      "src": "assets/classic-mm3-geminiman.gif",
+      "width": 27,
+      "height": 27,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "HardMan",
+      "src": "assets/classic-mm3-hardman.gif",
+      "width": 36,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "MagnetMan",
+      "src": "assets/classic-mm3-magnetman.gif",
+      "width": 32,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "NeedleMan",
+      "src": "assets/classic-mm3-needleman.gif",
+      "width": 32,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ShadowMan",
+      "src": "assets/classic-mm3-shadowman.gif",
+      "width": 30,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SnakeMan",
+      "src": "assets/classic-mm3-snakeman.gif",
+      "width": 33,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SparkMan",
+      "src": "assets/classic-mm3-sparkman.gif",
+      "width": 30,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "TopMan",
+      "src": "assets/classic-mm3-topman.gif",
+      "width": 22,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM3-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm4": [
+    {
+      "name": "BrightMan",
+      "src": "assets/classic-mm4-brightman.gif",
+      "width": 30,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "DiveMan",
+      "src": "assets/classic-mm4-diveman.gif",
+      "width": 30,
+      "height": 37,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "DrillMan",
+      "src": "assets/classic-mm4-drillman.gif",
+      "width": 31,
+      "height": 33,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "DustMan",
+      "src": "assets/classic-mm4-dustman.gif",
+      "width": 35,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "PharaohMan",
+      "src": "assets/classic-mm4-pharaohman.gif",
+      "width": 28,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "RingMan",
+      "src": "assets/classic-mm4-ringman.gif",
+      "width": 27,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SkullMan",
+      "src": "assets/classic-mm4-skullman.gif",
+      "width": 27,
+      "height": 27,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ToadMan",
+      "src": "assets/classic-mm4-toadman.gif",
+      "width": 45,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM4-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm5": [
+    {
+      "name": "DarkMan",
+      "src": "assets/classic-mm5-darkman.gif",
+      "width": 33,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ChargeMan",
+      "src": "assets/classic-mm5-chargeman.gif",
+      "width": 28,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CrystalMan",
+      "src": "assets/classic-mm5-crystalman.gif",
+      "width": 28,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GravityMan",
+      "src": "assets/classic-mm5-gravityman.gif",
+      "width": 32,
+      "height": 36,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GyroMan",
+      "src": "assets/classic-mm5-gyroman.gif",
+      "width": 28,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "NapalmMan",
+      "src": "assets/classic-mm5-napalmman.gif",
+      "width": 39,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "StarMan",
+      "src": "assets/classic-mm5-starman.gif",
+      "width": 28,
+      "height": 34,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "StoneMan",
+      "src": "assets/classic-mm5-stoneman.gif",
+      "width": 44,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "WaveMan",
+      "src": "assets/classic-mm5-waveman.gif",
+      "width": 30,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM5-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm6": [
+    {
+      "name": "BlizzardMan",
+      "src": "assets/classic-mm6-blizzardman.gif",
+      "width": 38,
+      "height": 40,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CentaurMan",
+      "src": "assets/classic-mm6-centaurman.gif",
+      "width": 34,
+      "height": 42,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "FlameMan",
+      "src": "assets/classic-mm6-flameman.gif",
+      "width": 29,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "KnightMan",
+      "src": "assets/classic-mm6-knightman.gif",
+      "width": 32,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "PlantMan",
+      "src": "assets/classic-mm6-plantman.gif",
+      "width": 28,
+      "height": 36,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "TomahawkMan",
+      "src": "assets/classic-mm6-tomahawkman.gif",
+      "width": 30,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "WindMan",
+      "src": "assets/classic-mm6-windman.gif",
+      "width": 32,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "YamatoMan",
+      "src": "assets/classic-mm6-yamatoman.gif",
+      "width": 32,
+      "height": 37,
+      "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm7": [
+    {
+      "name": "BurstMan",
+      "src": "assets/classic-mm7-burstman.gif",
+      "width": 27,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CloudMan",
+      "src": "assets/classic-mm7-cloudman.gif",
+      "width": 31,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "FreezeMan",
+      "src": "assets/classic-mm7-freezeman.gif",
+      "width": 27,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "JunkMan",
+      "src": "assets/classic-mm7-junkman.gif",
+      "width": 29,
+      "height": 42,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ShadeMan",
+      "src": "assets/classic-mm7-shademan.gif",
+      "width": 37,
+      "height": 37,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SlashMan",
+      "src": "assets/classic-mm7-slashman.gif",
+      "width": 31,
+      "height": 27,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SpringMan",
+      "src": "assets/classic-mm7-springman.gif",
+      "width": 26,
+      "height": 35,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "TurboMan",
+      "src": "assets/classic-mm7-turboman.gif",
+      "width": 26,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM7-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm8": [
+    {
+      "name": "AquaMan",
+      "src": "assets/classic-mm8-aquaman.gif",
+      "width": 32,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "AstroMan",
+      "src": "assets/classic-mm8-astroman.gif",
+      "width": 41,
+      "height": 40,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ClownMan",
+      "src": "assets/classic-mm8-clownman.gif",
+      "width": 41,
+      "height": 24,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "FrostMan",
+      "src": "assets/classic-mm8-frostman.gif",
+      "width": 48,
+      "height": 39,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GrenadeMan",
+      "src": "assets/classic-mm8-grenademan.gif",
+      "width": 33,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SearchMan",
+      "src": "assets/classic-mm8-searchman.gif",
+      "width": 39,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SwordMan",
+      "src": "assets/classic-mm8-swordman.gif",
+      "width": 41,
+      "height": 43,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "TenguMan",
+      "src": "assets/classic-mm8-tenguman.gif",
+      "width": 36,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm9": [
+    {
+      "name": "ConcreteMan",
+      "src": "assets/classic-mm9-concreteman.gif",
+      "width": 43,
+      "height": 34,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "GalaxyMan",
+      "src": "assets/classic-mm9-galaxyman.gif",
+      "width": 41,
+      "height": 36,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "HornetMan",
+      "src": "assets/classic-mm9-hornetman.gif",
+      "width": 48,
+      "height": 36,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "JewelMan",
+      "src": "assets/classic-mm9-jewelman.gif",
+      "width": 40,
+      "height": 36,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "MagmaMan",
+      "src": "assets/classic-mm9-magmaman.gif",
+      "width": 53,
+      "height": 32,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "PlugMan",
+      "src": "assets/classic-mm9-plugman.gif",
+      "width": 45,
+      "height": 40,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SplashWoman",
+      "src": "assets/classic-mm9-splashwoman.gif",
+      "width": 49,
+      "height": 58,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "TornadoMan",
+      "src": "assets/classic-mm9-tornadoman.gif",
+      "width": 38,
+      "height": 30,
+      "source": "https://www.mmhp.net/GameHints/MM9-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm10": [
+    {
+      "name": "BladeMan",
+      "src": "assets/classic-mm10-blademan.gif",
+      "width": 46,
+      "height": 41,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "ChillMan",
+      "src": "assets/classic-mm10-chillman.gif",
+      "width": 32,
+      "height": 31,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "CommandoMan",
+      "src": "assets/classic-mm10-commandoman.gif",
+      "width": 45,
+      "height": 51,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "NitroMan",
+      "src": "assets/classic-mm10-nitroman.gif",
+      "width": 31,
+      "height": 28,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "PumpMan",
+      "src": "assets/classic-mm10-pumpman.gif",
+      "width": 41,
+      "height": 38,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SheepMan",
+      "src": "assets/classic-mm10-sheepman.gif",
+      "width": 29,
+      "height": 27,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "SolarMan",
+      "src": "assets/classic-mm10-solarman.gif",
+      "width": 34,
+      "height": 42,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    },
+    {
+      "name": "StrikeMan",
+      "src": "assets/classic-mm10-strikeman.gif",
+      "width": 32,
+      "height": 29,
+      "source": "https://www.mmhp.net/GameHints/MM10-Data.html",
+      "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+    }
+  ],
+  "mm11": []
+}

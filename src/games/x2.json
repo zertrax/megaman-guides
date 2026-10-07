@@ -3,7 +3,7 @@
   "id": "x2",
   "title": "Mega Man X2",
   "subtitle": "SNES · Original game",
-  "intro": "A clear route through every boss, armor capsule, Heart Tank and Sub Tank. Pick your path, then keep the guide beside your game.",
+  "intro": "Follow the boss order, collect armor, hearts and Sub Tanks, and decide whether to restore Zero before the detour closes.",
   "expectedCounts": {
     "heart": 8,
     "tank": 4,
@@ -251,25 +251,6 @@
       "tip": "Use Speed Burner on both the hanging cocoon and the flying moth. Move away from falling debris; fire when he is within reach.",
       "items": [
         {
-          "id": "moth-heart",
-          "type": "heart",
-          "name": "Heart Tank",
-          "need": "Crystal Hunter",
-          "when": "Return after Crystal Snail",
-          "text": "Before the building entrance, knock aside the shield robot’s shield, then freeze the robot with Crystal Hunter. Stand on the crystal, dash-jump right to the building’s upper wall, and climb to the heart.",
-          "media": [
-            {
-              "src": "assets/moth-heart.jpg",
-              "width": 640,
-              "height": 480,
-              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/687.html",
-              "original": "https://www.honestgamers.com/guides/10/21054/31/moth(3).jpg",
-              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
-            }
-          ],
-          "timing": "return"
-        },
-        {
           "id": "moth-body",
           "type": "armor",
           "name": "Body Parts",
@@ -288,6 +269,25 @@
             }
           ],
           "timing": "first"
+        },
+        {
+          "id": "moth-heart",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Crystal Hunter",
+          "when": "Return after Crystal Snail",
+          "text": "Before the building entrance, knock aside the shield robot’s shield, then freeze the robot with Crystal Hunter. Stand on the crystal, dash-jump right to the building’s upper wall, and climb to the heart.",
+          "media": [
+            {
+              "src": "assets/moth-heart.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x2/31/read/687.html",
+              "original": "https://www.honestgamers.com/guides/10/21054/31/moth(3).jpg",
+              "credit": "Screenshot: HonestGamers · Game imagery © Capcom."
+            }
+          ],
+          "timing": "return"
         }
       ],
       "weakness": "Speed Burner",
@@ -760,5 +760,16 @@
   "routeIntro": "Both paths can collect every armor part, heart and Sub Tank. The difference is the Zero detour and the final encounter.",
   "flowIntro": "Read from 01 to 08. Each reward is the next boss’s weakness. Start Wire Sponge with the X-Buster; use Sonic Slicer in his rematch.",
   "basicsHtml": "<summary>Before you start: movement, charging and saving</summary><ul><li>Ground dash is available from the start. Leg Parts add air dash: jump normally, then press Dash.</li><li>Charged special weapons require Arm Parts. Hold Fire with that weapon selected, then release.</li><li>“Need” describes the method shown; advanced tricks can bypass some requirements.</li><li>Permanent pickups survive death. On completed stages, use Exit from the pause menu. Record your password before ending a session.</li><li>Fill Sub Tanks by collecting health at full life; use them from the pause menu. <a href=\"#silk-refill\">Fast refill: Bubble Crab + charged Silk Shot.</a></li></ul>",
-  "sourcesHtml": "<p>Pickup screenshots by <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/\" target=\"_blank\" rel=\"noopener\">HonestGamers</a> contributors, shown with their source links. These screenshots were made by someone else; they are not original captures for this guide. Game artwork and sprites © Capcom.</p><p>Boss sprites: <a href=\"https://megaman.retropixel.net/mmx/2/sprites.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ / RetroPixel</a>. Static frames preserve the original pixel art without continuous animation.</p><p>Route and movement cross-checks: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">MMHP</a>, <a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ</a>, and the stage-specific HonestGamers references. This guide is for the original Mega Man X2.</p><p>X-Hunter entrance frames: <a href=\"https://www.youtube.com/watch?v=7DorArmLbIg\" target=\"_blank\" rel=\"noopener\">PrimeraEspada91 — All X Hunters Gate Locations</a>. These are frames from another creator’s gameplay, with the complete game scene preserved. Timestamped credits appear below.</p><p>Refill tips: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\">MMHP · General Tips</a>. Ride Armor hover technique: <a href=\"https://strategywiki.org/wiki/Mega_Man_X2/Energen_Crystal\">StrategyWiki · Energen Crystal</a>, cross-checked with the player’s movement correction.</p>"
+  "sourcesHtml": "<p>Pickup screenshots by <a href=\"https://www.honestgamers.com/guides/mega-man-x2/31/\" target=\"_blank\" rel=\"noopener\">HonestGamers</a> contributors, shown with their source links. These screenshots were made by someone else; they are not original captures for this guide. Game artwork and sprites © Capcom.</p><p>Boss sprites: <a href=\"https://megaman.retropixel.net/mmx/2/sprites.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ / RetroPixel</a>. Static frames preserve the original pixel art without continuous animation.</p><p>Route and movement cross-checks: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\" target=\"_blank\" rel=\"noopener\">MMHP</a>, <a href=\"https://megaman.retropixel.net/mmx/2/bosses.php\" target=\"_blank\" rel=\"noopener\">Mega Man XZ</a>, and the stage-specific HonestGamers references. This guide is for the original Mega Man X2.</p><p>X-Hunter entrance frames: <a href=\"https://www.youtube.com/watch?v=7DorArmLbIg\" target=\"_blank\" rel=\"noopener\">PrimeraEspada91 — All X Hunters Gate Locations</a>. These are frames from another creator’s gameplay, with the complete game scene preserved. Timestamped credits appear below.</p><p>Refill tips: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\">MMHP · General Tips</a>. Ride Armor hover technique: <a href=\"https://strategywiki.org/wiki/Mega_Man_X2/Energen_Crystal\">StrategyWiki · Energen Crystal</a>, cross-checked with the player’s movement correction.</p><p>Starting mechanics: <a href=\"https://www.mmhp.net/GameHints/MMX2.html\">MMHP · game systems and upgrades</a>.</p>",
+  "heroLinks": [
+    {
+      "href": "#start-here",
+      "text": "First time? Start here"
+    },
+    {
+      "href": "#boss-flow",
+      "text": "Continue to the boss route"
+    }
+  ],
+  "startHereHtml": "<section id=\"start-here\"><div class=\"section-head\"><h2>First time playing X2?</h2><span class=\"eyebrow\">What to know before the route</span></div><p class=\"primer-lead\">X keeps his ground dash from the first game. The new armor adds air movement, charged weapons and a Giga Crush attack. Collect hearts and fill Sub Tanks as you follow the boss order.</p><p>Restoring Zero is a separate, optional objective. It changes a late encounter, but is not needed to finish the game. If you want all three Zero parts, stop after Wheel Gator and take the detour before defeating another Maverick.</p><dl class=\"armor-benefits\"><div><dt>Legs</dt><dd>Add a horizontal air dash. Jump normally before pressing Dash.</dd></div><div><dt>Arms</dt><dd>Allow charged special weapons and a second charged Buster shot. Several return pickups need them.</dd></div><div><dt>Body</dt><dd>Reduce damage and add Giga Crush, which builds energy when X takes projectile hits.</dd></div><div><dt>Head</dt><dd>Add a scanner for hidden passages and objects.</dd></div></dl><p>Sub Tanks hold reserve health. Bubble Crab’s hidden refill room provides health with charged Silk Shot once you have the Arm Parts.</p><p class=\"muted primer-note\">Heart Tanks increase maximum health. Fill Sub Tanks by collecting health while your life bar is full, then use them from the pause menu.</p></section>"
 }

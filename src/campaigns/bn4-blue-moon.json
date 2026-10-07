@@ -1,0 +1,385 @@
+{
+  "id": "bn4-blue-moon",
+  "series": "network",
+  "networkGame": 4,
+  "displayId": "BN4 · BLUE MOON",
+  "title": "Mega Man Battle Network 4 · Blue Moon",
+  "collection": "Battle Network Legacy Collection · Vol. 2",
+  "intro": "Follow the story, strengthen your folder and find the health, memory and utility upgrades before the final battles.",
+  "libraryIntro": "Tournament branches, six Souls over repeated runs, and every HP/memory upgrade.",
+  "facts": [
+    "Story order · real-time chip battles",
+    "Blue Moon"
+  ],
+  "routeLabel": "Story route",
+  "flowLabel": "Chapter overview",
+  "returnLabel": "Upgrade locations",
+  "strategyLabel": "Boss / preparation",
+  "rewardLabel": "Next checkpoint",
+  "flowColumnLabel": "Continue to",
+  "primer": [
+    "Lan explores the real world; MegaMan explores the network. Examine electronic devices and jack in when the story or a side path requires it. If you are stuck, use the talk-to-partner button, read new mail, and speak to the named person again.",
+    "Battles happen in real time on a panel grid. The Custom Screen pauses the action while you choose chips. Select copies of the same chip or chips with the same letter code in one turn. Order matters: MegaMan uses them in the order selected.",
+    "Your Folder must contain 30 chips. Begin with one or two main codes, reliable attacks and a few defensive chips. A smaller set of compatible codes is often more useful than 30 unrelated powerful attacks. Empty a weak chip from the folder when you add its replacement.",
+    "There is no experience-level grind. HPMemory increases maximum health; equipment and your folder provide the other improvements. Save before bosses and before trading chips. Chip Traders consume the chips you put in, and later games save the transaction.",
+    "Soul Unison replaces Styles. Offer a compatible chip at the Custom Screen to use an earned Soul for three turns; the Regular Chip cannot be the offering. Each Soul can be used once per battle. Blue Moon’s six are Aqua, Number, Wood, Metal, Proto and Junk.",
+    "A chip hit during an enemy’s counter window grants Full Synchro. It doubles the next chip attack and highlights further counter windows. Ordinary Buster shots do not trigger it. Being hit removes the state.",
+    "BN4 removes ADD. Keep the folder’s codes tight so the Custom Screen offers useful combinations. If Mystery Data appears in battle, protect it from both enemy and friendly attacks to collect it after winning.",
+    "Tournaments have variable opponents, each with a different scenario. Follow the board’s named opponent. There is no single eight-boss order, and you cannot collect all six Souls on the first clear."
+  ],
+  "features": [
+    [
+      "Normal route",
+      "One story clear through three tournaments and Duo. Collect reachable upgrades and learn the Souls actually awarded on this run."
+    ],
+    [
+      "Completion route",
+      "Continue the same save through New Game+, keeping its earned Souls and upgrades. Enemy tiers and replacement data change by run; use the inventory’s Run column."
+    ]
+  ],
+  "warning": {
+    "label": "Plan this before your first clear",
+    "title": "Six Souls require at least three playthroughs.",
+    "text": "Your version awards three new Souls on run 1, two on run 2 and the last on run 3. Check blue and purple data before choosing New Game+; leaving it unopened postpones later rewards. Voluntary DarkChip use permanently removes 1 maximum HP per battle and turns MegaMan dark. The forced ShadeMan use is an exception."
+  },
+  "routeIntro": "These chapters follow the story’s fixed order. Optional Navi rematches and collection goals come afterward; they are not a selectable boss chain.",
+  "route": [
+    "Play the chapters below in order. Buy early HPMemory before spending your spare zenny on random chips.",
+    "Visit side devices as each area opens. The grouped inventory below lists every ordinary permanent HP and memory upgrade.",
+    "Before the final sequence, save, refill health and choose a folder that can damage the final boss. Reload the clear-marked save for postgame."
+  ],
+  "stages": [
+    {
+      "id": "tower-incident",
+      "name": "Tower incident",
+      "area": "ACDC → ElecTown",
+      "weakness": "ShadeMan · scripted opening",
+      "reward": "Den / City Battle",
+      "tip": "Finish the homepage tutorial and accompany Dad to Jomon Electric. Investigate the crowd and sound tower in ElecTown Square, then enter ElTwrComp. Reach ShadeMan and follow the forced story sequence; ordinary attacks are ineffective at this encounter.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "first-tournament",
+      "name": "First tournament",
+      "area": "DenDome",
+      "weakness": "Aqua / Number + shared opponents",
+      "reward": "Park access",
+      "tip": "Collect the two GoldBugs: ACDC park’s tree and Yai’s teddy bear. Register at DenDome, read the opponent board and use the First tournament scenarios section below. There are three arena rounds; the bracket, not this guide, decides their opponents.",
+      "notes": [],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "nebula-and-castillo",
+      "name": "Nebula and Castillo",
+      "area": "Town 3 → Park network",
+      "weakness": "ShadeMan · story DarkChip",
+      "reward": "Eagle / Hawk Tournament",
+      "tip": "Meet Mayl, clear the Town 3 official’s survival test and respond to the alarm at home. Defeat the Park-gate blocker and decode his letters in numbered order. At Castillo, get the food-stand P-Code, repair Park 3’s control panel, then stop the four ToyRobo computers.",
+      "notes": [
+        "Toy story pieces: 1 Mirror → Big Tree → MightyBl; 2 WzMonkey → MagicSel → GoodNose + Scratch; 3 War + Emotion → Bird + Dance → ToyPart; 4 GunSol + CrmScarf → Otenko → Sunlight → Apple → Skylight + Taiyohh. Use the stop switch in each.",
+        "The forced DarkChip use against ShadeMan does not reduce maximum HP. Later voluntary DarkChip use does; do not treat the tutorial as permission to use them without a cost."
+      ],
+      "now": "NaviCustomizer · Expansion Memory 1 · Castillo Sub Memory",
+      "items": [
+        {
+          "name": "NaviCustomizer",
+          "text": "Read Dad’s mail before entering Castillo. Follow the tutorial; RUN after editing. BN4 permits four part colors and has no BN3 ModTools compatibility system.",
+          "need": "Castillo story progress",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "nebula-and-castillo-navicustomizer"
+        },
+        {
+          "name": "Expansion Memory 1",
+          "text": "Open the blue data in Hero Statue Comp. The ordinary expansion appears on the first playthrough.",
+          "need": "Run 1",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "nebula-and-castillo-expansion-memory-1"
+        },
+        {
+          "name": "Castillo Sub Memory",
+          "text": "Open Ticket Comp’s blue data on the first playthrough.",
+          "need": "Run 1",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "nebula-and-castillo-castillo-sub-memory"
+        }
+      ]
+    },
+    {
+      "id": "second-tournament",
+      "name": "Second tournament",
+      "area": "Castillo castle",
+      "weakness": "Wood / Metal + shared opponents",
+      "reward": "Netopia trip",
+      "tip": "Collect 50 BattlePoints, counting the one given at registration. High-value tasks: Dracky’s ToyRobo4 Navi = 10; DenDome machine’s rock-paper-scissors program = 5; Town 2 orange Navi for Cannon C = 5; ACDC 3 Navi for 3000z = 4; Castillo ice-cream computer’s purple Navi battle = 4. Fill the rest by examining park displays, shops and speaking to hidden people. Read the castle board and use the Second tournament scenarios.",
+      "notes": [
+        "After the final round, a DS Navi attacks. It copies equipped NaviCust abilities, so barriers and similar programs also affect the opponent."
+      ],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "world-tournament",
+      "name": "World tournament",
+      "area": "Netopia / country networks",
+      "weakness": "Proto / Junk + shared opponents",
+      "reward": "NAXA",
+      "tip": "Accept NetPassport from the waterside man, then talk to everyone before advancing. In the hotel computer, obtain the P-Code and all four nearby KeyData; each data fight must be cleared. Register by inspecting the coliseum wall carving. Use the World tournament scenarios for the opponent on the board.",
+      "notes": [],
+      "now": "C-Slider · Expansion Memory 2 · NetFrica Sub Memory",
+      "items": [
+        {
+          "name": "C-Slider",
+          "text": "Speak to the Sharo Navi beside the Undernet rail first. Buy the parts from lower Town 2, lower Town 3 reached through Park 1, and the Yumland Navi beneath the blue ledge. Meet the Sharo Slider Master behind the 500HP door via Netopia; she assembles them.",
+          "need": "World networks + 500 base HP",
+          "extra": "C-Slider crosses rails and is rebuilt in each New Game+ cycle.",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "world-tournament-c-slider"
+        },
+        {
+          "name": "Expansion Memory 2",
+          "text": "Open Undernet 2’s blue data during the first playthrough.",
+          "need": "Run 1 + Undernet access",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "world-tournament-expansion-memory-2"
+        },
+        {
+          "name": "NetFrica Sub Memory",
+          "text": "Open blue data in Nupopo Comp during the first playthrough.",
+          "need": "Run 1 + NetFrica access",
+          "extra": "",
+          "timing": "first",
+          "when": "During the chapter, or return if missed",
+          "media": [],
+          "id": "world-tournament-netfrica-sub-memory"
+        }
+      ]
+    },
+    {
+      "id": "asteroid-preparation",
+      "name": "Asteroid preparation",
+      "area": "NAXA → international networks",
+      "weakness": "Virus survival battles",
+      "reward": "Meteor computer",
+      "tip": "At NAXA, talk to the scientists and take the country trips. In Sharo, NetFrica and Yumland, remove the devices at every network exit; Yumland has two. Return to Netopia’s official by the Sharo slope. Use TownKyDt at lower Town 2, follow Town 4 → Undernet 1 → 2 → Park 1’s formerly blocked platform, collect its data and fight the HeelNavi. Return to NAXA.",
+      "notes": [
+        "Before New Game+, open the available blue and purple data listed for this run. Uncollected data survives into the next cycle, delaying the later replacement rewards and possibly adding another full playthrough."
+      ],
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "meteor-and-duo",
+      "name": "Meteor and Duo",
+      "area": "Meteor Comp 1–4",
+      "weakness": "LaserMan → MegaManDS → Duo",
+      "reward": "Clear save / New Game+",
+      "tip": "Trigger the numbered sphere panels in ascending order in each Meteor area. Collect the side data and save before the warp beyond LaserMan; saving is disabled afterward. Prepare a normal-chip folder for MegaManDS and Duo. Aim at Duo’s elevated chest when it opens; ground-travelling attacks cannot reach it.",
+      "notes": [
+        "Duo rejects DarkChips. Keep attacks that can reach the central elevated target, recovery and movement space. Do not rebuild a folder around DarkChips just before the final sequence."
+      ],
+      "now": "",
+      "items": []
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Open one destination to see all of its HP, Regular Memory and Sub Memory upgrades together. BMD means blue Mystery Data; PMD means purple data and needs an Unlocker. FMD is fixed data in BN1. A merchant’s listed prices are separate stock purchases, not a repeatable reward.",
+  "completionText": "All 45 ordinary HPMemory items bring base maximum health to 1000. Sub Memory raises Sub Chip carrying capacity; Regular UP raises the MB limit for the guaranteed opening chip. NaviCust HP programs add temporary equipped health above the base.",
+  "sections": [
+    {
+      "id": "folder",
+      "title": "Build a useful folder",
+      "html": "<p>Start with attacks you can line up reliably: Cannons for the row ahead, Vulcan for a lined-up target, and swords for enemies close to your front panel. Keep recovery and Invis alongside them while learning movement. Replace these attacks as stronger same-code options arrive.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Build a useful folder\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Tool</th><th scope=\"col\">How to use it</th></tr></thead><tbody><tr><td>Compatible codes</td><td>The * code works with any letter. Use * support chips to keep turns flowing.</td></tr><tr><td>AreaGrab</td><td>Moves your front line forward and brings swords into reach. Do not stand on the front column without a reason.</td></tr><tr><td>Invis / Guard</td><td>Protects a vulnerable approach. Invis does not protect from every attack; piercing attacks can still hit.</td></tr><tr><td>Program Advance</td><td>Select Sword → WideSwrd → LongSwrd with the same letter code, in that order, for LifeSwrd. The combo replaces those chips for the turn.</td></tr><tr><td>Regular Chip</td><td>Set a useful chip as REG in Folder Edit. It is guaranteed in the opening selection if its MB fits your Regular Memory.</td></tr><tr><td>Elements</td><td>Fire → Wood → Elec → Aqua → Fire. A weakness doubles damage. Fire also burns grass panels, and electricity is dangerous on ice.</td></tr></tbody></table></div><p>Chips spent during a battle return afterward. They are not consumed from your pack, except for explicit trades and a few story systems that say they consume them. Download Chips and Buster MAX are optional collection aids; build the ordinary folder first if you want to learn the original combat.</p>"
+    },
+    {
+      "id": "tournament-one",
+      "title": "First tournament scenarios",
+      "html": "<p>Use the entry matching the opponent on your tournament board. Each round has a short scenario before the arena fight.</p><details class=\"return-level\" id=\"tournament-one-scenario-1\"><summary><strong>Ponta · ghosts</strong></summary><div class=\"return-inventory\"><p>Speak to Yuko’s father at Lan’s house. Search when the detector turns red: ACDC 1 by the skull gate; ACDC 2 by the dealer and upper-right branch; ACDC 3 upper-right; Town 1 upper-right and by the green door; Town 2 above the left locked door; Town 3 before the Park gate. Remove the four hostile ghosts to advance. The others give extra rewards.</p></div></details><details class=\"return-level\" id=\"tournament-one-scenario-2\"><summary><strong>Tetsu · gang</strong></summary><div class=\"return-inventory\"><p>Meet Tetsu in ElecTown Square, then enter the newly opened group of HeelNavis in Town 3 by the dealer. Fight each blockade and each three-Navi group. Return to DenDome after Tetsu handles the leaders.</p></div></details><details class=\"return-level\" id=\"tournament-one-scenario-3\"><summary><strong>SparkMan · locked folder</strong></summary><div class=\"return-inventory\"><p>Visit the repairman, then the girl near Jomon Electric and the old man around the corner. Keep the replacement folder until you solve his count-based locks. In English, the starting clues Town NetDealers / Jomon / LCD Mr.Progs produce 1563546 / 7374262 / 9651345. Japanese uses 1863546 / 7374262 / 9681345. Use the clue’s starting point, not a random code from this list.</p></div></details><details class=\"return-level\" id=\"tournament-one-scenario-4\"><summary><strong>TopMan · club trials</strong></summary><div class=\"return-inventory\"><p>Stop the top’s virus and return it to Tensuke outside Jomon. Speak to the ACDC park club, then its Navis: Town 1 by Higsby’s gate = Footsteps; Town 2 upper path = Sun; Town 2 lower gate = Iceberg; Town 3 upper ledge = Son. Visit the ACDC 1 chief, return to ElecTown Square, then speak to the chief’s Navi again.</p></div></details><details class=\"return-level\" id=\"tournament-one-scenario-5\"><summary><strong>AquaMan · flooded Net</strong></summary><div class=\"return-inventory\"><p>Use homepages or jack out to refill CybCanst. Chase AquaMan from Town 2’s upper-right circular platform to ACDC 2. Speak to Shuko’s brother in DenDome, find Shuko in ElecTown, then use her key to reach AquaMan.</p></div></details><details class=\"return-level\" id=\"tournament-one-scenario-6\"><summary><strong>NumberMan · shop rescue</strong></summary><div class=\"return-inventory\"><p>Distribute at least ten of Higsby’s twenty flyers to programs/Navis in small devices and the Net. Report to Nanako, find NumberMan behind Town 1’s Higsby gate, and return for the key. Read each puzzle as a pattern rather than ordinary arithmetic: XYX with X=3 and Y=4 is 343; August/May/April is 845; 147/258 continues with 369. Report to Nanako again before the fight.</p></div></details>"
+    },
+    {
+      "id": "tournament-two",
+      "title": "Second tournament scenarios",
+      "html": "<p>Use the entry matching the opponent on your tournament board. Each round has a short scenario before the arena fight.</p><details class=\"return-level\" id=\"tournament-two-scenario-1\"><summary><strong>Flave · cooking</strong></summary><div class=\"return-inventory\"><p>Follow Flave to MelSquare, then open the Park 2 chef gate. Complete the rhythm lesson, get ingredients from the dark Navi by the Park 3 control panel, and return for the cooking contest. A failed contest can be retried; it is not a permanent loss.</p></div></details><details class=\"return-level\" id=\"tournament-two-scenario-2\"><summary><strong>Crusher · rescue</strong></summary><div class=\"return-inventory\"><p>Follow Riki’s scenes in MelSquare, then jack into the cart. Wait for each guard to turn away before crossing its line of sight. Reach the Park 3 control panel, defeat the rescue battle and speak to Riki before returning to the castle.</p></div></details><details class=\"return-level\" id=\"tournament-two-scenario-3\"><summary><strong>VideoMan · tapes</strong></summary><div class=\"return-inventory\"><p>Your walking directions are reversed; battle controls remain normal. Retrieve the three tapes in Park 3, Town 2 and ACDC 2. Avoid rewind panels, which send you back to the area entrance.</p></div></details><details class=\"return-level\" id=\"tournament-two-scenario-4\"><summary><strong>BurnMan · fires</strong></summary><div class=\"return-inventory\"><p>Read Mom’s mail, visit her, then enter Lan’s PC for the fire scene. Get FireBstr from Higsby. Charge its gauge before each fire group; a weak charge costs health. Clear the ACDC fires, return to Castillo and clear the Park fires through the Park 3 control panel.</p></div></details><details class=\"return-level\" id=\"tournament-two-scenario-5\"><summary><strong>WoodMan · tree protest</strong></summary><div class=\"return-inventory\"><p>Speak to Sal in ACDC park, ElecTown Square and DenDome’s contestant arena. Fight the suspicious Navi, then meet Sal at Castillo. Enter the food stand and follow WoodMan to Park 3. Cross each tower tile just after the tower drops; report to Sal.</p></div></details><details class=\"return-level\" id=\"tournament-two-scenario-6\"><summary><strong>MetalMan · boulders</strong></summary><div class=\"return-inventory\"><p>Use Tamako’s GateData at the lower-left Town 2 gate. Buy CybrJrky from Park 1’s green Navi for 500z; trade Spreader L to Park 2’s purple Navi for VirusCln. Return to the master, time the meter hits and break three training boulders. Beat MetalMan’s boulder score three times in Castillo’s cart before the arena match.</p></div></details>"
+    },
+    {
+      "id": "tournament-world",
+      "title": "World tournament scenarios",
+      "html": "<p>Use the entry matching the opponent on your tournament board. Each round has a short scenario before the arena fight.</p><details class=\"return-level\" id=\"tournament-world-scenario-1\"><summary><strong>Paulie · water festival</strong></summary><div class=\"return-inventory\"><p>Get the NetFrica code through Nupopo’s survival test. Join the statue hunt, find the statue on Sharo’s right-hand walkway platform and return it. Quiz answers: 4 houses, 2 tusks, Boomer1 power 60, green clothes, 22 circles. In WaterGod Comp, follow areas 1 → 6 → 4 → 13 → 10 → 8 → 16 using blue, green, blue, pink, blue, pink warps. Explore side branches before the control panel if you want their data.</p></div></details><details class=\"return-level\" id=\"tournament-world-scenario-2\"><summary><strong>Jack · Footbomb</strong></summary><div class=\"return-inventory\"><p>Meet Jack and learn Footbomb in Netopia. Use the direction shown for each ball and time the return hit; practice until you pass the training, then win the match before returning to the coliseum. This minigame is required for Jack’s scenario, not for every possible bracket.</p></div></details><details class=\"return-level\" id=\"tournament-world-scenario-3\"><summary><strong>ColdMan · frozen Sharo</strong></summary><div class=\"return-inventory\"><p>Meet ColdMan on Netopia’s Sharo path, visit the real Sharo Space Center and get the shovel from a house. Clear snow at all four antennas. Keep these in your Pack: FlmLine1 F, HeatShot C, HeatBrth K and BlkBomb Z. They activate the torches without being consumed. Fldr2 supplies the first two; buy HeatBrth K in Netopia and open the Sharo purple data for BlkBomb Z. Warm up inside the Space Center before the temperature disables chip use.</p></div></details><details class=\"return-level\" id=\"tournament-world-scenario-4\"><summary><strong>KendoMan · training</strong></summary><div class=\"return-inventory\"><p>Reach KendoMan beyond NetFrica’s conveyor loop. Use CybrSwrd at the training machines in Yumland, Sharo and Netopia. Match the displayed direction with the action button; clear each set, then return to KendoMan and complete his final lesson before the coliseum fight.</p></div></details><details class=\"return-level\" id=\"tournament-world-scenario-5\"><summary><strong>ProtoMan · Undernet keys</strong></summary><div class=\"return-inventory\"><p>Build C-Slider. Undernet 1 RedKey: center of four bones, lower-left. Undernet 2 BlueKey: right corner of the large left square; GreenKey: beside the up-left conveyor’s resisting end. Undernet 3 YellowKey: fifth bone of the right row; WhiteKey: lower-left bone-row corner; BlackKey: lower-left corner of the two-warp platform reached from the central spiral. Follow the door route to Undernet 6, then win the five-round rescue.</p></div></details><details class=\"return-level\" id=\"tournament-world-scenario-6\"><summary><strong>JunkMan · possession</strong></summary><div class=\"return-inventory\"><p>Get YumLandC by donating 6000z to the purple Navi in the statue computer. Take TrashKey from the Navi beside Yumland’s rubbish gate and follow the scene. Keep using the partner-talk button until Lan identifies the possession. Re-enter, inspect and clear each rubbish pile despite the confusion effect, then return to the coliseum.</p></div></details>"
+    },
+    {
+      "id": "djangos-quest",
+      "title": "Optional · Django and the skull doors",
+      "paragraphs": [
+        "Visit Django beside the coffin in Undernet 4. Hear the clue in Undernet 2 and buy SolarSensor from the dark Navi in Undernet 6 for 10,000z. Return while jacked in from an outdoor device, such as Jomon’s outside television, so the sunlight event can proceed. Inspect the coffin after the event for NebulaCd.",
+        "NebulaCd opens skull doors. ACDC 1’s skull-gated data contains BugStop. This is ordinary optional progression, not a DarkChip requirement."
+      ]
+    },
+    {
+      "id": "postgame",
+      "title": "Optional · New Game+ and Black Earth",
+      "paragraphs": [
+        "Finish all six Souls across at least three runs. Check each run’s ordinary data before restarting. Key items and country access reset; chips, acquired Souls and ordinary stat upgrades carry over. Red Sun/Blue Moon’s own Souls cannot be imported from the opposite version.",
+        "With six Souls and 150 Standard chips, enter Undernet 5 through Undernet 4’s upper skull gate. Pass the S-ID door and inspect Bass’s statue. Beat him for your version’s Bass GigaChip.",
+        "Black Earth requires five EvilChips. After Bass, the three freed black Navis in Undernet 5 award Muramasa M, BlakWing W and Anubis A. S-rank ElmperoEX in Undernet 6 for ElemDark. Get BugCharg in Red Sun or BugCurse in Blue Moon from ShadeMan/LaserMan’s strongest encounter while preserving the in-battle Mystery Data.",
+        "With all five, take Undernet 6’s narrow slope to the warp and black hole. Black Earth 2’s gate checks all normal and SP Navi chips; bring swords for the shadows. Clear its mirrors for DS chips and the Bass SP challenge.",
+        "The seven marks cover story clear, six Souls, 150 Standard chips, Mega library, Giga library, Program Advances and Bass SP. Collect these for Duo’s strongest rematch. Opposite-version Navi entries use the Waiting Room or multiplayer/library services. Disable Buster MAX for new SP time records."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Collect the cheap early HPMemory stock and improve the NaviCust before buying random chips. A balanced folder is more useful than advancing to the next enemy tier with unused money.",
+        "Protect in-battle Mystery Data: clear a threatening row with a precise attack rather than a blast that also destroys the data.",
+        "Patch Cards and Download Chips are optional collection tools. Read each card’s effect and disable it when you want the original balance; ordinary Soul acquisition still follows the tournaments."
+      ]
+    },
+    {
+      "id": "programs",
+      "title": "NaviCust program locations",
+      "html": "<p>These are equipable parts, not permanent stat increases. Color words describe the part’s color, not the game version. Read the game’s tutorial and RUN after editing. Sources with BNLC tags refer to this collection; 5DS and GBA-EN tags describe other releases. Lottery numbers are ordinary shop inputs, not modified game files.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"NaviCust program locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Program</th><th scope=\"col\">Acquisition / color variants</th></tr></thead><tbody><tr><td>SprArmr</td><td>Red: Netopia Area BMD (1st) - behind Nebula Door</td></tr><tr><td>Custom1</td><td>Blue: Undernet 4 BMD (1st), Castillo HP Program Dealer (9600z), Undernet 6 Program Dealer (9600z)</td></tr><tr><td>Custom2</td><td>Yellow: Lotto Number (75420107)</td></tr><tr><td>MegFldr1</td><td>Green: Park Area 3 BMD (1st), Castillo HP Program Dealer (8000z), Undernet 6 Program Dealer (8000z)</td></tr><tr><td>MegFldr2</td><td>Green: Lotto Number (02109544)</td></tr><tr><td>GigFldr1</td><td>Red: Black Earth 2 BMD (1st)</td></tr><tr><td>FstBarr</td><td>White: Castillo HP Program Dealer (6800z)</td></tr><tr><td>Shield</td><td>Blue: Castillo HP Program Dealer (5500z)</td></tr><tr><td>Reflect</td><td>Blue: Undernet 6 Program Dealer (13000z)</td></tr><tr><td>AntiMagc</td><td>Red: Undernet 4 BugFrag Trader (36 BF)</td></tr><tr><td>FloatShoe</td><td>Green: Undernet 6 Program Dealer (8400z)</td></tr><tr><td>AirShoes</td><td>Blue: Undernet 4 BugFrag Trader (22 BF)</td></tr><tr><td>UnderSht</td><td>White: Start with it</td></tr><tr><td>SneakRun</td><td>Yellow: Park Area 3 BugFrag Trader (8 BF)</td></tr><tr><td>OilBody</td><td>Red: Undernet 6 Program Dealer (6200z)</td></tr><tr><td>Fish</td><td>Blue: Water Comp in Den Dome BMD (1st) - during 3rd tournament.</td></tr><tr><td>Battery</td><td>Yellow: Antenna 4 BMD (1st)</td></tr><tr><td>Jungle</td><td>Green: NetFrica Area BMD (1st)</td></tr><tr><td>Collect</td><td>White: Park Area 3 BugFrag Trader (42 BF)</td></tr><tr><td>Humor</td><td>Pink: Town Area 3 Navi during 3rd tournament (1st)</td></tr><tr><td>BustPack</td><td>Red: Lotto Code (05178924)</td></tr><tr><td>BodyPack</td><td>Blue: Lotto Code (43494372)</td></tr><tr><td>HubBatc</td><td>White: Defeat Black Earth 2 MegaManDS (1st) - only can be given if Karma is 500 or above</td></tr><tr><td>BugStop</td><td>White: ACDC Area 1 BMD (1st) - behind Nebula door</td></tr><tr><td>SoulClen</td><td>White: Defeat Black Earth 2 MegaManDS (1st)</td></tr><tr><td>Rush</td><td>Yellow: Lotto Number (73298100)</td></tr><tr><td>Beat</td><td>Blue: Lotto Number (25435428)</td></tr><tr><td>Tango</td><td>Green: Lotto Number (10170506)</td></tr><tr><td>Attack+1</td><td>White: Meteor 4 BMD (1st), ToyRobo 3 BMD (2nd) ; Pink: Start with it; Yellow: Undernet 6 BMD (1st - hidden under large stairs)</td></tr><tr><td>Speed+1</td><td>White: Start with it, Water Comp in Den Dome BMD (2nd) ; Pink: Computer Comp in Sharo BMD (1st) ; Yellow: Sharo Area BMD (2nd)</td></tr><tr><td>Charge+1</td><td>White: Park Area 3 BMD (2nd) ; Pink: ElecTower 1 BMD (3rd), ACDC Area 3 BMD (2nd); Yellow: ToyRobo 3 BMD (1st)</td></tr><tr><td>AttckMAX</td><td>White: Undernet 4 BugFrag Trader (72 BF)</td></tr><tr><td>SpeedMAX</td><td>White: Undernet 2 BMD</td></tr><tr><td>ChargMAX</td><td>Pink: Castillo Program Dealer (4800z)</td></tr><tr><td>HP+50</td><td>White: Dog House BMD (2nd) ; Pink: ToyRobo 1 BMD (1st) ; Yellow: ACDC Area 1 BMD (3rd)</td></tr><tr><td>HP+100</td><td>Pink: Meteor 3 PMD (1st) ; Yellow: Castillo Program Dealer (3400z)</td></tr><tr><td>HP+200</td><td>White: Sharo Area BMD (1st) ; Pink: Meteor 4 BMD (2nd) ; Yellow: Park Area 2 PMD (3rd)</td></tr><tr><td>HP+300</td><td>White: Undernet 2 BMD (3rd) ; Pink: Undernet 6 Program Dealer (9600z) ; Yellow: ToyRobo 3 BMD (3rd)</td></tr><tr><td>HP+400</td><td>White: Undernet 1 PMD (3rd) ; Pink: Park Area 3 BugFrag Trader (16 BF); Yellow: Town Area 3 PMD (2nd)</td></tr><tr><td>HP+500</td><td>White: Lotto Number (30873642); Pink: Lotto Number (97618739)</td></tr></tbody></table></div>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · story checkpoints and puzzles",
+      "url": "https://www.mmhp.net/GameHints/MMBN4.html"
+    },
+    {
+      "title": "MMHP · chips and Navi attacks",
+      "url": "https://www.mmhp.net/GameHints/MMBN4-Data.html"
+    },
+    {
+      "title": "The Rockman EXE Zone · upgrade locations",
+      "url": "https://www.therockmanexezone.com/wiki/PowerUp_(MMBN4)"
+    },
+    {
+      "title": "Capcom · collection changes and optional aids",
+      "url": "https://news.capcomusa.com/lets/browse/connect-with-the-latest-mega-man-battle-network-legacy-collection-info"
+    },
+    {
+      "title": "The Rockman EXE Zone · tournament puzzles and English/Japanese differences",
+      "url": "https://www.therockmanexezone.com/wiki/Tournaments_(MMBN4)"
+    },
+    {
+      "title": "Jim Avery / TheSoundDefense · tournament branch walkthrough",
+      "url": "https://gamefaqs.gamespot.com/gba/918999-mega-man-battle-network-4-red-sun/faqs/31035"
+    },
+    {
+      "title": "The Rockman EXE Zone · data carried to later runs",
+      "url": "https://www.therockmanexezone.com/wiki/Missable_content"
+    },
+    {
+      "title": "The Rockman EXE Zone · NaviCust and program acquisition",
+      "url": "https://www.therockmanexezone.com/wiki/NaviCustomizer_(MMBN4)"
+    }
+  ],
+  "extraReturns": [
+    {
+      "id": "inventory-castillo",
+      "name": "Castillo",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 14,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Castillo upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>1st</td><td>Ticket Comp BMD</td></tr><tr><td>SubMem</td><td>2nd</td><td>Castillo NetBattle Machine Comp BMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>Toy Robo Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Toy Robo Comp 2 BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Toy Robo Comp 3 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Toy Robo Comp 4 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Castillo NetBattle Machine Comp BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Stand Comp BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Toy Robo Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>1st</td><td>Toy Robo Comp 1 BMD</td></tr><tr><td>RegUp2</td><td>1st</td><td>Toy Robo Comp 3 BMD</td></tr><tr><td>RegUp2</td><td>2nd</td><td>Toy Robo Comp 4 BMD</td></tr><tr><td>RegUp1</td><td>3rd</td><td>Toy Robo Comp 4 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Stand Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-netfrica",
+      "name": "NetFrica",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 3,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"NetFrica upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>1st</td><td>Nupopo Comp BMD</td></tr><tr><td>RegUp1</td><td>Once</td><td>Examine Netfrica house</td></tr><tr><td>RegUp2</td><td>1st</td><td>Lion Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 39,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Internet upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>SubMem</td><td>3rd</td><td>Sharo Area BMD</td></tr><tr><td>HP Memry</td><td>Once</td><td>ACDC Area 2 NetDealer (1000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>ACDC Area 2 NetDealer (3200 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Town Area 3 NetDealer (2500 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Town Area 3 NetDealer (6000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Town Area 3 NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Netopia Area NetDealer (6000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Netopia Area NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Netopia Area NetDealer (14000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 1 NetDealer (10000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 1 NetDealer (15000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 1 NetDealer (20000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 1 NetDealer (30000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 5 NetDealer (30000 z )</td></tr><tr><td>HP Memry</td><td>Once</td><td>Undernet 5 NetDealer (50000 z )</td></tr><tr><td>HP Memry</td><td>1st</td><td>Town Area 1 PMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>Town Area 3 PMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Park Area 1 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Park Area 2 BMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>Park Area 3 PMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Netopia Area BMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>NetFrica Area BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Sharo Area BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Sharo Area BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Undernet 1 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Undernet 3 BMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>Undernet 4 PMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Undernet 4 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Black Earth 1 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Black Earth 2 BMD</td></tr><tr><td>RegUp2</td><td>2nd</td><td>ACDC Area 1 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Town Area 1 BMD</td></tr><tr><td>RegUp2</td><td>2nd</td><td>Park Area 1 BMD</td></tr><tr><td>RegUp2</td><td>1st</td><td>Park Area 1 BMD</td></tr><tr><td>RegUp2</td><td>1st</td><td>YumLand Area BMD</td></tr><tr><td>RegUp2</td><td>3rd</td><td>YumLand Area PMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Netopia Area BMD</td></tr><tr><td>RegUp1</td><td>1st</td><td>Undernet 1 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Undernet 2 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-elec-town",
+      "name": "Elec Town",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 9,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Elec Town upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>3rd</td><td>Elec Tower Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>1st</td><td>Elec Tower Comp 2 BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Elec Tower Comp 2 BMD</td></tr><tr><td>RegUp2</td><td>1st</td><td>Elec Tower Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Elec Tower Comp 1 BMD</td></tr><tr><td>RegUp2</td><td>3rd</td><td>Elec Tower Comp 2 BMD</td></tr><tr><td>RegUp1</td><td>1st</td><td>Stereo Comp BMD</td></tr><tr><td>RegUp2</td><td>1st</td><td>LCD Comp BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>LCD Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-naxa",
+      "name": "NAXA",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 8,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"NAXA upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>1st</td><td>Meteor Comp 1 BMD</td></tr><tr><td>HP Memry</td><td>3rd</td><td>Meteor Comp 2 BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Meteor Comp 3 BMD</td></tr><tr><td>RegUp3</td><td>Once</td><td>Examine NAXA Lobby spacesuit</td></tr><tr><td>RegUp1</td><td>3rd</td><td>Meteor Comp 1 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Meteor Comp 2 BMD</td></tr><tr><td>RegUp3</td><td>1st</td><td>Meteor Comp 2 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Meteor Comp 4 BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-dendome",
+      "name": "DenDome",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 3,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"DenDome upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>1st</td><td>Hotdog Comp BMD</td></tr><tr><td>HP Memry</td><td>2nd</td><td>Vending Machine Comp BMD</td></tr><tr><td>RegUp1</td><td>Once</td><td>Examine DenDome folded chair</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-yumland",
+      "name": "YumLand",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 1,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"YumLand upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>2nd</td><td>Statue Comp BMD</td></tr></tbody></table></div>"
+    },
+    {
+      "id": "inventory-sharo",
+      "name": "Sharo",
+      "title": "Check the playthrough column before moving to New Game+",
+      "count": 3,
+      "html": "<div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Sharo upgrade locations\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Upgrade</th><th scope=\"col\">Run</th><th scope=\"col\">Location / condition</th></tr></thead><tbody><tr><td>HP Memry</td><td>1st</td><td>Antenna Comp 2 BMD</td></tr><tr><td>RegUp1</td><td>2nd</td><td>Computer Comp BMD</td></tr><tr><td>RegUp1</td><td>1st</td><td>Antenna Comp 1 BMD</td></tr></tbody></table></div>"
+    }
+  ],
+  "inventoryLinks": [
+    {
+      "id": "inventory-castillo",
+      "name": "Castillo · upgrades"
+    },
+    {
+      "id": "inventory-netfrica",
+      "name": "NetFrica · upgrades"
+    },
+    {
+      "id": "inventory-internet",
+      "name": "Internet · upgrades"
+    },
+    {
+      "id": "inventory-elec-town",
+      "name": "Elec Town · upgrades"
+    },
+    {
+      "id": "inventory-naxa",
+      "name": "NAXA · upgrades"
+    },
+    {
+      "id": "inventory-dendome",
+      "name": "DenDome · upgrades"
+    },
+    {
+      "id": "inventory-yumland",
+      "name": "YumLand · upgrades"
+    },
+    {
+      "id": "inventory-sharo",
+      "name": "Sharo · upgrades"
+    }
+  ]
+}

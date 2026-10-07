@@ -1,0 +1,422 @@
+{
+  "id": "zx",
+  "displayId": "ZX",
+  "series": "zero",
+  "title": "Mega Man ZX",
+  "collection": "Mega Man Zero/ZX Legacy Collection · DS",
+  "intro": "Find your way through the connected map, recover both halves of each Biometal and collect every health upgrade, Sub Tank and equipment chip.",
+  "libraryIntro": "Connected-area directions, four health upgrades, four tanks and Biometal repair.",
+  "facts": [
+    "Connected world · Normal mode",
+    "Health, tanks and equipment"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Area route",
+  "returnLabel": "Return trips",
+  "primer": [
+    "ZX connects its stages into one world. Accept a mission at a Transerver before setting out, and report it after the boss. Area letters are destinations; the map layout does not show literal screen positions. Use the connections map below when a doorway is unclear.",
+    "Choose Vent or Aile at the start. The main route is shared, but dialogue and a few optional quests differ. Human form can crouch through low passages and talk to civilians. Merge again before combat: the human form cannot fight effectively.",
+    "Model ZX combines Saber and Buster. HX adds air dashes, FX breaks blocks, LX swims and PX reveals dark passages. Each paired form needs two bosses for its full energy and charged attacks. Fire beats Ice, Ice beats Thunder, Thunder beats Fire.",
+    "Sub Tanks and Life Ups make a first run much more forgiving. Equip Item B chips in the menu after obtaining them; they are not automatically active. Save often at Transervers: running out of lives normally returns you to your last save. Save Assist adds optional collection checkpoints."
+  ],
+  "features": [
+    [
+      "Biometal recovery",
+      "Hitting a boss’s weak point lowers the recovered Biometal’s level and available weapon energy. HX reveals those points. Avoid them for Level 4 recovery, or pay Fleuve to repair a damaged form later. A low recovery level does not ruin the save."
+    ],
+    [
+      "Normal and completion routes",
+      "For the ending, take the eight bosses in this order and collect health and tanks as their requirements become available. For completion, add chips, NPC quests, Level 4 recoveries, disks and the optional OX detour."
+    ]
+  ],
+  "warning": {
+    "title": "Model OX is a postgame reward on Normal or Hard.",
+    "text": "Easy mode does not award the Mysterious Rock. You can finish the main story without OX. Defeat the optional boss and collect the rock, then use a cleared save to have Fleuve make the form."
+  },
+  "routeIntro": "HX first provides mobility and an early tank. Complete its second half, then use its electricity against the fire bosses. This route favors reliable exploration over Level 4 recovery challenges.",
+  "route": [
+    "Opening: Locate Giro from the B-2 Transerver, up the ladder and right. For Pass the Test, find the Guardians in order from left to right, then return to the real B-2 Transerver.",
+    "Clear Mavericks Detected in D, then follow the eight Pseudoroids below. Complete the automatic Guardian HQ attack when prompted.",
+    "Stop the Dig: enter M from A-4. Repel the Army: enter O from D-3. Collect the remaining upgrades before accepting Destroy Model W."
+  ],
+  "extraMedia": [
+    {
+      "src": "assets/mmzx-map.gif",
+      "width": 1760,
+      "height": 816,
+      "title": "ZX · area connections",
+      "alt": "Annotated ZX world map showing area letters, connected doors and Transervers",
+      "caption": "Door connections and Transervers. Click to read the full map; it is an overview, not a pickup map.",
+      "credit": "The MegaMaster / MMHP · ZX connections map",
+      "source": "https://www.mmhp.net/GameHints/MMZX.html"
+    }
+  ],
+  "stages": [
+    {
+      "id": "mavericks-detected",
+      "name": "Mavericks Detected",
+      "area": "Area D · from the opening missions",
+      "weakness": "Charged attacks",
+      "reward": "Model ZX",
+      "tip": "Clear the highway mission, then report at the Transerver. ZX supplies the familiar Saber and Buster.",
+      "now": "Life Up · D-1",
+      "items": [
+        {
+          "name": "Life Up · D-1",
+          "text": "Look through the shallow highway gap for a red switch above a locked door. Shoot the switch and enter; the health upgrade is inside.",
+          "need": "Any fighting form",
+          "extra": "Each Life Up adds four maximum health.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "mavericks-detected-life-up-d-1"
+        }
+      ]
+    },
+    {
+      "id": "hivolt",
+      "name": "Hivolt",
+      "area": "Search the Plant · E · enter from C-2",
+      "weakness": "Ice later; neutral charged attacks first",
+      "reward": "Model HX, first half",
+      "tip": "Keep clear of his wings and attack between passes. HX gives air dashes and a hover, making exploration much easier.",
+      "now": "Sub Tank · E-4 · Sub Tank · A-2",
+      "items": [
+        {
+          "name": "Sub Tank · E-4",
+          "text": "Take the lower branch in the giant-gear room. From the highest conveyor step, dash-jump to the upper-right ledge and defeat its guard.",
+          "need": "Dash-jump / HX on a return",
+          "extra": "Turning off the electricity makes the approach safer.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hivolt-sub-tank-e-4"
+        },
+        {
+          "name": "Sub Tank · A-2",
+          "text": "Above the A-1 entrance, reach the ledge beneath the visible tank. Climb the left wall and continue through the false ceiling. HX helps reach the ledge.",
+          "need": "Model HX",
+          "extra": "A tank stores surplus health pickups while your health is full.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "hivolt-sub-tank-a-2"
+        }
+      ]
+    },
+    {
+      "id": "hurricaune",
+      "name": "Hurricaune",
+      "area": "Save the People · I · from E-7",
+      "weakness": "Ice later; neutral attacks first",
+      "reward": "Model HX, second half",
+      "tip": "Avoid her lightning and recover both HX halves. Fully charged HX now creates a tornado.",
+      "now": "Life Up · I-5 · Absorber Chip",
+      "items": [
+        {
+          "name": "Life Up · I-5",
+          "text": "Choose the upper route at the split. After the miniboss, lift the unpowered platform with charged HX tornadoes. Ride upward, then air-dash and hover right past the spikes.",
+          "need": "Both HX halves",
+          "extra": "Collect after the boss, or on a later return.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "hurricaune-life-up-i-5"
+        },
+        {
+          "name": "Absorber Chip",
+          "text": "After rescuing the civilians and reporting the mission, repeatedly talk to Leonardo in the C-2 house beside the fountain.",
+          "need": "Save the People completed",
+          "extra": "Activate in Item B to prevent knockback.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "hurricaune-absorber-chip"
+        }
+      ]
+    },
+    {
+      "id": "fistleo",
+      "name": "Fistleo",
+      "area": "Fight the Mavericks · G · from D-3",
+      "weakness": "Thunder · HX",
+      "reward": "Model FX, first half",
+      "tip": "Use HX electricity for a straightforward win. If aiming for Level 4 recovery, avoid hitting his head and use attacks that do not strike the weak point.",
+      "now": "Frog Chip",
+      "items": [
+        {
+          "name": "Frog Chip",
+          "text": "Accept Karen’s Find the Boy quest in C-1. In Area G, find every child playing hide-and-seek, including the one outside left. Report, then speak to Kenny in C-1 while transformed.",
+          "need": "Find the Boy quest",
+          "extra": "Slows sliding down walls.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "fistleo-frog-chip"
+        }
+      ]
+    },
+    {
+      "id": "lurerre",
+      "name": "Lurerre",
+      "area": "Find the Survivors · F · from upper B-3",
+      "weakness": "Flame · FX",
+      "reward": "Model LX, first half",
+      "tip": "Use FX fire against her main body. LX swims freely and reveals nearby objects on the lower screen.",
+      "now": "Life Up · F-2",
+      "items": [
+        {
+          "name": "Life Up · F-2",
+          "text": "Break the ice blocks with FX and follow the upper-left passage. At the shallow row of spikes, use HX upward dash and hover left to reach the upgrade.",
+          "need": "Model FX + HX",
+          "extra": "Keep clear of enemies that could knock you onto the spikes.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "lurerre-life-up-f-2"
+        }
+      ]
+    },
+    {
+      "id": "purprill",
+      "name": "Purprill",
+      "area": "Secure the Biometal · H · from A-3",
+      "weakness": "Neutral charged attacks",
+      "reward": "Model PX, first half",
+      "tip": "Attack after his swings and keep away from falling debris. Complete the Guardian HQ attack when the story interrupts this route.",
+      "now": "Eraser Chip · Featherweight Chip",
+      "items": [
+        {
+          "name": "Eraser Chip",
+          "text": "In Guardian HQ, use Talk with Carrelet until he offers the chip.",
+          "need": "Model ZX unlocked",
+          "extra": "Saber attacks can destroy small energy shots.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "purprill-eraser-chip"
+        },
+        {
+          "name": "Featherweight Chip",
+          "text": "After the HQ attack and Prometheus battle, repeatedly talk to Bar in the HQ corridor.",
+          "need": "Story progress",
+          "extra": "Prevents fragile floors from crumbling beneath you.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "purprill-featherweight-chip"
+        }
+      ]
+    },
+    {
+      "id": "protectos",
+      "name": "Protectos",
+      "area": "Protect the Lab · L · from H-4",
+      "weakness": "Neutral charged attacks",
+      "reward": "Model PX, second half",
+      "tip": "Move away from the missiles before striking. Full PX improves its charge options and is useful for dark passages.",
+      "now": "Sub Tank · Guardian HQ",
+      "items": [
+        {
+          "name": "Sub Tank · Guardian HQ",
+          "text": "Talk to nurse Muguet for Deliver the Aid Kit, then Rose for Deliver the Energy Pack. Find each requested item in Area L supply crates and report. Alternate the two quests three times each, then speak to the requestor for the tank.",
+          "need": "Area L accessible · Normal mode",
+          "extra": "If a quest is unavailable, advance the story and ask again.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "protectos-sub-tank-guardian-hq"
+        }
+      ]
+    },
+    {
+      "id": "flammole",
+      "name": "Flammole",
+      "area": "Attack the Excavators · K · from C-3",
+      "weakness": "Thunder · HX",
+      "reward": "Model FX, second half",
+      "tip": "Use HX electricity; keep an escape path clear when lava rises.",
+      "now": "Sub Tank · K-1 · Wind Boots Chip · Extender Chip",
+      "items": [
+        {
+          "name": "Sub Tank · K-1",
+          "text": "Set the K-1 lava controller to Slow. On the underground route toward K-4, break the high brown blocks with FX before the lava arrives. Use PX to find the concealed doorway to the right and press its red switch. Return through the rising-lava shaft to K-1; enter the red door above the cable car and swim left with LX.",
+          "need": "HX + FX + LX + PX",
+          "extra": "Collect on a cleared-stage return so backtracking is available. Lava and spikes remain lethal on Normal.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "flammole-sub-tank-k-1"
+        },
+        {
+          "name": "Wind Boots Chip",
+          "text": "Ask Anguille at HQ for Gather the Screws. Search K-4 behind the breakable blocks and nearby lava gap, K-3’s rightmost lava gap, and both sides of K-5’s rising-lava shaft. Report all five screws.",
+          "need": "Full Model FX · Flammole defeated",
+          "extra": "One screw lies in lava: take an enemy hit immediately before entering, collect it during the flashing grace period and leave. This is the quest’s hazard route; do not enter at full vulnerability.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "flammole-wind-boots-chip"
+        },
+        {
+          "name": "Extender Chip",
+          "text": "Ask Silure at HQ for Obtain the Rock, collect it in K, and report. Accept Smash the Rock next. Find Oeillet in E-4 with the conveyor powered; collect the crushed pieces and report.",
+          "need": "Full Model FX · both quests accepted",
+          "extra": "Extends protection after taking a hit.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "flammole-extender-chip"
+        }
+      ]
+    },
+    {
+      "id": "leganchor",
+      "name": "Leganchor",
+      "area": "Recover the Disk · J · from A-4",
+      "weakness": "Flame · FX",
+      "reward": "Model LX, second half",
+      "tip": "Use FX at an opening; LX is better for navigating the underwater stage.",
+      "now": "Life Up · J-1 · Quick Charger Chip · Ice Boots Chip · Vent · Ice Boots Chip · Aile",
+      "items": [
+        {
+          "name": "Life Up · J-1",
+          "text": "From the Transerver, descend into the underwater passage. Look for the background doorway left of the first underwater enemy. Inside, swim right over the spikes to the health upgrade.",
+          "need": "Model LX",
+          "extra": "Enemy hits cancel swimming; clear the path before crossing.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "leganchor-life-up-j-1"
+        },
+        {
+          "name": "Quick Charger Chip",
+          "text": "Once all four paired forms are complete, repeatedly choose Talk with Fleuve at Guardian HQ.",
+          "need": "Full HX, FX, LX and PX",
+          "extra": "Reduces charge time.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "leganchor-quick-charger-chip"
+        },
+        {
+          "name": "Ice Boots Chip · Vent",
+          "text": "Complete Yu’s two quiz quests in C-1 and report each at a Transerver. Give the Pink Crystal reward to Jack by the green door in C-1.",
+          "need": "Vent · full HX/FX · late story",
+          "extra": "Stops slipping on ice floors, but not ice walls.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "leganchor-ice-boots-chip-vent"
+        },
+        {
+          "name": "Ice Boots Chip · Aile",
+          "text": "Ask Arcea in C-2 for Find Mushroom. Bring the mushroom from A-2, then accept the follow-up: Mushroom is her bird. Touch the small bird as it flies away in A-2 and return it.",
+          "need": "Aile · late story",
+          "extra": "An alternative to Vent’s quiz chain, not a second chip.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "leganchor-ice-boots-chip-aile"
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "hivolt",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "hivolt-sub-tank-a-2"
+      ]
+    },
+    {
+      "stage": "hurricaune",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "hurricaune-life-up-i-5",
+        "hurricaune-absorber-chip"
+      ]
+    },
+    {
+      "stage": "fistleo",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "fistleo-frog-chip"
+      ]
+    },
+    {
+      "stage": "protectos",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "protectos-sub-tank-guardian-hq"
+      ]
+    },
+    {
+      "stage": "flammole",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "flammole-sub-tank-k-1",
+        "flammole-wind-boots-chip",
+        "flammole-extender-chip"
+      ]
+    },
+    {
+      "stage": "leganchor",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "leganchor-ice-boots-chip-vent",
+        "leganchor-ice-boots-chip-aile"
+      ]
+    }
+  ],
+  "returnIntro": "Once all forms are complete, revisit A, I and K and finish the HQ tank quest. Open a level below to see its items together. Only the chip path for your chosen character is needed.",
+  "completionText": "Normal: four Life Ups, four Sub Tanks, all paired Biometals. Optional: eight Item B chip types, Level 4 recoveries, all disks and quests. Ice Boots has two character-specific paths to the same item.",
+  "sections": [
+    {
+      "id": "final",
+      "title": "Destroy Model W",
+      "paragraphs": [
+        "Enter the mission’s HQ route from Area D. In each elevator computer room, stand on a glowing corner crystal and press Up to enter a rematch. The pairs are Hivolt/Hurricaune, Lurerre/Leganchor, Fistleo/Flammole, Purprill/Protectos.",
+        "Use the enemy-filled corridors between elevators to restore weapon energy and fill tanks before the last battles. Use charged attacks against Serpent; the large final form can be hit at the head or forehead gem depending on its height. HX tornadoes are useful when it rises.",
+        "A loss during the last pair requires both fights again. Preserve tanks while learning the first fight; use them when a clear is within reach. Save the offered clear data to retain access to the world."
+      ]
+    },
+    {
+      "id": "ox",
+      "title": "Optional · Model OX",
+      "paragraphs": [
+        "After Stop the Dig, enter N from the Transerver end of M. Cross the disappearing-block spike passages and defeat Omega. Return to the main shaft, drop to its lowest route and go right past the Link Mode boss doors. Take the Mysterious Rock in the final room.",
+        "Finish the main game on Normal or Hard, load the clear save, and choose Talk with Fleuve until he takes the rock. Model OX has powerful Overdrive attacks; it is a bonus form, not a cosmetic recolor or a requirement for the ending.",
+        "The collection’s Link Mode recreates the Zero 3/4 cartridge bosses. Defeating both sets of four is an alternative rock unlock; Omega needs no link setting. Keep a save before the optional spike route."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Transervers restore health and can replenish a low life stock. Collect surplus health outside a mission to fill tanks, then save.",
+        "NPC chips often need story progress and repeated Talk selections. If a character repeats the same line, finish another main mission and check again.",
+        "Rematch bosses for improved Biometal recovery if you prefer that to paying repair costs. Level 4 dolls and alternate character clears are optional completion goals."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, pickups and map",
+      "url": "https://www.mmhp.net/GameHints/MMZX.html"
+    },
+    {
+      "title": "MMHP · Biometals and bosses",
+      "url": "https://www.mmhp.net/GameHints/MMZX-Data.html"
+    },
+    {
+      "title": "snkupo · ZX missions and side quests",
+      "url": "https://gamefaqs.gamespot.com/ds/931475-mega-man-zx/faqs/49041"
+    },
+    {
+      "title": "CrowRising · ZX and Advent upgrade locations",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2098696907"
+    }
+  ]
+}

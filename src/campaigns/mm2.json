@@ -1,0 +1,244 @@
+{
+  "id": "mm2",
+  "series": "classic",
+  "displayId": "2",
+  "title": "Mega Man 2",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man still cannot slide, charge or wall-jump. Metal Blade can fire in eight directions and is useful throughout the stages.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Cleared Robot Master stages cannot be revisited. Item-1, Item-2 and Item-3 are automatic boss rewards, not hidden capsules. The original password resumes before the fortress rather than saving its individual stages."
+  ],
+  "routeIntro": "Metal first gives a useful general weapon. Air comes next for Item-2, which crosses Heat Man’s disappearing-block section. The route has two early Buster fights.",
+  "route": [],
+  "stages": [
+    {
+      "id": "metal-man",
+      "name": "Metal Man",
+      "weakness": "Quick Boomerang",
+      "reward": "Metal Blade",
+      "weapon": "Buster",
+      "tip": "Jump over the blades and watch the conveyor’s direction. Keep firing ordinary shots on the first visit.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "MetalMan",
+        "src": "assets/classic-mm2-metalman.gif",
+        "width": 24,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "air-man",
+      "name": "Air Man",
+      "weakness": "Leaf Shield",
+      "reward": "Air Shooter",
+      "weapon": "Buster",
+      "tip": "Wait for a gap in the tornado wall. Move underneath him when he jumps; avoid rushing through a closed pattern.",
+      "now": "Item-2",
+      "items": [
+        {
+          "name": "Item-2",
+          "text": "Defeat Air Man. Place the jet sled, board it promptly and ride straight across long gaps.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "air-man-item-2"
+        }
+      ],
+      "sprite": {
+        "name": "AirMan",
+        "src": "assets/classic-mm2-airman.gif",
+        "width": 33,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "crash-man",
+      "name": "Crash Man",
+      "weakness": "Air Shooter",
+      "reward": "Crash Bomber",
+      "weapon": "Air Shooter",
+      "tip": "Fire upward as he jumps, then move away from the planted bomb.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "CrashMan",
+        "src": "assets/classic-mm2-crashman.gif",
+        "width": 29,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "bubble-man",
+      "name": "Bubble Man",
+      "weakness": "Metal Blade",
+      "reward": "Bubble Lead",
+      "weapon": "Metal Blade",
+      "tip": "Stay below the ceiling spikes and aim Metal Blade toward him.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "BubbleMan",
+        "src": "assets/classic-mm2-bubbleman.gif",
+        "width": 28,
+        "height": 26,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "heat-man",
+      "name": "Heat Man",
+      "weakness": "Bubble Lead",
+      "reward": "Atomic Fire",
+      "weapon": "Bubble Lead",
+      "tip": "Use Item-2 over the disappearing blocks. Hit him with Bubble Lead, then jump his charge after he reignites.",
+      "now": "Item-1",
+      "items": [
+        {
+          "name": "Item-1",
+          "text": "Defeat Heat Man. Create rising platforms in succession to reach high ladders.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "heat-man-item-1"
+        }
+      ],
+      "sprite": {
+        "name": "HeatMan",
+        "src": "assets/classic-mm2-heatman.gif",
+        "width": 30,
+        "height": 25,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "wood-man",
+      "name": "Wood Man",
+      "weakness": "Atomic Fire",
+      "reward": "Leaf Shield",
+      "weapon": "Atomic Fire",
+      "tip": "Charge Atomic Fire while he is shielded; release after the shield leaves him. Jump the leaf barrier and falling leaves.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "WoodMan",
+        "src": "assets/classic-mm2-woodman.gif",
+        "width": 32,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "flash-man",
+      "name": "Flash Man",
+      "weakness": "Metal Blade",
+      "reward": "Time Stopper",
+      "weapon": "Metal Blade",
+      "tip": "Use Metal Blade while watching the slippery floor and his time-stop attack.",
+      "now": "Item-3",
+      "items": [
+        {
+          "name": "Item-3",
+          "text": "Defeat Flash Man. Place the wall-climbing platform beside a wall and board it.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "flash-man-item-3"
+        }
+      ],
+      "sprite": {
+        "name": "FlashMan",
+        "src": "assets/classic-mm2-flashman.gif",
+        "width": 29,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "quick-man",
+      "name": "Quick Man",
+      "weakness": "Time Stopper / Crash Bomber",
+      "reward": "Quick Boomerang",
+      "weapon": "Time Stopper / Crash Bomber",
+      "tip": "Use Time Stopper for the lethal beam corridors if needed. In the fight, Crash Bomber or Buster can finish him after Time Stopper runs out.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "QuickMan",
+        "src": "assets/classic-mm2-quickman.gif",
+        "width": 25,
+        "height": 26,
+        "source": "https://www.mmhp.net/GameHints/MM2-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "There are no return visits to cleared Robot Master stages. Stock E-Tanks during the initial stages and manage weapon energy through the fortress.",
+  "completionText": "Clear all Robot Masters, check the utility items listed above, and refill the weapons needed for the final stages.",
+  "warning": {
+    "title": "Preserve Crash Bomber and Bubble Lead for the fortress.",
+    "text": "Boobeam Trap needs Crash Bomber. The final Alien can only be damaged by Bubble Lead. Refill them whenever safe opportunities appear."
+  },
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Wily’s fortress",
+      "paragraphs": [
+        "Stage 1: climb the final ladder using successive Item-1 platforms. Against Mecha Dragon, stay on the high right-hand blocks and use Quick Boomerang.",
+        "Stage 2: use Metal Blade or Bubble Lead on the Picopico-kun wall units. Stage 3: hit Guts Tank’s head with Quick Boomerang.",
+        "Stage 4: enter Boobeam Trap with full Crash Bomber energy. Destroy only the two walls that directly block targets; use the utility items to reach the others.",
+        "After the rematches, use Buster or Crash Bomber on Wily Machine. Refill Bubble Lead before the final descent. The Alien follows a repeating figure-eight; wait for a safe crossing before shooting."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "Metal Man is especially vulnerable to his own Metal Blade in the rematch. Leaf Shield protects you on slow-moving platforms.",
+        "Time Stopper cannot be cancelled early. Decide whether its energy is more valuable for Quick Man’s beam corridors or his fight."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 2 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM2.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM2-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Start with Metal Blade, collect Dr. Light’s three platforms, and save Crash Bombs for the fortress’s turret room."
+}

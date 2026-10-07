@@ -1,0 +1,727 @@
+{
+  "id": "mm8",
+  "series": "classic",
+  "displayId": "8",
+  "title": "Mega Man 8",
+  "collection": "Mega Man Legacy Collection 2",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Mega Man 8 has separate buttons for the Buster and the equipped special weapon. You can slide and charge the Buster. Tap Jump repeatedly to swim upward; underwater movement is different from earlier games.",
+    "There are no E-Tanks. Rush support comes from miniboss clears and can be called once per life. Save Rush Charger for health and weapon recovery when a late fight goes badly.",
+    "The 40 bolts are unique, permanent collectibles. You cannot buy every shop part with them, and purchases cannot be undone. This guide covers the PlayStation version used in Legacy Collection 2; Saturn-only Cut Man and Wood Man are excluded."
+  ],
+  "routeIntro": "Clear the island, then Grenade → Frost → Tengu → Clown. Duo opens the second set; start Astro with charged shots, then Aqua → Sword → Search. Return for bolts requiring the later weapons.",
+  "route": [],
+  "stages": [
+    {
+      "id": "opening-island",
+      "name": "Opening island",
+      "weakness": "",
+      "reward": "Mega Ball",
+      "weapon": "",
+      "tip": "Use Mega Ball on the crab. Hold Jump while landing on a ball to bounce higher.",
+      "now": "Bolt 01 · hidden wall · Bolt 02 · platform floor · Bolt 03 · exit",
+      "items": [
+        {
+          "name": "Bolt 01 · hidden wall",
+          "text": "Activate the skull lift. In the underwater passage, swim through the upper-left wall after the first ascent.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "opening-island-bolt-01-hidden-wall"
+        },
+        {
+          "name": "Bolt 02 · platform floor",
+          "text": "Ride the descending chain platforms through the floor into the concealed room.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "opening-island-bolt-02-platform-floor"
+        },
+        {
+          "name": "Bolt 03 · exit",
+          "text": "Collect it before leaving the underground passage.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "opening-island-bolt-03-exit"
+        }
+      ]
+    },
+    {
+      "id": "grenade-man",
+      "name": "Grenade Man",
+      "weakness": "Thunder Claw",
+      "reward": "Flash Bomb",
+      "weapon": "Charged Buster",
+      "tip": "Jump the bombs and shoot between his throws. Move as the floor breaks.",
+      "now": "Bolt 04 · falling blocks · Bolt 05 · timed platforms · Bolt 06 · unlit fuse · Bolt 07 · explosion route · Bolt 08 · final explosion · Rush Cycle",
+      "items": [
+        {
+          "name": "Bolt 04 · falling blocks",
+          "text": "Preserve the lower-right green block; stack a falling silver block on it, then bounce with Mega Ball.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-bolt-04-falling-blocks"
+        },
+        {
+          "name": "Bolt 05 · timed platforms",
+          "text": "Jump onto the early bomb platforms and collect it before the fuse ends.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-bolt-05-timed-platforms"
+        },
+        {
+          "name": "Bolt 06 · unlit fuse",
+          "text": "After the checkpoint, ignite the fuse to open the blocked passage.",
+          "need": "Flame Sword",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-bolt-06-unlit-fuse"
+        },
+        {
+          "name": "Bolt 07 · explosion route",
+          "text": "Take the visible bolt promptly when the platform fuse starts.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-bolt-07-explosion-route"
+        },
+        {
+          "name": "Bolt 08 · final explosion",
+          "text": "Grab the last bolt in the exploding section and immediately return to the ladder.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-bolt-08-final-explosion"
+        },
+        {
+          "name": "Rush Cycle",
+          "text": "Defeat the stage miniboss. The motorcycle improves ground speed and jumping.",
+          "need": "Miniboss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "grenade-man-rush-cycle"
+        }
+      ],
+      "sprite": {
+        "name": "GrenadeMan",
+        "src": "assets/classic-mm8-grenademan.gif",
+        "width": 33,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "frost-man",
+      "name": "Frost Man",
+      "weakness": "Flash Bomb",
+      "reward": "Ice Wave",
+      "weapon": "Flash Bomb",
+      "tip": "Keep a Flash Bomb active near him; jump the ice waves and leave his landing point.",
+      "now": "Bolt 09 · first board upper path · Bolt 10 · first board lower path · Bolt 11 · high ledge · Bolt 12 · ice launcher · Bolt 13 · ice tower · Bolt 14 · ice block ledge",
+      "items": [
+        {
+          "name": "Bolt 09 · first board upper path",
+          "text": "At the first Slide prompt, jump onto the upper passage and slide through.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-09-first-board-upper-path"
+        },
+        {
+          "name": "Bolt 10 · first board lower path",
+          "text": "Stay on the lower route before the next visible bolt instead of jumping upward.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-10-first-board-lower-path"
+        },
+        {
+          "name": "Bolt 11 · high ledge",
+          "text": "Bounce from Mega Ball to the ledge beyond the first board section.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-11-high-ledge"
+        },
+        {
+          "name": "Bolt 12 · ice launcher",
+          "text": "Reach the second launcher, press its button and step left onto the moving ice block.",
+          "need": "Mega Ball / Tornado Hold",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-12-ice-launcher"
+        },
+        {
+          "name": "Bolt 13 · ice tower",
+          "text": "Break the tower floor, then destroy the ice block around the bolt.",
+          "need": "Astro Crush + Flash Bomb",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-13-ice-tower"
+        },
+        {
+          "name": "Bolt 14 · ice block ledge",
+          "text": "Break the bolt’s ice block, then bounce or ride a tornado to the ledge.",
+          "need": "Flash Bomb + Mega Ball",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "frost-man-bolt-14-ice-block-ledge"
+        }
+      ],
+      "sprite": {
+        "name": "FrostMan",
+        "src": "assets/classic-mm8-frostman.gif",
+        "width": 48,
+        "height": 39,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "tengu-man",
+      "name": "Tengu Man",
+      "weakness": "Ice Wave",
+      "reward": "Tornado Hold",
+      "weapon": "Ice Wave",
+      "tip": "Use Ice Wave when he descends to floor height after the dive. Keep away from the stage edges.",
+      "now": "Bolt 15 · windy platforms · Bolt 16 · airship ceiling · Bolt 17 · guardian exit · Bolt 18 · last moving platforms",
+      "items": [
+        {
+          "name": "Bolt 15 · windy platforms",
+          "text": "Jump from the second-to-last moving platform at its highest point.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "tengu-man-bolt-15-windy-platforms"
+        },
+        {
+          "name": "Bolt 16 · airship ceiling",
+          "text": "Inside the airship, break the ceiling block marked with a bolt before the guardian.",
+          "need": "Astro Crush",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "tengu-man-bolt-16-airship-ceiling"
+        },
+        {
+          "name": "Bolt 17 · guardian exit",
+          "text": "Catch the bolt on the ledge after defeating the airship guardian.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "tengu-man-bolt-17-guardian-exit"
+        },
+        {
+          "name": "Bolt 18 · last moving platforms",
+          "text": "Leave the moving platform from a low position to reach the bolt below.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "tengu-man-bolt-18-last-moving-platforms"
+        }
+      ],
+      "sprite": {
+        "name": "TenguMan",
+        "src": "assets/classic-mm8-tenguman.gif",
+        "width": 36,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "clown-man",
+      "name": "Clown Man",
+      "weakness": "Tornado Hold",
+      "reward": "Thunder Claw",
+      "weapon": "Tornado Hold",
+      "tip": "Place Tornado Hold beneath his swinging route. Read the floor symbols before the bell rings.",
+      "now": "Bolt 19 · early gap · Bolt 20 · Sniper Joe · Bolt 21 · upper-left barrel · Bolt 22 · upper-right platforms · Bolt 23 · teleport blocks · Rush Question",
+      "items": [
+        {
+          "name": "Bolt 19 · early gap",
+          "text": "Use Rush Cycle’s long jump to cross the gap to the bolt.",
+          "need": "Rush Cycle",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-bolt-19-early-gap"
+        },
+        {
+          "name": "Bolt 20 · Sniper Joe",
+          "text": "Defeat the shield enemy and take the bolt behind him.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-bolt-20-sniper-joe"
+        },
+        {
+          "name": "Bolt 21 · upper-left barrel",
+          "text": "Reach the moving skull platforms, then burn the barrel above-left.",
+          "need": "Flame Sword + Tornado Hold",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-bolt-21-upper-left-barrel"
+        },
+        {
+          "name": "Bolt 22 · upper-right platforms",
+          "text": "From the high platforms, continue right and collect the bolt before the platforms drop.",
+          "need": "Tornado Hold",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-bolt-22-upper-right-platforms"
+        },
+        {
+          "name": "Bolt 23 · teleport blocks",
+          "text": "On the row below the top, stand on the second ? block from the right. Use Tornado Hold below.",
+          "need": "Tornado Hold",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-bolt-23-teleport-blocks"
+        },
+        {
+          "name": "Rush Question",
+          "text": "Defeat the disk miniboss. Calling Rush produces a random supply item.",
+          "need": "Miniboss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "clown-man-rush-question"
+        }
+      ],
+      "sprite": {
+        "name": "ClownMan",
+        "src": "assets/classic-mm8-clownman.gif",
+        "width": 41,
+        "height": 24,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "duo-intermission",
+      "name": "Duo intermission",
+      "weakness": "",
+      "reward": "Second set of Robot Masters",
+      "weapon": "",
+      "tip": "Dodge Duo’s leap and charged attack; use charged Buster shots.",
+      "now": "Bolt 24 · ceiling ladder · Bolt 25 · right-hand hook",
+      "items": [
+        {
+          "name": "Bolt 24 · ceiling ladder",
+          "text": "Bounce with Mega Ball to the early ceiling ladder. Defeat the enemies on its left.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "duo-intermission-bolt-24-ceiling-ladder"
+        },
+        {
+          "name": "Bolt 25 · right-hand hook",
+          "text": "From that ladder, go right and swing over the spikes.",
+          "need": "Thunder Claw",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "duo-intermission-bolt-25-right-hand-hook"
+        }
+      ]
+    },
+    {
+      "id": "astro-man",
+      "name": "Astro Man",
+      "weakness": "Homing Sniper",
+      "reward": "Astro Crush",
+      "weapon": "Charged Buster / Flash Bomb",
+      "tip": "Use charged Buster or Flash Bomb first. Watch the two orbiting spheres and the incoming meteors.",
+      "now": "Bolt 26 · first maze · Bolt 27 · collapsing tower · Bolt 28 · disappearing platforms · Bolt 29 · second maze",
+      "items": [
+        {
+          "name": "Bolt 26 · first maze",
+          "text": "Lower the blocking red/green pillars with their switches, then take the lower-right passage.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "astro-man-bolt-26-first-maze"
+        },
+        {
+          "name": "Bolt 27 · collapsing tower",
+          "text": "Slide into the visible bolt before continuing up the falling tower.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "astro-man-bolt-27-collapsing-tower"
+        },
+        {
+          "name": "Bolt 28 · disappearing platforms",
+          "text": "Collect the visible bolt while the temporary platforms are present.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "astro-man-bolt-28-disappearing-platforms"
+        },
+        {
+          "name": "Bolt 29 · second maze",
+          "text": "Use the switches to open the lower corridor; use Tornado Hold over the high wall, then jump past the green switch to the bolt.",
+          "need": "Tornado Hold",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "astro-man-bolt-29-second-maze"
+        }
+      ],
+      "sprite": {
+        "name": "AstroMan",
+        "src": "assets/classic-mm8-astroman.gif",
+        "width": 41,
+        "height": 40,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "aqua-man",
+      "name": "Aqua Man",
+      "weakness": "Astro Crush",
+      "reward": "Water Balloon",
+      "weapon": "Astro Crush",
+      "tip": "Use Astro Crush when he is exposed; swim or jump away from the water attacks.",
+      "now": "Bolt 30 · flooded ceiling · Bolt 31 · spike ball · Bolt 32 · flooded shaft · Bolt 33 · ladder shaft · Rush Charger",
+      "items": [
+        {
+          "name": "Bolt 30 · flooded ceiling",
+          "text": "After the checkpoint, break the cracked ceiling in the second room, then swim up-right.",
+          "need": "Astro Crush",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "aqua-man-bolt-30-flooded-ceiling"
+        },
+        {
+          "name": "Bolt 31 · spike ball",
+          "text": "Lift the low-right spike ball with a tornado and slide underneath.",
+          "need": "Tornado Hold",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "aqua-man-bolt-31-spike-ball"
+        },
+        {
+          "name": "Bolt 32 · flooded shaft",
+          "text": "After flooding the stage, swim across the spike pit and descend the shaft; take the bolt beside the second spike platform.",
+          "need": "Astro Crush",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "aqua-man-bolt-32-flooded-shaft"
+        },
+        {
+          "name": "Bolt 33 · ladder shaft",
+          "text": "Replay from the checkpoint or revisit. Take the ladder route instead of swimming across the spike pit; keep left during the descent.",
+          "need": "Second pass",
+          "timing": "return",
+          "when": "Return with the listed equipment",
+          "extra": "",
+          "media": [],
+          "id": "aqua-man-bolt-33-ladder-shaft"
+        },
+        {
+          "name": "Rush Charger",
+          "text": "Defeat the water miniboss. Rush drops health and weapon energy; keep this for the fortress.",
+          "need": "Miniboss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "aqua-man-rush-charger"
+        }
+      ],
+      "sprite": {
+        "name": "AquaMan",
+        "src": "assets/classic-mm8-aquaman.gif",
+        "width": 32,
+        "height": 30,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "sword-man",
+      "name": "Sword Man",
+      "weakness": "Water Balloon",
+      "reward": "Flame Sword",
+      "weapon": "Water Balloon",
+      "tip": "Use Water Balloon between his separations. The four early trial rooms require your first four special weapons.",
+      "now": "Bolt 34 · Flash Bomb trial · Bolt 35 · Thunder Claw trial · Bolt 36 · lava waterfall · Rush Bomber",
+      "items": [
+        {
+          "name": "Bolt 34 · Flash Bomb trial",
+          "text": "Take the bolt on the floor at the beginning of the Flash Bomb room.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "sword-man-bolt-34-flash-bomb-trial"
+        },
+        {
+          "name": "Bolt 35 · Thunder Claw trial",
+          "text": "Take the low-left bolt in the third Thunder Claw room before the platforms move.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "sword-man-bolt-35-thunder-claw-trial"
+        },
+        {
+          "name": "Bolt 36 · lava waterfall",
+          "text": "After the lava waterfall, shoot the marked ceiling with Flash Bomb. Climb the ladder and collect the bolt on the upper ledge.",
+          "need": "Flash Bomb",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "sword-man-bolt-36-lava-waterfall"
+        },
+        {
+          "name": "Rush Bomber",
+          "text": "Defeat the wall-climbing miniboss. Rush provides a temporary bombing run.",
+          "need": "Miniboss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "sword-man-rush-bomber"
+        }
+      ],
+      "sprite": {
+        "name": "SwordMan",
+        "src": "assets/classic-mm8-swordman.gif",
+        "width": 41,
+        "height": 43,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "search-man",
+      "name": "Search Man",
+      "weakness": "Flame Sword",
+      "reward": "Homing Sniper",
+      "weapon": "Flame Sword",
+      "tip": "Burn his hiding shrubs with Flame Sword. Move to open ground before the missiles arrive.",
+      "now": "Bolt 37 · foreground leaves · Bolt 38 · high hook · Bolt 39 · thorn plants · Bolt 40 · double swing",
+      "items": [
+        {
+          "name": "Bolt 37 · foreground leaves",
+          "text": "Look behind the leaves at the lower right of the early jungle room.",
+          "need": "None",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "search-man-bolt-37-foreground-leaves"
+        },
+        {
+          "name": "Bolt 38 · high hook",
+          "text": "Ride Tornado Hold toward the high hook, switch to Thunder Claw, swing right and climb the ladder.",
+          "need": "Tornado Hold + Thunder Claw",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "search-man-bolt-38-high-hook"
+        },
+        {
+          "name": "Bolt 39 · thorn plants",
+          "text": "Burn the six thorn plants below the high-hook area.",
+          "need": "Flame Sword",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "search-man-bolt-39-thorn-plants"
+        },
+        {
+          "name": "Bolt 40 · double swing",
+          "text": "After descending the later ladder, swing over the spikes and catch the second hook before dropping.",
+          "need": "Thunder Claw",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "search-man-bolt-40-double-swing"
+        }
+      ],
+      "sprite": {
+        "name": "SearchMan",
+        "src": "assets/classic-mm8-searchman.gif",
+        "width": 39,
+        "height": 29,
+        "source": "https://www.mmhp.net/GameHints/MM8-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [
+    {
+      "stage": "grenade-man",
+      "title": "Fuse bolt after Sword",
+      "items": [
+        "grenade-man-bolt-06-unlit-fuse"
+      ]
+    },
+    {
+      "stage": "frost-man",
+      "title": "Ice tower after Astro",
+      "items": [
+        "frost-man-bolt-13-ice-tower"
+      ]
+    },
+    {
+      "stage": "tengu-man",
+      "title": "Ceiling bolt after Astro",
+      "items": [
+        "tengu-man-bolt-16-airship-ceiling"
+      ]
+    },
+    {
+      "stage": "clown-man",
+      "title": "High route after Sword",
+      "items": [
+        "clown-man-bolt-21-upper-left-barrel",
+        "clown-man-bolt-22-upper-right-platforms"
+      ]
+    },
+    {
+      "stage": "aqua-man",
+      "title": "Other descent route",
+      "items": [
+        "aqua-man-bolt-33-ladder-shaft"
+      ]
+    }
+  ],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "40 bolts across the island, Duo and eight stages; four Rush support rewards. Make your shop choices and refill special weapons.",
+  "warning": {
+    "title": "Bolts are limited. Read the shop descriptions before buying.",
+    "text": "There are 40 bolts and more than 40 bolts’ worth of parts. Energy Saver, Super Recover and a charge upgrade are useful first-run choices. Keep a save before committing to a purchase."
+  },
+  "sections": [
+    {
+      "id": "shop",
+      "title": "Choosing shop parts",
+      "paragraphs": [
+        "Energy Saver stretches special-weapon energy. Super Recover improves supply pickups. Hyper Charge shortens Buster charging; Laser Shot changes the charged shot into a piercing beam.",
+        "Exit leaves an already-cleared stage, making bolt returns quicker. Buying every part is impossible in one save; choose the effects you will actually use."
+      ]
+    },
+    {
+      "id": "fortress",
+      "title": "Wily’s tower",
+      "paragraphs": [
+        "Stage 1: follow the Jump and Slide board prompts. At the pod boss, bounce Mega Ball into the pod with eyes; the plain supply pod drops weapon energy.",
+        "Stage 2: use charged Buster or Flash Bomb on the flying ship. Stage 3: use charged Buster on Bass and Astro Crush to protect against his meteor attack.",
+        "Green Devil: Flash Bomb opens the body; hit the eye when it opens with Thunder Claw or charged Buster. Reuse the weakness chain in the rematches.",
+        "Wily Machine: hit the eyes with Flash Bomb or Water Balloon and interrupt the mouth laser with ordinary shots. Capsule: use charged Buster from a safe distance, or Flame Sword when close enough. Call Rush Charger for recovery."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 8 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM8.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM8-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc2.html"
+    },
+    {
+      "title": "Video Chums · 40 PlayStation bolt locations",
+      "url": "https://videochums.com/article/mega-man-8-bolt-locations-guide"
+    },
+    {
+      "title": "GameFAQs · bolt locations and Rush rewards",
+      "url": "https://gamefaqs.gamespot.com/ps/250604-mega-man-8/faqs/3996"
+    }
+  ],
+  "flowLabel": "Stage route",
+  "libraryIntro": "All 40 Bolts, the four Rush abilities and the shop choices to make before spending your limited currency."
+}

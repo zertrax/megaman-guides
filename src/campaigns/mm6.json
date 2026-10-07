@@ -1,0 +1,282 @@
+{
+  "id": "mm6",
+  "series": "classic",
+  "displayId": "6",
+  "title": "Mega Man 6",
+  "collection": "Mega Man Legacy Collection · NES",
+  "intro": "A route through the Robot Masters, the utility items worth collecting, and the final stages. Read the introduction for the controls and systems specific to this game.",
+  "facts": [
+    "8 Robot Masters",
+    "Weapons, utility items and final stages"
+  ],
+  "primer": [
+    "Rush Jet and Power are wearable adapters here. They replace normal weapons while equipped, and neither allows sliding. Change back to ordinary Mega Man for low tunnels.",
+    "E-Tanks are one-use full-health refills. Open the weapon menu before the next hit could kill you. They are not refillable Sub Tanks.",
+    "Beat requires four letters awarded by the alternate boss rooms in Tomahawk, Yamato, Knight and Centaur. Clearing their ordinary room gives the weapon but not the letter; revisit if the stage box has no letter icon."
+  ],
+  "routeIntro": "Plant first unlocks Jet; Wind and Flame then give Power. This route favors collecting the alternate-route letters, so Wind is another early Buster fight.",
+  "route": [],
+  "stages": [
+    {
+      "id": "plant-man",
+      "name": "Plant Man",
+      "weakness": "Blizzard Attack",
+      "reward": "Plant Barrier",
+      "weapon": "Charged Buster",
+      "tip": "Charge the Buster while his shield is up; shoot after he throws it.",
+      "now": "Jet Adapter",
+      "items": [
+        {
+          "name": "Jet Adapter",
+          "text": "Defeat Plant Man. Hold Jump in midair for a short flight, then land to recover its meter.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "plant-man-jet-adapter"
+        }
+      ],
+      "sprite": {
+        "name": "PlantMan",
+        "src": "assets/classic-mm6-plantman.gif",
+        "width": 28,
+        "height": 36,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "wind-man",
+      "name": "Wind Man",
+      "weakness": "Centaur Flash",
+      "reward": "Wind Storm",
+      "weapon": "Charged Buster",
+      "tip": "Stay away from the fan pull and jump over his crossing flight.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "WindMan",
+        "src": "assets/classic-mm6-windman.gif",
+        "width": 32,
+        "height": 38,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "flame-man",
+      "name": "Flame Man",
+      "weakness": "Wind Storm",
+      "reward": "Flame Blast",
+      "weapon": "Wind Storm",
+      "tip": "Use Wind Storm between the pillars of fire.",
+      "now": "Power Adapter",
+      "items": [
+        {
+          "name": "Power Adapter",
+          "text": "Defeat Flame Man. Charge its punch to break marked blocks and push certain objects.",
+          "need": "Boss clear",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "flame-man-power-adapter"
+        }
+      ],
+      "sprite": {
+        "name": "FlameMan",
+        "src": "assets/classic-mm6-flameman.gif",
+        "width": 29,
+        "height": 32,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "tomahawk-man",
+      "name": "Tomahawk Man",
+      "weakness": "Plant Barrier",
+      "reward": "Silver Tomahawk",
+      "weapon": "Plant Barrier",
+      "tip": "Approach with Plant Barrier during a safe opening; avoid his thrown axes.",
+      "now": "B letter · Energy Balancer",
+      "items": [
+        {
+          "name": "B letter",
+          "text": "After the giant sun and Met dispenser, fly beneath the long central ledge with Jet. Follow the lower route to the alternate boss door.",
+          "need": "Jet Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "tomahawk-man-b-letter"
+        },
+        {
+          "name": "Energy Balancer",
+          "text": "Take the upper route above that same ledge. In the next ladder room, punch the lower breakable wall from the ladder to reveal the item.",
+          "need": "Power Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "tomahawk-man-energy-balancer"
+        }
+      ],
+      "sprite": {
+        "name": "TomahawkMan",
+        "src": "assets/classic-mm6-tomahawkman.gif",
+        "width": 30,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "yamato-man",
+      "name": "Yamato Man",
+      "weakness": "Silver Tomahawk",
+      "reward": "Yamato Spear",
+      "weapon": "Silver Tomahawk",
+      "tip": "Aim the tomahawk into his jump and dodge the falling spear pieces.",
+      "now": "E letter",
+      "items": [
+        {
+          "name": "E letter",
+          "text": "At the two-ladder junction, take the upper route using Jet and continue to the alternate boss.",
+          "need": "Jet Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "yamato-man-e-letter"
+        }
+      ],
+      "sprite": {
+        "name": "YamatoMan",
+        "src": "assets/classic-mm6-yamatoman.gif",
+        "width": 32,
+        "height": 37,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "knight-man",
+      "name": "Knight Man",
+      "weakness": "Yamato Spear",
+      "reward": "Knight Crush",
+      "weapon": "Yamato Spear",
+      "tip": "The spear penetrates his shield; otherwise wait for him to throw the mace.",
+      "now": "A letter",
+      "items": [
+        {
+          "name": "A letter",
+          "text": "Break the block beside the ordinary boss gate with Power, then follow the passage behind it.",
+          "need": "Power Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "knight-man-a-letter"
+        }
+      ],
+      "sprite": {
+        "name": "KnightMan",
+        "src": "assets/classic-mm6-knightman.gif",
+        "width": 32,
+        "height": 35,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "centaur-man",
+      "name": "Centaur Man",
+      "weakness": "Knight Crush",
+      "reward": "Centaur Flash",
+      "weapon": "Knight Crush",
+      "tip": "Use Knight Crush between his teleports and jump over the shots.",
+      "now": "T letter",
+      "items": [
+        {
+          "name": "T letter",
+          "text": "Use Jet to reach the first, higher boss gate rather than the ordinary lower route.",
+          "need": "Jet Adapter",
+          "timing": "first",
+          "when": "First visit",
+          "extra": "",
+          "media": [],
+          "id": "centaur-man-t-letter"
+        }
+      ],
+      "sprite": {
+        "name": "CentaurMan",
+        "src": "assets/classic-mm6-centaurman.gif",
+        "width": 34,
+        "height": 42,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    },
+    {
+      "id": "blizzard-man",
+      "name": "Blizzard Man",
+      "weakness": "Flame Blast",
+      "reward": "Blizzard Attack",
+      "weapon": "Flame Blast",
+      "tip": "Hit him with Flame Blast after his rolling attack ends. Keep space to jump over the next roll.",
+      "now": "Weapon reward on clear",
+      "items": [],
+      "sprite": {
+        "name": "BlizzardMan",
+        "src": "assets/classic-mm6-blizzardman.gif",
+        "width": 38,
+        "height": 40,
+        "source": "https://www.mmhp.net/GameHints/MM6-Data.html",
+        "credit": "Sprite hosted by MMHP; game imagery © Capcom"
+      }
+    }
+  ],
+  "returns": [],
+  "returnIntro": "Collect the listed utility items before entering the fortress. Ordinary energy, lives and tanks are consumable supplies, not X-style permanent health upgrades.",
+  "completionText": "Both Rush adapters + Energy Balancer + four BEAT letters. Refill tanks before Mr. X.",
+  "sections": [
+    {
+      "id": "fortress",
+      "title": "Mr. X and Wily fortresses",
+      "paragraphs": [
+        "Mr. X: use Flame Blast on the rail pods, Silver Tomahawk on the wall climber, Blizzard Attack on the Met tank, then Flame Blast on the swinging machine.",
+        "Wily: use Yamato Spear on the dragon and Wind Storm on the tank. Reuse the weakness chain during the rematches.",
+        "Silver Tomahawk reaches Wily’s raised targets in the machine and capsule fights. Power punches and charged Buster shots remain useful on reachable targets."
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "The adapter’s flight meter is not ordinary weapon energy. Land on safe ground before crossing the next gap.",
+        "Energy Balancer assigns weapon energy to a depleted weapon when the ordinary Buster is selected."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · Mega Man 6 route, utility locations and fortress",
+      "url": "https://www.mmhp.net/GameHints/MM6.html"
+    },
+    {
+      "title": "MMHP · weapon rewards and damage data",
+      "url": "https://www.mmhp.net/GameHints/MM6-Data.html"
+    },
+    {
+      "title": "MMHP · general platforming and weapon use",
+      "url": "https://www.mmhp.net/Original/Tips.html"
+    },
+    {
+      "title": "Capcom · collection contents",
+      "url": "https://megaman.capcom.com/mmlc.html"
+    }
+  ],
+  "libraryIntro": "Jet and Power adapters open hidden routes. Collect the four Beat pieces and the Energy Balancer before Mr. X’s fortress."
+}

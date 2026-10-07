@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "id": "x3",
   "title": "Mega Man X3",
-  "subtitle": "SNES · Original game, not Zero Project",
-  "intro": "A weakness route with every heart, tank, armor part and Ride Armor. Includes the Gold Armor decision and the timed route to Zero’s saber.",
+  "subtitle": "SNES · original X3 · X’s campaign",
+  "intro": "Collect armor, hearts and Sub Tanks, follow the weapon chain, then return for the upgrades you could not reach. Start here if X3 is your first game—or jump straight to the stage you are playing.",
   "expectedCounts": {
     "heart": 8,
     "tank": 4,
@@ -18,30 +18,9 @@
       "area": "Frozen City",
       "weakness": "Parasitic Bomb",
       "reward": "Frost Shield",
-      "tip": "Charge the Buster. Climb the wall as he charges, air-dash over him and fire from behind. Avoid touching the wall when he crashes into it.",
+      "tip": "Charge the Buster. After collecting the Leg Parts, climb the wall as he charges, air-dash over him and fire from behind. If you missed the capsule, use wall-jumps to avoid his rush.",
       "weapon": "X-Buster",
       "items": [
-        {
-          "id": "blizzard-buffalo-heart-tank",
-          "type": "heart",
-          "name": "Heart Tank",
-          "need": "Tornado Fang",
-          "text": "Near the start, find the ice blocks immediately after the Ride Armor pad. Drill through them to reach the heart.",
-          "timing": "return",
-          "when": "Return trip",
-          "extra": "",
-          "media": [
-            {
-              "src": "assets/x3-blizzard-buffalo-heart-tank.jpg",
-              "width": 640,
-              "height": 480,
-              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/708.html",
-              "original": "https://www.honestgamers.com/guides/10/2455/32/buffalo(4).jpg",
-              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
-              "alt": "Blizzard Buffalo · Heart Tank — full scene"
-            }
-          ]
-        },
         {
           "id": "blizzard-buffalo-leg-parts",
           "type": "armor",
@@ -83,9 +62,30 @@
               "alt": "Blizzard Buffalo · Sub Tank — full scene"
             }
           ]
+        },
+        {
+          "id": "blizzard-buffalo-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Tornado Fang",
+          "text": "Near the start, find the ice blocks immediately after the Ride Armor pad. Drill through them to reach the heart.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x3-blizzard-buffalo-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/708.html",
+              "original": "https://www.honestgamers.com/guides/10/2455/32/buffalo(4).jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Blizzard Buffalo · Heart Tank — full scene"
+            }
+          ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Legs → backtrack for tank; return for heart",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/708.html",
       "sprite": {
         "src": "assets/x3-blizzard-buffalo-boss-sprite.png",
@@ -155,7 +155,7 @@
           "need": "Leg Parts + Chimera and Frog Ride Armors",
           "text": "Use Frog in the flooded area to break the fans on the far right. Leave the armor and climb the shaft beyond the fans to the pink capsule.",
           "timing": "skip",
-          "when": "SKIP on the Gold Armor route",
+          "when": "Skip on the recommended route · optional alternative",
           "extra": "Optional alternative only. Taking any pink chip blocks Gold Armor; the Gold route skips all four. Gives two air dashes per jump.",
           "media": [
             {
@@ -170,7 +170,7 @@
           ]
         }
       ],
-      "now": "Pink chip is optional; skip it for Gold Armor",
+      "now": "Heart now; Kangaroo later; skip the pink chip",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/709.html",
       "sprite": {
         "src": "assets/x3-toxic-seahorse-boss-sprite.png",
@@ -192,27 +192,6 @@
       "weapon": "Acid Burst",
       "items": [
         {
-          "id": "tunnel-rhino-heart-tank",
-          "type": "heart",
-          "name": "Heart Tank",
-          "need": "Arm Parts + Triad Thunder",
-          "text": "Early in the tunnels, take the right branch to the giant hanging rock over spikes. Release charged Triad Thunder on solid ground to drop the rock, then cross it to the heart.",
-          "timing": "return",
-          "when": "Return trip",
-          "extra": "",
-          "media": [
-            {
-              "src": "assets/x3-tunnel-rhino-heart-tank.jpg",
-              "width": 640,
-              "height": 480,
-              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/712.html",
-              "original": "https://www.honestgamers.com/guides/10/2455/32/rhino(4).jpg",
-              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
-              "alt": "Tunnel Rhino · Heart Tank — full scene"
-            }
-          ]
-        },
-        {
           "id": "tunnel-rhino-sub-tank",
           "type": "tank",
           "name": "Sub Tank",
@@ -230,6 +209,27 @@
               "original": "https://www.honestgamers.com/guides/10/2455/32/rhino(5).jpg",
               "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
               "alt": "Tunnel Rhino · Sub Tank — full scene"
+            }
+          ]
+        },
+        {
+          "id": "tunnel-rhino-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Arm Parts + Triad Thunder",
+          "text": "Early in the tunnels, take the right branch to the giant hanging rock over spikes. Release charged Triad Thunder on solid ground to drop the rock, then cross it to the heart.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x3-tunnel-rhino-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/712.html",
+              "original": "https://www.honestgamers.com/guides/10/2455/32/rhino(4).jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Tunnel Rhino · Heart Tank — full scene"
             }
           ]
         },
@@ -255,7 +255,7 @@
           ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Tank now; return for heart and Head Parts",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/712.html",
       "sprite": {
         "src": "assets/x3-tunnel-rhino-boss-sprite.png",
@@ -340,7 +340,7 @@
           ]
         }
       ],
-      "now": "Collect available items; return for marked pickups",
+      "now": "Heart now; Body Parts + tank on return",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/713.html",
       "sprite": {
         "src": "assets/x3-volt-catfish-boss-sprite.png",
@@ -410,7 +410,7 @@
           "need": "Body Parts + Chimera Ride Armor unlocked",
           "text": "Take Ride Armor down the deep gap after the early platforms. Break the wall on the left at the bottom and leave the armor to enter the capsule.",
           "timing": "skip",
-          "when": "SKIP on the Gold Armor route",
+          "when": "Skip on the recommended route · optional alternative",
           "extra": "Optional alternative only. Taking any pink chip blocks Gold Armor; the Gold route skips all four. Improves damage protection.",
           "media": [
             {
@@ -425,7 +425,7 @@
           ]
         }
       ],
-      "now": "Pink chip is optional; skip it for Gold Armor",
+      "now": "Both regular pickups need a return; skip the pink chip",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/714.html",
       "sprite": {
         "src": "assets/x3-crush-crawfish-boss-sprite.png",
@@ -510,7 +510,7 @@
           ]
         }
       ],
-      "now": "Collect the stage pickups",
+      "now": "Tank → Arms → Heart; refill here before Vile",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/715.html",
       "sprite": {
         "src": "assets/x3-neon-tiger-boss-sprite.png",
@@ -531,27 +531,6 @@
       "tip": "Use Ray Splasher while staying away from the bouncing gravity spheres. Give the huge black hole room; cross over him before you get trapped against a wall.",
       "weapon": "Ray Splasher",
       "items": [
-        {
-          "id": "gravity-beetle-heart-tank",
-          "type": "heart",
-          "name": "Heart Tank",
-          "need": "Blast Hornet defeated",
-          "text": "Return to the first warehouse after defeating Blast Hornet. The crates blocking the upper-left ledge are gone; climb up for the heart.",
-          "timing": "return",
-          "when": "Return trip",
-          "extra": "",
-          "media": [
-            {
-              "src": "assets/x3-gravity-beetle-heart-tank.jpg",
-              "width": 640,
-              "height": 480,
-              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/716.html",
-              "original": "https://www.honestgamers.com/guides/10/2455/32/beetle(2).jpg",
-              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
-              "alt": "Gravity Beetle · Heart Tank — full scene"
-            }
-          ]
-        },
         {
           "id": "gravity-beetle-frog-ride-armor",
           "type": "ride",
@@ -574,13 +553,34 @@
           ]
         },
         {
+          "id": "gravity-beetle-heart-tank",
+          "type": "heart",
+          "name": "Heart Tank",
+          "need": "Blast Hornet defeated",
+          "text": "Return to the first warehouse after defeating Blast Hornet. The crates blocking the upper-left ledge are gone; climb up for the heart.",
+          "timing": "return",
+          "when": "Return trip",
+          "extra": "",
+          "media": [
+            {
+              "src": "assets/x3-gravity-beetle-heart-tank.jpg",
+              "width": 640,
+              "height": 480,
+              "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/716.html",
+              "original": "https://www.honestgamers.com/guides/10/2455/32/beetle(2).jpg",
+              "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
+              "alt": "Gravity Beetle · Heart Tank — full scene"
+            }
+          ]
+        },
+        {
           "id": "gravity-beetle-arm-chip",
           "type": "chip",
           "name": "Arm Chip",
           "need": "Arm Parts + Chimera Ride Armor unlocked",
           "text": "Bring Ride Armor to the metal wall on the left before the final long vertical shaft. Break it with the armor and enter the pink capsule.",
           "timing": "skip",
-          "when": "SKIP on the Gold Armor route",
+          "when": "Skip on the recommended route · optional alternative",
           "extra": "Optional alternative only. Taking any pink chip blocks Gold Armor; the Gold route skips all four. Grants the Hyper Charge weapon.",
           "media": [
             {
@@ -595,7 +595,7 @@
           ]
         }
       ],
-      "now": "Pink chip is optional; skip it for Gold Armor",
+      "now": "Frog now; Heart after Hornet; skip the pink chip",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/716.html",
       "sprite": {
         "src": "assets/x3-gravity-beetle-boss-sprite.png",
@@ -665,7 +665,7 @@
           "need": "Head Parts + Leg Parts",
           "text": "In the early conveyor-belt section, climb the wall to the upper-right recess. Use the upward air dash to reach the capsule above the spike-lined route.",
           "timing": "skip",
-          "when": "SKIP on the Gold Armor route",
+          "when": "Skip on the recommended route · optional alternative",
           "extra": "Optional alternative only. Taking any pink chip blocks Gold Armor; the Gold route skips all four. Regenerates health and fills tanks while you stand still.",
           "media": [
             {
@@ -680,7 +680,7 @@
           ]
         }
       ],
-      "now": "Pink chip is optional; skip it for Gold Armor",
+      "now": "Chimera → Heart; skip the pink chip",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/717.html",
       "sprite": {
         "src": "assets/x3-blast-hornet-boss-sprite.png",
@@ -695,64 +695,35 @@
   ],
   "routes": [
     {
-      "name": "Standard · keep Zero as backup",
-      "subtitle": "All regular upgrades",
-      "description": "Follow the eight-boss chain and clear the return trips. The saber is optional.",
+      "name": "First clear · regular upgrades + the Gold option",
+      "subtitle": "Recommended route",
+      "description": "Follow the weakness chain as X. Skip the individual pink chips from the beginning; the hidden Gold upgrade comes later.",
       "steps": [
         {
-          "title": "Buffalo → Seahorse → Rhino → Catfish",
-          "text": "Collect available hearts, tanks and the leg capsule.",
-          "href": "#boss-flow",
-          "critical": false
+          "title": "01–04 · Buffalo → Seahorse → Rhino → Catfish",
+          "href": "#blizzard-buffalo",
+          "text": "Take Buffalo’s Legs, then backtrack for its tank. Collect the first-visit hearts and tanks marked below. Several capsules still need later weapons."
         },
         {
-          "title": "Crawfish → Tiger → Beetle → Hornet",
-          "text": "Take Tiger’s arms and Hornet’s Chimera module.",
-          "href": "#crush-crawfish",
-          "critical": false
+          "title": "05–06 · Crawfish → Tiger",
+          "href": "#neon-tiger",
+          "text": "Return to Crawfish later for its pickups. In Tiger, take the tank, Arm Parts and heart. Arms unlock charged special weapons."
         },
         {
-          "title": "Finish six return stages",
-          "text": "Collect all 20 regular pickups; decide whether to take one pink chip or hold out for Gold.",
-          "href": "#cleanup",
-          "critical": false
-        },
-        {
-          "title": "Doppler fortress",
-          "text": "Keep X active for Mosquitus if you want Zero available for the normal ending.",
-          "href": "#fortress",
-          "critical": false
-        }
-      ]
-    },
-    {
-      "name": "Completionist · Gold Armor + saber",
-      "subtitle": "Two decisions before the fortress",
-      "description": "Get every regular pickup, all chip abilities via Gold, and the saber. Zero retires after the transfer.",
-      "steps": [
-        {
-          "title": "Skip every pink capsule; keep Zero alive",
-          "text": "Use X for ordinary stages. A defeated Zero cannot return later for the saber.",
-          "href": "#gold-armor",
-          "critical": true
-        },
-        {
-          "title": "After Tiger, destroy Vile permanently",
-          "text": "Finish his unarmored phase with Ray Splasher or Spinning Blade, then escape. Do this before the last two Mavericks.",
+          "title": "Optional pause after 06 · Vile detour",
           "href": "#zero-saber",
+          "text": "Add this only if you want X’s saber. Destroy Vile permanently now and escape; otherwise continue with Zero alive.",
           "critical": true
         },
         {
-          "title": "Beetle → Hornet → all return trips",
-          "text": "Complete hearts, tanks, base armor and Ride Armor modules.",
+          "title": "07–08 · Beetle → Hornet, then return trips",
           "href": "#cleanup",
-          "critical": false
+          "text": "Get Frog, Chimera and Hornet’s heart. Return to Catfish first for Body Parts and its tank, then finish the other regular pickups."
         },
         {
-          "title": "Doppler 1 Gold → Doppler 2 saber",
-          "text": "Arrive at Gold with full health; switch to Zero before entering Mosquitus’s room.",
+          "title": "Doppler · Gold, refills and the ending choice",
           "href": "#gold-armor",
-          "critical": true
+          "text": "With all 20 pickups and no pink chip installed, get Gold at full health. Use X for Mosquitus to keep Zero, or follow the saber instructions below."
         }
       ]
     }
@@ -805,10 +776,10 @@
     }
   ],
   "extraSections": [
-    "<section id=\"field-tips\"><div class=\"section-head\"><h2>Useful tips</h2><span class=\"eyebrow\">Refills and preparation</span></div><h3 id=\"tank-refill\">Choose your drops · Neon Tiger</h3><p>Use the flying dragonfly platforms (Tomborts) in the outdoor forest to restock: defeat them with <b>Frost Shield for health</b> or <b>Acid Burst for weapon energy</b>. Move away and return to respawn them. Collect health at full life to fill Sub Tanks; select the weapon you want to refill before taking weapon energy. These guaranteed drop interactions apply to these enemies, not every enemy.</p><p>Both weapons are available before Neon Tiger on this route. Keep a dragonfly alive if you still need it as a platform to reach a pickup.</p><h3>Automatic recovery · after Gold Armor</h3><p>Once you have Gold Armor, stand completely still in a safe, cleared area. Its Head Chip effect gradually restores health, then Sub Tanks. Wait before entering the next boss door.</p><p class=\"inline-critical\"><strong>Preserve the Gold route:</strong> do not take Blast Hornet’s individual pink Head Chip just for healing. Any individual chip blocks Gold Armor. Use enemy drops until you collect Gold; see <a href=\"#gold-armor\">Gold Armor &amp; chip choices</a>.</p><h3>Refill between Maverick rematches</h3><p>In Doppler Stage 3’s teleporter room, shoot the central supply pod for health and weapon pickups between fights. Collect what it drops before entering the next teleporter.</p></section>",
-    "<section id=\"zero-saber\"><h2>Zero’s saber & Vile detour</h2><p class=\"inline-critical\"><strong>Do this before defeating all eight Mavericks.</strong> Vile’s optional teleporters disappear after that point. Keep Zero alive until Doppler Stage 2.</p><ol class=\"instructions\"><li>After Neon Tiger, revisit Volt Catfish. Take the first elevator down below the normal route into Vile’s teleporter. Catfish is already defeated, so the factory’s escape elevators will work.</li><li>Defeat Vile’s Ride Armor, then fight Vile himself. The final hit on his unarmored form must be Ray Splasher or Spinning Blade: he must explode rather than retreat.</li><li>Escape the exploding factory before the 50-second timer runs out. Finish the remaining Mavericks and pickup cleanup.</li><li>In Doppler Stage 2, pass the water/Ride Armor section as X. Before the next miniboss door, switch to Zero. Defeat Mosquitus as Zero; the scripted injury transfers the saber to X. Do not defeat this miniboss as X.</li><li>After the transfer, Zero is unavailable for the rest of the run and the ending differs. Charge through X’s firing sequence to use the saber. This is a deliberate story branch, not a rescue.</li></ol><a class=\"shot bonus-shot\" href=\"assets/x3-doppler-stage-2-zero-saber.jpg\" data-lightbox data-title=\"Zero Saber\" aria-label=\"Enlarge Zero Saber location\"><img src=\"assets/x3-doppler-stage-2-zero-saber.jpg\" width=\"640\" height=\"480\" alt=\"Doppler Stage 2 · Zero Saber — full scene\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a><p>Bit and Byte are separate decisions: destroying both changes the first fortress boss, but is not required to get the saber. Bit: finish with Frost Shield or Triad Thunder. Byte: finish with Tornado Fang or Ray Splasher. Other finishing weapons make them retreat.</p></section>",
-    "<section id=\"gold-armor\"><h2>Gold Armor & chip choices</h2><p class=\"inline-critical\"><strong>Never install an individual pink chip on this route.</strong> A prior chip prevents the Gold capsule from appearing. The four pink-chip cards show alternatives for a different run.</p><ol class=\"instructions\"><li>Collect eight hearts, four Sub Tanks, four base armor parts and all four Ride Armor modules. Leave the four pink capsules unused.</li><li>In Doppler Stage 1, defeat the early REX-2000 miniboss and refill X’s health completely. In the spiked-ball section, slide down the left wall of the first pit into the hidden passage.</li><li>Enter the capsule for all four enhancement effects together. Ordinary passwords do not retain Gold Armor; collect it again after loading a password.</li></ol><a class=\"shot bonus-shot\" href=\"assets/x3-doppler-stage-1-gold-armor.jpg\" data-lightbox data-title=\"Gold Armor\" aria-label=\"Enlarge Gold Armor location\"><img src=\"assets/x3-doppler-stage-1-gold-armor.jpg\" width=\"640\" height=\"480\" alt=\"Doppler Stage 1 · Gold Armor — full scene\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a></section>",
-    "<section id=\"fortress\"><h2>Doppler fortress</h2><p>Refill Sub Tanks before entering. Choose the saber branch above before reaching the second stage.</p><ol class=\"instructions\"><li>Doppler 1: Gold Armor is here. If both Bit and Byte were destroyed, fight Press Disposer; otherwise they combine as Godkarmachine O Inary. Attack exposed weak points and keep away from the crushing machinery.</li><li>Doppler 2: a permanently destroyed Vile unlocks the Mosquitus saber opportunity and leads to Volt Kurageil. If Vile survived, you face him again instead; this late fight cannot unlock the earlier saber route.</li><li>Doppler 3: defeat the eight Maverick rematches with their listed weaknesses. Against Dr. Doppler, use Acid Burst only while his healing barrier is down.</li><li>Final stage: use Spinning Blade on Sigma’s first form. Against Kaiser Sigma, hit the small exposed head with charged Buster shots, then climb quickly during the lava escape.</li></ol></section>"
+    "<section id=\"gold-armor\"><h2>Gold Armor & chip choices</h2><p>Gold is the Hyper Chip: it combines stationary recovery, two air dashes, stronger post-hit protection and energy-powered Hyper Charge. Select Hyper Charge from the weapon menu to fire charged Buster shots using its own energy. The gold color marks these gameplay upgrades.</p><p class=\"inline-critical\"><strong>Never install an individual pink chip on this route.</strong> A prior chip prevents the Gold capsule from appearing. The four pink-chip cards show alternatives for a different run.</p><ol class=\"instructions\"><li>Collect eight hearts, four Sub Tanks, four base armor parts and all four Ride Armor modules. Leave the four pink capsules unused.</li><li>In Doppler Stage 1, defeat the early REX-2000 miniboss and refill X’s health completely. In the spiked-ball section, slide down the left wall of the first pit into the hidden passage.</li><li>Enter the capsule for all four enhancement effects together. Ordinary passwords do not retain Gold Armor; collect it again after loading a password.</li></ol><a class=\"shot bonus-shot\" href=\"assets/x3-doppler-stage-1-gold-armor.jpg\" data-lightbox data-title=\"Gold Armor\" aria-label=\"Enlarge Gold Armor location\"><img src=\"assets/x3-doppler-stage-1-gold-armor.jpg\" width=\"640\" height=\"480\" alt=\"Doppler Stage 1 · Gold Armor — full scene\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a></section>",
+    "<section id=\"zero-saber\"><h2>Zero’s saber & Vile detour</h2><p class=\"inline-critical\"><strong>Do this before defeating all eight Mavericks.</strong> Vile’s optional teleporters disappear after that point. Keep Zero alive until Doppler Stage 2.</p><ol class=\"instructions\"><li>After Neon Tiger, revisit Volt Catfish. Take the first elevator down below the normal route into Vile’s teleporter. Catfish is already defeated, so the factory’s escape elevators will work.</li><li>Defeat Vile’s Ride Armor, then fight Vile himself. The final hit on his unarmored form must be Ray Splasher or Spinning Blade: he must explode rather than retreat.</li><li>Escape the exploding factory before the 50-second timer runs out. Defeat the remaining Mavericks and collect the remaining pickups.</li><li>In Doppler Stage 2, pass the water/Ride Armor section as X. Before the next miniboss door, switch to Zero. Defeat Mosquitus as Zero; the scripted injury transfers the saber to X. Do not defeat this miniboss as X.</li><li>After the transfer, Zero is unavailable for the rest of the run and the ending differs. Charge through X’s firing sequence to use the saber. Taking the saber changes the ending.</li></ol><a class=\"shot bonus-shot\" href=\"assets/x3-doppler-stage-2-zero-saber.jpg\" data-lightbox data-title=\"Zero Saber\" aria-label=\"Enlarge Zero Saber location\"><img src=\"assets/x3-doppler-stage-2-zero-saber.jpg\" width=\"640\" height=\"480\" alt=\"Doppler Stage 2 · Zero Saber — full scene\" loading=\"lazy\"><span aria-hidden=\"true\">⤢</span></a><p>Bit and Byte are separate decisions: destroying both changes the first fortress boss, but is not required to get the saber. Bit: finish with Frost Shield or Triad Thunder. Byte: finish with Tornado Fang or Ray Splasher. Other finishing weapons make them retreat.</p></section>",
+    "<section id=\"fortress\"><h2>Doppler fortress</h2><p>Refill Sub Tanks before entering. Decide whether to take Zero’s saber before reaching the second stage.</p><ol class=\"instructions\"><li>Doppler 1: Gold Armor is here. If both Bit and Byte were destroyed, fight Press Disposer; otherwise they combine as Godkarmachine O Inary. Attack exposed weak points and keep away from the crushing machinery.</li><li>Doppler 2: if you destroyed Vile permanently, you can obtain the saber from Mosquitus and will face Volt Kurageil. If Vile survived, you face him again instead; this late fight cannot unlock the earlier saber route.</li><li>Doppler 3: defeat the eight Maverick rematches with their listed weaknesses. Against Dr. Doppler, use Acid Burst only while his healing barrier is down.</li><li>Final stage: use Spinning Blade on Sigma’s first form. Against Kaiser Sigma, hit the small exposed head with charged Buster shots, then climb quickly during the lava escape.</li></ol></section>",
+    "<section id=\"field-tips\"><div class=\"section-head\"><h2>Useful tips</h2><span class=\"eyebrow\">Refills and preparation</span></div><h3 id=\"tank-refill\">Choose your drops · Neon Tiger</h3><p>Use the flying dragonfly platforms (Tomborts) in the outdoor forest to restock: defeat them with <b>Frost Shield for health</b> or <b>Acid Burst for weapon energy</b>. Move away and return to respawn them. Collect health at full life to fill Sub Tanks; select the weapon you want to refill before taking weapon energy. These guaranteed drop interactions apply to these enemies, not every enemy.</p><p>Both weapons are available before Neon Tiger on this route. Keep a dragonfly alive if you still need it as a platform to reach a pickup.</p><h3>Automatic recovery · after Gold Armor</h3><p>Once you have Gold Armor, stand completely still in a safe, cleared area. Its Head Chip effect gradually restores health, then Sub Tanks. Wait before entering the next boss door.</p><p class=\"inline-critical\"><strong>Preserve the Gold route:</strong> do not take Blast Hornet’s individual pink Head Chip just for healing. Any individual chip blocks Gold Armor. Use enemy drops until you collect Gold; see <a href=\"#gold-armor\">Gold Armor &amp; chip choices</a>.</p><h3>Refill between Maverick rematches</h3><p>In Doppler Stage 3’s teleporter room, shoot the central supply pod for health and weapon pickups between fights. Collect what it drops before entering the next teleporter.</p></section>"
   ],
   "videos": [
     {
@@ -826,18 +797,11 @@
       "author": "MegaYoYo"
     }
   ],
-  "routeIntro": "Only one pink enhancement chip can be installed per run. These four locations are alternatives, not four items to collect. The completionist route skips them for Gold Armor and adds Zero’s saber.",
-  "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup saved for cleanup.",
-  "basicsHtml": "<summary>Controls, tanks &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages.</p><p>For an air dash, jump normally first; a dash-jump uses that movement allowance. Hold Up with Dash for the vertical air dash. Charge special weapons only after finding the Arm Parts. Keep Zero alive if you want his saber later.</p><p><a href=\"#tank-refill\">Reliable enemy drops and Gold Armor recovery →</a></p>",
-  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/723.html\" target=\"_blank\" rel=\"noopener\">Vile and permanent destruction ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/719.html\" target=\"_blank\" rel=\"noopener\">Mosquitus and the saber: Doppler Stage 2 ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/718.html\" target=\"_blank\" rel=\"noopener\">Gold Armor: Doppler Stage 1 ↗</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X3/Ride_Armor_Modules\" target=\"_blank\" rel=\"noopener\">Ride Armor requirements ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/710.html\" target=\"_blank\" rel=\"noopener\">Upgrade and chip inventory ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/3/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p><p>Practical tips: HonestGamers <a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/715.html\">Neon Tiger · weapon-dependent drops</a> and <a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/717.html\">Blast Hornet · recovery chip</a>; <a href=\"https://www.mmhp.net/GameHints/MMX3.html\">MMHP · chip restrictions and rematch supply pod</a>.</p>",
-  "warning": {
-    "id": "decide-first",
-    "label": "Permanent route decisions",
-    "title": "Want Gold Armor? Skip every pink chip. Want the saber? Keep Zero alive.",
-    "text": "Individual enhancement chips block Gold Armor. For the saber, permanently destroy Vile before all eight Mavericks are defeated, then use Zero for Mosquitus in Doppler Stage 2. This route pauses after boss 6 for Vile.",
-    "link": "#zero-saber",
-    "linkText": "Read the saber requirements"
-  },
+  "routeIntro": "This order keeps each boss’s weakness weapon available after the first fight. You obtain the Arm Parts at boss 6, then return for the damage-reducing Body Parts. Collect the early hearts and tanks instead of rushing straight through the bosses.",
+  "flowIntro": "The numbered route uses weapons already available. A return arrow marks a pickup to collect on a later visit.",
+  "basicsHtml": "<summary>Movement details &amp; returning to stages</summary><p>Directions use actions rather than controller buttons: Jump, Dash, Fire and Special. Check your control mapping. Heart Tanks increase maximum health; Sub Tanks store excess health collected while your life bar is full. Exit from the pause menu works in cleared stages.</p><p>For an air dash, jump normally first; a dash-jump uses that movement allowance. Hold Up with Dash for the vertical air dash. After finding the Arm Parts, select a special weapon, hold Fire until it charges, then release. Charged attacks often change how the weapon works. Keep Zero alive if you want his saber later.</p><p><a href=\"#tank-refill\">Reliable enemy drops and Gold Armor recovery →</a></p>",
+  "sourcesHtml": "<p>Independent fan guide. Game imagery © Capcom. Locations and routes were checked against the references below; instructions are written for this guide. Screenshots and sprite captures belong to their credited contributors.</p><ul><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/723.html\" target=\"_blank\" rel=\"noopener\">Vile and permanent destruction ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/719.html\" target=\"_blank\" rel=\"noopener\">Mosquitus and the saber: Doppler Stage 2 ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/718.html\" target=\"_blank\" rel=\"noopener\">Gold Armor: Doppler Stage 1 ↗</a></li><li><a href=\"https://strategywiki.org/wiki/Mega_Man_X3/Ride_Armor_Modules\" target=\"_blank\" rel=\"noopener\">Ride Armor requirements ↗</a></li><li><a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/710.html\" target=\"_blank\" rel=\"noopener\">Upgrade and chip inventory ↗</a></li></ul><p>Boss sprite source: <a href=\"https://megaman.retropixel.net/mmx/3/sprites.php\">Mega Man XZ / RetroPixel ↗</a>. Screenshot credits below identify the original contributors; these are not original captures for this guide.</p><p>Practical tips: HonestGamers <a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/715.html\">Neon Tiger · weapon-dependent drops</a> and <a href=\"https://www.honestgamers.com/guides/mega-man-x3/32/read/717.html\">Blast Hornet · recovery chip</a>; <a href=\"https://www.mmhp.net/GameHints/MMX3.html\">MMHP · chip restrictions and rematch supply pod</a>.</p><p>Newcomer mechanics: <a href=\"https://www.mmhp.net/GameHints/MMX3.html\">MMHP · Zero, saving and Gold</a>; <a href=\"https://megaman.retropixel.net/mmx/3/items.php\">Mega Man XZ · armor and chip effects</a>.</p>",
+  "warning": null,
   "completionText": "8 hearts · 4 Sub Tanks · 4 base armor parts · 4 Ride Armors. Gold route: zero individual pink chips, then collect Gold Armor. Saber route: Vile destroyed and Zero alive before Doppler Stage 2.",
   "checkpoints": [
     {
@@ -866,5 +830,17 @@
       "credit": "Screenshot: Rhody Tobin / HonestGamers; game imagery © Capcom",
       "source": "https://www.honestgamers.com/guides/mega-man-x3/32/read/719.html"
     }
-  ]
+  ],
+  "heroLinks": [
+    {
+      "href": "#start-here",
+      "text": "First time? Start here"
+    },
+    {
+      "href": "#boss-flow",
+      "text": "Continue to the boss route"
+    }
+  ],
+  "startHereHtml": "<section id=\"start-here\" class=\"x3-primer\"><div class=\"section-head\"><h2>First time playing X3?</h2><span class=\"eyebrow\">Collect armor, hearts and Sub Tanks</span></div><p class=\"primer-lead\">X3 hits hard before you collect upgrades. <strong>Armor, hearts and filled Sub Tanks are strongly recommended for a first playthrough.</strong> Extra health and damage protection make mistakes less costly while you learn the stages. You can finish without upgrades, but it is much harder.</p><p>Start as X. You already have a ground dash and can wall-jump by pressing Jump against a wall. Defeating a Maverick boss gives you a weapon that helps against the next boss. Some upgrades need a later weapon, so <strong>return visits are part of the route</strong>.</p><div class=\"survival-tools\"><p><span class=\"pickup-icon heart\" aria-hidden=\"true\">♥</span> <strong>Heart Tanks</strong> permanently increase X’s maximum health.</p><p><span class=\"pickup-icon tank\" aria-hidden=\"true\">▣</span> <strong>Sub Tanks</strong> store spare health for later. Fill them by collecting health when your life bar is full; use them from the pause menu.</p></div><h3>What the four armor parts do</h3><p class=\"muted\">Ordinary Dr. Light capsules upgrade X immediately, one part at a time.</p><dl class=\"armor-benefits\"><div><dt>◆ Legs <span>Buffalo · first visit</span></dt><dd>Add a horizontal or upward air dash. Take these before Buffalo’s boss and backtrack for the Sub Tank.</dd></div><div><dt>◆ Arms <span>Tiger · boss 6</span></dt><dd>Upgrade the Buster and let you charge special weapons. Several later pickups need this ability.</dd></div><div><dt>◆ Body <span>Catfish · return</span></dt><dd>Reduce incoming damage and add a protective field after a hit. You need Tiger’s arms and Beetle’s Gravity Well first.</dd></div><div><dt>◆ Head <span>Rhino · return</span></dt><dd>Reveal item information on the map when revisiting a cleared stage. This is a navigation aid, not a damage upgrade.</dd></div></dl><details class=\"x3-mechanics\" id=\"x3-mechanics\"><summary>What changes in X3? Zero, Ride Armor and saving</summary><div><p><strong>Zero is temporary backup.</strong> You can call him once per stage visit. Switching back to X prevents another call on that visit. He cannot enter normal boss gates or collect X’s armor upgrades. If he dies, he is gone for the rest of the run.</p><p><strong>Ride Armor is a vehicle, not X’s suit.</strong> Find Chimera in Blast Hornet’s stage before the summon pads work. Frog, Hawk and Kangaroo are additional modules; finding one early does not activate the pads.</p><p><strong>Save your progress.</strong> In the original SNES game, record the password shown between stages. Gold Armor is not retained by an ordinary password. If your version offers a separate save system, use it too.</p></div></details></section>",
+  "decisionsHtml": "<section id=\"decide-first\" class=\"x3-decisions\"><div class=\"section-head\"><h2>Choose your extras</h2><span class=\"eyebrow\">Two independent choices</span></div><p>Both secrets are optional. The recommended route leaves Gold Armor available and keeps Zero alive; you can add the saber detour separately.</p><div class=\"decision-grid\"><article><span class=\"eyebrow\">Optional upgrade · Doppler 1</span><h3>Gold Armor combines all four chip upgrades</h3><p>The upgrades provide <strong>health and tank recovery while still, a second air dash, a stronger post-hit barrier, and Hyper Charge</strong>—charged Buster shots without waiting, using its own energy.</p><p class=\"decision-rule\"><strong>To obtain Gold Armor:</strong> leave all four pink-chip capsules unused. Taking any one prevents Gold Armor for the rest of this playthrough.</p><p>Collect the 20 regular pickups and reach the Gold capsule at full health. Sub Tanks do not need to be full to reveal it.</p><a href=\"#gold-armor\">Gold requirements &amp; capsule →</a></article><article><span class=\"eyebrow\">Optional weapon · Doppler 2</span><h3>Give X Zero’s saber</h3><p>X gains a powerful charged attack, but Zero retires after the scripted transfer and the ending changes. <strong>You can obtain Gold Armor whether you keep Zero or take his saber.</strong></p><p class=\"decision-rule\"><strong>If you want the saber:</strong> keep Zero alive and permanently destroy Vile before all eight Mavericks are defeated.</p><p>On this route, pause after boss 6 for Vile. Later, use Zero for Mosquitus in Doppler Stage 2.</p><a href=\"#zero-saber\">Vile detour &amp; saber transfer →</a></article></div></section>"
 }

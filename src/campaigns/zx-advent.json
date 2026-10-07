@@ -1,0 +1,508 @@
+{
+  "id": "zx-advent",
+  "displayId": "ZX ADVENT",
+  "series": "zero",
+  "title": "Mega Man ZX ADVENT",
+  "collection": "Mega Man Zero/ZX Legacy Collection · DS",
+  "intro": "A transformation route with four health upgrades, four tanks, four Biometal energy upgrades and the equipment quests kept beside their destinations.",
+  "libraryIntro": "Transformation abilities, all health/tank/energy upgrades and optional boss medals.",
+  "facts": [
+    "Connected world · Normal mode",
+    "Health, tanks and equipment"
+  ],
+  "routeLabel": "Mission route",
+  "flowLabel": "Area route",
+  "returnLabel": "Return trips",
+  "primer": [
+    "Choose Grey or Ashe at the start. Their opening stages and some transformation attacks differ. Grey’s Model A charge is a conventional blast; Ashe’s pierces targets. Both follow the same main destinations after the Train.",
+    "A-Trans copies defeated bosses. Some forms are made for a particular obstacle rather than ordinary fighting: Rospark climbs bars, Chronoforce slows time, Queenbee flies, and Argoyle’s summoned partner reaches items through walls. Transform freely when the next obstacle calls for it.",
+    "Transformation energy is shared and refills over time. Four BM Upgrades extend that meter. Four Life Ups extend health; four Sub Tanks store extra health for later. This game does not use ZX’s damaged-Biometal recovery levels.",
+    "Use Transervers to save and travel. Activate field transport points with crystals when needed. Item B chips must be enabled in the menu. Normal mode is the reference here; Expert removes many hidden upgrades, and Beginner simplifies hazards."
+  ],
+  "features": [
+    [
+      "A-Trans and Mega Men",
+      "The four humanoid models provide familiar combat and movement; the eight Pseudoroids solve more specialized obstacles. ZX is gained at the Quarry."
+    ],
+    [
+      "Completion",
+      "Health, tanks and energy upgrades help the first clear. Disks, room furnishings, calendar gifts and the 24 boss medals are optional. Medals do not unlock your ordinary transformations."
+    ]
+  ],
+  "routeIntro": "Tower before Arctic gives Rospark for the first tank. The story then opens the other destinations. Follow their order below; return for late-form pickups before entering the final route.",
+  "route": [
+    "Clear Grey’s or Ashe’s introduction and the Train. Repair the Train when the story asks you to.",
+    "After Tower and Arctic, continue past the last Transerver toward the Oil Field. Open its barrier with Fire on the blue orb, Thunder on red and Ice on green.",
+    "After Bio Lab, collect the remaining upgrades and quests. Enter Undersea Volcano through Bio Lab 3, then follow the story into Ouroboros."
+  ],
+  "extraMedia": [
+    {
+      "src": "assets/mmzxa-map.gif",
+      "width": 512,
+      "height": 488,
+      "title": "Advent · area connections",
+      "alt": "ZX Advent overview showing connections between Hunter Camp, mission areas and final destinations",
+      "caption": "World connections. Click to enlarge; use the numbered areas in each pickup description.",
+      "credit": "The MegaMaster / MMHP · Advent connections map",
+      "source": "https://www.mmhp.net/GameHints/MMZXA.html"
+    }
+  ],
+  "stages": [
+    {
+      "id": "buckfire",
+      "name": "Buckfire",
+      "area": "Train",
+      "weakness": "Ice later; Model A first",
+      "reward": "Buckfire A-Trans",
+      "tip": "Use charged Model A shots between his attacks. Buckfire crosses wide gaps and supplies fire attacks.",
+      "now": "",
+      "items": []
+    },
+    {
+      "id": "rospark",
+      "name": "Rospark",
+      "area": "Tower of Verdure",
+      "weakness": "Fire · Buckfire",
+      "reward": "Rospark A-Trans",
+      "tip": "Use Buckfire fire attacks when he is exposed. Rospark grips vertical bars that other forms cannot climb.",
+      "now": "Life Up · Tower 3",
+      "items": [
+        {
+          "name": "Life Up · Tower 3",
+          "text": "After Spidrill, climb the outside of the tall crumbling pipe on its right side. Reach the top rather than entering the pipe.",
+          "need": "Precise wall-jumps",
+          "extra": "Return with Featherweight, Aeolus or Queenbee if the pipe climb is uncomfortable.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "rospark-life-up-tower-3"
+        }
+      ]
+    },
+    {
+      "id": "chronoforce",
+      "name": "Chronoforce",
+      "area": "Arctic Ice Floe",
+      "weakness": "Fire · Buckfire",
+      "reward": "Chronoforce A-Trans",
+      "tip": "Attack the exposed underside; the shell blocks attacks. Time Bomb slows moving hazards and timed gates.",
+      "now": "Sub Tank · Arctic 2",
+      "items": [
+        {
+          "name": "Sub Tank · Arctic 2",
+          "text": "Near the upper-right of the area, use Rospark to climb the vertical bars to the high ledge.",
+          "need": "Rospark",
+          "extra": "",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "chronoforce-sub-tank-arctic-2"
+        }
+      ]
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "area": "Oil Field",
+      "weakness": "Thunder · Rospark",
+      "reward": "Atlas / Model F A-Trans",
+      "tip": "Keep clear of her fists and use thunder when safely in range. Atlas breaks marked blocks and can aim the trajectory of her shots.",
+      "now": "BM Upgrade · Oil Field 2 · Featherweight Chip",
+      "items": [
+        {
+          "name": "BM Upgrade · Oil Field 2",
+          "text": "Return after Atlas. Go right from Antonio’s room, then break the floor tiles in the pipe route and follow the lower sand passage right.",
+          "need": "Atlas",
+          "extra": "Increases the shared transformation energy meter.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "atlas-bm-upgrade-oil-field-2"
+        },
+        {
+          "name": "Featherweight Chip",
+          "text": "Break the floor near the start of Oil Field 2 with Atlas and find Antonio’s room on the lower route. Accept his wrench request, climb to the top of that room, then return the wrench.",
+          "need": "Atlas",
+          "extra": "Keeps fragile platforms intact and prevents sinking into soft terrain.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "atlas-featherweight-chip"
+        }
+      ]
+    },
+    {
+      "id": "siarnaq",
+      "name": "Siarnaq",
+      "area": "Legion HQ",
+      "weakness": "Neutral charged attacks",
+      "reward": "Siarnaq / Model P A-Trans",
+      "tip": "Keep moving between his kunai volleys. Siarnaq hangs from overhead bars and his lower-screen radar identifies real doors.",
+      "now": "Sub Tank · Legion 2",
+      "items": [
+        {
+          "name": "Sub Tank · Legion 2",
+          "text": "Find the jet sled near the bottom, right of the glass-enclosed E38 disk. As Siarnaq, press Jump twice to hang from it. Shoot through the glass as it carries you toward the tank.",
+          "need": "Siarnaq · return after the boss",
+          "extra": "Switch to a wall-jumping form if you need to recover over a pit.",
+          "timing": "return",
+          "media": [
+            {
+              "src": "assets/mmzxa-jetsled.gif",
+              "width": 256,
+              "height": 192,
+              "alt": "Siarnaq hanging beneath a jet sled in Legion HQ",
+              "credit": "The MegaMaster / MMHP · Advent jet-sled screenshot",
+              "source": "https://www.mmhp.net/GameHints/MMZXA.html"
+            }
+          ],
+          "when": "Return after unlocking the listed form",
+          "id": "siarnaq-sub-tank-legion-2"
+        }
+      ]
+    },
+    {
+      "id": "thetis",
+      "name": "Thetis",
+      "area": "Highway",
+      "weakness": "Fire · Atlas",
+      "reward": "Thetis / Model L A-Trans",
+      "tip": "Atlas fire exploits his weakness. Thetis swims and shows underwater hazards on the lower screen.",
+      "now": "BM Upgrade · Highway 1",
+      "items": [
+        {
+          "name": "BM Upgrade · Highway 1",
+          "text": "Under the highway, break Atlas blocks beside the red timed gate. Use Chronoforce Time Bomb, hit the red switch, then loop up, right and down through the opened gate.",
+          "need": "Atlas + Chronoforce",
+          "extra": "Aeolus makes the timed return easier.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "thetis-bm-upgrade-highway-1"
+        }
+      ]
+    },
+    {
+      "id": "aeolus",
+      "name": "Aeolus",
+      "area": "Floating Ruins",
+      "weakness": "Ice · Thetis",
+      "reward": "Aeolus / Model H A-Trans",
+      "tip": "Use ice during his pauses and stay clear of the tornadoes. Aeolus provides air dashes and hovering.",
+      "now": "Sub Tank · Meg’s artifacts",
+      "items": [
+        {
+          "name": "Sub Tank · Meg’s artifacts",
+          "text": "Talk to Meg in the Floating Ruins 3 cave. Deliver each artifact separately: L Tank above the Ruins 1 entrance; Pinwheel near the Ruins 2 tornadoes; Old Balancer through the upper-left Ruins 3 door; Light Bulb beneath the central end platform in Ruins 4. Talk again after the fourth delivery.",
+          "need": "Aeolus + later Bifrost / Queenbee",
+          "extra": "Carry one artifact at a time. A new one replaces an undelivered artifact, and death can remove it.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "aeolus-sub-tank-meg-s-artifacts"
+        }
+      ]
+    },
+    {
+      "id": "queenbee",
+      "name": "Queenbee",
+      "area": "Control Center",
+      "weakness": "Ice · Thetis; Aeolus for reaching it",
+      "reward": "Queenbee A-Trans",
+      "tip": "Use Aeolus to extinguish fires along the route. Attack the vulnerable body or hive when an opening appears. Queenbee flies and lifts water containers.",
+      "now": "Life Up · Control Center 1 · Wind Boots Chip",
+      "items": [
+        {
+          "name": "Life Up · Control Center 1",
+          "text": "At the elevator, climb the bars above the shaft with Rospark instead of riding inside. The upgrade is at the upper left.",
+          "need": "Rospark / Aeolus",
+          "extra": "",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "queenbee-life-up-control-center-1"
+        },
+        {
+          "name": "Wind Boots Chip",
+          "text": "Accept Tillis’s fire request in Train 3 after obtaining Queenbee. In Legion HQ 2, lift the water container to the right of the burning building and pour it over the fires. Report to Tillis.",
+          "need": "Queenbee",
+          "extra": "Stops ground wind from pushing you.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "queenbee-wind-boots-chip"
+        }
+      ]
+    },
+    {
+      "id": "vulturon",
+      "name": "Vulturon",
+      "area": "Scrapyard",
+      "weakness": "Neutral charged attacks",
+      "reward": "Vulturon A-Trans",
+      "tip": "Attack between his musical waves. His hovering helps cross the spike passages; use Siarnaq radar to avoid false doors.",
+      "now": "Life Up · Scrapyard 2",
+      "items": [
+        {
+          "name": "Life Up · Scrapyard 2",
+          "text": "Take the blue-marked door to the right of the red-marked door. Navigate the spike corridors with Vulturon’s hover to reach the upgrade.",
+          "need": "Vulturon",
+          "extra": "Use the ordinary corridor route; this guide does not rely on a timed-wall bypass.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "vulturon-life-up-scrapyard-2"
+        }
+      ]
+    },
+    {
+      "id": "model-zx",
+      "name": "Model ZX",
+      "area": "Quarry",
+      "weakness": "Neutral · Model A / Atlas",
+      "reward": "ZX A-Trans · Aile for Grey, Vent for Ashe",
+      "tip": "Avoid the triple slash and punish the landing. Keep enough distance to read the next attack, then dash through the open space.",
+      "now": "BM Upgrade · Quarry 3",
+      "items": [
+        {
+          "name": "BM Upgrade · Quarry 3",
+          "text": "Go through the door after the tank chase and immediately return, removing the timer. Break the side blocks with Atlas to reach the upgrade above the pit; leave its supporting block intact.",
+          "need": "Atlas",
+          "extra": "If it falls, leave and re-enter to reset it.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "model-zx-bm-upgrade-quarry-3"
+        }
+      ]
+    },
+    {
+      "id": "argoyle-and-ugoyle",
+      "name": "Argoyle and Ugoyle",
+      "area": "Waterfall Ruins",
+      "weakness": "Neutral attacks",
+      "reward": "Argoyle/Ugoyle A-Trans",
+      "tip": "Keep both opponents in view. Model A homing shots can target both. Their transformation can summon a partner that moves through walls to retrieve items.",
+      "now": "Life Up · Waterfall 2 · Extender Chip",
+      "items": [
+        {
+          "name": "Life Up · Waterfall 2",
+          "text": "At the open waterfall area, swim upward on the left waterfall with Thetis. Enter the hidden ledge doorway and cross the short spike passage.",
+          "need": "Thetis / Queenbee",
+          "extra": "",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "argoyle-and-ugoyle-life-up-waterfall-2"
+        },
+        {
+          "name": "Extender Chip",
+          "text": "Find Peter behind the upper waterfall doorway near the Ruins 3/4 boundary. Clear the Chabanos in his back room, then accept his 50-Chabano request. Search Oil Field 2, Legion HQ 1, Highway 1, Floating Ruins 3 and Scrapyard 2; report when all 50 are gone.",
+          "need": "Two Peter quests",
+          "extra": "Extends the protected period after a hit.",
+          "timing": "return",
+          "media": [],
+          "when": "Return after unlocking the listed form",
+          "id": "argoyle-and-ugoyle-extender-chip"
+        }
+      ]
+    },
+    {
+      "id": "hedgeshock",
+      "name": "Hedgeshock",
+      "area": "Mysterious Lab",
+      "weakness": "Fire · Atlas",
+      "reward": "Hedgeshock A-Trans",
+      "tip": "Use fire and leave room to dodge her rolling attacks. Hedgeshock fits narrow passages.",
+      "now": "Sub Tank · Mysterious Lab 3",
+      "items": [
+        {
+          "name": "Sub Tank · Mysterious Lab 3",
+          "text": "Finish the battery-placement puzzle, climb the ladder and enter the upper room. The tank is behind a pipe. Charge Argoyle’s secondary attack to summon Ugoyle through the obstruction and retrieve it.",
+          "need": "Argoyle/Ugoyle",
+          "extra": "",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hedgeshock-sub-tank-mysterious-lab-3"
+        }
+      ]
+    },
+    {
+      "id": "bifrost",
+      "name": "Bifrost",
+      "area": "Bio Lab",
+      "weakness": "Fire · Atlas / Buckfire",
+      "reward": "Bifrost A-Trans",
+      "tip": "Use fire on the exposed parts and avoid his closing jaws. Bifrost breaks the large blocks needed for late returns.",
+      "now": "BM Upgrade · Bio Lab 2",
+      "items": [
+        {
+          "name": "BM Upgrade · Bio Lab 2",
+          "text": "Lift the first hatch with Queenbee to drain the upper water. Stand on it as another form to close it again. Go right and lift the second hatch; water fills the lower area, raising the platforms beside the upgrade.",
+          "need": "Queenbee",
+          "extra": "",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "bifrost-bm-upgrade-bio-lab-2"
+        }
+      ]
+    },
+    {
+      "id": "hunter-s-camp-equipment",
+      "name": "Hunter’s Camp equipment",
+      "area": "Camp 3/4 · late-story quests",
+      "weakness": "",
+      "reward": "Equipment cleanup",
+      "tip": "Once rooms and quests open, collect these chips before the Undersea Volcano. Talk to the residents marked with an exclamation point.",
+      "now": "Absorber Chip · Eraser Chip · Ice Boots Chip · Frog Chip",
+      "items": [
+        {
+          "name": "Absorber Chip",
+          "text": "Use the Green Card Key to enter the green-door room in Camp 3. Speak to John and buy the chip for 99 EC.",
+          "need": "Green Card Key",
+          "extra": "Prevents knockback.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hunter-s-camp-equipment-absorber-chip"
+        },
+        {
+          "name": "Eraser Chip",
+          "text": "Ask Warren and Blossom in Camp 3 for the flower quest. Collect the lily just outside the Waterfall Ruins 2 exit and deliver it.",
+          "need": "Flower quest",
+          "extra": "Lets Saber attacks erase small energy shots.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hunter-s-camp-equipment-eraser-chip"
+        },
+        {
+          "name": "Ice Boots Chip",
+          "text": "Finish the camp expansion and shelves requests. Speak to Sharon by the Camp 3 green door, buy a comic at the Train 3 shop with the money she gives you, then deliver it.",
+          "need": "Expanded leftmost Camp 4 building + shelves",
+          "extra": "Stops sliding on ice floors.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hunter-s-camp-equipment-ice-boots-chip"
+        },
+        {
+          "name": "Frog Chip",
+          "text": "After furnishing the expanded Camp 4 building, speak to Carley in a lower room. Take her transmitter to the Mechaniloid remains at the bottom-right of Oil Field 1, beneath the ladder. Return to Carley.",
+          "need": "Camp expansion + shelves",
+          "extra": "Slows wall sliding.",
+          "timing": "first",
+          "media": [],
+          "when": "First visit, or return if missed",
+          "id": "hunter-s-camp-equipment-frog-chip"
+        }
+      ]
+    }
+  ],
+  "returns": [
+    {
+      "stage": "atlas",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "atlas-bm-upgrade-oil-field-2",
+        "atlas-featherweight-chip"
+      ]
+    },
+    {
+      "stage": "siarnaq",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "siarnaq-sub-tank-legion-2"
+      ]
+    },
+    {
+      "stage": "aeolus",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "aeolus-sub-tank-meg-s-artifacts"
+      ]
+    },
+    {
+      "stage": "queenbee",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "queenbee-wind-boots-chip"
+      ]
+    },
+    {
+      "stage": "vulturon",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "vulturon-life-up-scrapyard-2"
+      ]
+    },
+    {
+      "stage": "argoyle-and-ugoyle",
+      "title": "Collect these after unlocking the required forms",
+      "items": [
+        "argoyle-and-ugoyle-extender-chip"
+      ]
+    }
+  ],
+  "returnIntro": "Open each destination to see all deferred items together. Collect the Floating Ruins quest pieces one at a time and deliver them to Meg before picking up the next.",
+  "completionText": "Normal: four Life Ups, four Sub Tanks, four BM Upgrades, all 13 ordinary A-Trans forms and seven ordinary equipment chips. Calendar gifts and Model a are optional.",
+  "sections": [
+    {
+      "id": "final",
+      "title": "Undersea Volcano and Ouroboros",
+      "paragraphs": [
+        "Prometheus and Pandora share health. Use ZX charged attacks or aerial Saber slashes while reading the fire and ice patterns. Keep clear of Pandora’s surrounding staff pieces.",
+        "In Ouroboros, clear enemies without destroying the blocks you need to stand on. Chronoforce gives more time on disappearing blocks; Siarnaq lets you target enemies precisely. Stand on the rematch crystals and press Up.",
+        "Hydra: attack the body at the neck bases, not the heads. Atlas provides steady damage. Against Albert, break the rotating pieces protecting him, then strike during the exposed interval. ZX charged shots and Saber are reliable choices.",
+        "The final fights form one sequence. Refill tanks before starting and keep a spare save before the final route. Save the offered clear data after the ending."
+      ]
+    },
+    {
+      "id": "medals",
+      "title": "Optional · 24 boss medals",
+      "html": "<p>After late-story progress, speak to the Hunters on the camp rooftops for rematches. Attempt one medal at a time. “Only” restricts damage throughout the fight; “finish” specifies the last hit. Collect all 24 on Normal, then start another save to unlock the small Model a after receiving Model A. It is a bonus challenge form, not a stronger armor.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Optional · 24 boss medals\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Boss</th><th scope=\"col\">Bronze</th><th scope=\"col\">Silver</th><th scope=\"col\">Gold</th></tr></thead><tbody><tr><td>Buckfire</td><td>Final hit: Hedgeshock rolling attack</td><td>Damage only the weak point</td><td>Only Siarnaq lower-screen targeted kunai</td></tr><tr><td>Rospark</td><td>Final hit while in bulb form</td><td>Only Argoyle/Ugoyle attacks</td><td>Only Rospark attacks</td></tr><tr><td>Chronoforce</td><td>Final hit: ZX charged Saber</td><td>Final hit: Buckfire Slash Dash</td><td>Only Queenbee attacks</td></tr><tr><td>Queenbee</td><td>Damage only the hive</td><td>Prevent all summoned bees</td><td>Damage only the body; never hit hive</td></tr><tr><td>Vulturon</td><td>Fight for more than 120 seconds</td><td>Final hit: Aeolus Sonic Boom</td><td>Only Model A Giga Crush</td></tr><tr><td>Argoyle/Ugoyle</td><td>Finish both together with Giga Crush</td><td>Finish both together with Hedgeshock Spark Ball</td><td>Finish both together with Buckfire Double Tomahawk</td></tr><tr><td>Hedgeshock</td><td>Final hit: Chronoforce</td><td>Final hit by knocking her summoned rat back</td><td>Only untransformed attacks</td></tr><tr><td>Bifrost</td><td>Only Queenbee attacks</td><td>Only Buckfire attacks</td><td>Only Model A Homing Shot</td></tr></tbody></table></div><p>For Siarnaq’s targeted kunai, use the collection’s lower-screen cursor controls. Change the DS screen arrangement if the target is hard to select. Giga Crush depends on the weapon meter; plan Vulturon’s gold attempt before increasing that meter if you want a simpler attempt.</p>"
+    },
+    {
+      "id": "tips",
+      "title": "Useful tips",
+      "paragraphs": [
+        "After repairing the Train, speak to the second shop attendant in Train 3 to fill each Sub Tank for 50 EC. This paid service is available outside Expert mode; on Expert, refill through ordinary energy drops.",
+        "Expand Camp 4’s leftmost building through its donations and drill request to unlock the furnishing quests and Nick’s E-Tank shop. E-Tanks are consumables, separate from reusable Sub Tanks.",
+        "Siarnaq’s radar distinguishes real Scrapyard doors. Thetis reveals underwater hazards before you drop. Featherweight helps in the Scrapyard and Bio Lab as well as the Tower climb."
+      ]
+    },
+    {
+      "id": "calendar",
+      "title": "Optional · calendar equipment",
+      "html": "<p>In the Oil Field 3 airship, donate a total of 600 EC to Tom to open both buried rooms. The second room can give month-dependent equipment. These bonuses are not needed for the main route; ordinary chips have no calendar restriction.</p><div class=\"table-scroll\" tabindex=\"0\" aria-label=\"Optional · calendar equipment\"><table class=\"guide-table\"><thead><tr><th scope=\"col\">Month</th><th scope=\"col\">Item</th><th scope=\"col\">Effect</th></tr></thead><tbody><tr><td>February</td><td>Demon Buster</td><td>Improves Buster damage</td></tr><tr><td>March</td><td>Baby Doll</td><td>Improves female Pseudoroid attacks</td></tr><tr><td>May</td><td>Warrior Helmet</td><td>Improves male Pseudoroid attacks</td></tr><tr><td>June</td><td>Soccer Ball</td><td>Changes Argoyle’s thrown bombs</td></tr><tr><td>October</td><td>Magic Pumpkin</td><td>Extends elemental effects</td></tr></tbody></table></div>"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MMHP · missions, pickups, quests and map",
+      "url": "https://www.mmhp.net/GameHints/MMZXA.html"
+    },
+    {
+      "title": "MMHP · transformations and bosses",
+      "url": "https://www.mmhp.net/GameHints/MMZXA-Data.html"
+    },
+    {
+      "title": "KnightmareSin · item and medal reference",
+      "url": "https://gamefaqs.gamespot.com/ds/937937-mega-man-zx-advent/faqs/49514"
+    },
+    {
+      "title": "snkupo · Advent route and medals",
+      "url": "https://gamefaqs.gamespot.com/ds/937937-mega-man-zx-advent/faqs/51430"
+    },
+    {
+      "title": "CrowRising · ZX and Advent upgrade locations",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2098696907"
+    },
+    {
+      "title": "Capcom · original Advent manual and controls",
+      "url": "https://static.capcom.com/megaman/manuals/DS_MMAD_Manual.pdf"
+    }
+  ]
+}

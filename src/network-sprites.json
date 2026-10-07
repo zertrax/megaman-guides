@@ -1,0 +1,247 @@
+{
+  "GutsMan": {
+    "src": "assets/network-gutsman.gif",
+    "width": 40,
+    "height": 45,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "IceMan": {
+    "src": "assets/network-iceman.gif",
+    "width": 20,
+    "height": 28,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "ElecMan": {
+    "src": "assets/network-elecman.gif",
+    "width": 26,
+    "height": 43,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "ProtoMan": {
+    "src": "assets/network-protoman.gif",
+    "width": 27,
+    "height": 44,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "MagicMan": {
+    "src": "assets/network-magicman.gif",
+    "width": 24,
+    "height": 46,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "AirMan": {
+    "src": "assets/network-airman.gif",
+    "width": 34,
+    "height": 43,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "CutMan": {
+    "src": "assets/network-cutman.gif",
+    "width": 18,
+    "height": 47,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "QuickMan": {
+    "src": "assets/network-quickman.gif",
+    "width": 24,
+    "height": 48,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "KnightMan": {
+    "src": "assets/network-knightman.gif",
+    "width": 48,
+    "height": 57,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "MagnetMan": {
+    "src": "assets/network-magnetman.gif",
+    "width": 38,
+    "height": 48,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "FreezeMan": {
+    "src": "assets/network-freezeman.gif",
+    "width": 27,
+    "height": 47,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "Bass": {
+    "src": "assets/network-bass.gif",
+    "width": 31,
+    "height": 49,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN2-Data.html"
+  },
+  "FlashMan": {
+    "src": "assets/network-flashman.gif",
+    "width": 26,
+    "height": 46,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "BeastMan": {
+    "src": "assets/network-beastman.gif",
+    "width": 40,
+    "height": 43,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "BubbleMan": {
+    "src": "assets/network-bubbleman.gif",
+    "width": 22,
+    "height": 37,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "KingMan": {
+    "src": "assets/network-kingman.gif",
+    "width": 31,
+    "height": 48,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "DesertMan": {
+    "src": "assets/network-desertman.gif",
+    "width": 52,
+    "height": 52,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "PlantMan": {
+    "src": "assets/network-plantman.gif",
+    "width": 32,
+    "height": 50,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "FlameMan": {
+    "src": "assets/network-flameman.gif",
+    "width": 34,
+    "height": 58,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "DrillMan": {
+    "src": "assets/network-drillman.gif",
+    "width": 37,
+    "height": 51,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN3-Data.html"
+  },
+  "Roll": {
+    "src": "assets/network-roll.gif",
+    "width": 64,
+    "height": 56,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN1-Data.html"
+  },
+  "TomahawkMan": {
+    "src": "assets/network-tomahawkman.gif",
+    "width": 21,
+    "height": 35,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN5-Data.html"
+  },
+  "BlastMan": {
+    "src": "assets/network-blastman.gif",
+    "width": 26,
+    "height": 48,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "DiveMan": {
+    "src": "assets/network-diveman.gif",
+    "width": 65,
+    "height": 49,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "JudgeMan": {
+    "src": "assets/network-judgeman.gif",
+    "width": 30,
+    "height": 46,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "ElementMan": {
+    "src": "assets/network-elementman.gif",
+    "width": 43,
+    "height": 49,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "CircusMan": {
+    "src": "assets/network-circusman.gif",
+    "width": 54,
+    "height": 47,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "HeatMan": {
+    "src": "assets/network-heatman.gif",
+    "width": 42,
+    "height": 48,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "SpoutMan": {
+    "src": "assets/network-spoutman.gif",
+    "width": 17,
+    "height": 28,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "TenguMan": {
+    "src": "assets/network-tenguman.gif",
+    "width": 31,
+    "height": 46,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "EraseMan": {
+    "src": "assets/network-eraseman.gif",
+    "width": 39,
+    "height": 47,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "DustMan": {
+    "src": "assets/network-dustman.gif",
+    "width": 47,
+    "height": 43,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "SlashMan": {
+    "src": "assets/network-slashman.gif",
+    "width": 21,
+    "height": 38,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "GroundMan": {
+    "src": "assets/network-groundman.gif",
+    "width": 54,
+    "height": 52,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  },
+  "ChargeMan": {
+    "src": "assets/network-chargeman.gif",
+    "width": 56,
+    "height": 45,
+    "credit": "The MegaMaster / MMHP · Navi sprite",
+    "source": "https://www.mmhp.net/GameHints/MMBN6-Data.html"
+  }
+}

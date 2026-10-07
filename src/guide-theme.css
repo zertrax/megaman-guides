@@ -1,0 +1,118 @@
+/* Shared guide theme: retain readable instructions, whole scenes and 220px previews. */
+body[data-guide-id] .hero h1{font-size:clamp(2rem,4vw,3rem)}
+body[data-guide-id] .hero{padding-top:.75rem;margin-bottom:1.5rem}
+body[data-guide-id] .hero>p{max-width:66ch;font-size:1.05rem}
+body[data-guide-id] .facts{font-size:.875rem;gap:.5rem 1rem}
+body[data-guide-id] .hero-actions{display:flex;flex-wrap:wrap;gap:.65rem;margin:1.25rem 0}
+body[data-guide-id] .hero-actions a{padding:.6rem .8rem;border:1px solid #557589;border-radius:5px;text-decoration:none;min-height:44px}
+body[data-guide-id] .hero-actions a:first-child{background:#1a3542;color:#b6edff}
+body[data-guide-id] main>section{padding-top:1.75rem}
+body[data-guide-id] main>section+section{margin-top:1.75rem}
+body[data-guide-id] .primer-lead{font-size:1.1rem;color:#e4eef7}
+body[data-guide-id] .survival-tools{display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;margin:1.1rem 0 1.4rem;border-block:1px solid var(--line);padding:.25rem 0}
+body[data-guide-id] .survival-tools p{margin:.7rem 0}
+body[data-guide-id] .armor-benefits{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem;margin:1rem 0}
+body[data-guide-id] .armor-benefits>div{border-left:3px solid var(--cyan);background:var(--panel);padding:.85rem 1rem;border-radius:0 5px 5px 0}
+body[data-guide-id] .armor-benefits dt{font-weight:750;color:#d2d9ff}
+body[data-guide-id] .armor-benefits dt span{display:block;font-weight:400;color:var(--muted);font-size:.875rem;margin-top:.25rem}
+body[data-guide-id] .armor-benefits dd{margin:.65rem 0 0;line-height:1.5}
+body[data-guide-id] .x3-mechanics>div{padding:.2rem 1rem .5rem}
+body[data-guide-id] .decision-grid{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+body[data-guide-id] .decision-grid article{border:1px solid var(--line);border-radius:6px;padding:1.15rem;background:var(--panel)}
+body[data-guide-id] .decision-grid h3{margin-top:.55rem;font-size:1.2rem}
+body[data-guide-id] .decision-grid p{font-size:.95rem;line-height:1.55}
+body[data-guide-id] .decision-rule{border-left:3px solid #ff7885;padding:.65rem .8rem;background:var(--red-bg);color:#ffd0d3}
+body[data-guide-id] .roadmaps{grid-template-columns:1fr}
+body[data-guide-id] .roadmap header{padding:1rem 1.25rem}
+body[data-guide-id] .roadmap ol{padding:1rem 1.25rem}
+body[data-guide-id] .stage-inventory small{font-size:.75rem;color:#cae8f2;border:1px solid #40576a;border-radius:3px;padding:.1rem .3rem;white-space:nowrap}
+body[data-guide-id] .chip-alternative{margin-top:.9rem;border-style:dashed}
+body[data-guide-id] .chip-alternative summary{font-size:.9rem;color:#e0b4cf}
+body[data-guide-id] .chip-alternative summary span{display:inline-block;color:var(--muted);font-size:.8rem;margin-left:.6rem}
+body[data-guide-id] .chip-alternative>p{padding:0 1rem}
+body[data-guide-id] .chip-alternative>.pickup-grid{margin:1rem}
+body[data-guide-id] .chip-alternative .shot img{max-height:220px}
+@media(max-width:640px){body[data-guide-id] .armor-benefits,body[data-guide-id] .survival-tools,body[data-guide-id] .decision-grid{grid-template-columns:1fr}body[data-guide-id] .survival-tools{gap:0}body[data-guide-id] .hero-actions{flex-direction:column}body[data-guide-id] .hero-actions a{width:fit-content}}
+
+/* Legacy Collection-inspired visual pass. Palette is an adaptation, not sampled official tokens. */
+body[data-guide-id]{--bg:#071b34;--panel:#102c4b;--line:#365c7e;--text:#f1f6ff;--muted:#bed0e3;--cyan:#93e5ff;--red:#ffb0ba;--red-bg:#382335;--gold:#ffce66;background-color:#071b34;background-image:linear-gradient(90deg,#3d8bd710 1px,transparent 1px),linear-gradient(#3d8bd710 1px,transparent 1px),radial-gradient(ellipse at 80% 0,#124b84 0,transparent 65%);background-size:48px 48px,48px 48px,100% 1100px;background-repeat:repeat,repeat,no-repeat}
+body[data-guide-id] .layout{background:linear-gradient(90deg,#071b34c9,#071b34f2 25%,#071b34ed);border-inline:1px solid #22558966}
+body[data-guide-id] .top{background:linear-gradient(100deg,#0a2a52,#10528a);border-bottom:3px solid #43bfff;box-shadow:0 3px 0 #03152b,0 8px 24px #00112255}
+body[data-guide-id] .brand{font-style:italic;letter-spacing:-.025em}
+body[data-guide-id] .brand b{color:var(--gold)}
+body[data-guide-id] .hero{position:relative;padding:1.5rem;border:2px solid #3c9edd;border-left:6px solid #38c0fa;border-radius:0;background:linear-gradient(115deg,#124778,#102b4c 72%);box-shadow:inset 0 0 0 3px #051c3a,8px 8px 0 #03152b66;margin-bottom:1.75rem}
+body[data-guide-id] .hero:after{content:'';position:absolute;right:0;top:0;border-top:16px solid #071b34;border-left:16px solid transparent;pointer-events:none}
+body[data-guide-id] .hero h1{font-family:'Arial Black','Segoe UI',sans-serif;font-weight:900;font-style:italic;letter-spacing:-.04em;color:#eef6ff;text-shadow:2px 3px 0 #03142e;font-size:clamp(2rem,4vw,3.2rem)}
+body[data-guide-id] .hero h1 span{color:var(--gold);text-shadow:2px 3px 0 #261d03}
+body[data-guide-id] .hero>.eyebrow{display:block;border-left:3px solid #46c8ff;padding-left:.6rem;color:#c6e5ff;letter-spacing:.055em}
+body[data-guide-id] .hero>p{color:#ebf3ff}
+body[data-guide-id] .facts{border-top:1px solid #4389b7;padding-top:.8rem;margin-top:.75rem;color:#d0e1f0}
+body[data-guide-id] .facts b{color:var(--gold)}
+body[data-guide-id] .hero-actions a,body[data-guide-id] .top summary,body[data-guide-id] .top button{border-radius:0;border-color:#4fa6d3;background:#103964;box-shadow:inset 0 0 0 2px #092142;font-weight:700;font-style:italic}
+body[data-guide-id] .hero-actions a:first-child{background:linear-gradient(100deg,#1876ad,#104a79);border:2px solid var(--gold);color:#fff2c9;box-shadow:inset 0 0 0 2px #12365c}
+body[data-guide-id] .hero-actions a:first-child:before{content:'» ';font-size:1.15rem}
+body[data-guide-id] .hero-actions a:hover,body[data-guide-id] .top summary:hover,body[data-guide-id] .top button:hover{background:#155982;border-color:var(--gold)}
+body[data-guide-id] .section-head{position:relative;align-items:center;gap:.75rem;padding:.6rem 1rem .6rem 1.2rem;background:linear-gradient(100deg,#13568e,#0d3157);border:0;border-radius:0;box-shadow:inset 6px 0 #48caff,0 5px 0 #163e60,0 9px 12px #0004;margin-bottom:1.1rem}
+body[data-guide-id] .section-head:before{content:none}
+body[data-guide-id] .section-head h2{font-style:italic;font-weight:800;font-size:1.45rem;letter-spacing:-.02em;line-height:1.25}
+body[data-guide-id] .section-head .eyebrow{font-size:.75rem;letter-spacing:.045em;color:#c4e6ff}
+body[data-guide-id] main>section>h2{font-style:italic;border-left:5px solid #48caff;padding:.6rem 1rem;background:linear-gradient(100deg,#13568e,#0d3157);font-size:1.45rem}
+body[data-guide-id] .armor-benefits>div{background:linear-gradient(105deg,#143959,#102b49);border-left:3px solid #53caff;border-radius:0;box-shadow:inset 0 1px #315877}
+body[data-guide-id] .armor-benefits dt{color:var(--gold);font-style:italic}
+body[data-guide-id] .armor-benefits dt span{font-style:normal;color:#c5d6e6}
+body[data-guide-id] .decision-grid article{border-radius:2px;border-color:#386b94;background:#102b49;border-top:3px solid #45bbf5;box-shadow:inset 0 1px #082140}
+body[data-guide-id] .decision-grid h3{font-style:italic;color:#f4f7ff}
+body[data-guide-id] .decision-grid article:first-child>.eyebrow{color:var(--gold)}
+body[data-guide-id] .decision-rule{background:#382335;border-left-color:#ff8191}
+body[data-guide-id] .roadmap{border-radius:2px;border-color:#386b94;background:#0c2440}
+body[data-guide-id] .roadmap header{background:linear-gradient(105deg,#104b7a,#102e51);border-bottom-color:#367ca8}
+body[data-guide-id] .roadmap h3{font-style:italic}
+body[data-guide-id] .roadmap li:before{border-radius:0;background:#103e68;border-color:#5b9fc7;color:#e0f6ff}
+body[data-guide-id] .boss-panel{border-radius:2px;border-color:#3376a5;border-left:4px solid #38a7df;background:linear-gradient(105deg,#10385d,#0d2948)}
+body[data-guide-id] .boss-identity h3,body[data-guide-id] .stage-name-row h2{font-style:italic}
+body[data-guide-id] .number,body[data-guide-id] .stage-number{color:var(--gold)}
+body[data-guide-id] .stage-top{border-top:2px solid #438cb9;border-bottom-color:#3c759b;padding-top:.4rem;background:linear-gradient(110deg,#10385d77,transparent);padding-inline:.5rem}
+body[data-guide-id] .stage-inventory small{border-radius:0;background:#0b2949;color:#d4e9fb;border-color:#5885a3}
+body[data-guide-id] .pickup-grid .pickup{border-radius:2px;border-color:#3a6b92;background:#0e2947;box-shadow:inset 0 3px #17476a}
+body[data-guide-id] .pickup-copy h3{border-bottom:1px solid #315a79;padding-bottom:.5rem;color:#eff6ff}
+body[data-guide-id] .pickup-copy .timing{background:#163d5e;border-left:3px solid #4eaedc;border-radius:0;color:#d2efff}
+body[data-guide-id] .pickup-grid .shot{border-radius:0;background:#041529;border-top-color:#386b94}
+body[data-guide-id] .pickup-grid .shot>span{border-radius:0;background:#0c3760;border-color:#81c5e6;color:#fff}
+body[data-guide-id] .pickup-icon.armor{color:#8ed5ff}
+body[data-guide-id] .boss-switch a{border-radius:0;color:#9adeff}
+body[data-guide-id] .boss-switch{margin-left:0;gap:0}
+body[data-guide-id] .boss-switch .eyebrow{margin-left:.6rem;min-width:0}
+body[data-guide-id] .boss-switch a:hover{background:#154e7c;color:var(--gold)}
+body[data-guide-id] .chip-alternative{background:#10263f;border-color:#866486;border-radius:2px}
+body[data-guide-id] details{border-color:#3a6b92;border-radius:2px;background:#0d2947}
+body[data-guide-id] summary:hover{background:#15466b}
+body[data-guide-id] .return-level>summary{background:linear-gradient(100deg,#154776,#102c4d)}
+body[data-guide-id] .return-number{color:var(--gold)}
+body[data-guide-id] .sidebar>a,body[data-guide-id] .sidebar .stage-nav a{border-left:2px solid #26597e;border-radius:0;padding-left:.8rem}
+body[data-guide-id] .sidebar a[aria-current=location],body[data-guide-id] .compact-menu nav a[aria-current=location]{background:#174e7d;color:#ffdd86;box-shadow:inset 3px 0 var(--gold);border-left-color:var(--gold)}
+body[data-guide-id] .sidebar a[aria-current=location]:before,body[data-guide-id] .compact-menu nav a[aria-current=location]:before{content:'» ';color:var(--gold)}
+body[data-guide-id] .compact-menu nav,body[data-guide-id] .game-menu nav{background:#08294c;border-color:#4f9bd0;border-radius:0}
+body[data-guide-id] .jump-links>a{border-radius:0;border-color:#387dab;background:#10395e}
+body[data-guide-id] .final-check{border-left:4px solid var(--gold);border-radius:0;background:#163d5e}
+body[data-guide-id] dialog{background:#061b34;border-color:#56aedd;border-radius:2px}
+body[data-guide-id] .viewer-bar{background:linear-gradient(100deg,#124f80,#0b2c4c)}
+body[data-guide-id] :focus-visible{outline:3px solid var(--gold);outline-offset:4px}
+@media(max-width:640px){body[data-guide-id] .hero{padding:1rem;border-left-width:4px;box-shadow:none}body[data-guide-id] .section-head{padding:.6rem .75rem}body[data-guide-id] .section-head h2{font-size:1.25rem}body[data-guide-id] .section-head .eyebrow{font-size:.7rem}body[data-guide-id] .stage-top{padding-inline:0}}
+@media print{body[data-guide-id]{background:#fff;color:#111}body[data-guide-id] .hero,body[data-guide-id] .section-head,body[data-guide-id] .armor-benefits>div,body[data-guide-id] .decision-grid article,body[data-guide-id] .pickup-grid .pickup{background:#fff;color:#111;box-shadow:none}}
+body[data-guide-id] .table-scroll{overflow-x:auto;max-width:100%;margin-block:1rem}
+body[data-guide-id] .guide-table{width:100%;border-collapse:collapse;background:#0e2947;font-size:.92rem}
+body[data-guide-id] .guide-table th,body[data-guide-id] .guide-table td{text-align:left;vertical-align:top;padding:.65rem .8rem;border-bottom:1px solid #315a79}
+body[data-guide-id] .guide-table th{color:var(--gold);background:#12395e}
+body[data-guide-id] .route-map{max-width:880px;margin-block:1.2rem;background:#0e2947;padding:.8rem}
+body[data-guide-id] .route-map figure{margin:0}
+body[data-guide-id] .route-map .shot{display:block;height:220px;background:#041529;position:relative}
+body[data-guide-id] .route-map img{width:100%;height:100%;object-fit:contain}
+body[data-guide-id] .route-map .shot>span{position:absolute;right:.4rem;bottom:.4rem;padding:.15rem .5rem;background:#0c3760;color:#fff}
+body[data-guide-id=library] #collections>section{margin-block:2.5rem}
+body[data-guide-id=library] h3{font-style:italic}
+body[data-guide-id=library] .game-card{border-radius:2px;border-color:#3376a5;border-left:4px solid #38a7df;background:linear-gradient(105deg,#10385d,#0d2948)}
+body[data-guide-id=library] .game-links a{border-radius:0;background:#103964;border-color:#4fa6d3}
+body[data-guide-id] .return-inventory{padding:.3rem 1rem .8rem}
+body[data-guide-id] .return-inventory p{margin-block:.8rem}
+body[data-guide-id] .hero h1{overflow-wrap:anywhere}
+@media(max-width:640px){body[data-guide-id] .guide-table th,body[data-guide-id] .guide-table td{padding:.5rem;font-size:.85rem}}
